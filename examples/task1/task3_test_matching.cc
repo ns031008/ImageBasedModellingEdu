@@ -177,6 +177,7 @@ feature_set_matching (core::ByteImage::Ptr image1, core::ByteImage::Ptr image2)
         << std::endl;
 
     // 对sift匹配的结果和surf匹配的结果进行融合
+    /* ===== ！==== 有疑问：详见todo */
     sfm::Matching::Result matching;
     sfm::Matching::combine_results(sift_matching, surf_matching, &matching);
 
@@ -223,7 +224,7 @@ feature_set_matching (core::ByteImage::Ptr image1, core::ByteImage::Ptr image2)
 
     core::ByteImage::Ptr match_image = visualize_matching(
         matching, image1, image2, feat1.positions, feat2.positions);
-    std::string output_filename = "./tmp/matching_featureset.png";
+    std::string output_filename = "/home/chen/桌面/三维重建/ImageBasedModellingEdu/tmp/matching_featureset.png";
     std::cout << "Saving visualization to " << output_filename << std::endl;
     core::image::save_file(match_image, output_filename);
 }

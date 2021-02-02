@@ -90,6 +90,7 @@ RansacPoseP3P::compute_p3p (Correspondences2D3D const& corresp,
     while (result.size() < 3)
         result.insert(util::system::rand_int() % corresp.size());
 
+    // result中随机的三个点，iter++表示依次读取result的第0,1,2位
     std::set<int>::const_iterator iter = result.begin();
     Correspondence2D3D const& c1(corresp[*iter++]);
     Correspondence2D3D const& c2(corresp[*iter++]);

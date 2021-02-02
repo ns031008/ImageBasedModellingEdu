@@ -2,6 +2,7 @@
 #include <sfm/ransac_fundamental.h>
 #include <core/image_exif.h>
 #include <fstream>
+#include <cassert>
 #include "math/matrix.h"
 #include "math/vector.h"
 
@@ -247,7 +248,7 @@ main (int argc, char *argv[])
 //        std::cout<<pts_3d[i][0]<<" "<<pts_3d[i][1]<<" "<<pts_3d[i][2]<<std::endl;
 //    }
 
-    std::ofstream out("./examples/task2/test_ba.txt");
+    std::ofstream out("/home/demo/桌面/ImageBasedModellingEdu/examples/task2/test_ba2.txt");
     assert(out.is_open());
 
     /*捆绑调整*/

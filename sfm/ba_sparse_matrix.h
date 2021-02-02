@@ -112,7 +112,10 @@ template <typename T>
 void
 SparseMatrix<T>::allocate (std::size_t rows, std::size_t cols)
 {
+    // rows = observations.size() * 2
     this->rows = rows;
+    // cols1 = cameras.size() * 9
+    // cols2 = points.size()  * 3
     this->cols = cols;
     this->values.clear();
     this->outer.clear();
@@ -143,6 +146,7 @@ SparseMatrix<T>::set_from_triplets (Triplets const& triplets)
         transposed.outer[triplets[i].row]++;
 
     /* Convert amounts to indices with prefix sum. */
+    // 相当于把所有非零项取出，然后scratch记录其每行非零项的位置
     std::size_t sum = 0;
     std::vector<std::size_t> scratch(transposed.outer.size());
     for (std::size_t i = 0; i < transposed.outer.size(); ++i)
