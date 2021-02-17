@@ -579,6 +579,7 @@ rescale_half_size (typename Image<T>::ConstPtr img)
     int const iw = img->width();
     int const ih = img->height();
     int const ic = img->channels();
+    // 二进制右移1位相当于除以2
     int const ow = (iw + 1) >> 1;
     int const oh = (ih + 1) >> 1;
 
@@ -1744,8 +1745,8 @@ image_undistort_k2k4 (typename Image<T>::ConstPtr img,
     double const fheight2 = static_cast<double>(height) / 2.0;
     double const fnorm = static_cast<double>(std::max(width, height));
     for (int y = 0; y < height; ++y)
-        for (int x = 0; x < width; ++x, out_ptr += chans)
-        {
+        for (int x = 0; x < width; ++x, out_ptr += chans){
+
             double const fx = (static_cast<double>(x) + 0.5 - fwidth2) / fnorm;
             double const fy = (static_cast<double>(y) + 0.5 - fheight2) / fnorm;
             double const rd = (fx * fx + fy * fy) / MATH_POW2(focal_length);

@@ -542,8 +542,8 @@ Incremental::invalidate_large_error_tracks (void)
     /* Iterate over all tracks and sum reprojection error. */
     std::vector<std::pair<double, std::size_t> > all_errors;
     std::size_t num_valid_tracks = 0;
-    for (std::size_t i = 0; i < this->tracks->size(); ++i)
-    {
+    for (std::size_t i = 0; i < this->tracks->size(); ++i){
+
         if (!this->tracks->at(i).is_valid())
             continue;
 
@@ -553,8 +553,8 @@ Incremental::invalidate_large_error_tracks (void)
 
         double total_error = 0.0f;
         int num_valid = 0;
-        for (std::size_t j = 0; j < ref.size(); ++j)
-        {
+        for (std::size_t j = 0; j < ref.size(); ++j){
+
             /* Get pose and 2D position of feature. */
             int view_id = ref[j].view_id;
             int feature_id = ref[j].feature_id;
@@ -570,9 +570,7 @@ Incremental::invalidate_large_error_tracks (void)
             math::Vec3d x = pose.R * pos3d + pose.t;
             math::Vec2d x2d(x[0] / x[2], x[1] / x[2]);
             double r2 = x2d.square_norm();
-            x2d *= (1.0 + r2 * (viewport.radial_distortion[0]
-                + viewport.radial_distortion[1] * r2))
-                * pose.get_focal_length();
+            x2d *= (1.0 + r2 * (viewport.radial_distortion[0] + viewport.radial_distortion[1] * r2)) * pose.get_focal_length();
             total_error += (pos2d - x2d).square_norm();
             num_valid += 1;
         }
@@ -584,8 +582,11 @@ Incremental::invalidate_large_error_tracks (void)
         return;
 
     /* Find the 1/2 percentile. */
+    // nth_element：排序，常用于找到前几的数字，但是前几并不顺序。
+    // 挑出前50%的值
     std::size_t const nth_position = all_errors.size() / 2;
     std::nth_element(all_errors.begin(), all_errors.begin() + nth_position, all_errors.end());
+    // 设置阈值，以误差的中位数乘以因子为例
     double const square_threshold = all_errors[nth_position].first * this->opts.track_error_threshold_factor;
 
     /* Delete all tracks with errors above the threshold. */
@@ -597,8 +598,7 @@ Incremental::invalidate_large_error_tracks (void)
         }
     }
 
-    if (this->opts.verbose_output)
-    {
+    if (this->opts.verbose_output){
         float percent = 100.0f * static_cast<float>(num_deleted_tracks)
             / static_cast<float>(num_valid_tracks);
         std::cout << "Deleted " << num_deleted_tracks

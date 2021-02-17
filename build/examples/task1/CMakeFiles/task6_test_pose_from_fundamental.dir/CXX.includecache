@@ -104,7 +104,7 @@ numeric
 ostream
 -
 
-/home/demo/桌面/ImageBasedModellingEdu/examples/task1/task6_test_pose_from_fundamental.cc
+/home/demo/桌面/ImageBasedModellingEdu/examples/task1/task1-5_test_pose_from_fundamental.cc
 math/matrix.h
 -
 math/matrix_svd.h

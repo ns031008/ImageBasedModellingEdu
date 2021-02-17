@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/demo/桌面/ImageBasedModellingEdu/examples/task1/task2_test_camera.cc" "/home/demo/桌面/ImageBasedModellingEdu/build/examples/task1/CMakeFiles/task2_test_camera_model.dir/task2_test_camera.cc.o"
+  "/home/demo/桌面/ImageBasedModellingEdu/examples/task1/task1-2_test_camera.cc" "/home/demo/桌面/ImageBasedModellingEdu/build/examples/task1/CMakeFiles/task2_test_camera_model.dir/task1-2_test_camera.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

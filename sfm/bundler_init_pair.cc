@@ -329,6 +329,7 @@ InitialPair::score_for_pair (CandidatePair const& candidate,
     f1 = math::clamp(f1, 0.0f, 1.0f);
     f2 = math::clamp(f2, 0.0f, 1.0f);
     f3 = math::clamp(f3, 0.0f, 1.0f);
+    // TODO: why f1*f2*f3?
     return f1 * f2 * f3;
 }
 
