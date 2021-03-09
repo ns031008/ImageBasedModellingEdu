@@ -108,6 +108,7 @@ void LocalViewSelection::performVS(){
     }
 
     /*对于所有的已经选择的视角，计算极平面的法向量*/
+    // TODO：和上面计算极平面法向量区别是啥？
     IndexSet::const_iterator sel;
     for (sel = selected.begin(); sel != selected.end(); ++sel) {
         viewDir[*sel] = (p - views[*sel]->camPos).normalized();
@@ -128,7 +129,7 @@ void LocalViewSelection::performVS(){
             // 1. 考虑分辨率差异--计算参考视角和第i个视角的尺度
             // resolution difference
             float nfp = views[i]->footPrint(p);
-            if (mfp / nfp < 0.5f) {  //todo  第i个视角的分辨率高于参考视角分分辨率？？
+            if (mfp / nfp < 0.5f) {  
                 score *= 0.01f;
             }
 

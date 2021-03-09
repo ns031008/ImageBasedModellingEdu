@@ -60,15 +60,15 @@ include examples/task2/CMakeFiles/task2-2_test_p3p_ransac.dir/flags.make
 examples/task2/CMakeFiles/task2-2_test_p3p_ransac.dir/task2-2_test_p3p_ransac.cc.o: examples/task2/CMakeFiles/task2-2_test_p3p_ransac.dir/flags.make
 examples/task2/CMakeFiles/task2-2_test_p3p_ransac.dir/task2-2_test_p3p_ransac.cc.o: ../examples/task2/task2-2_test_p3p_ransac.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/demo/桌面/ImageBasedModellingEdu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/task2/CMakeFiles/task2-2_test_p3p_ransac.dir/task2-2_test_p3p_ransac.cc.o"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/examples/task2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/task2-2_test_p3p_ransac.dir/task2-2_test_p3p_ransac.cc.o -c /home/demo/桌面/ImageBasedModellingEdu/examples/task2/task2-2_test_p3p_ransac.cc
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/examples/task2 && /usr/local/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/task2-2_test_p3p_ransac.dir/task2-2_test_p3p_ransac.cc.o -c /home/demo/桌面/ImageBasedModellingEdu/examples/task2/task2-2_test_p3p_ransac.cc
 
 examples/task2/CMakeFiles/task2-2_test_p3p_ransac.dir/task2-2_test_p3p_ransac.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/task2-2_test_p3p_ransac.dir/task2-2_test_p3p_ransac.cc.i"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/examples/task2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demo/桌面/ImageBasedModellingEdu/examples/task2/task2-2_test_p3p_ransac.cc > CMakeFiles/task2-2_test_p3p_ransac.dir/task2-2_test_p3p_ransac.cc.i
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/examples/task2 && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demo/桌面/ImageBasedModellingEdu/examples/task2/task2-2_test_p3p_ransac.cc > CMakeFiles/task2-2_test_p3p_ransac.dir/task2-2_test_p3p_ransac.cc.i
 
 examples/task2/CMakeFiles/task2-2_test_p3p_ransac.dir/task2-2_test_p3p_ransac.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/task2-2_test_p3p_ransac.dir/task2-2_test_p3p_ransac.cc.s"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/examples/task2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demo/桌面/ImageBasedModellingEdu/examples/task2/task2-2_test_p3p_ransac.cc -o CMakeFiles/task2-2_test_p3p_ransac.dir/task2-2_test_p3p_ransac.cc.s
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/examples/task2 && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demo/桌面/ImageBasedModellingEdu/examples/task2/task2-2_test_p3p_ransac.cc -o CMakeFiles/task2-2_test_p3p_ransac.dir/task2-2_test_p3p_ransac.cc.s
 
 examples/task2/CMakeFiles/task2-2_test_p3p_ransac.dir/task2-2_test_p3p_ransac.cc.o.requires:
 

@@ -10,6 +10,7 @@
 #include <iomanip>
 #include <iostream>
 #include <cstdlib>
+#include <cassert>
 
 #include "mvs/settings.h"
 #include "mvs/dmrecon.h"

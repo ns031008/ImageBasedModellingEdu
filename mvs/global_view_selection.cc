@@ -83,7 +83,7 @@ GlobalViewSelection::benefitFromView(std::size_t i){
     for (std::size_t k = 0; k < nFeatIDs.size(); ++k) {
         float score = 1.f;
         // Parallax with reference view
-        // 特征点的三维坐标
+        // 特征点的三维坐标(world坐标系下)
         math::Vec3f ftPos(features[nFeatIDs[k]].pos);
 
         // 1. 考虑特征点在两个视角间的视差(三维点与相机位置确定的射线间的夹角），如果视差小于一定阈值(10度）
@@ -92,7 +92,8 @@ GlobalViewSelection::benefitFromView(std::size_t i){
             score *= sqr(plx / 10.f);
 
         // 2. 考虑两个视角间的分辨率 Resolution compared to reference view
-        float mfp = refV->footPrintScaled(ftPos);
+        // Z/f = X/X' = Y/Y'
+        float mfp = refV->footPrintScaled(ftPos); 
         float nfp = tmpV->footPrint(ftPos);
         float ratio = mfp / nfp;
         // reference view
@@ -103,7 +104,7 @@ GlobalViewSelection::benefitFromView(std::size_t i){
         score *= ratio;
 
         /**计算该特征点与已经选定的视角之间的视差，与任何一个视角的残差小于特定值，都会减少该特征点score
-         * 这样组哟的目的是避免选取图像内容相似的两帧图像
+         * 这样做的目的是避免选取图像内容相似的两帧图像(即，排他性)
          */
         // Parallax with other selected views that see the same feature
         IndexSet::const_iterator citV;

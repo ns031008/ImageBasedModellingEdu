@@ -292,7 +292,7 @@ DMRecon::processFeatures(){
         if (features[i].contains_view_id(settings.refViewNr))
             useFeature = true;
 
-        // 或者在至少一个邻域视角中可见，两者满足其一即可
+        // 或者在至少一个邻域视角（全局视角选择中得到的结果）中可见，两者满足其一即可
         for (IndexSet::const_iterator id = neighViews.begin();
             useFeature == false && id != neighViews.end(); ++id){
             if (features[i].contains_view_id(*id))

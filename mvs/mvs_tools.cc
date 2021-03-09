@@ -19,6 +19,7 @@ MVS_NAMESPACE_BEGIN
 namespace
 {
     /**
+     * 相当于图像归一化操作
      * Lookup table that implements the conversion from RGB in [0..255]
      * to sRGB in [0..1] using the following specification:
      *
@@ -102,7 +103,7 @@ colAndExactDeriv(core::ByteImage const& img, PixelCoords const& imgPos,
     int const width = img.width();
     int const height = img.height();
     for (std::size_t i = 0; i < imgPos.size(); ++i) {
-
+        // 计算浮点数和整数的值，便于后续插值操作
         int const left = std::floor(imgPos[i][0]);
         int const top = std::floor(imgPos[i][1]);
         float const x = imgPos[i][0] - left;
@@ -116,6 +117,7 @@ colAndExactDeriv(core::ByteImage const& img, PixelCoords const& imgPos,
         int p1 = ((top+1) * width + left) * 3;
 
         /* bilinear interpolation to determine color value */
+        // 双线性插值
         float x0, x1, x2, x3, x4, x5;
         x0 = (1.f-x) * srgb2lin[img.at(p0  )] + x * srgb2lin[img.at(p0+3)];
         x1 = (1.f-x) * srgb2lin[img.at(p0+1)] + x * srgb2lin[img.at(p0+4)];

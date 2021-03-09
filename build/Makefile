@@ -345,6 +345,58 @@ task3-1_incremental_sfm/fast:
 .PHONY : task3-1_incremental_sfm/fast
 
 #=============================================================================
+# Target rules for targets named task4-2_dmrecon_multi_views
+
+# Build rule for target.
+task4-2_dmrecon_multi_views: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 task4-2_dmrecon_multi_views
+.PHONY : task4-2_dmrecon_multi_views
+
+# fast build rule for target.
+task4-2_dmrecon_multi_views/fast:
+	$(MAKE) -f examples/task4/CMakeFiles/task4-2_dmrecon_multi_views.dir/build.make examples/task4/CMakeFiles/task4-2_dmrecon_multi_views.dir/build
+.PHONY : task4-2_dmrecon_multi_views/fast
+
+#=============================================================================
+# Target rules for targets named task4-1_dmrecon_single_view
+
+# Build rule for target.
+task4-1_dmrecon_single_view: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 task4-1_dmrecon_single_view
+.PHONY : task4-1_dmrecon_single_view
+
+# fast build rule for target.
+task4-1_dmrecon_single_view/fast:
+	$(MAKE) -f examples/task4/CMakeFiles/task4-1_dmrecon_single_view.dir/build.make examples/task4/CMakeFiles/task4-1_dmrecon_single_view.dir/build
+.PHONY : task4-1_dmrecon_single_view/fast
+
+#=============================================================================
+# Target rules for targets named task4-1_scene2pset_single_view
+
+# Build rule for target.
+task4-1_scene2pset_single_view: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 task4-1_scene2pset_single_view
+.PHONY : task4-1_scene2pset_single_view
+
+# fast build rule for target.
+task4-1_scene2pset_single_view/fast:
+	$(MAKE) -f examples/task4/CMakeFiles/task4-1_scene2pset_single_view.dir/build.make examples/task4/CMakeFiles/task4-1_scene2pset_single_view.dir/build
+.PHONY : task4-1_scene2pset_single_view/fast
+
+#=============================================================================
+# Target rules for targets named task4-2_scene2pset_multi_views
+
+# Build rule for target.
+task4-2_scene2pset_multi_views: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 task4-2_scene2pset_multi_views
+.PHONY : task4-2_scene2pset_multi_views
+
+# fast build rule for target.
+task4-2_scene2pset_multi_views/fast:
+	$(MAKE) -f examples/task4/CMakeFiles/task4-2_scene2pset_multi_views.dir/build.make examples/task4/CMakeFiles/task4-2_scene2pset_multi_views.dir/build
+.PHONY : task4-2_scene2pset_multi_views/fast
+
+#=============================================================================
 # Target rules for targets named surface
 
 # Build rule for target.
@@ -435,6 +487,10 @@ help:
 	@echo "... task2-1_test_triangle"
 	@echo "... task2-4_test_jacobian"
 	@echo "... task3-1_incremental_sfm"
+	@echo "... task4-2_dmrecon_multi_views"
+	@echo "... task4-1_dmrecon_single_view"
+	@echo "... task4-1_scene2pset_single_view"
+	@echo "... task4-2_scene2pset_multi_views"
 	@echo "... surface"
 	@echo "... texturing"
 	@echo "... mrf"

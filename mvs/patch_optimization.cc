@@ -33,8 +33,8 @@ PatchOptimization::PatchOptimization(
     midx(_x),
     midy(_y),
     depth(_depth),
-    dzI(_dzI),
-    dzJ(_dzJ),
+    dzI(_dzI), //hs(s,t)
+    dzJ(_dzJ), //ht(s,t)
     sampler(PatchSampler::create(views, settings, midx, midy, depth, dzI, dzJ)),
     ii(sqr(settings.filterWidth)),
     jj(sqr(settings.filterWidth)),
@@ -82,6 +82,7 @@ PatchOptimization::PatchOptimization(
     }
 
     /**计算每个视角的颜色尺度**/
+    // TODO：这块有点看不懂
     computeColorScale();
 }
 

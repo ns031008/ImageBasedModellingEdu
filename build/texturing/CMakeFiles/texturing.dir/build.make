@@ -60,15 +60,15 @@ include texturing/CMakeFiles/texturing.dir/flags.make
 texturing/CMakeFiles/texturing.dir/build_adjacency_graph.cpp.o: texturing/CMakeFiles/texturing.dir/flags.make
 texturing/CMakeFiles/texturing.dir/build_adjacency_graph.cpp.o: ../texturing/build_adjacency_graph.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/demo/桌面/ImageBasedModellingEdu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object texturing/CMakeFiles/texturing.dir/build_adjacency_graph.cpp.o"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/texturing.dir/build_adjacency_graph.cpp.o -c /home/demo/桌面/ImageBasedModellingEdu/texturing/build_adjacency_graph.cpp
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/local/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/texturing.dir/build_adjacency_graph.cpp.o -c /home/demo/桌面/ImageBasedModellingEdu/texturing/build_adjacency_graph.cpp
 
 texturing/CMakeFiles/texturing.dir/build_adjacency_graph.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/texturing.dir/build_adjacency_graph.cpp.i"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demo/桌面/ImageBasedModellingEdu/texturing/build_adjacency_graph.cpp > CMakeFiles/texturing.dir/build_adjacency_graph.cpp.i
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demo/桌面/ImageBasedModellingEdu/texturing/build_adjacency_graph.cpp > CMakeFiles/texturing.dir/build_adjacency_graph.cpp.i
 
 texturing/CMakeFiles/texturing.dir/build_adjacency_graph.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/texturing.dir/build_adjacency_graph.cpp.s"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demo/桌面/ImageBasedModellingEdu/texturing/build_adjacency_graph.cpp -o CMakeFiles/texturing.dir/build_adjacency_graph.cpp.s
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demo/桌面/ImageBasedModellingEdu/texturing/build_adjacency_graph.cpp -o CMakeFiles/texturing.dir/build_adjacency_graph.cpp.s
 
 texturing/CMakeFiles/texturing.dir/build_adjacency_graph.cpp.o.requires:
 
@@ -84,15 +84,15 @@ texturing/CMakeFiles/texturing.dir/build_adjacency_graph.cpp.o.provides.build: t
 texturing/CMakeFiles/texturing.dir/build_obj_model.cpp.o: texturing/CMakeFiles/texturing.dir/flags.make
 texturing/CMakeFiles/texturing.dir/build_obj_model.cpp.o: ../texturing/build_obj_model.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/demo/桌面/ImageBasedModellingEdu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object texturing/CMakeFiles/texturing.dir/build_obj_model.cpp.o"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/texturing.dir/build_obj_model.cpp.o -c /home/demo/桌面/ImageBasedModellingEdu/texturing/build_obj_model.cpp
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/local/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/texturing.dir/build_obj_model.cpp.o -c /home/demo/桌面/ImageBasedModellingEdu/texturing/build_obj_model.cpp
 
 texturing/CMakeFiles/texturing.dir/build_obj_model.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/texturing.dir/build_obj_model.cpp.i"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demo/桌面/ImageBasedModellingEdu/texturing/build_obj_model.cpp > CMakeFiles/texturing.dir/build_obj_model.cpp.i
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demo/桌面/ImageBasedModellingEdu/texturing/build_obj_model.cpp > CMakeFiles/texturing.dir/build_obj_model.cpp.i
 
 texturing/CMakeFiles/texturing.dir/build_obj_model.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/texturing.dir/build_obj_model.cpp.s"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demo/桌面/ImageBasedModellingEdu/texturing/build_obj_model.cpp -o CMakeFiles/texturing.dir/build_obj_model.cpp.s
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demo/桌面/ImageBasedModellingEdu/texturing/build_obj_model.cpp -o CMakeFiles/texturing.dir/build_obj_model.cpp.s
 
 texturing/CMakeFiles/texturing.dir/build_obj_model.cpp.o.requires:
 
@@ -108,15 +108,15 @@ texturing/CMakeFiles/texturing.dir/build_obj_model.cpp.o.provides.build: texturi
 texturing/CMakeFiles/texturing.dir/calculate_data_costs.cpp.o: texturing/CMakeFiles/texturing.dir/flags.make
 texturing/CMakeFiles/texturing.dir/calculate_data_costs.cpp.o: ../texturing/calculate_data_costs.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/demo/桌面/ImageBasedModellingEdu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object texturing/CMakeFiles/texturing.dir/calculate_data_costs.cpp.o"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/texturing.dir/calculate_data_costs.cpp.o -c /home/demo/桌面/ImageBasedModellingEdu/texturing/calculate_data_costs.cpp
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/local/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/texturing.dir/calculate_data_costs.cpp.o -c /home/demo/桌面/ImageBasedModellingEdu/texturing/calculate_data_costs.cpp
 
 texturing/CMakeFiles/texturing.dir/calculate_data_costs.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/texturing.dir/calculate_data_costs.cpp.i"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demo/桌面/ImageBasedModellingEdu/texturing/calculate_data_costs.cpp > CMakeFiles/texturing.dir/calculate_data_costs.cpp.i
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demo/桌面/ImageBasedModellingEdu/texturing/calculate_data_costs.cpp > CMakeFiles/texturing.dir/calculate_data_costs.cpp.i
 
 texturing/CMakeFiles/texturing.dir/calculate_data_costs.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/texturing.dir/calculate_data_costs.cpp.s"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demo/桌面/ImageBasedModellingEdu/texturing/calculate_data_costs.cpp -o CMakeFiles/texturing.dir/calculate_data_costs.cpp.s
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demo/桌面/ImageBasedModellingEdu/texturing/calculate_data_costs.cpp -o CMakeFiles/texturing.dir/calculate_data_costs.cpp.s
 
 texturing/CMakeFiles/texturing.dir/calculate_data_costs.cpp.o.requires:
 
@@ -132,15 +132,15 @@ texturing/CMakeFiles/texturing.dir/calculate_data_costs.cpp.o.provides.build: te
 texturing/CMakeFiles/texturing.dir/generate_debug_embeddings.cpp.o: texturing/CMakeFiles/texturing.dir/flags.make
 texturing/CMakeFiles/texturing.dir/generate_debug_embeddings.cpp.o: ../texturing/generate_debug_embeddings.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/demo/桌面/ImageBasedModellingEdu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object texturing/CMakeFiles/texturing.dir/generate_debug_embeddings.cpp.o"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/texturing.dir/generate_debug_embeddings.cpp.o -c /home/demo/桌面/ImageBasedModellingEdu/texturing/generate_debug_embeddings.cpp
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/local/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/texturing.dir/generate_debug_embeddings.cpp.o -c /home/demo/桌面/ImageBasedModellingEdu/texturing/generate_debug_embeddings.cpp
 
 texturing/CMakeFiles/texturing.dir/generate_debug_embeddings.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/texturing.dir/generate_debug_embeddings.cpp.i"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demo/桌面/ImageBasedModellingEdu/texturing/generate_debug_embeddings.cpp > CMakeFiles/texturing.dir/generate_debug_embeddings.cpp.i
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demo/桌面/ImageBasedModellingEdu/texturing/generate_debug_embeddings.cpp > CMakeFiles/texturing.dir/generate_debug_embeddings.cpp.i
 
 texturing/CMakeFiles/texturing.dir/generate_debug_embeddings.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/texturing.dir/generate_debug_embeddings.cpp.s"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demo/桌面/ImageBasedModellingEdu/texturing/generate_debug_embeddings.cpp -o CMakeFiles/texturing.dir/generate_debug_embeddings.cpp.s
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demo/桌面/ImageBasedModellingEdu/texturing/generate_debug_embeddings.cpp -o CMakeFiles/texturing.dir/generate_debug_embeddings.cpp.s
 
 texturing/CMakeFiles/texturing.dir/generate_debug_embeddings.cpp.o.requires:
 
@@ -156,15 +156,15 @@ texturing/CMakeFiles/texturing.dir/generate_debug_embeddings.cpp.o.provides.buil
 texturing/CMakeFiles/texturing.dir/generate_texture_atlases.cpp.o: texturing/CMakeFiles/texturing.dir/flags.make
 texturing/CMakeFiles/texturing.dir/generate_texture_atlases.cpp.o: ../texturing/generate_texture_atlases.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/demo/桌面/ImageBasedModellingEdu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object texturing/CMakeFiles/texturing.dir/generate_texture_atlases.cpp.o"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/texturing.dir/generate_texture_atlases.cpp.o -c /home/demo/桌面/ImageBasedModellingEdu/texturing/generate_texture_atlases.cpp
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/local/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/texturing.dir/generate_texture_atlases.cpp.o -c /home/demo/桌面/ImageBasedModellingEdu/texturing/generate_texture_atlases.cpp
 
 texturing/CMakeFiles/texturing.dir/generate_texture_atlases.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/texturing.dir/generate_texture_atlases.cpp.i"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demo/桌面/ImageBasedModellingEdu/texturing/generate_texture_atlases.cpp > CMakeFiles/texturing.dir/generate_texture_atlases.cpp.i
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demo/桌面/ImageBasedModellingEdu/texturing/generate_texture_atlases.cpp > CMakeFiles/texturing.dir/generate_texture_atlases.cpp.i
 
 texturing/CMakeFiles/texturing.dir/generate_texture_atlases.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/texturing.dir/generate_texture_atlases.cpp.s"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demo/桌面/ImageBasedModellingEdu/texturing/generate_texture_atlases.cpp -o CMakeFiles/texturing.dir/generate_texture_atlases.cpp.s
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demo/桌面/ImageBasedModellingEdu/texturing/generate_texture_atlases.cpp -o CMakeFiles/texturing.dir/generate_texture_atlases.cpp.s
 
 texturing/CMakeFiles/texturing.dir/generate_texture_atlases.cpp.o.requires:
 
@@ -180,15 +180,15 @@ texturing/CMakeFiles/texturing.dir/generate_texture_atlases.cpp.o.provides.build
 texturing/CMakeFiles/texturing.dir/generate_texture_patches.cpp.o: texturing/CMakeFiles/texturing.dir/flags.make
 texturing/CMakeFiles/texturing.dir/generate_texture_patches.cpp.o: ../texturing/generate_texture_patches.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/demo/桌面/ImageBasedModellingEdu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object texturing/CMakeFiles/texturing.dir/generate_texture_patches.cpp.o"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/texturing.dir/generate_texture_patches.cpp.o -c /home/demo/桌面/ImageBasedModellingEdu/texturing/generate_texture_patches.cpp
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/local/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/texturing.dir/generate_texture_patches.cpp.o -c /home/demo/桌面/ImageBasedModellingEdu/texturing/generate_texture_patches.cpp
 
 texturing/CMakeFiles/texturing.dir/generate_texture_patches.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/texturing.dir/generate_texture_patches.cpp.i"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demo/桌面/ImageBasedModellingEdu/texturing/generate_texture_patches.cpp > CMakeFiles/texturing.dir/generate_texture_patches.cpp.i
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demo/桌面/ImageBasedModellingEdu/texturing/generate_texture_patches.cpp > CMakeFiles/texturing.dir/generate_texture_patches.cpp.i
 
 texturing/CMakeFiles/texturing.dir/generate_texture_patches.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/texturing.dir/generate_texture_patches.cpp.s"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demo/桌面/ImageBasedModellingEdu/texturing/generate_texture_patches.cpp -o CMakeFiles/texturing.dir/generate_texture_patches.cpp.s
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demo/桌面/ImageBasedModellingEdu/texturing/generate_texture_patches.cpp -o CMakeFiles/texturing.dir/generate_texture_patches.cpp.s
 
 texturing/CMakeFiles/texturing.dir/generate_texture_patches.cpp.o.requires:
 
@@ -204,15 +204,15 @@ texturing/CMakeFiles/texturing.dir/generate_texture_patches.cpp.o.provides.build
 texturing/CMakeFiles/texturing.dir/generate_texture_views.cpp.o: texturing/CMakeFiles/texturing.dir/flags.make
 texturing/CMakeFiles/texturing.dir/generate_texture_views.cpp.o: ../texturing/generate_texture_views.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/demo/桌面/ImageBasedModellingEdu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object texturing/CMakeFiles/texturing.dir/generate_texture_views.cpp.o"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/texturing.dir/generate_texture_views.cpp.o -c /home/demo/桌面/ImageBasedModellingEdu/texturing/generate_texture_views.cpp
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/local/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/texturing.dir/generate_texture_views.cpp.o -c /home/demo/桌面/ImageBasedModellingEdu/texturing/generate_texture_views.cpp
 
 texturing/CMakeFiles/texturing.dir/generate_texture_views.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/texturing.dir/generate_texture_views.cpp.i"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demo/桌面/ImageBasedModellingEdu/texturing/generate_texture_views.cpp > CMakeFiles/texturing.dir/generate_texture_views.cpp.i
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demo/桌面/ImageBasedModellingEdu/texturing/generate_texture_views.cpp > CMakeFiles/texturing.dir/generate_texture_views.cpp.i
 
 texturing/CMakeFiles/texturing.dir/generate_texture_views.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/texturing.dir/generate_texture_views.cpp.s"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demo/桌面/ImageBasedModellingEdu/texturing/generate_texture_views.cpp -o CMakeFiles/texturing.dir/generate_texture_views.cpp.s
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demo/桌面/ImageBasedModellingEdu/texturing/generate_texture_views.cpp -o CMakeFiles/texturing.dir/generate_texture_views.cpp.s
 
 texturing/CMakeFiles/texturing.dir/generate_texture_views.cpp.o.requires:
 
@@ -228,15 +228,15 @@ texturing/CMakeFiles/texturing.dir/generate_texture_views.cpp.o.provides.build: 
 texturing/CMakeFiles/texturing.dir/global_seam_leveling.cpp.o: texturing/CMakeFiles/texturing.dir/flags.make
 texturing/CMakeFiles/texturing.dir/global_seam_leveling.cpp.o: ../texturing/global_seam_leveling.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/demo/桌面/ImageBasedModellingEdu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object texturing/CMakeFiles/texturing.dir/global_seam_leveling.cpp.o"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/texturing.dir/global_seam_leveling.cpp.o -c /home/demo/桌面/ImageBasedModellingEdu/texturing/global_seam_leveling.cpp
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/local/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/texturing.dir/global_seam_leveling.cpp.o -c /home/demo/桌面/ImageBasedModellingEdu/texturing/global_seam_leveling.cpp
 
 texturing/CMakeFiles/texturing.dir/global_seam_leveling.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/texturing.dir/global_seam_leveling.cpp.i"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demo/桌面/ImageBasedModellingEdu/texturing/global_seam_leveling.cpp > CMakeFiles/texturing.dir/global_seam_leveling.cpp.i
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demo/桌面/ImageBasedModellingEdu/texturing/global_seam_leveling.cpp > CMakeFiles/texturing.dir/global_seam_leveling.cpp.i
 
 texturing/CMakeFiles/texturing.dir/global_seam_leveling.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/texturing.dir/global_seam_leveling.cpp.s"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demo/桌面/ImageBasedModellingEdu/texturing/global_seam_leveling.cpp -o CMakeFiles/texturing.dir/global_seam_leveling.cpp.s
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demo/桌面/ImageBasedModellingEdu/texturing/global_seam_leveling.cpp -o CMakeFiles/texturing.dir/global_seam_leveling.cpp.s
 
 texturing/CMakeFiles/texturing.dir/global_seam_leveling.cpp.o.requires:
 
@@ -252,15 +252,15 @@ texturing/CMakeFiles/texturing.dir/global_seam_leveling.cpp.o.provides.build: te
 texturing/CMakeFiles/texturing.dir/histogram.cpp.o: texturing/CMakeFiles/texturing.dir/flags.make
 texturing/CMakeFiles/texturing.dir/histogram.cpp.o: ../texturing/histogram.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/demo/桌面/ImageBasedModellingEdu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object texturing/CMakeFiles/texturing.dir/histogram.cpp.o"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/texturing.dir/histogram.cpp.o -c /home/demo/桌面/ImageBasedModellingEdu/texturing/histogram.cpp
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/local/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/texturing.dir/histogram.cpp.o -c /home/demo/桌面/ImageBasedModellingEdu/texturing/histogram.cpp
 
 texturing/CMakeFiles/texturing.dir/histogram.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/texturing.dir/histogram.cpp.i"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demo/桌面/ImageBasedModellingEdu/texturing/histogram.cpp > CMakeFiles/texturing.dir/histogram.cpp.i
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demo/桌面/ImageBasedModellingEdu/texturing/histogram.cpp > CMakeFiles/texturing.dir/histogram.cpp.i
 
 texturing/CMakeFiles/texturing.dir/histogram.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/texturing.dir/histogram.cpp.s"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demo/桌面/ImageBasedModellingEdu/texturing/histogram.cpp -o CMakeFiles/texturing.dir/histogram.cpp.s
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demo/桌面/ImageBasedModellingEdu/texturing/histogram.cpp -o CMakeFiles/texturing.dir/histogram.cpp.s
 
 texturing/CMakeFiles/texturing.dir/histogram.cpp.o.requires:
 
@@ -276,15 +276,15 @@ texturing/CMakeFiles/texturing.dir/histogram.cpp.o.provides.build: texturing/CMa
 texturing/CMakeFiles/texturing.dir/local_seam_leveling.cpp.o: texturing/CMakeFiles/texturing.dir/flags.make
 texturing/CMakeFiles/texturing.dir/local_seam_leveling.cpp.o: ../texturing/local_seam_leveling.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/demo/桌面/ImageBasedModellingEdu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object texturing/CMakeFiles/texturing.dir/local_seam_leveling.cpp.o"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/texturing.dir/local_seam_leveling.cpp.o -c /home/demo/桌面/ImageBasedModellingEdu/texturing/local_seam_leveling.cpp
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/local/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/texturing.dir/local_seam_leveling.cpp.o -c /home/demo/桌面/ImageBasedModellingEdu/texturing/local_seam_leveling.cpp
 
 texturing/CMakeFiles/texturing.dir/local_seam_leveling.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/texturing.dir/local_seam_leveling.cpp.i"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demo/桌面/ImageBasedModellingEdu/texturing/local_seam_leveling.cpp > CMakeFiles/texturing.dir/local_seam_leveling.cpp.i
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demo/桌面/ImageBasedModellingEdu/texturing/local_seam_leveling.cpp > CMakeFiles/texturing.dir/local_seam_leveling.cpp.i
 
 texturing/CMakeFiles/texturing.dir/local_seam_leveling.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/texturing.dir/local_seam_leveling.cpp.s"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demo/桌面/ImageBasedModellingEdu/texturing/local_seam_leveling.cpp -o CMakeFiles/texturing.dir/local_seam_leveling.cpp.s
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demo/桌面/ImageBasedModellingEdu/texturing/local_seam_leveling.cpp -o CMakeFiles/texturing.dir/local_seam_leveling.cpp.s
 
 texturing/CMakeFiles/texturing.dir/local_seam_leveling.cpp.o.requires:
 
@@ -300,15 +300,15 @@ texturing/CMakeFiles/texturing.dir/local_seam_leveling.cpp.o.provides.build: tex
 texturing/CMakeFiles/texturing.dir/material_lib.cpp.o: texturing/CMakeFiles/texturing.dir/flags.make
 texturing/CMakeFiles/texturing.dir/material_lib.cpp.o: ../texturing/material_lib.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/demo/桌面/ImageBasedModellingEdu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object texturing/CMakeFiles/texturing.dir/material_lib.cpp.o"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/texturing.dir/material_lib.cpp.o -c /home/demo/桌面/ImageBasedModellingEdu/texturing/material_lib.cpp
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/local/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/texturing.dir/material_lib.cpp.o -c /home/demo/桌面/ImageBasedModellingEdu/texturing/material_lib.cpp
 
 texturing/CMakeFiles/texturing.dir/material_lib.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/texturing.dir/material_lib.cpp.i"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demo/桌面/ImageBasedModellingEdu/texturing/material_lib.cpp > CMakeFiles/texturing.dir/material_lib.cpp.i
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demo/桌面/ImageBasedModellingEdu/texturing/material_lib.cpp > CMakeFiles/texturing.dir/material_lib.cpp.i
 
 texturing/CMakeFiles/texturing.dir/material_lib.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/texturing.dir/material_lib.cpp.s"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demo/桌面/ImageBasedModellingEdu/texturing/material_lib.cpp -o CMakeFiles/texturing.dir/material_lib.cpp.s
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demo/桌面/ImageBasedModellingEdu/texturing/material_lib.cpp -o CMakeFiles/texturing.dir/material_lib.cpp.s
 
 texturing/CMakeFiles/texturing.dir/material_lib.cpp.o.requires:
 
@@ -324,15 +324,15 @@ texturing/CMakeFiles/texturing.dir/material_lib.cpp.o.provides.build: texturing/
 texturing/CMakeFiles/texturing.dir/obj_model.cpp.o: texturing/CMakeFiles/texturing.dir/flags.make
 texturing/CMakeFiles/texturing.dir/obj_model.cpp.o: ../texturing/obj_model.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/demo/桌面/ImageBasedModellingEdu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object texturing/CMakeFiles/texturing.dir/obj_model.cpp.o"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/texturing.dir/obj_model.cpp.o -c /home/demo/桌面/ImageBasedModellingEdu/texturing/obj_model.cpp
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/local/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/texturing.dir/obj_model.cpp.o -c /home/demo/桌面/ImageBasedModellingEdu/texturing/obj_model.cpp
 
 texturing/CMakeFiles/texturing.dir/obj_model.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/texturing.dir/obj_model.cpp.i"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demo/桌面/ImageBasedModellingEdu/texturing/obj_model.cpp > CMakeFiles/texturing.dir/obj_model.cpp.i
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demo/桌面/ImageBasedModellingEdu/texturing/obj_model.cpp > CMakeFiles/texturing.dir/obj_model.cpp.i
 
 texturing/CMakeFiles/texturing.dir/obj_model.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/texturing.dir/obj_model.cpp.s"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demo/桌面/ImageBasedModellingEdu/texturing/obj_model.cpp -o CMakeFiles/texturing.dir/obj_model.cpp.s
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demo/桌面/ImageBasedModellingEdu/texturing/obj_model.cpp -o CMakeFiles/texturing.dir/obj_model.cpp.s
 
 texturing/CMakeFiles/texturing.dir/obj_model.cpp.o.requires:
 
@@ -348,15 +348,15 @@ texturing/CMakeFiles/texturing.dir/obj_model.cpp.o.provides.build: texturing/CMa
 texturing/CMakeFiles/texturing.dir/poisson_blending.cpp.o: texturing/CMakeFiles/texturing.dir/flags.make
 texturing/CMakeFiles/texturing.dir/poisson_blending.cpp.o: ../texturing/poisson_blending.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/demo/桌面/ImageBasedModellingEdu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object texturing/CMakeFiles/texturing.dir/poisson_blending.cpp.o"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/texturing.dir/poisson_blending.cpp.o -c /home/demo/桌面/ImageBasedModellingEdu/texturing/poisson_blending.cpp
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/local/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/texturing.dir/poisson_blending.cpp.o -c /home/demo/桌面/ImageBasedModellingEdu/texturing/poisson_blending.cpp
 
 texturing/CMakeFiles/texturing.dir/poisson_blending.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/texturing.dir/poisson_blending.cpp.i"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demo/桌面/ImageBasedModellingEdu/texturing/poisson_blending.cpp > CMakeFiles/texturing.dir/poisson_blending.cpp.i
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demo/桌面/ImageBasedModellingEdu/texturing/poisson_blending.cpp > CMakeFiles/texturing.dir/poisson_blending.cpp.i
 
 texturing/CMakeFiles/texturing.dir/poisson_blending.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/texturing.dir/poisson_blending.cpp.s"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demo/桌面/ImageBasedModellingEdu/texturing/poisson_blending.cpp -o CMakeFiles/texturing.dir/poisson_blending.cpp.s
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demo/桌面/ImageBasedModellingEdu/texturing/poisson_blending.cpp -o CMakeFiles/texturing.dir/poisson_blending.cpp.s
 
 texturing/CMakeFiles/texturing.dir/poisson_blending.cpp.o.requires:
 
@@ -372,15 +372,15 @@ texturing/CMakeFiles/texturing.dir/poisson_blending.cpp.o.provides.build: textur
 texturing/CMakeFiles/texturing.dir/prepare_mesh.cpp.o: texturing/CMakeFiles/texturing.dir/flags.make
 texturing/CMakeFiles/texturing.dir/prepare_mesh.cpp.o: ../texturing/prepare_mesh.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/demo/桌面/ImageBasedModellingEdu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object texturing/CMakeFiles/texturing.dir/prepare_mesh.cpp.o"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/texturing.dir/prepare_mesh.cpp.o -c /home/demo/桌面/ImageBasedModellingEdu/texturing/prepare_mesh.cpp
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/local/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/texturing.dir/prepare_mesh.cpp.o -c /home/demo/桌面/ImageBasedModellingEdu/texturing/prepare_mesh.cpp
 
 texturing/CMakeFiles/texturing.dir/prepare_mesh.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/texturing.dir/prepare_mesh.cpp.i"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demo/桌面/ImageBasedModellingEdu/texturing/prepare_mesh.cpp > CMakeFiles/texturing.dir/prepare_mesh.cpp.i
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demo/桌面/ImageBasedModellingEdu/texturing/prepare_mesh.cpp > CMakeFiles/texturing.dir/prepare_mesh.cpp.i
 
 texturing/CMakeFiles/texturing.dir/prepare_mesh.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/texturing.dir/prepare_mesh.cpp.s"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demo/桌面/ImageBasedModellingEdu/texturing/prepare_mesh.cpp -o CMakeFiles/texturing.dir/prepare_mesh.cpp.s
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demo/桌面/ImageBasedModellingEdu/texturing/prepare_mesh.cpp -o CMakeFiles/texturing.dir/prepare_mesh.cpp.s
 
 texturing/CMakeFiles/texturing.dir/prepare_mesh.cpp.o.requires:
 
@@ -396,15 +396,15 @@ texturing/CMakeFiles/texturing.dir/prepare_mesh.cpp.o.provides.build: texturing/
 texturing/CMakeFiles/texturing.dir/rectangular_bin.cpp.o: texturing/CMakeFiles/texturing.dir/flags.make
 texturing/CMakeFiles/texturing.dir/rectangular_bin.cpp.o: ../texturing/rectangular_bin.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/demo/桌面/ImageBasedModellingEdu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object texturing/CMakeFiles/texturing.dir/rectangular_bin.cpp.o"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/texturing.dir/rectangular_bin.cpp.o -c /home/demo/桌面/ImageBasedModellingEdu/texturing/rectangular_bin.cpp
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/local/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/texturing.dir/rectangular_bin.cpp.o -c /home/demo/桌面/ImageBasedModellingEdu/texturing/rectangular_bin.cpp
 
 texturing/CMakeFiles/texturing.dir/rectangular_bin.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/texturing.dir/rectangular_bin.cpp.i"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demo/桌面/ImageBasedModellingEdu/texturing/rectangular_bin.cpp > CMakeFiles/texturing.dir/rectangular_bin.cpp.i
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demo/桌面/ImageBasedModellingEdu/texturing/rectangular_bin.cpp > CMakeFiles/texturing.dir/rectangular_bin.cpp.i
 
 texturing/CMakeFiles/texturing.dir/rectangular_bin.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/texturing.dir/rectangular_bin.cpp.s"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demo/桌面/ImageBasedModellingEdu/texturing/rectangular_bin.cpp -o CMakeFiles/texturing.dir/rectangular_bin.cpp.s
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demo/桌面/ImageBasedModellingEdu/texturing/rectangular_bin.cpp -o CMakeFiles/texturing.dir/rectangular_bin.cpp.s
 
 texturing/CMakeFiles/texturing.dir/rectangular_bin.cpp.o.requires:
 
@@ -420,15 +420,15 @@ texturing/CMakeFiles/texturing.dir/rectangular_bin.cpp.o.provides.build: texturi
 texturing/CMakeFiles/texturing.dir/seam_leveling.cpp.o: texturing/CMakeFiles/texturing.dir/flags.make
 texturing/CMakeFiles/texturing.dir/seam_leveling.cpp.o: ../texturing/seam_leveling.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/demo/桌面/ImageBasedModellingEdu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object texturing/CMakeFiles/texturing.dir/seam_leveling.cpp.o"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/texturing.dir/seam_leveling.cpp.o -c /home/demo/桌面/ImageBasedModellingEdu/texturing/seam_leveling.cpp
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/local/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/texturing.dir/seam_leveling.cpp.o -c /home/demo/桌面/ImageBasedModellingEdu/texturing/seam_leveling.cpp
 
 texturing/CMakeFiles/texturing.dir/seam_leveling.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/texturing.dir/seam_leveling.cpp.i"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demo/桌面/ImageBasedModellingEdu/texturing/seam_leveling.cpp > CMakeFiles/texturing.dir/seam_leveling.cpp.i
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demo/桌面/ImageBasedModellingEdu/texturing/seam_leveling.cpp > CMakeFiles/texturing.dir/seam_leveling.cpp.i
 
 texturing/CMakeFiles/texturing.dir/seam_leveling.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/texturing.dir/seam_leveling.cpp.s"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demo/桌面/ImageBasedModellingEdu/texturing/seam_leveling.cpp -o CMakeFiles/texturing.dir/seam_leveling.cpp.s
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demo/桌面/ImageBasedModellingEdu/texturing/seam_leveling.cpp -o CMakeFiles/texturing.dir/seam_leveling.cpp.s
 
 texturing/CMakeFiles/texturing.dir/seam_leveling.cpp.o.requires:
 
@@ -444,15 +444,15 @@ texturing/CMakeFiles/texturing.dir/seam_leveling.cpp.o.provides.build: texturing
 texturing/CMakeFiles/texturing.dir/texture_atlas.cpp.o: texturing/CMakeFiles/texturing.dir/flags.make
 texturing/CMakeFiles/texturing.dir/texture_atlas.cpp.o: ../texturing/texture_atlas.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/demo/桌面/ImageBasedModellingEdu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object texturing/CMakeFiles/texturing.dir/texture_atlas.cpp.o"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/texturing.dir/texture_atlas.cpp.o -c /home/demo/桌面/ImageBasedModellingEdu/texturing/texture_atlas.cpp
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/local/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/texturing.dir/texture_atlas.cpp.o -c /home/demo/桌面/ImageBasedModellingEdu/texturing/texture_atlas.cpp
 
 texturing/CMakeFiles/texturing.dir/texture_atlas.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/texturing.dir/texture_atlas.cpp.i"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demo/桌面/ImageBasedModellingEdu/texturing/texture_atlas.cpp > CMakeFiles/texturing.dir/texture_atlas.cpp.i
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demo/桌面/ImageBasedModellingEdu/texturing/texture_atlas.cpp > CMakeFiles/texturing.dir/texture_atlas.cpp.i
 
 texturing/CMakeFiles/texturing.dir/texture_atlas.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/texturing.dir/texture_atlas.cpp.s"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demo/桌面/ImageBasedModellingEdu/texturing/texture_atlas.cpp -o CMakeFiles/texturing.dir/texture_atlas.cpp.s
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demo/桌面/ImageBasedModellingEdu/texturing/texture_atlas.cpp -o CMakeFiles/texturing.dir/texture_atlas.cpp.s
 
 texturing/CMakeFiles/texturing.dir/texture_atlas.cpp.o.requires:
 
@@ -468,15 +468,15 @@ texturing/CMakeFiles/texturing.dir/texture_atlas.cpp.o.provides.build: texturing
 texturing/CMakeFiles/texturing.dir/texture_patch.cpp.o: texturing/CMakeFiles/texturing.dir/flags.make
 texturing/CMakeFiles/texturing.dir/texture_patch.cpp.o: ../texturing/texture_patch.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/demo/桌面/ImageBasedModellingEdu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object texturing/CMakeFiles/texturing.dir/texture_patch.cpp.o"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/texturing.dir/texture_patch.cpp.o -c /home/demo/桌面/ImageBasedModellingEdu/texturing/texture_patch.cpp
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/local/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/texturing.dir/texture_patch.cpp.o -c /home/demo/桌面/ImageBasedModellingEdu/texturing/texture_patch.cpp
 
 texturing/CMakeFiles/texturing.dir/texture_patch.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/texturing.dir/texture_patch.cpp.i"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demo/桌面/ImageBasedModellingEdu/texturing/texture_patch.cpp > CMakeFiles/texturing.dir/texture_patch.cpp.i
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demo/桌面/ImageBasedModellingEdu/texturing/texture_patch.cpp > CMakeFiles/texturing.dir/texture_patch.cpp.i
 
 texturing/CMakeFiles/texturing.dir/texture_patch.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/texturing.dir/texture_patch.cpp.s"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demo/桌面/ImageBasedModellingEdu/texturing/texture_patch.cpp -o CMakeFiles/texturing.dir/texture_patch.cpp.s
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demo/桌面/ImageBasedModellingEdu/texturing/texture_patch.cpp -o CMakeFiles/texturing.dir/texture_patch.cpp.s
 
 texturing/CMakeFiles/texturing.dir/texture_patch.cpp.o.requires:
 
@@ -492,15 +492,15 @@ texturing/CMakeFiles/texturing.dir/texture_patch.cpp.o.provides.build: texturing
 texturing/CMakeFiles/texturing.dir/texture_view.cpp.o: texturing/CMakeFiles/texturing.dir/flags.make
 texturing/CMakeFiles/texturing.dir/texture_view.cpp.o: ../texturing/texture_view.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/demo/桌面/ImageBasedModellingEdu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object texturing/CMakeFiles/texturing.dir/texture_view.cpp.o"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/texturing.dir/texture_view.cpp.o -c /home/demo/桌面/ImageBasedModellingEdu/texturing/texture_view.cpp
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/local/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/texturing.dir/texture_view.cpp.o -c /home/demo/桌面/ImageBasedModellingEdu/texturing/texture_view.cpp
 
 texturing/CMakeFiles/texturing.dir/texture_view.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/texturing.dir/texture_view.cpp.i"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demo/桌面/ImageBasedModellingEdu/texturing/texture_view.cpp > CMakeFiles/texturing.dir/texture_view.cpp.i
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demo/桌面/ImageBasedModellingEdu/texturing/texture_view.cpp > CMakeFiles/texturing.dir/texture_view.cpp.i
 
 texturing/CMakeFiles/texturing.dir/texture_view.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/texturing.dir/texture_view.cpp.s"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demo/桌面/ImageBasedModellingEdu/texturing/texture_view.cpp -o CMakeFiles/texturing.dir/texture_view.cpp.s
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demo/桌面/ImageBasedModellingEdu/texturing/texture_view.cpp -o CMakeFiles/texturing.dir/texture_view.cpp.s
 
 texturing/CMakeFiles/texturing.dir/texture_view.cpp.o.requires:
 
@@ -516,15 +516,15 @@ texturing/CMakeFiles/texturing.dir/texture_view.cpp.o.provides.build: texturing/
 texturing/CMakeFiles/texturing.dir/tri.cpp.o: texturing/CMakeFiles/texturing.dir/flags.make
 texturing/CMakeFiles/texturing.dir/tri.cpp.o: ../texturing/tri.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/demo/桌面/ImageBasedModellingEdu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object texturing/CMakeFiles/texturing.dir/tri.cpp.o"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/texturing.dir/tri.cpp.o -c /home/demo/桌面/ImageBasedModellingEdu/texturing/tri.cpp
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/local/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/texturing.dir/tri.cpp.o -c /home/demo/桌面/ImageBasedModellingEdu/texturing/tri.cpp
 
 texturing/CMakeFiles/texturing.dir/tri.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/texturing.dir/tri.cpp.i"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demo/桌面/ImageBasedModellingEdu/texturing/tri.cpp > CMakeFiles/texturing.dir/tri.cpp.i
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demo/桌面/ImageBasedModellingEdu/texturing/tri.cpp > CMakeFiles/texturing.dir/tri.cpp.i
 
 texturing/CMakeFiles/texturing.dir/tri.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/texturing.dir/tri.cpp.s"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demo/桌面/ImageBasedModellingEdu/texturing/tri.cpp -o CMakeFiles/texturing.dir/tri.cpp.s
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demo/桌面/ImageBasedModellingEdu/texturing/tri.cpp -o CMakeFiles/texturing.dir/tri.cpp.s
 
 texturing/CMakeFiles/texturing.dir/tri.cpp.o.requires:
 
@@ -540,15 +540,15 @@ texturing/CMakeFiles/texturing.dir/tri.cpp.o.provides.build: texturing/CMakeFile
 texturing/CMakeFiles/texturing.dir/uni_graph.cpp.o: texturing/CMakeFiles/texturing.dir/flags.make
 texturing/CMakeFiles/texturing.dir/uni_graph.cpp.o: ../texturing/uni_graph.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/demo/桌面/ImageBasedModellingEdu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object texturing/CMakeFiles/texturing.dir/uni_graph.cpp.o"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/texturing.dir/uni_graph.cpp.o -c /home/demo/桌面/ImageBasedModellingEdu/texturing/uni_graph.cpp
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/local/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/texturing.dir/uni_graph.cpp.o -c /home/demo/桌面/ImageBasedModellingEdu/texturing/uni_graph.cpp
 
 texturing/CMakeFiles/texturing.dir/uni_graph.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/texturing.dir/uni_graph.cpp.i"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demo/桌面/ImageBasedModellingEdu/texturing/uni_graph.cpp > CMakeFiles/texturing.dir/uni_graph.cpp.i
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demo/桌面/ImageBasedModellingEdu/texturing/uni_graph.cpp > CMakeFiles/texturing.dir/uni_graph.cpp.i
 
 texturing/CMakeFiles/texturing.dir/uni_graph.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/texturing.dir/uni_graph.cpp.s"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demo/桌面/ImageBasedModellingEdu/texturing/uni_graph.cpp -o CMakeFiles/texturing.dir/uni_graph.cpp.s
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demo/桌面/ImageBasedModellingEdu/texturing/uni_graph.cpp -o CMakeFiles/texturing.dir/uni_graph.cpp.s
 
 texturing/CMakeFiles/texturing.dir/uni_graph.cpp.o.requires:
 
@@ -564,15 +564,15 @@ texturing/CMakeFiles/texturing.dir/uni_graph.cpp.o.provides.build: texturing/CMa
 texturing/CMakeFiles/texturing.dir/view_selection.cpp.o: texturing/CMakeFiles/texturing.dir/flags.make
 texturing/CMakeFiles/texturing.dir/view_selection.cpp.o: ../texturing/view_selection.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/demo/桌面/ImageBasedModellingEdu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object texturing/CMakeFiles/texturing.dir/view_selection.cpp.o"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/texturing.dir/view_selection.cpp.o -c /home/demo/桌面/ImageBasedModellingEdu/texturing/view_selection.cpp
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/local/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/texturing.dir/view_selection.cpp.o -c /home/demo/桌面/ImageBasedModellingEdu/texturing/view_selection.cpp
 
 texturing/CMakeFiles/texturing.dir/view_selection.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/texturing.dir/view_selection.cpp.i"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demo/桌面/ImageBasedModellingEdu/texturing/view_selection.cpp > CMakeFiles/texturing.dir/view_selection.cpp.i
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demo/桌面/ImageBasedModellingEdu/texturing/view_selection.cpp > CMakeFiles/texturing.dir/view_selection.cpp.i
 
 texturing/CMakeFiles/texturing.dir/view_selection.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/texturing.dir/view_selection.cpp.s"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demo/桌面/ImageBasedModellingEdu/texturing/view_selection.cpp -o CMakeFiles/texturing.dir/view_selection.cpp.s
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demo/桌面/ImageBasedModellingEdu/texturing/view_selection.cpp -o CMakeFiles/texturing.dir/view_selection.cpp.s
 
 texturing/CMakeFiles/texturing.dir/view_selection.cpp.o.requires:
 
@@ -588,15 +588,15 @@ texturing/CMakeFiles/texturing.dir/view_selection.cpp.o.provides.build: texturin
 texturing/CMakeFiles/texturing.dir/timer.cpp.o: texturing/CMakeFiles/texturing.dir/flags.make
 texturing/CMakeFiles/texturing.dir/timer.cpp.o: ../texturing/timer.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/demo/桌面/ImageBasedModellingEdu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object texturing/CMakeFiles/texturing.dir/timer.cpp.o"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/texturing.dir/timer.cpp.o -c /home/demo/桌面/ImageBasedModellingEdu/texturing/timer.cpp
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/local/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/texturing.dir/timer.cpp.o -c /home/demo/桌面/ImageBasedModellingEdu/texturing/timer.cpp
 
 texturing/CMakeFiles/texturing.dir/timer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/texturing.dir/timer.cpp.i"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demo/桌面/ImageBasedModellingEdu/texturing/timer.cpp > CMakeFiles/texturing.dir/timer.cpp.i
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demo/桌面/ImageBasedModellingEdu/texturing/timer.cpp > CMakeFiles/texturing.dir/timer.cpp.i
 
 texturing/CMakeFiles/texturing.dir/timer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/texturing.dir/timer.cpp.s"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demo/桌面/ImageBasedModellingEdu/texturing/timer.cpp -o CMakeFiles/texturing.dir/timer.cpp.s
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/texturing && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demo/桌面/ImageBasedModellingEdu/texturing/timer.cpp -o CMakeFiles/texturing.dir/timer.cpp.s
 
 texturing/CMakeFiles/texturing.dir/timer.cpp.o.requires:
 

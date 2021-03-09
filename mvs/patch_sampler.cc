@@ -34,16 +34,16 @@ PatchSampler::PatchSampler(std::vector<SingleView::Ptr> const& _views,
     // 获取设定尺度的参考图像
     core::ByteImage::ConstPtr masterImg(refV->getScaledImg());
 
-    // patch的大小是5x5
+    // patch的大小是5x5,offset = 2
     offset = settings.filterWidth / 2;
 
-    // 需要采样的点的个数是5x5
+    // 需要采样的点的个数是5x5,nrSamples=25
     nrSamples = sqr(settings.filterWidth);
 
     /* initialize arrays */
     patchPoints.resize(nrSamples);  // patch 对应的三维空间点
     masterColorSamples.resize(nrSamples); // patch 的三维点在参考图像中的颜色
-    masterViewDirs.resize(nrSamples); // 每个点对应的视角方向
+    masterViewDirs.resize(nrSamples); // 每个点对应的视角方向,世界坐标下相机光心到每个像素的射线，单位长度
 
     /* compute patch position and check if it's valid */
     // 在图像上确定一个5x5的patch，并判断其是否位于图像范围内

@@ -60,15 +60,15 @@ include examples/task1/CMakeFiles/task3_test_feature_matching.dir/flags.make
 examples/task1/CMakeFiles/task3_test_feature_matching.dir/task1-6_test_matching.cc.o: examples/task1/CMakeFiles/task3_test_feature_matching.dir/flags.make
 examples/task1/CMakeFiles/task3_test_feature_matching.dir/task1-6_test_matching.cc.o: ../examples/task1/task1-6_test_matching.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/demo/桌面/ImageBasedModellingEdu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/task1/CMakeFiles/task3_test_feature_matching.dir/task1-6_test_matching.cc.o"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/examples/task1 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/task3_test_feature_matching.dir/task1-6_test_matching.cc.o -c /home/demo/桌面/ImageBasedModellingEdu/examples/task1/task1-6_test_matching.cc
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/examples/task1 && /usr/local/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/task3_test_feature_matching.dir/task1-6_test_matching.cc.o -c /home/demo/桌面/ImageBasedModellingEdu/examples/task1/task1-6_test_matching.cc
 
 examples/task1/CMakeFiles/task3_test_feature_matching.dir/task1-6_test_matching.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/task3_test_feature_matching.dir/task1-6_test_matching.cc.i"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/examples/task1 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demo/桌面/ImageBasedModellingEdu/examples/task1/task1-6_test_matching.cc > CMakeFiles/task3_test_feature_matching.dir/task1-6_test_matching.cc.i
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/examples/task1 && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demo/桌面/ImageBasedModellingEdu/examples/task1/task1-6_test_matching.cc > CMakeFiles/task3_test_feature_matching.dir/task1-6_test_matching.cc.i
 
 examples/task1/CMakeFiles/task3_test_feature_matching.dir/task1-6_test_matching.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/task3_test_feature_matching.dir/task1-6_test_matching.cc.s"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/examples/task1 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demo/桌面/ImageBasedModellingEdu/examples/task1/task1-6_test_matching.cc -o CMakeFiles/task3_test_feature_matching.dir/task1-6_test_matching.cc.s
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/examples/task1 && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demo/桌面/ImageBasedModellingEdu/examples/task1/task1-6_test_matching.cc -o CMakeFiles/task3_test_feature_matching.dir/task1-6_test_matching.cc.s
 
 examples/task1/CMakeFiles/task3_test_feature_matching.dir/task1-6_test_matching.cc.o.requires:
 
@@ -84,15 +84,15 @@ examples/task1/CMakeFiles/task3_test_feature_matching.dir/task1-6_test_matching.
 examples/task1/CMakeFiles/task3_test_feature_matching.dir/visualizer.cc.o: examples/task1/CMakeFiles/task3_test_feature_matching.dir/flags.make
 examples/task1/CMakeFiles/task3_test_feature_matching.dir/visualizer.cc.o: ../examples/task1/visualizer.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/demo/桌面/ImageBasedModellingEdu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object examples/task1/CMakeFiles/task3_test_feature_matching.dir/visualizer.cc.o"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/examples/task1 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/task3_test_feature_matching.dir/visualizer.cc.o -c /home/demo/桌面/ImageBasedModellingEdu/examples/task1/visualizer.cc
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/examples/task1 && /usr/local/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/task3_test_feature_matching.dir/visualizer.cc.o -c /home/demo/桌面/ImageBasedModellingEdu/examples/task1/visualizer.cc
 
 examples/task1/CMakeFiles/task3_test_feature_matching.dir/visualizer.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/task3_test_feature_matching.dir/visualizer.cc.i"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/examples/task1 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demo/桌面/ImageBasedModellingEdu/examples/task1/visualizer.cc > CMakeFiles/task3_test_feature_matching.dir/visualizer.cc.i
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/examples/task1 && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demo/桌面/ImageBasedModellingEdu/examples/task1/visualizer.cc > CMakeFiles/task3_test_feature_matching.dir/visualizer.cc.i
 
 examples/task1/CMakeFiles/task3_test_feature_matching.dir/visualizer.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/task3_test_feature_matching.dir/visualizer.cc.s"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/examples/task1 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demo/桌面/ImageBasedModellingEdu/examples/task1/visualizer.cc -o CMakeFiles/task3_test_feature_matching.dir/visualizer.cc.s
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/examples/task1 && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demo/桌面/ImageBasedModellingEdu/examples/task1/visualizer.cc -o CMakeFiles/task3_test_feature_matching.dir/visualizer.cc.s
 
 examples/task1/CMakeFiles/task3_test_feature_matching.dir/visualizer.cc.o.requires:
 

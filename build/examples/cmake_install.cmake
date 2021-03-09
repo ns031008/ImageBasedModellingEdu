@@ -37,6 +37,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/demo/桌面/ImageBasedModellingEdu/build/examples/task1/cmake_install.cmake")
   include("/home/demo/桌面/ImageBasedModellingEdu/build/examples/task2/cmake_install.cmake")
   include("/home/demo/桌面/ImageBasedModellingEdu/build/examples/task3/cmake_install.cmake")
+  include("/home/demo/桌面/ImageBasedModellingEdu/build/examples/task4/cmake_install.cmake")
 
 endif()
 

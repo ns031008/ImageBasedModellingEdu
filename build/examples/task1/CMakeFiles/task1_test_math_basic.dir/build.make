@@ -60,15 +60,15 @@ include examples/task1/CMakeFiles/task1_test_math_basic.dir/flags.make
 examples/task1/CMakeFiles/task1_test_math_basic.dir/task1-1_test_math_basic.cc.o: examples/task1/CMakeFiles/task1_test_math_basic.dir/flags.make
 examples/task1/CMakeFiles/task1_test_math_basic.dir/task1-1_test_math_basic.cc.o: ../examples/task1/task1-1_test_math_basic.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/demo/桌面/ImageBasedModellingEdu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/task1/CMakeFiles/task1_test_math_basic.dir/task1-1_test_math_basic.cc.o"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/examples/task1 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/task1_test_math_basic.dir/task1-1_test_math_basic.cc.o -c /home/demo/桌面/ImageBasedModellingEdu/examples/task1/task1-1_test_math_basic.cc
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/examples/task1 && /usr/local/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/task1_test_math_basic.dir/task1-1_test_math_basic.cc.o -c /home/demo/桌面/ImageBasedModellingEdu/examples/task1/task1-1_test_math_basic.cc
 
 examples/task1/CMakeFiles/task1_test_math_basic.dir/task1-1_test_math_basic.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/task1_test_math_basic.dir/task1-1_test_math_basic.cc.i"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/examples/task1 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demo/桌面/ImageBasedModellingEdu/examples/task1/task1-1_test_math_basic.cc > CMakeFiles/task1_test_math_basic.dir/task1-1_test_math_basic.cc.i
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/examples/task1 && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demo/桌面/ImageBasedModellingEdu/examples/task1/task1-1_test_math_basic.cc > CMakeFiles/task1_test_math_basic.dir/task1-1_test_math_basic.cc.i
 
 examples/task1/CMakeFiles/task1_test_math_basic.dir/task1-1_test_math_basic.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/task1_test_math_basic.dir/task1-1_test_math_basic.cc.s"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/examples/task1 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demo/桌面/ImageBasedModellingEdu/examples/task1/task1-1_test_math_basic.cc -o CMakeFiles/task1_test_math_basic.dir/task1-1_test_math_basic.cc.s
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/examples/task1 && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demo/桌面/ImageBasedModellingEdu/examples/task1/task1-1_test_math_basic.cc -o CMakeFiles/task1_test_math_basic.dir/task1-1_test_math_basic.cc.s
 
 examples/task1/CMakeFiles/task1_test_math_basic.dir/task1-1_test_math_basic.cc.o.requires:
 

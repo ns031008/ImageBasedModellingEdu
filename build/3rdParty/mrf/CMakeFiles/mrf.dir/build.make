@@ -60,15 +60,15 @@ include 3rdParty/mrf/CMakeFiles/mrf.dir/flags.make
 3rdParty/mrf/CMakeFiles/mrf.dir/graph.cpp.o: 3rdParty/mrf/CMakeFiles/mrf.dir/flags.make
 3rdParty/mrf/CMakeFiles/mrf.dir/graph.cpp.o: ../3rdParty/mrf/graph.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/demo/桌面/ImageBasedModellingEdu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object 3rdParty/mrf/CMakeFiles/mrf.dir/graph.cpp.o"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/3rdParty/mrf && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mrf.dir/graph.cpp.o -c /home/demo/桌面/ImageBasedModellingEdu/3rdParty/mrf/graph.cpp
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/3rdParty/mrf && /usr/local/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mrf.dir/graph.cpp.o -c /home/demo/桌面/ImageBasedModellingEdu/3rdParty/mrf/graph.cpp
 
 3rdParty/mrf/CMakeFiles/mrf.dir/graph.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mrf.dir/graph.cpp.i"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/3rdParty/mrf && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demo/桌面/ImageBasedModellingEdu/3rdParty/mrf/graph.cpp > CMakeFiles/mrf.dir/graph.cpp.i
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/3rdParty/mrf && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demo/桌面/ImageBasedModellingEdu/3rdParty/mrf/graph.cpp > CMakeFiles/mrf.dir/graph.cpp.i
 
 3rdParty/mrf/CMakeFiles/mrf.dir/graph.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mrf.dir/graph.cpp.s"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/3rdParty/mrf && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demo/桌面/ImageBasedModellingEdu/3rdParty/mrf/graph.cpp -o CMakeFiles/mrf.dir/graph.cpp.s
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/3rdParty/mrf && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demo/桌面/ImageBasedModellingEdu/3rdParty/mrf/graph.cpp -o CMakeFiles/mrf.dir/graph.cpp.s
 
 3rdParty/mrf/CMakeFiles/mrf.dir/graph.cpp.o.requires:
 
@@ -84,15 +84,15 @@ include 3rdParty/mrf/CMakeFiles/mrf.dir/flags.make
 3rdParty/mrf/CMakeFiles/mrf.dir/gco_graph.cpp.o: 3rdParty/mrf/CMakeFiles/mrf.dir/flags.make
 3rdParty/mrf/CMakeFiles/mrf.dir/gco_graph.cpp.o: ../3rdParty/mrf/gco_graph.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/demo/桌面/ImageBasedModellingEdu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object 3rdParty/mrf/CMakeFiles/mrf.dir/gco_graph.cpp.o"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/3rdParty/mrf && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mrf.dir/gco_graph.cpp.o -c /home/demo/桌面/ImageBasedModellingEdu/3rdParty/mrf/gco_graph.cpp
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/3rdParty/mrf && /usr/local/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mrf.dir/gco_graph.cpp.o -c /home/demo/桌面/ImageBasedModellingEdu/3rdParty/mrf/gco_graph.cpp
 
 3rdParty/mrf/CMakeFiles/mrf.dir/gco_graph.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mrf.dir/gco_graph.cpp.i"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/3rdParty/mrf && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demo/桌面/ImageBasedModellingEdu/3rdParty/mrf/gco_graph.cpp > CMakeFiles/mrf.dir/gco_graph.cpp.i
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/3rdParty/mrf && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demo/桌面/ImageBasedModellingEdu/3rdParty/mrf/gco_graph.cpp > CMakeFiles/mrf.dir/gco_graph.cpp.i
 
 3rdParty/mrf/CMakeFiles/mrf.dir/gco_graph.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mrf.dir/gco_graph.cpp.s"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/3rdParty/mrf && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demo/桌面/ImageBasedModellingEdu/3rdParty/mrf/gco_graph.cpp -o CMakeFiles/mrf.dir/gco_graph.cpp.s
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/3rdParty/mrf && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demo/桌面/ImageBasedModellingEdu/3rdParty/mrf/gco_graph.cpp -o CMakeFiles/mrf.dir/gco_graph.cpp.s
 
 3rdParty/mrf/CMakeFiles/mrf.dir/gco_graph.cpp.o.requires:
 
@@ -108,15 +108,15 @@ include 3rdParty/mrf/CMakeFiles/mrf.dir/flags.make
 3rdParty/mrf/CMakeFiles/mrf.dir/lbp_graph.cpp.o: 3rdParty/mrf/CMakeFiles/mrf.dir/flags.make
 3rdParty/mrf/CMakeFiles/mrf.dir/lbp_graph.cpp.o: ../3rdParty/mrf/lbp_graph.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/demo/桌面/ImageBasedModellingEdu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object 3rdParty/mrf/CMakeFiles/mrf.dir/lbp_graph.cpp.o"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/3rdParty/mrf && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mrf.dir/lbp_graph.cpp.o -c /home/demo/桌面/ImageBasedModellingEdu/3rdParty/mrf/lbp_graph.cpp
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/3rdParty/mrf && /usr/local/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mrf.dir/lbp_graph.cpp.o -c /home/demo/桌面/ImageBasedModellingEdu/3rdParty/mrf/lbp_graph.cpp
 
 3rdParty/mrf/CMakeFiles/mrf.dir/lbp_graph.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mrf.dir/lbp_graph.cpp.i"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/3rdParty/mrf && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demo/桌面/ImageBasedModellingEdu/3rdParty/mrf/lbp_graph.cpp > CMakeFiles/mrf.dir/lbp_graph.cpp.i
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/3rdParty/mrf && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demo/桌面/ImageBasedModellingEdu/3rdParty/mrf/lbp_graph.cpp > CMakeFiles/mrf.dir/lbp_graph.cpp.i
 
 3rdParty/mrf/CMakeFiles/mrf.dir/lbp_graph.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mrf.dir/lbp_graph.cpp.s"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/3rdParty/mrf && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demo/桌面/ImageBasedModellingEdu/3rdParty/mrf/lbp_graph.cpp -o CMakeFiles/mrf.dir/lbp_graph.cpp.s
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/3rdParty/mrf && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demo/桌面/ImageBasedModellingEdu/3rdParty/mrf/lbp_graph.cpp -o CMakeFiles/mrf.dir/lbp_graph.cpp.s
 
 3rdParty/mrf/CMakeFiles/mrf.dir/lbp_graph.cpp.o.requires:
 
@@ -132,15 +132,15 @@ include 3rdParty/mrf/CMakeFiles/mrf.dir/flags.make
 3rdParty/mrf/CMakeFiles/mrf.dir/icm_graph.cpp.o: 3rdParty/mrf/CMakeFiles/mrf.dir/flags.make
 3rdParty/mrf/CMakeFiles/mrf.dir/icm_graph.cpp.o: ../3rdParty/mrf/icm_graph.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/demo/桌面/ImageBasedModellingEdu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object 3rdParty/mrf/CMakeFiles/mrf.dir/icm_graph.cpp.o"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/3rdParty/mrf && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mrf.dir/icm_graph.cpp.o -c /home/demo/桌面/ImageBasedModellingEdu/3rdParty/mrf/icm_graph.cpp
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/3rdParty/mrf && /usr/local/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mrf.dir/icm_graph.cpp.o -c /home/demo/桌面/ImageBasedModellingEdu/3rdParty/mrf/icm_graph.cpp
 
 3rdParty/mrf/CMakeFiles/mrf.dir/icm_graph.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mrf.dir/icm_graph.cpp.i"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/3rdParty/mrf && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demo/桌面/ImageBasedModellingEdu/3rdParty/mrf/icm_graph.cpp > CMakeFiles/mrf.dir/icm_graph.cpp.i
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/3rdParty/mrf && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demo/桌面/ImageBasedModellingEdu/3rdParty/mrf/icm_graph.cpp > CMakeFiles/mrf.dir/icm_graph.cpp.i
 
 3rdParty/mrf/CMakeFiles/mrf.dir/icm_graph.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mrf.dir/icm_graph.cpp.s"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/3rdParty/mrf && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demo/桌面/ImageBasedModellingEdu/3rdParty/mrf/icm_graph.cpp -o CMakeFiles/mrf.dir/icm_graph.cpp.s
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/3rdParty/mrf && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demo/桌面/ImageBasedModellingEdu/3rdParty/mrf/icm_graph.cpp -o CMakeFiles/mrf.dir/icm_graph.cpp.s
 
 3rdParty/mrf/CMakeFiles/mrf.dir/icm_graph.cpp.o.requires:
 

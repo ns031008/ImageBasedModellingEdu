@@ -122,9 +122,11 @@ CameraInfo::set_transformation (float const* mat)
 /* ---------------------------------------------------------------- */
 
 void
-CameraInfo::fill_calibration (float* mat, float width, float height) const
+CameraInfo::fill_calibration(float* mat, float width, float height) const
 {
     float dim_aspect = width / height;
+    // paspect : Pixel aspect ratio pixel_width / pixel_height, here is equal to one.
+    // 像素宽高比为1
     float image_aspect = dim_aspect * this->paspect;
     float ax, ay;
     if (image_aspect < 1.0f) /* Portrait. */

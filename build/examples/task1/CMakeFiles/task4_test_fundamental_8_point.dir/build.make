@@ -60,15 +60,15 @@ include examples/task1/CMakeFiles/task4_test_fundamental_8_point.dir/flags.make
 examples/task1/CMakeFiles/task4_test_fundamental_8_point.dir/task1-3_test_fundamental_8_point.cc.o: examples/task1/CMakeFiles/task4_test_fundamental_8_point.dir/flags.make
 examples/task1/CMakeFiles/task4_test_fundamental_8_point.dir/task1-3_test_fundamental_8_point.cc.o: ../examples/task1/task1-3_test_fundamental_8_point.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/demo/桌面/ImageBasedModellingEdu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/task1/CMakeFiles/task4_test_fundamental_8_point.dir/task1-3_test_fundamental_8_point.cc.o"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/examples/task1 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/task4_test_fundamental_8_point.dir/task1-3_test_fundamental_8_point.cc.o -c /home/demo/桌面/ImageBasedModellingEdu/examples/task1/task1-3_test_fundamental_8_point.cc
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/examples/task1 && /usr/local/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/task4_test_fundamental_8_point.dir/task1-3_test_fundamental_8_point.cc.o -c /home/demo/桌面/ImageBasedModellingEdu/examples/task1/task1-3_test_fundamental_8_point.cc
 
 examples/task1/CMakeFiles/task4_test_fundamental_8_point.dir/task1-3_test_fundamental_8_point.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/task4_test_fundamental_8_point.dir/task1-3_test_fundamental_8_point.cc.i"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/examples/task1 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demo/桌面/ImageBasedModellingEdu/examples/task1/task1-3_test_fundamental_8_point.cc > CMakeFiles/task4_test_fundamental_8_point.dir/task1-3_test_fundamental_8_point.cc.i
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/examples/task1 && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demo/桌面/ImageBasedModellingEdu/examples/task1/task1-3_test_fundamental_8_point.cc > CMakeFiles/task4_test_fundamental_8_point.dir/task1-3_test_fundamental_8_point.cc.i
 
 examples/task1/CMakeFiles/task4_test_fundamental_8_point.dir/task1-3_test_fundamental_8_point.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/task4_test_fundamental_8_point.dir/task1-3_test_fundamental_8_point.cc.s"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/examples/task1 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demo/桌面/ImageBasedModellingEdu/examples/task1/task1-3_test_fundamental_8_point.cc -o CMakeFiles/task4_test_fundamental_8_point.dir/task1-3_test_fundamental_8_point.cc.s
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/examples/task1 && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demo/桌面/ImageBasedModellingEdu/examples/task1/task1-3_test_fundamental_8_point.cc -o CMakeFiles/task4_test_fundamental_8_point.dir/task1-3_test_fundamental_8_point.cc.s
 
 examples/task1/CMakeFiles/task4_test_fundamental_8_point.dir/task1-3_test_fundamental_8_point.cc.o.requires:
 

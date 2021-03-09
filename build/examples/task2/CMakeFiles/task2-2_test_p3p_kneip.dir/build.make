@@ -60,15 +60,15 @@ include examples/task2/CMakeFiles/task2-2_test_p3p_kneip.dir/flags.make
 examples/task2/CMakeFiles/task2-2_test_p3p_kneip.dir/task2-2_test_p3p_kneip.cc.o: examples/task2/CMakeFiles/task2-2_test_p3p_kneip.dir/flags.make
 examples/task2/CMakeFiles/task2-2_test_p3p_kneip.dir/task2-2_test_p3p_kneip.cc.o: ../examples/task2/task2-2_test_p3p_kneip.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/demo/桌面/ImageBasedModellingEdu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/task2/CMakeFiles/task2-2_test_p3p_kneip.dir/task2-2_test_p3p_kneip.cc.o"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/examples/task2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/task2-2_test_p3p_kneip.dir/task2-2_test_p3p_kneip.cc.o -c /home/demo/桌面/ImageBasedModellingEdu/examples/task2/task2-2_test_p3p_kneip.cc
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/examples/task2 && /usr/local/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/task2-2_test_p3p_kneip.dir/task2-2_test_p3p_kneip.cc.o -c /home/demo/桌面/ImageBasedModellingEdu/examples/task2/task2-2_test_p3p_kneip.cc
 
 examples/task2/CMakeFiles/task2-2_test_p3p_kneip.dir/task2-2_test_p3p_kneip.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/task2-2_test_p3p_kneip.dir/task2-2_test_p3p_kneip.cc.i"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/examples/task2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demo/桌面/ImageBasedModellingEdu/examples/task2/task2-2_test_p3p_kneip.cc > CMakeFiles/task2-2_test_p3p_kneip.dir/task2-2_test_p3p_kneip.cc.i
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/examples/task2 && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demo/桌面/ImageBasedModellingEdu/examples/task2/task2-2_test_p3p_kneip.cc > CMakeFiles/task2-2_test_p3p_kneip.dir/task2-2_test_p3p_kneip.cc.i
 
 examples/task2/CMakeFiles/task2-2_test_p3p_kneip.dir/task2-2_test_p3p_kneip.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/task2-2_test_p3p_kneip.dir/task2-2_test_p3p_kneip.cc.s"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/examples/task2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demo/桌面/ImageBasedModellingEdu/examples/task2/task2-2_test_p3p_kneip.cc -o CMakeFiles/task2-2_test_p3p_kneip.dir/task2-2_test_p3p_kneip.cc.s
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/examples/task2 && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demo/桌面/ImageBasedModellingEdu/examples/task2/task2-2_test_p3p_kneip.cc -o CMakeFiles/task2-2_test_p3p_kneip.dir/task2-2_test_p3p_kneip.cc.s
 
 examples/task2/CMakeFiles/task2-2_test_p3p_kneip.dir/task2-2_test_p3p_kneip.cc.o.requires:
 

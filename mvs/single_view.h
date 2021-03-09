@@ -164,6 +164,8 @@ inline float
 SingleView::footPrintScaled(math::Vec3f const& point)
 {
     assert(this->has_target_level);
+    // this->target_level.invproj[0] = 1/f
+    // Z/f = X/X' = Y/Y'
     return (this->worldToCam.mult(point, 1)[2] * this->target_level.invproj[0]);
 }
 

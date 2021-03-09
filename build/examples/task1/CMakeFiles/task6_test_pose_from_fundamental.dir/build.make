@@ -60,15 +60,15 @@ include examples/task1/CMakeFiles/task6_test_pose_from_fundamental.dir/flags.mak
 examples/task1/CMakeFiles/task6_test_pose_from_fundamental.dir/task1-5_test_pose_from_fundamental.cc.o: examples/task1/CMakeFiles/task6_test_pose_from_fundamental.dir/flags.make
 examples/task1/CMakeFiles/task6_test_pose_from_fundamental.dir/task1-5_test_pose_from_fundamental.cc.o: ../examples/task1/task1-5_test_pose_from_fundamental.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/demo/桌面/ImageBasedModellingEdu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/task1/CMakeFiles/task6_test_pose_from_fundamental.dir/task1-5_test_pose_from_fundamental.cc.o"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/examples/task1 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/task6_test_pose_from_fundamental.dir/task1-5_test_pose_from_fundamental.cc.o -c /home/demo/桌面/ImageBasedModellingEdu/examples/task1/task1-5_test_pose_from_fundamental.cc
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/examples/task1 && /usr/local/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/task6_test_pose_from_fundamental.dir/task1-5_test_pose_from_fundamental.cc.o -c /home/demo/桌面/ImageBasedModellingEdu/examples/task1/task1-5_test_pose_from_fundamental.cc
 
 examples/task1/CMakeFiles/task6_test_pose_from_fundamental.dir/task1-5_test_pose_from_fundamental.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/task6_test_pose_from_fundamental.dir/task1-5_test_pose_from_fundamental.cc.i"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/examples/task1 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demo/桌面/ImageBasedModellingEdu/examples/task1/task1-5_test_pose_from_fundamental.cc > CMakeFiles/task6_test_pose_from_fundamental.dir/task1-5_test_pose_from_fundamental.cc.i
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/examples/task1 && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demo/桌面/ImageBasedModellingEdu/examples/task1/task1-5_test_pose_from_fundamental.cc > CMakeFiles/task6_test_pose_from_fundamental.dir/task1-5_test_pose_from_fundamental.cc.i
 
 examples/task1/CMakeFiles/task6_test_pose_from_fundamental.dir/task1-5_test_pose_from_fundamental.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/task6_test_pose_from_fundamental.dir/task1-5_test_pose_from_fundamental.cc.s"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/examples/task1 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demo/桌面/ImageBasedModellingEdu/examples/task1/task1-5_test_pose_from_fundamental.cc -o CMakeFiles/task6_test_pose_from_fundamental.dir/task1-5_test_pose_from_fundamental.cc.s
+	cd /home/demo/桌面/ImageBasedModellingEdu/build/examples/task1 && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demo/桌面/ImageBasedModellingEdu/examples/task1/task1-5_test_pose_from_fundamental.cc -o CMakeFiles/task6_test_pose_from_fundamental.dir/task1-5_test_pose_from_fundamental.cc.s
 
 examples/task1/CMakeFiles/task6_test_pose_from_fundamental.dir/task1-5_test_pose_from_fundamental.cc.o.requires:
 
