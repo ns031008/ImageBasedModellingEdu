@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/demo/桌面/ImageBasedModellingEdu
+CMAKE_SOURCE_DIR = /home/chen/桌面/ImageBasedModellingEdu
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/demo/桌面/ImageBasedModellingEdu/build
+CMAKE_BINARY_DIR = /home/chen/桌面/ImageBasedModellingEdu/build
 
 # Include any dependencies generated for this target.
 include 3rdParty/gco/CMakeFiles/gco.dir/depend.make
@@ -59,16 +59,16 @@ include 3rdParty/gco/CMakeFiles/gco.dir/flags.make
 
 3rdParty/gco/CMakeFiles/gco.dir/GCoptimization.cpp.o: 3rdParty/gco/CMakeFiles/gco.dir/flags.make
 3rdParty/gco/CMakeFiles/gco.dir/GCoptimization.cpp.o: ../3rdParty/gco/GCoptimization.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/demo/桌面/ImageBasedModellingEdu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object 3rdParty/gco/CMakeFiles/gco.dir/GCoptimization.cpp.o"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/3rdParty/gco && /usr/local/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gco.dir/GCoptimization.cpp.o -c /home/demo/桌面/ImageBasedModellingEdu/3rdParty/gco/GCoptimization.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chen/桌面/ImageBasedModellingEdu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object 3rdParty/gco/CMakeFiles/gco.dir/GCoptimization.cpp.o"
+	cd /home/chen/桌面/ImageBasedModellingEdu/build/3rdParty/gco && /usr/bin/g++-5   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gco.dir/GCoptimization.cpp.o -c /home/chen/桌面/ImageBasedModellingEdu/3rdParty/gco/GCoptimization.cpp
 
 3rdParty/gco/CMakeFiles/gco.dir/GCoptimization.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gco.dir/GCoptimization.cpp.i"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/3rdParty/gco && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demo/桌面/ImageBasedModellingEdu/3rdParty/gco/GCoptimization.cpp > CMakeFiles/gco.dir/GCoptimization.cpp.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build/3rdParty/gco && /usr/bin/g++-5  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chen/桌面/ImageBasedModellingEdu/3rdParty/gco/GCoptimization.cpp > CMakeFiles/gco.dir/GCoptimization.cpp.i
 
 3rdParty/gco/CMakeFiles/gco.dir/GCoptimization.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gco.dir/GCoptimization.cpp.s"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/3rdParty/gco && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demo/桌面/ImageBasedModellingEdu/3rdParty/gco/GCoptimization.cpp -o CMakeFiles/gco.dir/GCoptimization.cpp.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build/3rdParty/gco && /usr/bin/g++-5  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chen/桌面/ImageBasedModellingEdu/3rdParty/gco/GCoptimization.cpp -o CMakeFiles/gco.dir/GCoptimization.cpp.s
 
 3rdParty/gco/CMakeFiles/gco.dir/GCoptimization.cpp.o.requires:
 
@@ -83,16 +83,16 @@ include 3rdParty/gco/CMakeFiles/gco.dir/flags.make
 
 3rdParty/gco/CMakeFiles/gco.dir/graph.cpp.o: 3rdParty/gco/CMakeFiles/gco.dir/flags.make
 3rdParty/gco/CMakeFiles/gco.dir/graph.cpp.o: ../3rdParty/gco/graph.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/demo/桌面/ImageBasedModellingEdu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object 3rdParty/gco/CMakeFiles/gco.dir/graph.cpp.o"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/3rdParty/gco && /usr/local/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gco.dir/graph.cpp.o -c /home/demo/桌面/ImageBasedModellingEdu/3rdParty/gco/graph.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chen/桌面/ImageBasedModellingEdu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object 3rdParty/gco/CMakeFiles/gco.dir/graph.cpp.o"
+	cd /home/chen/桌面/ImageBasedModellingEdu/build/3rdParty/gco && /usr/bin/g++-5   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gco.dir/graph.cpp.o -c /home/chen/桌面/ImageBasedModellingEdu/3rdParty/gco/graph.cpp
 
 3rdParty/gco/CMakeFiles/gco.dir/graph.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gco.dir/graph.cpp.i"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/3rdParty/gco && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demo/桌面/ImageBasedModellingEdu/3rdParty/gco/graph.cpp > CMakeFiles/gco.dir/graph.cpp.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build/3rdParty/gco && /usr/bin/g++-5  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chen/桌面/ImageBasedModellingEdu/3rdParty/gco/graph.cpp > CMakeFiles/gco.dir/graph.cpp.i
 
 3rdParty/gco/CMakeFiles/gco.dir/graph.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gco.dir/graph.cpp.s"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/3rdParty/gco && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demo/桌面/ImageBasedModellingEdu/3rdParty/gco/graph.cpp -o CMakeFiles/gco.dir/graph.cpp.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build/3rdParty/gco && /usr/bin/g++-5  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chen/桌面/ImageBasedModellingEdu/3rdParty/gco/graph.cpp -o CMakeFiles/gco.dir/graph.cpp.s
 
 3rdParty/gco/CMakeFiles/gco.dir/graph.cpp.o.requires:
 
@@ -107,16 +107,16 @@ include 3rdParty/gco/CMakeFiles/gco.dir/flags.make
 
 3rdParty/gco/CMakeFiles/gco.dir/LinkedBlockList.cpp.o: 3rdParty/gco/CMakeFiles/gco.dir/flags.make
 3rdParty/gco/CMakeFiles/gco.dir/LinkedBlockList.cpp.o: ../3rdParty/gco/LinkedBlockList.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/demo/桌面/ImageBasedModellingEdu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object 3rdParty/gco/CMakeFiles/gco.dir/LinkedBlockList.cpp.o"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/3rdParty/gco && /usr/local/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gco.dir/LinkedBlockList.cpp.o -c /home/demo/桌面/ImageBasedModellingEdu/3rdParty/gco/LinkedBlockList.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chen/桌面/ImageBasedModellingEdu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object 3rdParty/gco/CMakeFiles/gco.dir/LinkedBlockList.cpp.o"
+	cd /home/chen/桌面/ImageBasedModellingEdu/build/3rdParty/gco && /usr/bin/g++-5   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gco.dir/LinkedBlockList.cpp.o -c /home/chen/桌面/ImageBasedModellingEdu/3rdParty/gco/LinkedBlockList.cpp
 
 3rdParty/gco/CMakeFiles/gco.dir/LinkedBlockList.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gco.dir/LinkedBlockList.cpp.i"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/3rdParty/gco && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demo/桌面/ImageBasedModellingEdu/3rdParty/gco/LinkedBlockList.cpp > CMakeFiles/gco.dir/LinkedBlockList.cpp.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build/3rdParty/gco && /usr/bin/g++-5  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chen/桌面/ImageBasedModellingEdu/3rdParty/gco/LinkedBlockList.cpp > CMakeFiles/gco.dir/LinkedBlockList.cpp.i
 
 3rdParty/gco/CMakeFiles/gco.dir/LinkedBlockList.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gco.dir/LinkedBlockList.cpp.s"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/3rdParty/gco && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demo/桌面/ImageBasedModellingEdu/3rdParty/gco/LinkedBlockList.cpp -o CMakeFiles/gco.dir/LinkedBlockList.cpp.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build/3rdParty/gco && /usr/bin/g++-5  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chen/桌面/ImageBasedModellingEdu/3rdParty/gco/LinkedBlockList.cpp -o CMakeFiles/gco.dir/LinkedBlockList.cpp.s
 
 3rdParty/gco/CMakeFiles/gco.dir/LinkedBlockList.cpp.o.requires:
 
@@ -131,16 +131,16 @@ include 3rdParty/gco/CMakeFiles/gco.dir/flags.make
 
 3rdParty/gco/CMakeFiles/gco.dir/maxflow.cpp.o: 3rdParty/gco/CMakeFiles/gco.dir/flags.make
 3rdParty/gco/CMakeFiles/gco.dir/maxflow.cpp.o: ../3rdParty/gco/maxflow.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/demo/桌面/ImageBasedModellingEdu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object 3rdParty/gco/CMakeFiles/gco.dir/maxflow.cpp.o"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/3rdParty/gco && /usr/local/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gco.dir/maxflow.cpp.o -c /home/demo/桌面/ImageBasedModellingEdu/3rdParty/gco/maxflow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chen/桌面/ImageBasedModellingEdu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object 3rdParty/gco/CMakeFiles/gco.dir/maxflow.cpp.o"
+	cd /home/chen/桌面/ImageBasedModellingEdu/build/3rdParty/gco && /usr/bin/g++-5   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gco.dir/maxflow.cpp.o -c /home/chen/桌面/ImageBasedModellingEdu/3rdParty/gco/maxflow.cpp
 
 3rdParty/gco/CMakeFiles/gco.dir/maxflow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gco.dir/maxflow.cpp.i"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/3rdParty/gco && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demo/桌面/ImageBasedModellingEdu/3rdParty/gco/maxflow.cpp > CMakeFiles/gco.dir/maxflow.cpp.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build/3rdParty/gco && /usr/bin/g++-5  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chen/桌面/ImageBasedModellingEdu/3rdParty/gco/maxflow.cpp > CMakeFiles/gco.dir/maxflow.cpp.i
 
 3rdParty/gco/CMakeFiles/gco.dir/maxflow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gco.dir/maxflow.cpp.s"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/3rdParty/gco && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demo/桌面/ImageBasedModellingEdu/3rdParty/gco/maxflow.cpp -o CMakeFiles/gco.dir/maxflow.cpp.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build/3rdParty/gco && /usr/bin/g++-5  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chen/桌面/ImageBasedModellingEdu/3rdParty/gco/maxflow.cpp -o CMakeFiles/gco.dir/maxflow.cpp.s
 
 3rdParty/gco/CMakeFiles/gco.dir/maxflow.cpp.o.requires:
 
@@ -169,9 +169,9 @@ gco_EXTERNAL_OBJECTS =
 3rdParty/gco/libgco.a: 3rdParty/gco/CMakeFiles/gco.dir/maxflow.cpp.o
 3rdParty/gco/libgco.a: 3rdParty/gco/CMakeFiles/gco.dir/build.make
 3rdParty/gco/libgco.a: 3rdParty/gco/CMakeFiles/gco.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/demo/桌面/ImageBasedModellingEdu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libgco.a"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/3rdParty/gco && $(CMAKE_COMMAND) -P CMakeFiles/gco.dir/cmake_clean_target.cmake
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/3rdParty/gco && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gco.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/chen/桌面/ImageBasedModellingEdu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libgco.a"
+	cd /home/chen/桌面/ImageBasedModellingEdu/build/3rdParty/gco && $(CMAKE_COMMAND) -P CMakeFiles/gco.dir/cmake_clean_target.cmake
+	cd /home/chen/桌面/ImageBasedModellingEdu/build/3rdParty/gco && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gco.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 3rdParty/gco/CMakeFiles/gco.dir/build: 3rdParty/gco/libgco.a
@@ -186,10 +186,10 @@ gco_EXTERNAL_OBJECTS =
 .PHONY : 3rdParty/gco/CMakeFiles/gco.dir/requires
 
 3rdParty/gco/CMakeFiles/gco.dir/clean:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/3rdParty/gco && $(CMAKE_COMMAND) -P CMakeFiles/gco.dir/cmake_clean.cmake
+	cd /home/chen/桌面/ImageBasedModellingEdu/build/3rdParty/gco && $(CMAKE_COMMAND) -P CMakeFiles/gco.dir/cmake_clean.cmake
 .PHONY : 3rdParty/gco/CMakeFiles/gco.dir/clean
 
 3rdParty/gco/CMakeFiles/gco.dir/depend:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/demo/桌面/ImageBasedModellingEdu /home/demo/桌面/ImageBasedModellingEdu/3rdParty/gco /home/demo/桌面/ImageBasedModellingEdu/build /home/demo/桌面/ImageBasedModellingEdu/build/3rdParty/gco /home/demo/桌面/ImageBasedModellingEdu/build/3rdParty/gco/CMakeFiles/gco.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chen/桌面/ImageBasedModellingEdu /home/chen/桌面/ImageBasedModellingEdu/3rdParty/gco /home/chen/桌面/ImageBasedModellingEdu/build /home/chen/桌面/ImageBasedModellingEdu/build/3rdParty/gco /home/chen/桌面/ImageBasedModellingEdu/build/3rdParty/gco/CMakeFiles/gco.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : 3rdParty/gco/CMakeFiles/gco.dir/depend
 

@@ -48,24 +48,13 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/demo/桌面/ImageBasedModellingEdu
+CMAKE_SOURCE_DIR = /home/chen/桌面/ImageBasedModellingEdu
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/demo/桌面/ImageBasedModellingEdu/build
+CMAKE_BINARY_DIR = /home/chen/桌面/ImageBasedModellingEdu/build
 
 #=============================================================================
 # Targets provided globally by CMake.
-
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
 
 # Special rule for the target rebuild_cache
 rebuild_cache:
@@ -78,16 +67,27 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
+
 # The main all target
 all: cmake_check_build_system
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/demo/桌面/ImageBasedModellingEdu/build/CMakeFiles /home/demo/桌面/ImageBasedModellingEdu/build/surface/CMakeFiles/progress.marks
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 surface/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/demo/桌面/ImageBasedModellingEdu/build/CMakeFiles 0
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/chen/桌面/ImageBasedModellingEdu/build/CMakeFiles /home/chen/桌面/ImageBasedModellingEdu/build/surface/CMakeFiles/progress.marks
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 surface/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chen/桌面/ImageBasedModellingEdu/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 surface/clean
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 surface/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 surface/preinstall
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 surface/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 surface/preinstall
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 surface/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 surface/CMakeFiles/surface.dir/rule:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 surface/CMakeFiles/surface.dir/rule
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 surface/CMakeFiles/surface.dir/rule
 .PHONY : surface/CMakeFiles/surface.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ surface: surface/CMakeFiles/surface.dir/rule
 
 # fast build rule for target.
 surface/fast:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f surface/CMakeFiles/surface.dir/build.make surface/CMakeFiles/surface.dir/build
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f surface/CMakeFiles/surface.dir/build.make surface/CMakeFiles/surface.dir/build
 .PHONY : surface/fast
 
 basis_function.o: basis_function.cc.o
@@ -131,7 +131,7 @@ basis_function.o: basis_function.cc.o
 
 # target to build an object file
 basis_function.cc.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f surface/CMakeFiles/surface.dir/build.make surface/CMakeFiles/surface.dir/basis_function.cc.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f surface/CMakeFiles/surface.dir/build.make surface/CMakeFiles/surface.dir/basis_function.cc.o
 .PHONY : basis_function.cc.o
 
 basis_function.i: basis_function.cc.i
@@ -140,7 +140,7 @@ basis_function.i: basis_function.cc.i
 
 # target to preprocess a source file
 basis_function.cc.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f surface/CMakeFiles/surface.dir/build.make surface/CMakeFiles/surface.dir/basis_function.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f surface/CMakeFiles/surface.dir/build.make surface/CMakeFiles/surface.dir/basis_function.cc.i
 .PHONY : basis_function.cc.i
 
 basis_function.s: basis_function.cc.s
@@ -149,7 +149,7 @@ basis_function.s: basis_function.cc.s
 
 # target to generate assembly for a file
 basis_function.cc.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f surface/CMakeFiles/surface.dir/build.make surface/CMakeFiles/surface.dir/basis_function.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f surface/CMakeFiles/surface.dir/build.make surface/CMakeFiles/surface.dir/basis_function.cc.s
 .PHONY : basis_function.cc.s
 
 hermite.o: hermite.cc.o
@@ -158,7 +158,7 @@ hermite.o: hermite.cc.o
 
 # target to build an object file
 hermite.cc.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f surface/CMakeFiles/surface.dir/build.make surface/CMakeFiles/surface.dir/hermite.cc.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f surface/CMakeFiles/surface.dir/build.make surface/CMakeFiles/surface.dir/hermite.cc.o
 .PHONY : hermite.cc.o
 
 hermite.i: hermite.cc.i
@@ -167,7 +167,7 @@ hermite.i: hermite.cc.i
 
 # target to preprocess a source file
 hermite.cc.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f surface/CMakeFiles/surface.dir/build.make surface/CMakeFiles/surface.dir/hermite.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f surface/CMakeFiles/surface.dir/build.make surface/CMakeFiles/surface.dir/hermite.cc.i
 .PHONY : hermite.cc.i
 
 hermite.s: hermite.cc.s
@@ -176,7 +176,7 @@ hermite.s: hermite.cc.s
 
 # target to generate assembly for a file
 hermite.cc.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f surface/CMakeFiles/surface.dir/build.make surface/CMakeFiles/surface.dir/hermite.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f surface/CMakeFiles/surface.dir/build.make surface/CMakeFiles/surface.dir/hermite.cc.s
 .PHONY : hermite.cc.s
 
 iso_octree.o: iso_octree.cc.o
@@ -185,7 +185,7 @@ iso_octree.o: iso_octree.cc.o
 
 # target to build an object file
 iso_octree.cc.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f surface/CMakeFiles/surface.dir/build.make surface/CMakeFiles/surface.dir/iso_octree.cc.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f surface/CMakeFiles/surface.dir/build.make surface/CMakeFiles/surface.dir/iso_octree.cc.o
 .PHONY : iso_octree.cc.o
 
 iso_octree.i: iso_octree.cc.i
@@ -194,7 +194,7 @@ iso_octree.i: iso_octree.cc.i
 
 # target to preprocess a source file
 iso_octree.cc.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f surface/CMakeFiles/surface.dir/build.make surface/CMakeFiles/surface.dir/iso_octree.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f surface/CMakeFiles/surface.dir/build.make surface/CMakeFiles/surface.dir/iso_octree.cc.i
 .PHONY : iso_octree.cc.i
 
 iso_octree.s: iso_octree.cc.s
@@ -203,7 +203,7 @@ iso_octree.s: iso_octree.cc.s
 
 # target to generate assembly for a file
 iso_octree.cc.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f surface/CMakeFiles/surface.dir/build.make surface/CMakeFiles/surface.dir/iso_octree.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f surface/CMakeFiles/surface.dir/build.make surface/CMakeFiles/surface.dir/iso_octree.cc.s
 .PHONY : iso_octree.cc.s
 
 iso_surface.o: iso_surface.cc.o
@@ -212,7 +212,7 @@ iso_surface.o: iso_surface.cc.o
 
 # target to build an object file
 iso_surface.cc.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f surface/CMakeFiles/surface.dir/build.make surface/CMakeFiles/surface.dir/iso_surface.cc.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f surface/CMakeFiles/surface.dir/build.make surface/CMakeFiles/surface.dir/iso_surface.cc.o
 .PHONY : iso_surface.cc.o
 
 iso_surface.i: iso_surface.cc.i
@@ -221,7 +221,7 @@ iso_surface.i: iso_surface.cc.i
 
 # target to preprocess a source file
 iso_surface.cc.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f surface/CMakeFiles/surface.dir/build.make surface/CMakeFiles/surface.dir/iso_surface.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f surface/CMakeFiles/surface.dir/build.make surface/CMakeFiles/surface.dir/iso_surface.cc.i
 .PHONY : iso_surface.cc.i
 
 iso_surface.s: iso_surface.cc.s
@@ -230,7 +230,7 @@ iso_surface.s: iso_surface.cc.s
 
 # target to generate assembly for a file
 iso_surface.cc.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f surface/CMakeFiles/surface.dir/build.make surface/CMakeFiles/surface.dir/iso_surface.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f surface/CMakeFiles/surface.dir/build.make surface/CMakeFiles/surface.dir/iso_surface.cc.s
 .PHONY : iso_surface.cc.s
 
 mesh_clean.o: mesh_clean.cc.o
@@ -239,7 +239,7 @@ mesh_clean.o: mesh_clean.cc.o
 
 # target to build an object file
 mesh_clean.cc.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f surface/CMakeFiles/surface.dir/build.make surface/CMakeFiles/surface.dir/mesh_clean.cc.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f surface/CMakeFiles/surface.dir/build.make surface/CMakeFiles/surface.dir/mesh_clean.cc.o
 .PHONY : mesh_clean.cc.o
 
 mesh_clean.i: mesh_clean.cc.i
@@ -248,7 +248,7 @@ mesh_clean.i: mesh_clean.cc.i
 
 # target to preprocess a source file
 mesh_clean.cc.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f surface/CMakeFiles/surface.dir/build.make surface/CMakeFiles/surface.dir/mesh_clean.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f surface/CMakeFiles/surface.dir/build.make surface/CMakeFiles/surface.dir/mesh_clean.cc.i
 .PHONY : mesh_clean.cc.i
 
 mesh_clean.s: mesh_clean.cc.s
@@ -257,7 +257,7 @@ mesh_clean.s: mesh_clean.cc.s
 
 # target to generate assembly for a file
 mesh_clean.cc.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f surface/CMakeFiles/surface.dir/build.make surface/CMakeFiles/surface.dir/mesh_clean.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f surface/CMakeFiles/surface.dir/build.make surface/CMakeFiles/surface.dir/mesh_clean.cc.s
 .PHONY : mesh_clean.cc.s
 
 octree.o: octree.cc.o
@@ -266,7 +266,7 @@ octree.o: octree.cc.o
 
 # target to build an object file
 octree.cc.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f surface/CMakeFiles/surface.dir/build.make surface/CMakeFiles/surface.dir/octree.cc.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f surface/CMakeFiles/surface.dir/build.make surface/CMakeFiles/surface.dir/octree.cc.o
 .PHONY : octree.cc.o
 
 octree.i: octree.cc.i
@@ -275,7 +275,7 @@ octree.i: octree.cc.i
 
 # target to preprocess a source file
 octree.cc.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f surface/CMakeFiles/surface.dir/build.make surface/CMakeFiles/surface.dir/octree.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f surface/CMakeFiles/surface.dir/build.make surface/CMakeFiles/surface.dir/octree.cc.i
 .PHONY : octree.cc.i
 
 octree.s: octree.cc.s
@@ -284,7 +284,7 @@ octree.s: octree.cc.s
 
 # target to generate assembly for a file
 octree.cc.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f surface/CMakeFiles/surface.dir/build.make surface/CMakeFiles/surface.dir/octree.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f surface/CMakeFiles/surface.dir/build.make surface/CMakeFiles/surface.dir/octree.cc.s
 .PHONY : octree.cc.s
 
 sample_io.o: sample_io.cc.o
@@ -293,7 +293,7 @@ sample_io.o: sample_io.cc.o
 
 # target to build an object file
 sample_io.cc.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f surface/CMakeFiles/surface.dir/build.make surface/CMakeFiles/surface.dir/sample_io.cc.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f surface/CMakeFiles/surface.dir/build.make surface/CMakeFiles/surface.dir/sample_io.cc.o
 .PHONY : sample_io.cc.o
 
 sample_io.i: sample_io.cc.i
@@ -302,7 +302,7 @@ sample_io.i: sample_io.cc.i
 
 # target to preprocess a source file
 sample_io.cc.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f surface/CMakeFiles/surface.dir/build.make surface/CMakeFiles/surface.dir/sample_io.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f surface/CMakeFiles/surface.dir/build.make surface/CMakeFiles/surface.dir/sample_io.cc.i
 .PHONY : sample_io.cc.i
 
 sample_io.s: sample_io.cc.s
@@ -311,7 +311,7 @@ sample_io.s: sample_io.cc.s
 
 # target to generate assembly for a file
 sample_io.cc.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f surface/CMakeFiles/surface.dir/build.make surface/CMakeFiles/surface.dir/sample_io.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f surface/CMakeFiles/surface.dir/build.make surface/CMakeFiles/surface.dir/sample_io.cc.s
 .PHONY : sample_io.cc.s
 
 triangulation.o: triangulation.cc.o
@@ -320,7 +320,7 @@ triangulation.o: triangulation.cc.o
 
 # target to build an object file
 triangulation.cc.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f surface/CMakeFiles/surface.dir/build.make surface/CMakeFiles/surface.dir/triangulation.cc.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f surface/CMakeFiles/surface.dir/build.make surface/CMakeFiles/surface.dir/triangulation.cc.o
 .PHONY : triangulation.cc.o
 
 triangulation.i: triangulation.cc.i
@@ -329,7 +329,7 @@ triangulation.i: triangulation.cc.i
 
 # target to preprocess a source file
 triangulation.cc.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f surface/CMakeFiles/surface.dir/build.make surface/CMakeFiles/surface.dir/triangulation.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f surface/CMakeFiles/surface.dir/build.make surface/CMakeFiles/surface.dir/triangulation.cc.i
 .PHONY : triangulation.cc.i
 
 triangulation.s: triangulation.cc.s
@@ -338,7 +338,7 @@ triangulation.s: triangulation.cc.s
 
 # target to generate assembly for a file
 triangulation.cc.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f surface/CMakeFiles/surface.dir/build.make surface/CMakeFiles/surface.dir/triangulation.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f surface/CMakeFiles/surface.dir/build.make surface/CMakeFiles/surface.dir/triangulation.cc.s
 .PHONY : triangulation.cc.s
 
 voxel.o: voxel.cc.o
@@ -347,7 +347,7 @@ voxel.o: voxel.cc.o
 
 # target to build an object file
 voxel.cc.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f surface/CMakeFiles/surface.dir/build.make surface/CMakeFiles/surface.dir/voxel.cc.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f surface/CMakeFiles/surface.dir/build.make surface/CMakeFiles/surface.dir/voxel.cc.o
 .PHONY : voxel.cc.o
 
 voxel.i: voxel.cc.i
@@ -356,7 +356,7 @@ voxel.i: voxel.cc.i
 
 # target to preprocess a source file
 voxel.cc.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f surface/CMakeFiles/surface.dir/build.make surface/CMakeFiles/surface.dir/voxel.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f surface/CMakeFiles/surface.dir/build.make surface/CMakeFiles/surface.dir/voxel.cc.i
 .PHONY : voxel.cc.i
 
 voxel.s: voxel.cc.s
@@ -365,7 +365,7 @@ voxel.s: voxel.cc.s
 
 # target to generate assembly for a file
 voxel.cc.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f surface/CMakeFiles/surface.dir/build.make surface/CMakeFiles/surface.dir/voxel.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f surface/CMakeFiles/surface.dir/build.make surface/CMakeFiles/surface.dir/voxel.cc.s
 .PHONY : voxel.cc.s
 
 # Help Target
@@ -374,9 +374,9 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... surface"
-	@echo "... rebuild_cache"
 	@echo "... basis_function.o"
 	@echo "... basis_function.i"
 	@echo "... basis_function.s"
@@ -415,6 +415,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

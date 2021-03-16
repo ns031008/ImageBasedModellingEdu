@@ -30,7 +30,7 @@ features/CMakeFiles/features.dir/cascade_hashing.cc.o
  ../features/../util/strings.h
  ../features/../util/system.h
  ../features/../util/timer.h
- /home/demo/桌面/ImageBasedModellingEdu/features/cascade_hashing.cc
+ /home/chen/桌面/ImageBasedModellingEdu/features/cascade_hashing.cc
 features/CMakeFiles/features.dir/exhaustive_matching.cc.o
  ../features/../core/defines.h
  ../features/../core/image.h
@@ -57,18 +57,18 @@ features/CMakeFiles/features.dir/exhaustive_matching.cc.o
  ../features/../util/aligned_memory.h
  ../features/../util/defines.h
  ../features/../util/strings.h
- /home/demo/桌面/ImageBasedModellingEdu/features/exhaustive_matching.cc
+ /home/chen/桌面/ImageBasedModellingEdu/features/exhaustive_matching.cc
 features/CMakeFiles/features.dir/matching.cc.o
  ../features/../features/defines.h
  ../features/../features/matching.h
  ../features/../features/nearest_neighbor.h
  ../features/../math/algo.h
  ../features/../math/defines.h
- /home/demo/桌面/ImageBasedModellingEdu/features/matching.cc
+ /home/chen/桌面/ImageBasedModellingEdu/features/matching.cc
 features/CMakeFiles/features.dir/nearest_neighbor.cc.o
  ../features/../features/defines.h
  ../features/../features/nearest_neighbor.h
- /home/demo/桌面/ImageBasedModellingEdu/features/nearest_neighbor.cc
+ /home/chen/桌面/ImageBasedModellingEdu/features/nearest_neighbor.cc
 features/CMakeFiles/features.dir/sift.cc.o
  ../features/../core/defines.h
  ../features/../core/image.h
@@ -88,7 +88,7 @@ features/CMakeFiles/features.dir/sift.cc.o
  ../features/../util/exception.h
  ../features/../util/strings.h
  ../features/../util/timer.h
- /home/demo/桌面/ImageBasedModellingEdu/features/sift.cc
+ /home/chen/桌面/ImageBasedModellingEdu/features/sift.cc
 features/CMakeFiles/features.dir/surf.cc.o
  ../features/../core/defines.h
  ../features/../core/image.h
@@ -108,4 +108,4 @@ features/CMakeFiles/features.dir/surf.cc.o
  ../features/../util/exception.h
  ../features/../util/strings.h
  ../features/../util/timer.h
- /home/demo/桌面/ImageBasedModellingEdu/features/surf.cc
+ /home/chen/桌面/ImageBasedModellingEdu/features/surf.cc

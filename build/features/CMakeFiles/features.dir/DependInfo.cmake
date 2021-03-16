@@ -4,12 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/demo/桌面/ImageBasedModellingEdu/features/cascade_hashing.cc" "/home/demo/桌面/ImageBasedModellingEdu/build/features/CMakeFiles/features.dir/cascade_hashing.cc.o"
-  "/home/demo/桌面/ImageBasedModellingEdu/features/exhaustive_matching.cc" "/home/demo/桌面/ImageBasedModellingEdu/build/features/CMakeFiles/features.dir/exhaustive_matching.cc.o"
-  "/home/demo/桌面/ImageBasedModellingEdu/features/matching.cc" "/home/demo/桌面/ImageBasedModellingEdu/build/features/CMakeFiles/features.dir/matching.cc.o"
-  "/home/demo/桌面/ImageBasedModellingEdu/features/nearest_neighbor.cc" "/home/demo/桌面/ImageBasedModellingEdu/build/features/CMakeFiles/features.dir/nearest_neighbor.cc.o"
-  "/home/demo/桌面/ImageBasedModellingEdu/features/sift.cc" "/home/demo/桌面/ImageBasedModellingEdu/build/features/CMakeFiles/features.dir/sift.cc.o"
-  "/home/demo/桌面/ImageBasedModellingEdu/features/surf.cc" "/home/demo/桌面/ImageBasedModellingEdu/build/features/CMakeFiles/features.dir/surf.cc.o"
+  "/home/chen/桌面/ImageBasedModellingEdu/features/cascade_hashing.cc" "/home/chen/桌面/ImageBasedModellingEdu/build/features/CMakeFiles/features.dir/cascade_hashing.cc.o"
+  "/home/chen/桌面/ImageBasedModellingEdu/features/exhaustive_matching.cc" "/home/chen/桌面/ImageBasedModellingEdu/build/features/CMakeFiles/features.dir/exhaustive_matching.cc.o"
+  "/home/chen/桌面/ImageBasedModellingEdu/features/matching.cc" "/home/chen/桌面/ImageBasedModellingEdu/build/features/CMakeFiles/features.dir/matching.cc.o"
+  "/home/chen/桌面/ImageBasedModellingEdu/features/nearest_neighbor.cc" "/home/chen/桌面/ImageBasedModellingEdu/build/features/CMakeFiles/features.dir/nearest_neighbor.cc.o"
+  "/home/chen/桌面/ImageBasedModellingEdu/features/sift.cc" "/home/chen/桌面/ImageBasedModellingEdu/build/features/CMakeFiles/features.dir/sift.cc.o"
+  "/home/chen/桌面/ImageBasedModellingEdu/features/surf.cc" "/home/chen/桌面/ImageBasedModellingEdu/build/features/CMakeFiles/features.dir/surf.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -27,8 +27,8 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/demo/桌面/ImageBasedModellingEdu/build/util/CMakeFiles/util.dir/DependInfo.cmake"
-  "/home/demo/桌面/ImageBasedModellingEdu/build/core/CMakeFiles/core.dir/DependInfo.cmake"
+  "/home/chen/桌面/ImageBasedModellingEdu/build/util/CMakeFiles/util.dir/DependInfo.cmake"
+  "/home/chen/桌面/ImageBasedModellingEdu/build/core/CMakeFiles/core.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

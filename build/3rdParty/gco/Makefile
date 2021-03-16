@@ -48,24 +48,13 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/demo/桌面/ImageBasedModellingEdu
+CMAKE_SOURCE_DIR = /home/chen/桌面/ImageBasedModellingEdu
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/demo/桌面/ImageBasedModellingEdu/build
+CMAKE_BINARY_DIR = /home/chen/桌面/ImageBasedModellingEdu/build
 
 #=============================================================================
 # Targets provided globally by CMake.
-
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
 
 # Special rule for the target rebuild_cache
 rebuild_cache:
@@ -78,16 +67,27 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
+
 # The main all target
 all: cmake_check_build_system
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/demo/桌面/ImageBasedModellingEdu/build/CMakeFiles /home/demo/桌面/ImageBasedModellingEdu/build/3rdParty/gco/CMakeFiles/progress.marks
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 3rdParty/gco/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/demo/桌面/ImageBasedModellingEdu/build/CMakeFiles 0
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/chen/桌面/ImageBasedModellingEdu/build/CMakeFiles /home/chen/桌面/ImageBasedModellingEdu/build/3rdParty/gco/CMakeFiles/progress.marks
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 3rdParty/gco/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chen/桌面/ImageBasedModellingEdu/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 3rdParty/gco/clean
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 3rdParty/gco/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 3rdParty/gco/preinstall
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 3rdParty/gco/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 3rdParty/gco/preinstall
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 3rdParty/gco/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 3rdParty/gco/CMakeFiles/gco.dir/rule:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 3rdParty/gco/CMakeFiles/gco.dir/rule
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 3rdParty/gco/CMakeFiles/gco.dir/rule
 .PHONY : 3rdParty/gco/CMakeFiles/gco.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ gco: 3rdParty/gco/CMakeFiles/gco.dir/rule
 
 # fast build rule for target.
 gco/fast:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f 3rdParty/gco/CMakeFiles/gco.dir/build.make 3rdParty/gco/CMakeFiles/gco.dir/build
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f 3rdParty/gco/CMakeFiles/gco.dir/build.make 3rdParty/gco/CMakeFiles/gco.dir/build
 .PHONY : gco/fast
 
 GCoptimization.o: GCoptimization.cpp.o
@@ -131,7 +131,7 @@ GCoptimization.o: GCoptimization.cpp.o
 
 # target to build an object file
 GCoptimization.cpp.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f 3rdParty/gco/CMakeFiles/gco.dir/build.make 3rdParty/gco/CMakeFiles/gco.dir/GCoptimization.cpp.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f 3rdParty/gco/CMakeFiles/gco.dir/build.make 3rdParty/gco/CMakeFiles/gco.dir/GCoptimization.cpp.o
 .PHONY : GCoptimization.cpp.o
 
 GCoptimization.i: GCoptimization.cpp.i
@@ -140,7 +140,7 @@ GCoptimization.i: GCoptimization.cpp.i
 
 # target to preprocess a source file
 GCoptimization.cpp.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f 3rdParty/gco/CMakeFiles/gco.dir/build.make 3rdParty/gco/CMakeFiles/gco.dir/GCoptimization.cpp.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f 3rdParty/gco/CMakeFiles/gco.dir/build.make 3rdParty/gco/CMakeFiles/gco.dir/GCoptimization.cpp.i
 .PHONY : GCoptimization.cpp.i
 
 GCoptimization.s: GCoptimization.cpp.s
@@ -149,7 +149,7 @@ GCoptimization.s: GCoptimization.cpp.s
 
 # target to generate assembly for a file
 GCoptimization.cpp.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f 3rdParty/gco/CMakeFiles/gco.dir/build.make 3rdParty/gco/CMakeFiles/gco.dir/GCoptimization.cpp.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f 3rdParty/gco/CMakeFiles/gco.dir/build.make 3rdParty/gco/CMakeFiles/gco.dir/GCoptimization.cpp.s
 .PHONY : GCoptimization.cpp.s
 
 LinkedBlockList.o: LinkedBlockList.cpp.o
@@ -158,7 +158,7 @@ LinkedBlockList.o: LinkedBlockList.cpp.o
 
 # target to build an object file
 LinkedBlockList.cpp.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f 3rdParty/gco/CMakeFiles/gco.dir/build.make 3rdParty/gco/CMakeFiles/gco.dir/LinkedBlockList.cpp.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f 3rdParty/gco/CMakeFiles/gco.dir/build.make 3rdParty/gco/CMakeFiles/gco.dir/LinkedBlockList.cpp.o
 .PHONY : LinkedBlockList.cpp.o
 
 LinkedBlockList.i: LinkedBlockList.cpp.i
@@ -167,7 +167,7 @@ LinkedBlockList.i: LinkedBlockList.cpp.i
 
 # target to preprocess a source file
 LinkedBlockList.cpp.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f 3rdParty/gco/CMakeFiles/gco.dir/build.make 3rdParty/gco/CMakeFiles/gco.dir/LinkedBlockList.cpp.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f 3rdParty/gco/CMakeFiles/gco.dir/build.make 3rdParty/gco/CMakeFiles/gco.dir/LinkedBlockList.cpp.i
 .PHONY : LinkedBlockList.cpp.i
 
 LinkedBlockList.s: LinkedBlockList.cpp.s
@@ -176,7 +176,7 @@ LinkedBlockList.s: LinkedBlockList.cpp.s
 
 # target to generate assembly for a file
 LinkedBlockList.cpp.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f 3rdParty/gco/CMakeFiles/gco.dir/build.make 3rdParty/gco/CMakeFiles/gco.dir/LinkedBlockList.cpp.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f 3rdParty/gco/CMakeFiles/gco.dir/build.make 3rdParty/gco/CMakeFiles/gco.dir/LinkedBlockList.cpp.s
 .PHONY : LinkedBlockList.cpp.s
 
 graph.o: graph.cpp.o
@@ -185,7 +185,7 @@ graph.o: graph.cpp.o
 
 # target to build an object file
 graph.cpp.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f 3rdParty/gco/CMakeFiles/gco.dir/build.make 3rdParty/gco/CMakeFiles/gco.dir/graph.cpp.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f 3rdParty/gco/CMakeFiles/gco.dir/build.make 3rdParty/gco/CMakeFiles/gco.dir/graph.cpp.o
 .PHONY : graph.cpp.o
 
 graph.i: graph.cpp.i
@@ -194,7 +194,7 @@ graph.i: graph.cpp.i
 
 # target to preprocess a source file
 graph.cpp.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f 3rdParty/gco/CMakeFiles/gco.dir/build.make 3rdParty/gco/CMakeFiles/gco.dir/graph.cpp.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f 3rdParty/gco/CMakeFiles/gco.dir/build.make 3rdParty/gco/CMakeFiles/gco.dir/graph.cpp.i
 .PHONY : graph.cpp.i
 
 graph.s: graph.cpp.s
@@ -203,7 +203,7 @@ graph.s: graph.cpp.s
 
 # target to generate assembly for a file
 graph.cpp.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f 3rdParty/gco/CMakeFiles/gco.dir/build.make 3rdParty/gco/CMakeFiles/gco.dir/graph.cpp.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f 3rdParty/gco/CMakeFiles/gco.dir/build.make 3rdParty/gco/CMakeFiles/gco.dir/graph.cpp.s
 .PHONY : graph.cpp.s
 
 maxflow.o: maxflow.cpp.o
@@ -212,7 +212,7 @@ maxflow.o: maxflow.cpp.o
 
 # target to build an object file
 maxflow.cpp.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f 3rdParty/gco/CMakeFiles/gco.dir/build.make 3rdParty/gco/CMakeFiles/gco.dir/maxflow.cpp.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f 3rdParty/gco/CMakeFiles/gco.dir/build.make 3rdParty/gco/CMakeFiles/gco.dir/maxflow.cpp.o
 .PHONY : maxflow.cpp.o
 
 maxflow.i: maxflow.cpp.i
@@ -221,7 +221,7 @@ maxflow.i: maxflow.cpp.i
 
 # target to preprocess a source file
 maxflow.cpp.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f 3rdParty/gco/CMakeFiles/gco.dir/build.make 3rdParty/gco/CMakeFiles/gco.dir/maxflow.cpp.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f 3rdParty/gco/CMakeFiles/gco.dir/build.make 3rdParty/gco/CMakeFiles/gco.dir/maxflow.cpp.i
 .PHONY : maxflow.cpp.i
 
 maxflow.s: maxflow.cpp.s
@@ -230,7 +230,7 @@ maxflow.s: maxflow.cpp.s
 
 # target to generate assembly for a file
 maxflow.cpp.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f 3rdParty/gco/CMakeFiles/gco.dir/build.make 3rdParty/gco/CMakeFiles/gco.dir/maxflow.cpp.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f 3rdParty/gco/CMakeFiles/gco.dir/build.make 3rdParty/gco/CMakeFiles/gco.dir/maxflow.cpp.s
 .PHONY : maxflow.cpp.s
 
 # Help Target
@@ -239,9 +239,9 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... gco"
-	@echo "... rebuild_cache"
 	@echo "... GCoptimization.o"
 	@echo "... GCoptimization.i"
 	@echo "... GCoptimization.s"
@@ -265,6 +265,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/demo/桌面/ImageBasedModellingEdu/3rdParty/gco/GCoptimization.cpp" "/home/demo/桌面/ImageBasedModellingEdu/build/3rdParty/gco/CMakeFiles/gco.dir/GCoptimization.cpp.o"
-  "/home/demo/桌面/ImageBasedModellingEdu/3rdParty/gco/LinkedBlockList.cpp" "/home/demo/桌面/ImageBasedModellingEdu/build/3rdParty/gco/CMakeFiles/gco.dir/LinkedBlockList.cpp.o"
-  "/home/demo/桌面/ImageBasedModellingEdu/3rdParty/gco/graph.cpp" "/home/demo/桌面/ImageBasedModellingEdu/build/3rdParty/gco/CMakeFiles/gco.dir/graph.cpp.o"
-  "/home/demo/桌面/ImageBasedModellingEdu/3rdParty/gco/maxflow.cpp" "/home/demo/桌面/ImageBasedModellingEdu/build/3rdParty/gco/CMakeFiles/gco.dir/maxflow.cpp.o"
+  "/home/chen/桌面/ImageBasedModellingEdu/3rdParty/gco/GCoptimization.cpp" "/home/chen/桌面/ImageBasedModellingEdu/build/3rdParty/gco/CMakeFiles/gco.dir/GCoptimization.cpp.o"
+  "/home/chen/桌面/ImageBasedModellingEdu/3rdParty/gco/LinkedBlockList.cpp" "/home/chen/桌面/ImageBasedModellingEdu/build/3rdParty/gco/CMakeFiles/gco.dir/LinkedBlockList.cpp.o"
+  "/home/chen/桌面/ImageBasedModellingEdu/3rdParty/gco/graph.cpp" "/home/chen/桌面/ImageBasedModellingEdu/build/3rdParty/gco/CMakeFiles/gco.dir/graph.cpp.o"
+  "/home/chen/桌面/ImageBasedModellingEdu/3rdParty/gco/maxflow.cpp" "/home/chen/桌面/ImageBasedModellingEdu/build/3rdParty/gco/CMakeFiles/gco.dir/maxflow.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

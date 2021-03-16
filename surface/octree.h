@@ -75,6 +75,7 @@ public:
         Node* next_node (void);
 
         Node* next_bread_first(void);
+        Node* next_branch_once(void);
 
         // point to next branch
         Node* next_branch (void);
@@ -101,6 +102,10 @@ public:
 
         // the depth of the current node
         uint8_t level;
+
+        // hw:
+        int NullptrNum = 0;
+        int LayerNodeNum = 1;
     };
 
 public:
@@ -242,6 +247,7 @@ private:
 
     /* Limit the octree depth. Maximum level is 20 (see voxel.h). */
     int max_level;
+
 };
 
 /* ------------------------- Implementation ---------------------------- */

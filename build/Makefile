@@ -48,18 +48,18 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/demo/桌面/ImageBasedModellingEdu
+CMAKE_SOURCE_DIR = /home/chen/桌面/ImageBasedModellingEdu
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/demo/桌面/ImageBasedModellingEdu/build
+CMAKE_BINARY_DIR = /home/chen/桌面/ImageBasedModellingEdu/build
 
 #=============================================================================
 # Targets provided globally by CMake.
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/demo/桌面/ImageBasedModellingEdu/build/CMakeFiles /home/demo/桌面/ImageBasedModellingEdu/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chen/桌面/ImageBasedModellingEdu/build/CMakeFiles /home/chen/桌面/ImageBasedModellingEdu/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/demo/桌面/ImageBasedModellingEdu/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chen/桌面/ImageBasedModellingEdu/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -189,17 +189,17 @@ task6_test_pose_from_fundamental/fast:
 .PHONY : task6_test_pose_from_fundamental/fast
 
 #=============================================================================
-# Target rules for targets named task2_test_camera_model
+# Target rules for targets named task5_test_fundamental_ransac
 
 # Build rule for target.
-task2_test_camera_model: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 task2_test_camera_model
-.PHONY : task2_test_camera_model
+task5_test_fundamental_ransac: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 task5_test_fundamental_ransac
+.PHONY : task5_test_fundamental_ransac
 
 # fast build rule for target.
-task2_test_camera_model/fast:
-	$(MAKE) -f examples/task1/CMakeFiles/task2_test_camera_model.dir/build.make examples/task1/CMakeFiles/task2_test_camera_model.dir/build
-.PHONY : task2_test_camera_model/fast
+task5_test_fundamental_ransac/fast:
+	$(MAKE) -f examples/task1/CMakeFiles/task5_test_fundamental_ransac.dir/build.make examples/task1/CMakeFiles/task5_test_fundamental_ransac.dir/build
+.PHONY : task5_test_fundamental_ransac/fast
 
 #=============================================================================
 # Target rules for targets named task1_test_math_basic
@@ -213,6 +213,19 @@ task1_test_math_basic: cmake_check_build_system
 task1_test_math_basic/fast:
 	$(MAKE) -f examples/task1/CMakeFiles/task1_test_math_basic.dir/build.make examples/task1/CMakeFiles/task1_test_math_basic.dir/build
 .PHONY : task1_test_math_basic/fast
+
+#=============================================================================
+# Target rules for targets named task2_test_camera_model
+
+# Build rule for target.
+task2_test_camera_model: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 task2_test_camera_model
+.PHONY : task2_test_camera_model
+
+# fast build rule for target.
+task2_test_camera_model/fast:
+	$(MAKE) -f examples/task1/CMakeFiles/task2_test_camera_model.dir/build.make examples/task1/CMakeFiles/task2_test_camera_model.dir/build
+.PHONY : task2_test_camera_model/fast
 
 #=============================================================================
 # Target rules for targets named task3_test_feature_matching
@@ -241,19 +254,6 @@ task4_test_fundamental_8_point/fast:
 .PHONY : task4_test_fundamental_8_point/fast
 
 #=============================================================================
-# Target rules for targets named task5_test_fundamental_ransac
-
-# Build rule for target.
-task5_test_fundamental_ransac: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 task5_test_fundamental_ransac
-.PHONY : task5_test_fundamental_ransac
-
-# fast build rule for target.
-task5_test_fundamental_ransac/fast:
-	$(MAKE) -f examples/task1/CMakeFiles/task5_test_fundamental_ransac.dir/build.make examples/task1/CMakeFiles/task5_test_fundamental_ransac.dir/build
-.PHONY : task5_test_fundamental_ransac/fast
-
-#=============================================================================
 # Target rules for targets named task2-5_test_ba
 
 # Build rule for target.
@@ -280,30 +280,17 @@ task2-2_test_p3p_kneip/fast:
 .PHONY : task2-2_test_p3p_kneip/fast
 
 #=============================================================================
-# Target rules for targets named task2-3_test_lm_optimize
+# Target rules for targets named task2-4_test_jacobian
 
 # Build rule for target.
-task2-3_test_lm_optimize: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 task2-3_test_lm_optimize
-.PHONY : task2-3_test_lm_optimize
+task2-4_test_jacobian: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 task2-4_test_jacobian
+.PHONY : task2-4_test_jacobian
 
 # fast build rule for target.
-task2-3_test_lm_optimize/fast:
-	$(MAKE) -f examples/task2/CMakeFiles/task2-3_test_lm_optimize.dir/build.make examples/task2/CMakeFiles/task2-3_test_lm_optimize.dir/build
-.PHONY : task2-3_test_lm_optimize/fast
-
-#=============================================================================
-# Target rules for targets named task2-2_test_p3p_ransac
-
-# Build rule for target.
-task2-2_test_p3p_ransac: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 task2-2_test_p3p_ransac
-.PHONY : task2-2_test_p3p_ransac
-
-# fast build rule for target.
-task2-2_test_p3p_ransac/fast:
-	$(MAKE) -f examples/task2/CMakeFiles/task2-2_test_p3p_ransac.dir/build.make examples/task2/CMakeFiles/task2-2_test_p3p_ransac.dir/build
-.PHONY : task2-2_test_p3p_ransac/fast
+task2-4_test_jacobian/fast:
+	$(MAKE) -f examples/task2/CMakeFiles/task2-4_test_jacobian.dir/build.make examples/task2/CMakeFiles/task2-4_test_jacobian.dir/build
+.PHONY : task2-4_test_jacobian/fast
 
 #=============================================================================
 # Target rules for targets named task2-1_test_triangle
@@ -319,17 +306,30 @@ task2-1_test_triangle/fast:
 .PHONY : task2-1_test_triangle/fast
 
 #=============================================================================
-# Target rules for targets named task2-4_test_jacobian
+# Target rules for targets named task2-2_test_p3p_ransac
 
 # Build rule for target.
-task2-4_test_jacobian: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 task2-4_test_jacobian
-.PHONY : task2-4_test_jacobian
+task2-2_test_p3p_ransac: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 task2-2_test_p3p_ransac
+.PHONY : task2-2_test_p3p_ransac
 
 # fast build rule for target.
-task2-4_test_jacobian/fast:
-	$(MAKE) -f examples/task2/CMakeFiles/task2-4_test_jacobian.dir/build.make examples/task2/CMakeFiles/task2-4_test_jacobian.dir/build
-.PHONY : task2-4_test_jacobian/fast
+task2-2_test_p3p_ransac/fast:
+	$(MAKE) -f examples/task2/CMakeFiles/task2-2_test_p3p_ransac.dir/build.make examples/task2/CMakeFiles/task2-2_test_p3p_ransac.dir/build
+.PHONY : task2-2_test_p3p_ransac/fast
+
+#=============================================================================
+# Target rules for targets named task2-3_test_lm_optimize
+
+# Build rule for target.
+task2-3_test_lm_optimize: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 task2-3_test_lm_optimize
+.PHONY : task2-3_test_lm_optimize
+
+# fast build rule for target.
+task2-3_test_lm_optimize/fast:
+	$(MAKE) -f examples/task2/CMakeFiles/task2-3_test_lm_optimize.dir/build.make examples/task2/CMakeFiles/task2-3_test_lm_optimize.dir/build
+.PHONY : task2-3_test_lm_optimize/fast
 
 #=============================================================================
 # Target rules for targets named task3-1_incremental_sfm
@@ -345,19 +345,6 @@ task3-1_incremental_sfm/fast:
 .PHONY : task3-1_incremental_sfm/fast
 
 #=============================================================================
-# Target rules for targets named task4-2_dmrecon_multi_views
-
-# Build rule for target.
-task4-2_dmrecon_multi_views: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 task4-2_dmrecon_multi_views
-.PHONY : task4-2_dmrecon_multi_views
-
-# fast build rule for target.
-task4-2_dmrecon_multi_views/fast:
-	$(MAKE) -f examples/task4/CMakeFiles/task4-2_dmrecon_multi_views.dir/build.make examples/task4/CMakeFiles/task4-2_dmrecon_multi_views.dir/build
-.PHONY : task4-2_dmrecon_multi_views/fast
-
-#=============================================================================
 # Target rules for targets named task4-1_dmrecon_single_view
 
 # Build rule for target.
@@ -369,6 +356,19 @@ task4-1_dmrecon_single_view: cmake_check_build_system
 task4-1_dmrecon_single_view/fast:
 	$(MAKE) -f examples/task4/CMakeFiles/task4-1_dmrecon_single_view.dir/build.make examples/task4/CMakeFiles/task4-1_dmrecon_single_view.dir/build
 .PHONY : task4-1_dmrecon_single_view/fast
+
+#=============================================================================
+# Target rules for targets named task4-2_dmrecon_multi_views
+
+# Build rule for target.
+task4-2_dmrecon_multi_views: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 task4-2_dmrecon_multi_views
+.PHONY : task4-2_dmrecon_multi_views
+
+# fast build rule for target.
+task4-2_dmrecon_multi_views/fast:
+	$(MAKE) -f examples/task4/CMakeFiles/task4-2_dmrecon_multi_views.dir/build.make examples/task4/CMakeFiles/task4-2_dmrecon_multi_views.dir/build
+.PHONY : task4-2_dmrecon_multi_views/fast
 
 #=============================================================================
 # Target rules for targets named task4-1_scene2pset_single_view
@@ -395,6 +395,19 @@ task4-2_scene2pset_multi_views: cmake_check_build_system
 task4-2_scene2pset_multi_views/fast:
 	$(MAKE) -f examples/task4/CMakeFiles/task4-2_scene2pset_multi_views.dir/build.make examples/task4/CMakeFiles/task4-2_scene2pset_multi_views.dir/build
 .PHONY : task4-2_scene2pset_multi_views/fast
+
+#=============================================================================
+# Target rules for targets named task6_surface_reconstruction
+
+# Build rule for target.
+task6_surface_reconstruction: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 task6_surface_reconstruction
+.PHONY : task6_surface_reconstruction
+
+# fast build rule for target.
+task6_surface_reconstruction/fast:
+	$(MAKE) -f examples/task6/CMakeFiles/task6_surface_reconstruction.dir/build.make examples/task6/CMakeFiles/task6_surface_reconstruction.dir/build
+.PHONY : task6_surface_reconstruction/fast
 
 #=============================================================================
 # Target rules for targets named surface
@@ -475,22 +488,23 @@ help:
 	@echo "... sfm"
 	@echo "... mvs"
 	@echo "... task6_test_pose_from_fundamental"
-	@echo "... task2_test_camera_model"
+	@echo "... task5_test_fundamental_ransac"
 	@echo "... task1_test_math_basic"
+	@echo "... task2_test_camera_model"
 	@echo "... task3_test_feature_matching"
 	@echo "... task4_test_fundamental_8_point"
-	@echo "... task5_test_fundamental_ransac"
 	@echo "... task2-5_test_ba"
 	@echo "... task2-2_test_p3p_kneip"
-	@echo "... task2-3_test_lm_optimize"
-	@echo "... task2-2_test_p3p_ransac"
-	@echo "... task2-1_test_triangle"
 	@echo "... task2-4_test_jacobian"
+	@echo "... task2-1_test_triangle"
+	@echo "... task2-2_test_p3p_ransac"
+	@echo "... task2-3_test_lm_optimize"
 	@echo "... task3-1_incremental_sfm"
-	@echo "... task4-2_dmrecon_multi_views"
 	@echo "... task4-1_dmrecon_single_view"
+	@echo "... task4-2_dmrecon_multi_views"
 	@echo "... task4-1_scene2pset_single_view"
 	@echo "... task4-2_scene2pset_multi_views"
+	@echo "... task6_surface_reconstruction"
 	@echo "... surface"
 	@echo "... texturing"
 	@echo "... mrf"

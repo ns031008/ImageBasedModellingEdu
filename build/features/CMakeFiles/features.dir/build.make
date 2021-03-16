@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/demo/桌面/ImageBasedModellingEdu
+CMAKE_SOURCE_DIR = /home/chen/桌面/ImageBasedModellingEdu
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/demo/桌面/ImageBasedModellingEdu/build
+CMAKE_BINARY_DIR = /home/chen/桌面/ImageBasedModellingEdu/build
 
 # Include any dependencies generated for this target.
 include features/CMakeFiles/features.dir/depend.make
@@ -59,16 +59,16 @@ include features/CMakeFiles/features.dir/flags.make
 
 features/CMakeFiles/features.dir/sift.cc.o: features/CMakeFiles/features.dir/flags.make
 features/CMakeFiles/features.dir/sift.cc.o: ../features/sift.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/demo/桌面/ImageBasedModellingEdu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object features/CMakeFiles/features.dir/sift.cc.o"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/features && /usr/local/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/features.dir/sift.cc.o -c /home/demo/桌面/ImageBasedModellingEdu/features/sift.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chen/桌面/ImageBasedModellingEdu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object features/CMakeFiles/features.dir/sift.cc.o"
+	cd /home/chen/桌面/ImageBasedModellingEdu/build/features && /usr/bin/g++-5   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/features.dir/sift.cc.o -c /home/chen/桌面/ImageBasedModellingEdu/features/sift.cc
 
 features/CMakeFiles/features.dir/sift.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/features.dir/sift.cc.i"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/features && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demo/桌面/ImageBasedModellingEdu/features/sift.cc > CMakeFiles/features.dir/sift.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build/features && /usr/bin/g++-5  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chen/桌面/ImageBasedModellingEdu/features/sift.cc > CMakeFiles/features.dir/sift.cc.i
 
 features/CMakeFiles/features.dir/sift.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/features.dir/sift.cc.s"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/features && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demo/桌面/ImageBasedModellingEdu/features/sift.cc -o CMakeFiles/features.dir/sift.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build/features && /usr/bin/g++-5  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chen/桌面/ImageBasedModellingEdu/features/sift.cc -o CMakeFiles/features.dir/sift.cc.s
 
 features/CMakeFiles/features.dir/sift.cc.o.requires:
 
@@ -83,16 +83,16 @@ features/CMakeFiles/features.dir/sift.cc.o.provides.build: features/CMakeFiles/f
 
 features/CMakeFiles/features.dir/surf.cc.o: features/CMakeFiles/features.dir/flags.make
 features/CMakeFiles/features.dir/surf.cc.o: ../features/surf.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/demo/桌面/ImageBasedModellingEdu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object features/CMakeFiles/features.dir/surf.cc.o"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/features && /usr/local/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/features.dir/surf.cc.o -c /home/demo/桌面/ImageBasedModellingEdu/features/surf.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chen/桌面/ImageBasedModellingEdu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object features/CMakeFiles/features.dir/surf.cc.o"
+	cd /home/chen/桌面/ImageBasedModellingEdu/build/features && /usr/bin/g++-5   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/features.dir/surf.cc.o -c /home/chen/桌面/ImageBasedModellingEdu/features/surf.cc
 
 features/CMakeFiles/features.dir/surf.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/features.dir/surf.cc.i"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/features && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demo/桌面/ImageBasedModellingEdu/features/surf.cc > CMakeFiles/features.dir/surf.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build/features && /usr/bin/g++-5  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chen/桌面/ImageBasedModellingEdu/features/surf.cc > CMakeFiles/features.dir/surf.cc.i
 
 features/CMakeFiles/features.dir/surf.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/features.dir/surf.cc.s"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/features && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demo/桌面/ImageBasedModellingEdu/features/surf.cc -o CMakeFiles/features.dir/surf.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build/features && /usr/bin/g++-5  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chen/桌面/ImageBasedModellingEdu/features/surf.cc -o CMakeFiles/features.dir/surf.cc.s
 
 features/CMakeFiles/features.dir/surf.cc.o.requires:
 
@@ -107,16 +107,16 @@ features/CMakeFiles/features.dir/surf.cc.o.provides.build: features/CMakeFiles/f
 
 features/CMakeFiles/features.dir/nearest_neighbor.cc.o: features/CMakeFiles/features.dir/flags.make
 features/CMakeFiles/features.dir/nearest_neighbor.cc.o: ../features/nearest_neighbor.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/demo/桌面/ImageBasedModellingEdu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object features/CMakeFiles/features.dir/nearest_neighbor.cc.o"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/features && /usr/local/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/features.dir/nearest_neighbor.cc.o -c /home/demo/桌面/ImageBasedModellingEdu/features/nearest_neighbor.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chen/桌面/ImageBasedModellingEdu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object features/CMakeFiles/features.dir/nearest_neighbor.cc.o"
+	cd /home/chen/桌面/ImageBasedModellingEdu/build/features && /usr/bin/g++-5   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/features.dir/nearest_neighbor.cc.o -c /home/chen/桌面/ImageBasedModellingEdu/features/nearest_neighbor.cc
 
 features/CMakeFiles/features.dir/nearest_neighbor.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/features.dir/nearest_neighbor.cc.i"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/features && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demo/桌面/ImageBasedModellingEdu/features/nearest_neighbor.cc > CMakeFiles/features.dir/nearest_neighbor.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build/features && /usr/bin/g++-5  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chen/桌面/ImageBasedModellingEdu/features/nearest_neighbor.cc > CMakeFiles/features.dir/nearest_neighbor.cc.i
 
 features/CMakeFiles/features.dir/nearest_neighbor.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/features.dir/nearest_neighbor.cc.s"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/features && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demo/桌面/ImageBasedModellingEdu/features/nearest_neighbor.cc -o CMakeFiles/features.dir/nearest_neighbor.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build/features && /usr/bin/g++-5  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chen/桌面/ImageBasedModellingEdu/features/nearest_neighbor.cc -o CMakeFiles/features.dir/nearest_neighbor.cc.s
 
 features/CMakeFiles/features.dir/nearest_neighbor.cc.o.requires:
 
@@ -131,16 +131,16 @@ features/CMakeFiles/features.dir/nearest_neighbor.cc.o.provides.build: features/
 
 features/CMakeFiles/features.dir/matching.cc.o: features/CMakeFiles/features.dir/flags.make
 features/CMakeFiles/features.dir/matching.cc.o: ../features/matching.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/demo/桌面/ImageBasedModellingEdu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object features/CMakeFiles/features.dir/matching.cc.o"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/features && /usr/local/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/features.dir/matching.cc.o -c /home/demo/桌面/ImageBasedModellingEdu/features/matching.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chen/桌面/ImageBasedModellingEdu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object features/CMakeFiles/features.dir/matching.cc.o"
+	cd /home/chen/桌面/ImageBasedModellingEdu/build/features && /usr/bin/g++-5   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/features.dir/matching.cc.o -c /home/chen/桌面/ImageBasedModellingEdu/features/matching.cc
 
 features/CMakeFiles/features.dir/matching.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/features.dir/matching.cc.i"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/features && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demo/桌面/ImageBasedModellingEdu/features/matching.cc > CMakeFiles/features.dir/matching.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build/features && /usr/bin/g++-5  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chen/桌面/ImageBasedModellingEdu/features/matching.cc > CMakeFiles/features.dir/matching.cc.i
 
 features/CMakeFiles/features.dir/matching.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/features.dir/matching.cc.s"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/features && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demo/桌面/ImageBasedModellingEdu/features/matching.cc -o CMakeFiles/features.dir/matching.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build/features && /usr/bin/g++-5  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chen/桌面/ImageBasedModellingEdu/features/matching.cc -o CMakeFiles/features.dir/matching.cc.s
 
 features/CMakeFiles/features.dir/matching.cc.o.requires:
 
@@ -155,16 +155,16 @@ features/CMakeFiles/features.dir/matching.cc.o.provides.build: features/CMakeFil
 
 features/CMakeFiles/features.dir/exhaustive_matching.cc.o: features/CMakeFiles/features.dir/flags.make
 features/CMakeFiles/features.dir/exhaustive_matching.cc.o: ../features/exhaustive_matching.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/demo/桌面/ImageBasedModellingEdu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object features/CMakeFiles/features.dir/exhaustive_matching.cc.o"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/features && /usr/local/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/features.dir/exhaustive_matching.cc.o -c /home/demo/桌面/ImageBasedModellingEdu/features/exhaustive_matching.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chen/桌面/ImageBasedModellingEdu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object features/CMakeFiles/features.dir/exhaustive_matching.cc.o"
+	cd /home/chen/桌面/ImageBasedModellingEdu/build/features && /usr/bin/g++-5   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/features.dir/exhaustive_matching.cc.o -c /home/chen/桌面/ImageBasedModellingEdu/features/exhaustive_matching.cc
 
 features/CMakeFiles/features.dir/exhaustive_matching.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/features.dir/exhaustive_matching.cc.i"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/features && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demo/桌面/ImageBasedModellingEdu/features/exhaustive_matching.cc > CMakeFiles/features.dir/exhaustive_matching.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build/features && /usr/bin/g++-5  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chen/桌面/ImageBasedModellingEdu/features/exhaustive_matching.cc > CMakeFiles/features.dir/exhaustive_matching.cc.i
 
 features/CMakeFiles/features.dir/exhaustive_matching.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/features.dir/exhaustive_matching.cc.s"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/features && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demo/桌面/ImageBasedModellingEdu/features/exhaustive_matching.cc -o CMakeFiles/features.dir/exhaustive_matching.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build/features && /usr/bin/g++-5  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chen/桌面/ImageBasedModellingEdu/features/exhaustive_matching.cc -o CMakeFiles/features.dir/exhaustive_matching.cc.s
 
 features/CMakeFiles/features.dir/exhaustive_matching.cc.o.requires:
 
@@ -179,16 +179,16 @@ features/CMakeFiles/features.dir/exhaustive_matching.cc.o.provides.build: featur
 
 features/CMakeFiles/features.dir/cascade_hashing.cc.o: features/CMakeFiles/features.dir/flags.make
 features/CMakeFiles/features.dir/cascade_hashing.cc.o: ../features/cascade_hashing.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/demo/桌面/ImageBasedModellingEdu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object features/CMakeFiles/features.dir/cascade_hashing.cc.o"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/features && /usr/local/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/features.dir/cascade_hashing.cc.o -c /home/demo/桌面/ImageBasedModellingEdu/features/cascade_hashing.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chen/桌面/ImageBasedModellingEdu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object features/CMakeFiles/features.dir/cascade_hashing.cc.o"
+	cd /home/chen/桌面/ImageBasedModellingEdu/build/features && /usr/bin/g++-5   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/features.dir/cascade_hashing.cc.o -c /home/chen/桌面/ImageBasedModellingEdu/features/cascade_hashing.cc
 
 features/CMakeFiles/features.dir/cascade_hashing.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/features.dir/cascade_hashing.cc.i"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/features && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/demo/桌面/ImageBasedModellingEdu/features/cascade_hashing.cc > CMakeFiles/features.dir/cascade_hashing.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build/features && /usr/bin/g++-5  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chen/桌面/ImageBasedModellingEdu/features/cascade_hashing.cc > CMakeFiles/features.dir/cascade_hashing.cc.i
 
 features/CMakeFiles/features.dir/cascade_hashing.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/features.dir/cascade_hashing.cc.s"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/features && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/demo/桌面/ImageBasedModellingEdu/features/cascade_hashing.cc -o CMakeFiles/features.dir/cascade_hashing.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build/features && /usr/bin/g++-5  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chen/桌面/ImageBasedModellingEdu/features/cascade_hashing.cc -o CMakeFiles/features.dir/cascade_hashing.cc.s
 
 features/CMakeFiles/features.dir/cascade_hashing.cc.o.requires:
 
@@ -221,9 +221,9 @@ features/libfeatures.a: features/CMakeFiles/features.dir/exhaustive_matching.cc.
 features/libfeatures.a: features/CMakeFiles/features.dir/cascade_hashing.cc.o
 features/libfeatures.a: features/CMakeFiles/features.dir/build.make
 features/libfeatures.a: features/CMakeFiles/features.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/demo/桌面/ImageBasedModellingEdu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library libfeatures.a"
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/features && $(CMAKE_COMMAND) -P CMakeFiles/features.dir/cmake_clean_target.cmake
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/features && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/features.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/chen/桌面/ImageBasedModellingEdu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library libfeatures.a"
+	cd /home/chen/桌面/ImageBasedModellingEdu/build/features && $(CMAKE_COMMAND) -P CMakeFiles/features.dir/cmake_clean_target.cmake
+	cd /home/chen/桌面/ImageBasedModellingEdu/build/features && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/features.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 features/CMakeFiles/features.dir/build: features/libfeatures.a
@@ -240,10 +240,10 @@ features/CMakeFiles/features.dir/requires: features/CMakeFiles/features.dir/casc
 .PHONY : features/CMakeFiles/features.dir/requires
 
 features/CMakeFiles/features.dir/clean:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build/features && $(CMAKE_COMMAND) -P CMakeFiles/features.dir/cmake_clean.cmake
+	cd /home/chen/桌面/ImageBasedModellingEdu/build/features && $(CMAKE_COMMAND) -P CMakeFiles/features.dir/cmake_clean.cmake
 .PHONY : features/CMakeFiles/features.dir/clean
 
 features/CMakeFiles/features.dir/depend:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/demo/桌面/ImageBasedModellingEdu /home/demo/桌面/ImageBasedModellingEdu/features /home/demo/桌面/ImageBasedModellingEdu/build /home/demo/桌面/ImageBasedModellingEdu/build/features /home/demo/桌面/ImageBasedModellingEdu/build/features/CMakeFiles/features.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chen/桌面/ImageBasedModellingEdu /home/chen/桌面/ImageBasedModellingEdu/features /home/chen/桌面/ImageBasedModellingEdu/build /home/chen/桌面/ImageBasedModellingEdu/build/features /home/chen/桌面/ImageBasedModellingEdu/build/features/CMakeFiles/features.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : features/CMakeFiles/features.dir/depend
 

@@ -48,24 +48,13 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/demo/桌面/ImageBasedModellingEdu
+CMAKE_SOURCE_DIR = /home/chen/桌面/ImageBasedModellingEdu
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/demo/桌面/ImageBasedModellingEdu/build
+CMAKE_BINARY_DIR = /home/chen/桌面/ImageBasedModellingEdu/build
 
 #=============================================================================
 # Targets provided globally by CMake.
-
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
 
 # Special rule for the target rebuild_cache
 rebuild_cache:
@@ -78,16 +67,27 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
+
 # The main all target
 all: cmake_check_build_system
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/demo/桌面/ImageBasedModellingEdu/build/CMakeFiles /home/demo/桌面/ImageBasedModellingEdu/build/texturing/CMakeFiles/progress.marks
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 texturing/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/demo/桌面/ImageBasedModellingEdu/build/CMakeFiles 0
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/chen/桌面/ImageBasedModellingEdu/build/CMakeFiles /home/chen/桌面/ImageBasedModellingEdu/build/texturing/CMakeFiles/progress.marks
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 texturing/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chen/桌面/ImageBasedModellingEdu/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 texturing/clean
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 texturing/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 texturing/preinstall
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 texturing/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 texturing/preinstall
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 texturing/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 texturing/CMakeFiles/texturing.dir/rule:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 texturing/CMakeFiles/texturing.dir/rule
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 texturing/CMakeFiles/texturing.dir/rule
 .PHONY : texturing/CMakeFiles/texturing.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ texturing: texturing/CMakeFiles/texturing.dir/rule
 
 # fast build rule for target.
 texturing/fast:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/build
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/build
 .PHONY : texturing/fast
 
 build_adjacency_graph.o: build_adjacency_graph.cpp.o
@@ -131,7 +131,7 @@ build_adjacency_graph.o: build_adjacency_graph.cpp.o
 
 # target to build an object file
 build_adjacency_graph.cpp.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/build_adjacency_graph.cpp.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/build_adjacency_graph.cpp.o
 .PHONY : build_adjacency_graph.cpp.o
 
 build_adjacency_graph.i: build_adjacency_graph.cpp.i
@@ -140,7 +140,7 @@ build_adjacency_graph.i: build_adjacency_graph.cpp.i
 
 # target to preprocess a source file
 build_adjacency_graph.cpp.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/build_adjacency_graph.cpp.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/build_adjacency_graph.cpp.i
 .PHONY : build_adjacency_graph.cpp.i
 
 build_adjacency_graph.s: build_adjacency_graph.cpp.s
@@ -149,7 +149,7 @@ build_adjacency_graph.s: build_adjacency_graph.cpp.s
 
 # target to generate assembly for a file
 build_adjacency_graph.cpp.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/build_adjacency_graph.cpp.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/build_adjacency_graph.cpp.s
 .PHONY : build_adjacency_graph.cpp.s
 
 build_obj_model.o: build_obj_model.cpp.o
@@ -158,7 +158,7 @@ build_obj_model.o: build_obj_model.cpp.o
 
 # target to build an object file
 build_obj_model.cpp.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/build_obj_model.cpp.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/build_obj_model.cpp.o
 .PHONY : build_obj_model.cpp.o
 
 build_obj_model.i: build_obj_model.cpp.i
@@ -167,7 +167,7 @@ build_obj_model.i: build_obj_model.cpp.i
 
 # target to preprocess a source file
 build_obj_model.cpp.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/build_obj_model.cpp.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/build_obj_model.cpp.i
 .PHONY : build_obj_model.cpp.i
 
 build_obj_model.s: build_obj_model.cpp.s
@@ -176,7 +176,7 @@ build_obj_model.s: build_obj_model.cpp.s
 
 # target to generate assembly for a file
 build_obj_model.cpp.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/build_obj_model.cpp.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/build_obj_model.cpp.s
 .PHONY : build_obj_model.cpp.s
 
 calculate_data_costs.o: calculate_data_costs.cpp.o
@@ -185,7 +185,7 @@ calculate_data_costs.o: calculate_data_costs.cpp.o
 
 # target to build an object file
 calculate_data_costs.cpp.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/calculate_data_costs.cpp.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/calculate_data_costs.cpp.o
 .PHONY : calculate_data_costs.cpp.o
 
 calculate_data_costs.i: calculate_data_costs.cpp.i
@@ -194,7 +194,7 @@ calculate_data_costs.i: calculate_data_costs.cpp.i
 
 # target to preprocess a source file
 calculate_data_costs.cpp.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/calculate_data_costs.cpp.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/calculate_data_costs.cpp.i
 .PHONY : calculate_data_costs.cpp.i
 
 calculate_data_costs.s: calculate_data_costs.cpp.s
@@ -203,7 +203,7 @@ calculate_data_costs.s: calculate_data_costs.cpp.s
 
 # target to generate assembly for a file
 calculate_data_costs.cpp.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/calculate_data_costs.cpp.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/calculate_data_costs.cpp.s
 .PHONY : calculate_data_costs.cpp.s
 
 generate_debug_embeddings.o: generate_debug_embeddings.cpp.o
@@ -212,7 +212,7 @@ generate_debug_embeddings.o: generate_debug_embeddings.cpp.o
 
 # target to build an object file
 generate_debug_embeddings.cpp.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/generate_debug_embeddings.cpp.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/generate_debug_embeddings.cpp.o
 .PHONY : generate_debug_embeddings.cpp.o
 
 generate_debug_embeddings.i: generate_debug_embeddings.cpp.i
@@ -221,7 +221,7 @@ generate_debug_embeddings.i: generate_debug_embeddings.cpp.i
 
 # target to preprocess a source file
 generate_debug_embeddings.cpp.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/generate_debug_embeddings.cpp.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/generate_debug_embeddings.cpp.i
 .PHONY : generate_debug_embeddings.cpp.i
 
 generate_debug_embeddings.s: generate_debug_embeddings.cpp.s
@@ -230,7 +230,7 @@ generate_debug_embeddings.s: generate_debug_embeddings.cpp.s
 
 # target to generate assembly for a file
 generate_debug_embeddings.cpp.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/generate_debug_embeddings.cpp.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/generate_debug_embeddings.cpp.s
 .PHONY : generate_debug_embeddings.cpp.s
 
 generate_texture_atlases.o: generate_texture_atlases.cpp.o
@@ -239,7 +239,7 @@ generate_texture_atlases.o: generate_texture_atlases.cpp.o
 
 # target to build an object file
 generate_texture_atlases.cpp.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/generate_texture_atlases.cpp.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/generate_texture_atlases.cpp.o
 .PHONY : generate_texture_atlases.cpp.o
 
 generate_texture_atlases.i: generate_texture_atlases.cpp.i
@@ -248,7 +248,7 @@ generate_texture_atlases.i: generate_texture_atlases.cpp.i
 
 # target to preprocess a source file
 generate_texture_atlases.cpp.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/generate_texture_atlases.cpp.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/generate_texture_atlases.cpp.i
 .PHONY : generate_texture_atlases.cpp.i
 
 generate_texture_atlases.s: generate_texture_atlases.cpp.s
@@ -257,7 +257,7 @@ generate_texture_atlases.s: generate_texture_atlases.cpp.s
 
 # target to generate assembly for a file
 generate_texture_atlases.cpp.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/generate_texture_atlases.cpp.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/generate_texture_atlases.cpp.s
 .PHONY : generate_texture_atlases.cpp.s
 
 generate_texture_patches.o: generate_texture_patches.cpp.o
@@ -266,7 +266,7 @@ generate_texture_patches.o: generate_texture_patches.cpp.o
 
 # target to build an object file
 generate_texture_patches.cpp.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/generate_texture_patches.cpp.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/generate_texture_patches.cpp.o
 .PHONY : generate_texture_patches.cpp.o
 
 generate_texture_patches.i: generate_texture_patches.cpp.i
@@ -275,7 +275,7 @@ generate_texture_patches.i: generate_texture_patches.cpp.i
 
 # target to preprocess a source file
 generate_texture_patches.cpp.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/generate_texture_patches.cpp.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/generate_texture_patches.cpp.i
 .PHONY : generate_texture_patches.cpp.i
 
 generate_texture_patches.s: generate_texture_patches.cpp.s
@@ -284,7 +284,7 @@ generate_texture_patches.s: generate_texture_patches.cpp.s
 
 # target to generate assembly for a file
 generate_texture_patches.cpp.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/generate_texture_patches.cpp.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/generate_texture_patches.cpp.s
 .PHONY : generate_texture_patches.cpp.s
 
 generate_texture_views.o: generate_texture_views.cpp.o
@@ -293,7 +293,7 @@ generate_texture_views.o: generate_texture_views.cpp.o
 
 # target to build an object file
 generate_texture_views.cpp.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/generate_texture_views.cpp.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/generate_texture_views.cpp.o
 .PHONY : generate_texture_views.cpp.o
 
 generate_texture_views.i: generate_texture_views.cpp.i
@@ -302,7 +302,7 @@ generate_texture_views.i: generate_texture_views.cpp.i
 
 # target to preprocess a source file
 generate_texture_views.cpp.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/generate_texture_views.cpp.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/generate_texture_views.cpp.i
 .PHONY : generate_texture_views.cpp.i
 
 generate_texture_views.s: generate_texture_views.cpp.s
@@ -311,7 +311,7 @@ generate_texture_views.s: generate_texture_views.cpp.s
 
 # target to generate assembly for a file
 generate_texture_views.cpp.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/generate_texture_views.cpp.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/generate_texture_views.cpp.s
 .PHONY : generate_texture_views.cpp.s
 
 global_seam_leveling.o: global_seam_leveling.cpp.o
@@ -320,7 +320,7 @@ global_seam_leveling.o: global_seam_leveling.cpp.o
 
 # target to build an object file
 global_seam_leveling.cpp.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/global_seam_leveling.cpp.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/global_seam_leveling.cpp.o
 .PHONY : global_seam_leveling.cpp.o
 
 global_seam_leveling.i: global_seam_leveling.cpp.i
@@ -329,7 +329,7 @@ global_seam_leveling.i: global_seam_leveling.cpp.i
 
 # target to preprocess a source file
 global_seam_leveling.cpp.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/global_seam_leveling.cpp.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/global_seam_leveling.cpp.i
 .PHONY : global_seam_leveling.cpp.i
 
 global_seam_leveling.s: global_seam_leveling.cpp.s
@@ -338,7 +338,7 @@ global_seam_leveling.s: global_seam_leveling.cpp.s
 
 # target to generate assembly for a file
 global_seam_leveling.cpp.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/global_seam_leveling.cpp.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/global_seam_leveling.cpp.s
 .PHONY : global_seam_leveling.cpp.s
 
 histogram.o: histogram.cpp.o
@@ -347,7 +347,7 @@ histogram.o: histogram.cpp.o
 
 # target to build an object file
 histogram.cpp.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/histogram.cpp.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/histogram.cpp.o
 .PHONY : histogram.cpp.o
 
 histogram.i: histogram.cpp.i
@@ -356,7 +356,7 @@ histogram.i: histogram.cpp.i
 
 # target to preprocess a source file
 histogram.cpp.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/histogram.cpp.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/histogram.cpp.i
 .PHONY : histogram.cpp.i
 
 histogram.s: histogram.cpp.s
@@ -365,7 +365,7 @@ histogram.s: histogram.cpp.s
 
 # target to generate assembly for a file
 histogram.cpp.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/histogram.cpp.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/histogram.cpp.s
 .PHONY : histogram.cpp.s
 
 local_seam_leveling.o: local_seam_leveling.cpp.o
@@ -374,7 +374,7 @@ local_seam_leveling.o: local_seam_leveling.cpp.o
 
 # target to build an object file
 local_seam_leveling.cpp.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/local_seam_leveling.cpp.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/local_seam_leveling.cpp.o
 .PHONY : local_seam_leveling.cpp.o
 
 local_seam_leveling.i: local_seam_leveling.cpp.i
@@ -383,7 +383,7 @@ local_seam_leveling.i: local_seam_leveling.cpp.i
 
 # target to preprocess a source file
 local_seam_leveling.cpp.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/local_seam_leveling.cpp.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/local_seam_leveling.cpp.i
 .PHONY : local_seam_leveling.cpp.i
 
 local_seam_leveling.s: local_seam_leveling.cpp.s
@@ -392,7 +392,7 @@ local_seam_leveling.s: local_seam_leveling.cpp.s
 
 # target to generate assembly for a file
 local_seam_leveling.cpp.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/local_seam_leveling.cpp.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/local_seam_leveling.cpp.s
 .PHONY : local_seam_leveling.cpp.s
 
 material_lib.o: material_lib.cpp.o
@@ -401,7 +401,7 @@ material_lib.o: material_lib.cpp.o
 
 # target to build an object file
 material_lib.cpp.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/material_lib.cpp.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/material_lib.cpp.o
 .PHONY : material_lib.cpp.o
 
 material_lib.i: material_lib.cpp.i
@@ -410,7 +410,7 @@ material_lib.i: material_lib.cpp.i
 
 # target to preprocess a source file
 material_lib.cpp.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/material_lib.cpp.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/material_lib.cpp.i
 .PHONY : material_lib.cpp.i
 
 material_lib.s: material_lib.cpp.s
@@ -419,7 +419,7 @@ material_lib.s: material_lib.cpp.s
 
 # target to generate assembly for a file
 material_lib.cpp.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/material_lib.cpp.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/material_lib.cpp.s
 .PHONY : material_lib.cpp.s
 
 obj_model.o: obj_model.cpp.o
@@ -428,7 +428,7 @@ obj_model.o: obj_model.cpp.o
 
 # target to build an object file
 obj_model.cpp.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/obj_model.cpp.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/obj_model.cpp.o
 .PHONY : obj_model.cpp.o
 
 obj_model.i: obj_model.cpp.i
@@ -437,7 +437,7 @@ obj_model.i: obj_model.cpp.i
 
 # target to preprocess a source file
 obj_model.cpp.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/obj_model.cpp.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/obj_model.cpp.i
 .PHONY : obj_model.cpp.i
 
 obj_model.s: obj_model.cpp.s
@@ -446,7 +446,7 @@ obj_model.s: obj_model.cpp.s
 
 # target to generate assembly for a file
 obj_model.cpp.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/obj_model.cpp.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/obj_model.cpp.s
 .PHONY : obj_model.cpp.s
 
 poisson_blending.o: poisson_blending.cpp.o
@@ -455,7 +455,7 @@ poisson_blending.o: poisson_blending.cpp.o
 
 # target to build an object file
 poisson_blending.cpp.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/poisson_blending.cpp.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/poisson_blending.cpp.o
 .PHONY : poisson_blending.cpp.o
 
 poisson_blending.i: poisson_blending.cpp.i
@@ -464,7 +464,7 @@ poisson_blending.i: poisson_blending.cpp.i
 
 # target to preprocess a source file
 poisson_blending.cpp.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/poisson_blending.cpp.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/poisson_blending.cpp.i
 .PHONY : poisson_blending.cpp.i
 
 poisson_blending.s: poisson_blending.cpp.s
@@ -473,7 +473,7 @@ poisson_blending.s: poisson_blending.cpp.s
 
 # target to generate assembly for a file
 poisson_blending.cpp.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/poisson_blending.cpp.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/poisson_blending.cpp.s
 .PHONY : poisson_blending.cpp.s
 
 prepare_mesh.o: prepare_mesh.cpp.o
@@ -482,7 +482,7 @@ prepare_mesh.o: prepare_mesh.cpp.o
 
 # target to build an object file
 prepare_mesh.cpp.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/prepare_mesh.cpp.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/prepare_mesh.cpp.o
 .PHONY : prepare_mesh.cpp.o
 
 prepare_mesh.i: prepare_mesh.cpp.i
@@ -491,7 +491,7 @@ prepare_mesh.i: prepare_mesh.cpp.i
 
 # target to preprocess a source file
 prepare_mesh.cpp.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/prepare_mesh.cpp.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/prepare_mesh.cpp.i
 .PHONY : prepare_mesh.cpp.i
 
 prepare_mesh.s: prepare_mesh.cpp.s
@@ -500,7 +500,7 @@ prepare_mesh.s: prepare_mesh.cpp.s
 
 # target to generate assembly for a file
 prepare_mesh.cpp.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/prepare_mesh.cpp.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/prepare_mesh.cpp.s
 .PHONY : prepare_mesh.cpp.s
 
 rectangular_bin.o: rectangular_bin.cpp.o
@@ -509,7 +509,7 @@ rectangular_bin.o: rectangular_bin.cpp.o
 
 # target to build an object file
 rectangular_bin.cpp.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/rectangular_bin.cpp.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/rectangular_bin.cpp.o
 .PHONY : rectangular_bin.cpp.o
 
 rectangular_bin.i: rectangular_bin.cpp.i
@@ -518,7 +518,7 @@ rectangular_bin.i: rectangular_bin.cpp.i
 
 # target to preprocess a source file
 rectangular_bin.cpp.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/rectangular_bin.cpp.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/rectangular_bin.cpp.i
 .PHONY : rectangular_bin.cpp.i
 
 rectangular_bin.s: rectangular_bin.cpp.s
@@ -527,7 +527,7 @@ rectangular_bin.s: rectangular_bin.cpp.s
 
 # target to generate assembly for a file
 rectangular_bin.cpp.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/rectangular_bin.cpp.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/rectangular_bin.cpp.s
 .PHONY : rectangular_bin.cpp.s
 
 seam_leveling.o: seam_leveling.cpp.o
@@ -536,7 +536,7 @@ seam_leveling.o: seam_leveling.cpp.o
 
 # target to build an object file
 seam_leveling.cpp.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/seam_leveling.cpp.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/seam_leveling.cpp.o
 .PHONY : seam_leveling.cpp.o
 
 seam_leveling.i: seam_leveling.cpp.i
@@ -545,7 +545,7 @@ seam_leveling.i: seam_leveling.cpp.i
 
 # target to preprocess a source file
 seam_leveling.cpp.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/seam_leveling.cpp.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/seam_leveling.cpp.i
 .PHONY : seam_leveling.cpp.i
 
 seam_leveling.s: seam_leveling.cpp.s
@@ -554,7 +554,7 @@ seam_leveling.s: seam_leveling.cpp.s
 
 # target to generate assembly for a file
 seam_leveling.cpp.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/seam_leveling.cpp.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/seam_leveling.cpp.s
 .PHONY : seam_leveling.cpp.s
 
 texture_atlas.o: texture_atlas.cpp.o
@@ -563,7 +563,7 @@ texture_atlas.o: texture_atlas.cpp.o
 
 # target to build an object file
 texture_atlas.cpp.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/texture_atlas.cpp.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/texture_atlas.cpp.o
 .PHONY : texture_atlas.cpp.o
 
 texture_atlas.i: texture_atlas.cpp.i
@@ -572,7 +572,7 @@ texture_atlas.i: texture_atlas.cpp.i
 
 # target to preprocess a source file
 texture_atlas.cpp.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/texture_atlas.cpp.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/texture_atlas.cpp.i
 .PHONY : texture_atlas.cpp.i
 
 texture_atlas.s: texture_atlas.cpp.s
@@ -581,7 +581,7 @@ texture_atlas.s: texture_atlas.cpp.s
 
 # target to generate assembly for a file
 texture_atlas.cpp.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/texture_atlas.cpp.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/texture_atlas.cpp.s
 .PHONY : texture_atlas.cpp.s
 
 texture_patch.o: texture_patch.cpp.o
@@ -590,7 +590,7 @@ texture_patch.o: texture_patch.cpp.o
 
 # target to build an object file
 texture_patch.cpp.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/texture_patch.cpp.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/texture_patch.cpp.o
 .PHONY : texture_patch.cpp.o
 
 texture_patch.i: texture_patch.cpp.i
@@ -599,7 +599,7 @@ texture_patch.i: texture_patch.cpp.i
 
 # target to preprocess a source file
 texture_patch.cpp.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/texture_patch.cpp.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/texture_patch.cpp.i
 .PHONY : texture_patch.cpp.i
 
 texture_patch.s: texture_patch.cpp.s
@@ -608,7 +608,7 @@ texture_patch.s: texture_patch.cpp.s
 
 # target to generate assembly for a file
 texture_patch.cpp.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/texture_patch.cpp.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/texture_patch.cpp.s
 .PHONY : texture_patch.cpp.s
 
 texture_view.o: texture_view.cpp.o
@@ -617,7 +617,7 @@ texture_view.o: texture_view.cpp.o
 
 # target to build an object file
 texture_view.cpp.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/texture_view.cpp.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/texture_view.cpp.o
 .PHONY : texture_view.cpp.o
 
 texture_view.i: texture_view.cpp.i
@@ -626,7 +626,7 @@ texture_view.i: texture_view.cpp.i
 
 # target to preprocess a source file
 texture_view.cpp.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/texture_view.cpp.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/texture_view.cpp.i
 .PHONY : texture_view.cpp.i
 
 texture_view.s: texture_view.cpp.s
@@ -635,7 +635,7 @@ texture_view.s: texture_view.cpp.s
 
 # target to generate assembly for a file
 texture_view.cpp.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/texture_view.cpp.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/texture_view.cpp.s
 .PHONY : texture_view.cpp.s
 
 timer.o: timer.cpp.o
@@ -644,7 +644,7 @@ timer.o: timer.cpp.o
 
 # target to build an object file
 timer.cpp.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/timer.cpp.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/timer.cpp.o
 .PHONY : timer.cpp.o
 
 timer.i: timer.cpp.i
@@ -653,7 +653,7 @@ timer.i: timer.cpp.i
 
 # target to preprocess a source file
 timer.cpp.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/timer.cpp.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/timer.cpp.i
 .PHONY : timer.cpp.i
 
 timer.s: timer.cpp.s
@@ -662,7 +662,7 @@ timer.s: timer.cpp.s
 
 # target to generate assembly for a file
 timer.cpp.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/timer.cpp.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/timer.cpp.s
 .PHONY : timer.cpp.s
 
 tri.o: tri.cpp.o
@@ -671,7 +671,7 @@ tri.o: tri.cpp.o
 
 # target to build an object file
 tri.cpp.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/tri.cpp.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/tri.cpp.o
 .PHONY : tri.cpp.o
 
 tri.i: tri.cpp.i
@@ -680,7 +680,7 @@ tri.i: tri.cpp.i
 
 # target to preprocess a source file
 tri.cpp.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/tri.cpp.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/tri.cpp.i
 .PHONY : tri.cpp.i
 
 tri.s: tri.cpp.s
@@ -689,7 +689,7 @@ tri.s: tri.cpp.s
 
 # target to generate assembly for a file
 tri.cpp.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/tri.cpp.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/tri.cpp.s
 .PHONY : tri.cpp.s
 
 uni_graph.o: uni_graph.cpp.o
@@ -698,7 +698,7 @@ uni_graph.o: uni_graph.cpp.o
 
 # target to build an object file
 uni_graph.cpp.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/uni_graph.cpp.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/uni_graph.cpp.o
 .PHONY : uni_graph.cpp.o
 
 uni_graph.i: uni_graph.cpp.i
@@ -707,7 +707,7 @@ uni_graph.i: uni_graph.cpp.i
 
 # target to preprocess a source file
 uni_graph.cpp.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/uni_graph.cpp.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/uni_graph.cpp.i
 .PHONY : uni_graph.cpp.i
 
 uni_graph.s: uni_graph.cpp.s
@@ -716,7 +716,7 @@ uni_graph.s: uni_graph.cpp.s
 
 # target to generate assembly for a file
 uni_graph.cpp.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/uni_graph.cpp.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/uni_graph.cpp.s
 .PHONY : uni_graph.cpp.s
 
 view_selection.o: view_selection.cpp.o
@@ -725,7 +725,7 @@ view_selection.o: view_selection.cpp.o
 
 # target to build an object file
 view_selection.cpp.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/view_selection.cpp.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/view_selection.cpp.o
 .PHONY : view_selection.cpp.o
 
 view_selection.i: view_selection.cpp.i
@@ -734,7 +734,7 @@ view_selection.i: view_selection.cpp.i
 
 # target to preprocess a source file
 view_selection.cpp.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/view_selection.cpp.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/view_selection.cpp.i
 .PHONY : view_selection.cpp.i
 
 view_selection.s: view_selection.cpp.s
@@ -743,7 +743,7 @@ view_selection.s: view_selection.cpp.s
 
 # target to generate assembly for a file
 view_selection.cpp.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/view_selection.cpp.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f texturing/CMakeFiles/texturing.dir/build.make texturing/CMakeFiles/texturing.dir/view_selection.cpp.s
 .PHONY : view_selection.cpp.s
 
 # Help Target
@@ -752,9 +752,9 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... texturing"
-	@echo "... rebuild_cache"
 	@echo "... build_adjacency_graph.o"
 	@echo "... build_adjacency_graph.i"
 	@echo "... build_adjacency_graph.s"
@@ -835,6 +835,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/mrf.dir/icm_graph.cpp.o"
+  "CMakeFiles/mrf.dir/lbp_graph.cpp.o"
   "CMakeFiles/mrf.dir/graph.cpp.o"
   "CMakeFiles/mrf.dir/gco_graph.cpp.o"
-  "CMakeFiles/mrf.dir/lbp_graph.cpp.o"
-  "CMakeFiles/mrf.dir/icm_graph.cpp.o"
   "libmrf.pdb"
   "libmrf.a"
 )

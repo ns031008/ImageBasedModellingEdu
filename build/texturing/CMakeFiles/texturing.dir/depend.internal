@@ -19,23 +19,23 @@ texturing/CMakeFiles/texturing.dir/build_adjacency_graph.cpp.o
  ../texturing/../util/file_system.h
  ../texturing/../util/strings.h
  ../texturing/../util/timer.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/build_adjacency_graph.cpp
- /home/demo/桌面/ImageBasedModellingEdu/texturing/defines.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/material_lib.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/obj_model.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/poisson_blending.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/progress_counter.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/rect.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/rectangular_bin.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/seam_leveling.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/settings.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/sparse_table.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/texture_atlas.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/texture_patch.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/texture_view.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/texturing.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/tri.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/uni_graph.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/build_adjacency_graph.cpp
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/defines.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/material_lib.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/obj_model.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/poisson_blending.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/progress_counter.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/rect.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/rectangular_bin.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/seam_leveling.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/settings.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/sparse_table.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/texture_atlas.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/texture_patch.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/texture_view.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/texturing.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/tri.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/uni_graph.h
 texturing/CMakeFiles/texturing.dir/build_obj_model.cpp.o
  ../texturing/../core/defines.h
  ../texturing/../core/image.h
@@ -49,16 +49,16 @@ texturing/CMakeFiles/texturing.dir/build_obj_model.cpp.o
  ../texturing/../util/defines.h
  ../texturing/../util/exception.h
  ../texturing/../util/strings.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/build_obj_model.cpp
- /home/demo/桌面/ImageBasedModellingEdu/texturing/defines.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/material_lib.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/obj_model.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/poisson_blending.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/rect.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/rectangular_bin.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/texture_atlas.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/texture_patch.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/tri.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/build_obj_model.cpp
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/defines.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/material_lib.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/obj_model.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/poisson_blending.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/rect.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/rectangular_bin.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/texture_atlas.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/texture_patch.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/tri.h
 texturing/CMakeFiles/texturing.dir/calculate_data_costs.cpp.o
  ../texturing/.././3rdParty/mrf/graph.h
  ../texturing/../3rdParty/coldet/src/coldet.h
@@ -79,40 +79,43 @@ texturing/CMakeFiles/texturing.dir/calculate_data_costs.cpp.o
  ../texturing/../util/file_system.h
  ../texturing/../util/strings.h
  ../texturing/../util/timer.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/calculate_data_costs.cpp
- /home/demo/桌面/ImageBasedModellingEdu/texturing/defines.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/histogram.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/material_lib.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/obj_model.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/poisson_blending.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/progress_counter.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/rect.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/rectangular_bin.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/seam_leveling.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/settings.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/sparse_table.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/texture_atlas.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/texture_patch.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/texture_view.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/texturing.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/tri.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/uni_graph.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/util.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/calculate_data_costs.cpp
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/defines.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/histogram.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/material_lib.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/obj_model.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/poisson_blending.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/progress_counter.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/rect.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/rectangular_bin.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/seam_leveling.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/settings.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/sparse_table.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/texture_atlas.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/texture_patch.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/texture_view.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/texturing.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/tri.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/uni_graph.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/util.h
  /usr/include/eigen3/Eigen/Core
- /usr/include/eigen3/Eigen/Eigen2Support
  /usr/include/eigen3/Eigen/LU
  /usr/include/eigen3/Eigen/src/Core/Array.h
  /usr/include/eigen3/Eigen/src/Core/ArrayBase.h
  /usr/include/eigen3/Eigen/src/Core/ArrayWrapper.h
  /usr/include/eigen3/Eigen/src/Core/Assign.h
+ /usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h
  /usr/include/eigen3/Eigen/src/Core/Assign_MKL.h
  /usr/include/eigen3/Eigen/src/Core/BandMatrix.h
  /usr/include/eigen3/Eigen/src/Core/Block.h
  /usr/include/eigen3/Eigen/src/Core/BooleanRedux.h
  /usr/include/eigen3/Eigen/src/Core/CommaInitializer.h
+ /usr/include/eigen3/Eigen/src/Core/ConditionEstimator.h
+ /usr/include/eigen3/Eigen/src/Core/CoreEvaluators.h
  /usr/include/eigen3/Eigen/src/Core/CoreIterators.h
  /usr/include/eigen3/Eigen/src/Core/CwiseBinaryOp.h
  /usr/include/eigen3/Eigen/src/Core/CwiseNullaryOp.h
+ /usr/include/eigen3/Eigen/src/Core/CwiseTernaryOp.h
  /usr/include/eigen3/Eigen/src/Core/CwiseUnaryOp.h
  /usr/include/eigen3/Eigen/src/Core/CwiseUnaryView.h
  /usr/include/eigen3/Eigen/src/Core/DenseBase.h
@@ -123,17 +126,16 @@ texturing/CMakeFiles/texturing.dir/calculate_data_costs.cpp.o
  /usr/include/eigen3/Eigen/src/Core/DiagonalProduct.h
  /usr/include/eigen3/Eigen/src/Core/Dot.h
  /usr/include/eigen3/Eigen/src/Core/EigenBase.h
- /usr/include/eigen3/Eigen/src/Core/Flagged.h
- /usr/include/eigen3/Eigen/src/Core/ForceAlignedAccess.h
- /usr/include/eigen3/Eigen/src/Core/Functors.h
  /usr/include/eigen3/Eigen/src/Core/Fuzzy.h
  /usr/include/eigen3/Eigen/src/Core/GeneralProduct.h
  /usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h
  /usr/include/eigen3/Eigen/src/Core/GlobalFunctions.h
  /usr/include/eigen3/Eigen/src/Core/IO.h
+ /usr/include/eigen3/Eigen/src/Core/Inverse.h
  /usr/include/eigen3/Eigen/src/Core/Map.h
  /usr/include/eigen3/Eigen/src/Core/MapBase.h
  /usr/include/eigen3/Eigen/src/Core/MathFunctions.h
+ /usr/include/eigen3/Eigen/src/Core/MathFunctionsImpl.h
  /usr/include/eigen3/Eigen/src/Core/Matrix.h
  /usr/include/eigen3/Eigen/src/Core/MatrixBase.h
  /usr/include/eigen3/Eigen/src/Core/NestByValue.h
@@ -141,7 +143,8 @@ texturing/CMakeFiles/texturing.dir/calculate_data_costs.cpp.o
  /usr/include/eigen3/Eigen/src/Core/NumTraits.h
  /usr/include/eigen3/Eigen/src/Core/PermutationMatrix.h
  /usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h
- /usr/include/eigen3/Eigen/src/Core/ProductBase.h
+ /usr/include/eigen3/Eigen/src/Core/Product.h
+ /usr/include/eigen3/Eigen/src/Core/ProductEvaluators.h
  /usr/include/eigen3/Eigen/src/Core/Random.h
  /usr/include/eigen3/Eigen/src/Core/Redux.h
  /usr/include/eigen3/Eigen/src/Core/Ref.h
@@ -151,7 +154,9 @@ texturing/CMakeFiles/texturing.dir/calculate_data_costs.cpp.o
  /usr/include/eigen3/Eigen/src/Core/Select.h
  /usr/include/eigen3/Eigen/src/Core/SelfAdjointView.h
  /usr/include/eigen3/Eigen/src/Core/SelfCwiseBinaryOp.h
+ /usr/include/eigen3/Eigen/src/Core/Solve.h
  /usr/include/eigen3/Eigen/src/Core/SolveTriangular.h
+ /usr/include/eigen3/Eigen/src/Core/SolverBase.h
  /usr/include/eigen3/Eigen/src/Core/StableNorm.h
  /usr/include/eigen3/Eigen/src/Core/Stride.h
  /usr/include/eigen3/Eigen/src/Core/Swap.h
@@ -161,35 +166,58 @@ texturing/CMakeFiles/texturing.dir/calculate_data_costs.cpp.o
  /usr/include/eigen3/Eigen/src/Core/VectorBlock.h
  /usr/include/eigen3/Eigen/src/Core/VectorwiseOp.h
  /usr/include/eigen3/Eigen/src/Core/Visitor.h
+ /usr/include/eigen3/Eigen/src/Core/arch/AVX/Complex.h
+ /usr/include/eigen3/Eigen/src/Core/arch/AVX/MathFunctions.h
+ /usr/include/eigen3/Eigen/src/Core/arch/AVX/PacketMath.h
+ /usr/include/eigen3/Eigen/src/Core/arch/AVX/TypeCasting.h
+ /usr/include/eigen3/Eigen/src/Core/arch/AVX512/MathFunctions.h
+ /usr/include/eigen3/Eigen/src/Core/arch/AVX512/PacketMath.h
  /usr/include/eigen3/Eigen/src/Core/arch/AltiVec/Complex.h
+ /usr/include/eigen3/Eigen/src/Core/arch/AltiVec/MathFunctions.h
  /usr/include/eigen3/Eigen/src/Core/arch/AltiVec/PacketMath.h
+ /usr/include/eigen3/Eigen/src/Core/arch/CUDA/Complex.h
+ /usr/include/eigen3/Eigen/src/Core/arch/CUDA/Half.h
+ /usr/include/eigen3/Eigen/src/Core/arch/CUDA/MathFunctions.h
+ /usr/include/eigen3/Eigen/src/Core/arch/CUDA/PacketMath.h
+ /usr/include/eigen3/Eigen/src/Core/arch/CUDA/PacketMathHalf.h
+ /usr/include/eigen3/Eigen/src/Core/arch/CUDA/TypeCasting.h
  /usr/include/eigen3/Eigen/src/Core/arch/Default/Settings.h
  /usr/include/eigen3/Eigen/src/Core/arch/NEON/Complex.h
+ /usr/include/eigen3/Eigen/src/Core/arch/NEON/MathFunctions.h
  /usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h
  /usr/include/eigen3/Eigen/src/Core/arch/SSE/Complex.h
  /usr/include/eigen3/Eigen/src/Core/arch/SSE/MathFunctions.h
  /usr/include/eigen3/Eigen/src/Core/arch/SSE/PacketMath.h
- /usr/include/eigen3/Eigen/src/Core/products/CoeffBasedProduct.h
+ /usr/include/eigen3/Eigen/src/Core/arch/SSE/TypeCasting.h
+ /usr/include/eigen3/Eigen/src/Core/arch/ZVector/Complex.h
+ /usr/include/eigen3/Eigen/src/Core/arch/ZVector/MathFunctions.h
+ /usr/include/eigen3/Eigen/src/Core/arch/ZVector/PacketMath.h
+ /usr/include/eigen3/Eigen/src/Core/functors/AssignmentFunctors.h
+ /usr/include/eigen3/Eigen/src/Core/functors/BinaryFunctors.h
+ /usr/include/eigen3/Eigen/src/Core/functors/NullaryFunctors.h
+ /usr/include/eigen3/Eigen/src/Core/functors/StlFunctors.h
+ /usr/include/eigen3/Eigen/src/Core/functors/TernaryFunctors.h
+ /usr/include/eigen3/Eigen/src/Core/functors/UnaryFunctors.h
  /usr/include/eigen3/Eigen/src/Core/products/GeneralBlockPanelKernel.h
  /usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrix.h
  /usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrixTriangular.h
- /usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrixTriangular_MKL.h
- /usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrix_MKL.h
+ /usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrixTriangular_BLAS.h
+ /usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrix_BLAS.h
  /usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixVector.h
- /usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixVector_MKL.h
+ /usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixVector_BLAS.h
  /usr/include/eigen3/Eigen/src/Core/products/Parallelizer.h
  /usr/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixMatrix.h
- /usr/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixMatrix_MKL.h
+ /usr/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixMatrix_BLAS.h
  /usr/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector.h
- /usr/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector_MKL.h
+ /usr/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector_BLAS.h
  /usr/include/eigen3/Eigen/src/Core/products/SelfadjointProduct.h
  /usr/include/eigen3/Eigen/src/Core/products/SelfadjointRank2Update.h
  /usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixMatrix.h
- /usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixMatrix_MKL.h
+ /usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixMatrix_BLAS.h
  /usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h
- /usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector_MKL.h
+ /usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector_BLAS.h
  /usr/include/eigen3/Eigen/src/Core/products/TriangularSolverMatrix.h
- /usr/include/eigen3/Eigen/src/Core/products/TriangularSolverMatrix_MKL.h
+ /usr/include/eigen3/Eigen/src/Core/products/TriangularSolverMatrix_BLAS.h
  /usr/include/eigen3/Eigen/src/Core/products/TriangularSolverVector.h
  /usr/include/eigen3/Eigen/src/Core/util/BlasUtil.h
  /usr/include/eigen3/Eigen/src/Core/util/Constants.h
@@ -202,27 +230,17 @@ texturing/CMakeFiles/texturing.dir/calculate_data_costs.cpp.o
  /usr/include/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h
  /usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h
  /usr/include/eigen3/Eigen/src/Core/util/XprHelper.h
- /usr/include/eigen3/Eigen/src/Eigen2Support/Block.h
- /usr/include/eigen3/Eigen/src/Eigen2Support/Cwise.h
- /usr/include/eigen3/Eigen/src/Eigen2Support/CwiseOperators.h
- /usr/include/eigen3/Eigen/src/Eigen2Support/LU.h
- /usr/include/eigen3/Eigen/src/Eigen2Support/Lazy.h
- /usr/include/eigen3/Eigen/src/Eigen2Support/Macros.h
- /usr/include/eigen3/Eigen/src/Eigen2Support/MathFunctions.h
- /usr/include/eigen3/Eigen/src/Eigen2Support/Memory.h
- /usr/include/eigen3/Eigen/src/Eigen2Support/Meta.h
- /usr/include/eigen3/Eigen/src/Eigen2Support/Minor.h
- /usr/include/eigen3/Eigen/src/Eigen2Support/TriangularSolver.h
- /usr/include/eigen3/Eigen/src/Eigen2Support/VectorBlock.h
  /usr/include/eigen3/Eigen/src/LU/Determinant.h
  /usr/include/eigen3/Eigen/src/LU/FullPivLU.h
- /usr/include/eigen3/Eigen/src/LU/Inverse.h
+ /usr/include/eigen3/Eigen/src/LU/InverseImpl.h
  /usr/include/eigen3/Eigen/src/LU/PartialPivLU.h
- /usr/include/eigen3/Eigen/src/LU/PartialPivLU_MKL.h
+ /usr/include/eigen3/Eigen/src/LU/PartialPivLU_LAPACKE.h
  /usr/include/eigen3/Eigen/src/LU/arch/Inverse_SSE.h
  /usr/include/eigen3/Eigen/src/misc/Image.h
  /usr/include/eigen3/Eigen/src/misc/Kernel.h
- /usr/include/eigen3/Eigen/src/misc/Solve.h
+ /usr/include/eigen3/Eigen/src/misc/blas.h
+ /usr/include/eigen3/Eigen/src/misc/lapacke.h
+ /usr/include/eigen3/Eigen/src/misc/lapacke_mangling.h
  /usr/include/eigen3/Eigen/src/plugins/ArrayCwiseBinaryOps.h
  /usr/include/eigen3/Eigen/src/plugins/ArrayCwiseUnaryOps.h
  /usr/include/eigen3/Eigen/src/plugins/BlockMethods.h
@@ -247,23 +265,23 @@ texturing/CMakeFiles/texturing.dir/generate_debug_embeddings.cpp.o
  ../texturing/../util/exception.h
  ../texturing/../util/file_system.h
  ../texturing/../util/strings.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/debug.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/defines.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/generate_debug_embeddings.cpp
- /home/demo/桌面/ImageBasedModellingEdu/texturing/material_lib.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/obj_model.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/poisson_blending.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/rect.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/rectangular_bin.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/seam_leveling.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/settings.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/sparse_table.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/texture_atlas.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/texture_patch.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/texture_view.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/texturing.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/tri.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/uni_graph.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/debug.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/defines.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/generate_debug_embeddings.cpp
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/material_lib.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/obj_model.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/poisson_blending.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/rect.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/rectangular_bin.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/seam_leveling.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/settings.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/sparse_table.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/texture_atlas.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/texture_patch.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/texture_view.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/texturing.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/tri.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/uni_graph.h
 texturing/CMakeFiles/texturing.dir/generate_texture_atlases.cpp.o
  ../texturing/../core/defines.h
  ../texturing/../core/image.h
@@ -280,15 +298,15 @@ texturing/CMakeFiles/texturing.dir/generate_texture_atlases.cpp.o
  ../texturing/../util/exception.h
  ../texturing/../util/strings.h
  ../texturing/../util/timer.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/defines.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/generate_texture_atlases.cpp
- /home/demo/桌面/ImageBasedModellingEdu/texturing/histogram.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/poisson_blending.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/rect.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/rectangular_bin.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/texture_atlas.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/texture_patch.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/tri.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/defines.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/generate_texture_atlases.cpp
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/histogram.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/poisson_blending.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/rect.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/rectangular_bin.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/texture_atlas.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/texture_patch.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/tri.h
 texturing/CMakeFiles/texturing.dir/generate_texture_patches.cpp.o
  ../texturing/.././3rdParty/mrf/graph.h
  ../texturing/../core/camera.h
@@ -309,24 +327,23 @@ texturing/CMakeFiles/texturing.dir/generate_texture_patches.cpp.o
  ../texturing/../util/file_system.h
  ../texturing/../util/strings.h
  ../texturing/../util/timer.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/defines.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/generate_texture_patches.cpp
- /home/demo/桌面/ImageBasedModellingEdu/texturing/material_lib.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/obj_model.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/poisson_blending.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/rect.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/rectangular_bin.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/seam_leveling.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/settings.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/sparse_table.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/texture_atlas.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/texture_patch.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/texture_view.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/texturing.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/tri.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/uni_graph.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/defines.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/generate_texture_patches.cpp
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/material_lib.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/obj_model.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/poisson_blending.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/rect.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/rectangular_bin.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/seam_leveling.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/settings.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/sparse_table.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/texture_atlas.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/texture_patch.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/texture_view.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/texturing.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/tri.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/uni_graph.h
  /usr/include/eigen3/Eigen/Core
- /usr/include/eigen3/Eigen/Eigen2Support
  /usr/include/eigen3/Eigen/OrderingMethods
  /usr/include/eigen3/Eigen/SparseCore
  /usr/include/eigen3/Eigen/SparseLU
@@ -334,14 +351,18 @@ texturing/CMakeFiles/texturing.dir/generate_texture_patches.cpp.o
  /usr/include/eigen3/Eigen/src/Core/ArrayBase.h
  /usr/include/eigen3/Eigen/src/Core/ArrayWrapper.h
  /usr/include/eigen3/Eigen/src/Core/Assign.h
+ /usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h
  /usr/include/eigen3/Eigen/src/Core/Assign_MKL.h
  /usr/include/eigen3/Eigen/src/Core/BandMatrix.h
  /usr/include/eigen3/Eigen/src/Core/Block.h
  /usr/include/eigen3/Eigen/src/Core/BooleanRedux.h
  /usr/include/eigen3/Eigen/src/Core/CommaInitializer.h
+ /usr/include/eigen3/Eigen/src/Core/ConditionEstimator.h
+ /usr/include/eigen3/Eigen/src/Core/CoreEvaluators.h
  /usr/include/eigen3/Eigen/src/Core/CoreIterators.h
  /usr/include/eigen3/Eigen/src/Core/CwiseBinaryOp.h
  /usr/include/eigen3/Eigen/src/Core/CwiseNullaryOp.h
+ /usr/include/eigen3/Eigen/src/Core/CwiseTernaryOp.h
  /usr/include/eigen3/Eigen/src/Core/CwiseUnaryOp.h
  /usr/include/eigen3/Eigen/src/Core/CwiseUnaryView.h
  /usr/include/eigen3/Eigen/src/Core/DenseBase.h
@@ -352,17 +373,16 @@ texturing/CMakeFiles/texturing.dir/generate_texture_patches.cpp.o
  /usr/include/eigen3/Eigen/src/Core/DiagonalProduct.h
  /usr/include/eigen3/Eigen/src/Core/Dot.h
  /usr/include/eigen3/Eigen/src/Core/EigenBase.h
- /usr/include/eigen3/Eigen/src/Core/Flagged.h
- /usr/include/eigen3/Eigen/src/Core/ForceAlignedAccess.h
- /usr/include/eigen3/Eigen/src/Core/Functors.h
  /usr/include/eigen3/Eigen/src/Core/Fuzzy.h
  /usr/include/eigen3/Eigen/src/Core/GeneralProduct.h
  /usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h
  /usr/include/eigen3/Eigen/src/Core/GlobalFunctions.h
  /usr/include/eigen3/Eigen/src/Core/IO.h
+ /usr/include/eigen3/Eigen/src/Core/Inverse.h
  /usr/include/eigen3/Eigen/src/Core/Map.h
  /usr/include/eigen3/Eigen/src/Core/MapBase.h
  /usr/include/eigen3/Eigen/src/Core/MathFunctions.h
+ /usr/include/eigen3/Eigen/src/Core/MathFunctionsImpl.h
  /usr/include/eigen3/Eigen/src/Core/Matrix.h
  /usr/include/eigen3/Eigen/src/Core/MatrixBase.h
  /usr/include/eigen3/Eigen/src/Core/NestByValue.h
@@ -370,7 +390,8 @@ texturing/CMakeFiles/texturing.dir/generate_texture_patches.cpp.o
  /usr/include/eigen3/Eigen/src/Core/NumTraits.h
  /usr/include/eigen3/Eigen/src/Core/PermutationMatrix.h
  /usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h
- /usr/include/eigen3/Eigen/src/Core/ProductBase.h
+ /usr/include/eigen3/Eigen/src/Core/Product.h
+ /usr/include/eigen3/Eigen/src/Core/ProductEvaluators.h
  /usr/include/eigen3/Eigen/src/Core/Random.h
  /usr/include/eigen3/Eigen/src/Core/Redux.h
  /usr/include/eigen3/Eigen/src/Core/Ref.h
@@ -380,7 +401,9 @@ texturing/CMakeFiles/texturing.dir/generate_texture_patches.cpp.o
  /usr/include/eigen3/Eigen/src/Core/Select.h
  /usr/include/eigen3/Eigen/src/Core/SelfAdjointView.h
  /usr/include/eigen3/Eigen/src/Core/SelfCwiseBinaryOp.h
+ /usr/include/eigen3/Eigen/src/Core/Solve.h
  /usr/include/eigen3/Eigen/src/Core/SolveTriangular.h
+ /usr/include/eigen3/Eigen/src/Core/SolverBase.h
  /usr/include/eigen3/Eigen/src/Core/StableNorm.h
  /usr/include/eigen3/Eigen/src/Core/Stride.h
  /usr/include/eigen3/Eigen/src/Core/Swap.h
@@ -390,35 +413,58 @@ texturing/CMakeFiles/texturing.dir/generate_texture_patches.cpp.o
  /usr/include/eigen3/Eigen/src/Core/VectorBlock.h
  /usr/include/eigen3/Eigen/src/Core/VectorwiseOp.h
  /usr/include/eigen3/Eigen/src/Core/Visitor.h
+ /usr/include/eigen3/Eigen/src/Core/arch/AVX/Complex.h
+ /usr/include/eigen3/Eigen/src/Core/arch/AVX/MathFunctions.h
+ /usr/include/eigen3/Eigen/src/Core/arch/AVX/PacketMath.h
+ /usr/include/eigen3/Eigen/src/Core/arch/AVX/TypeCasting.h
+ /usr/include/eigen3/Eigen/src/Core/arch/AVX512/MathFunctions.h
+ /usr/include/eigen3/Eigen/src/Core/arch/AVX512/PacketMath.h
  /usr/include/eigen3/Eigen/src/Core/arch/AltiVec/Complex.h
+ /usr/include/eigen3/Eigen/src/Core/arch/AltiVec/MathFunctions.h
  /usr/include/eigen3/Eigen/src/Core/arch/AltiVec/PacketMath.h
+ /usr/include/eigen3/Eigen/src/Core/arch/CUDA/Complex.h
+ /usr/include/eigen3/Eigen/src/Core/arch/CUDA/Half.h
+ /usr/include/eigen3/Eigen/src/Core/arch/CUDA/MathFunctions.h
+ /usr/include/eigen3/Eigen/src/Core/arch/CUDA/PacketMath.h
+ /usr/include/eigen3/Eigen/src/Core/arch/CUDA/PacketMathHalf.h
+ /usr/include/eigen3/Eigen/src/Core/arch/CUDA/TypeCasting.h
  /usr/include/eigen3/Eigen/src/Core/arch/Default/Settings.h
  /usr/include/eigen3/Eigen/src/Core/arch/NEON/Complex.h
+ /usr/include/eigen3/Eigen/src/Core/arch/NEON/MathFunctions.h
  /usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h
  /usr/include/eigen3/Eigen/src/Core/arch/SSE/Complex.h
  /usr/include/eigen3/Eigen/src/Core/arch/SSE/MathFunctions.h
  /usr/include/eigen3/Eigen/src/Core/arch/SSE/PacketMath.h
- /usr/include/eigen3/Eigen/src/Core/products/CoeffBasedProduct.h
+ /usr/include/eigen3/Eigen/src/Core/arch/SSE/TypeCasting.h
+ /usr/include/eigen3/Eigen/src/Core/arch/ZVector/Complex.h
+ /usr/include/eigen3/Eigen/src/Core/arch/ZVector/MathFunctions.h
+ /usr/include/eigen3/Eigen/src/Core/arch/ZVector/PacketMath.h
+ /usr/include/eigen3/Eigen/src/Core/functors/AssignmentFunctors.h
+ /usr/include/eigen3/Eigen/src/Core/functors/BinaryFunctors.h
+ /usr/include/eigen3/Eigen/src/Core/functors/NullaryFunctors.h
+ /usr/include/eigen3/Eigen/src/Core/functors/StlFunctors.h
+ /usr/include/eigen3/Eigen/src/Core/functors/TernaryFunctors.h
+ /usr/include/eigen3/Eigen/src/Core/functors/UnaryFunctors.h
  /usr/include/eigen3/Eigen/src/Core/products/GeneralBlockPanelKernel.h
  /usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrix.h
  /usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrixTriangular.h
- /usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrixTriangular_MKL.h
- /usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrix_MKL.h
+ /usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrixTriangular_BLAS.h
+ /usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrix_BLAS.h
  /usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixVector.h
- /usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixVector_MKL.h
+ /usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixVector_BLAS.h
  /usr/include/eigen3/Eigen/src/Core/products/Parallelizer.h
  /usr/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixMatrix.h
- /usr/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixMatrix_MKL.h
+ /usr/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixMatrix_BLAS.h
  /usr/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector.h
- /usr/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector_MKL.h
+ /usr/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector_BLAS.h
  /usr/include/eigen3/Eigen/src/Core/products/SelfadjointProduct.h
  /usr/include/eigen3/Eigen/src/Core/products/SelfadjointRank2Update.h
  /usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixMatrix.h
- /usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixMatrix_MKL.h
+ /usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixMatrix_BLAS.h
  /usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h
- /usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector_MKL.h
+ /usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector_BLAS.h
  /usr/include/eigen3/Eigen/src/Core/products/TriangularSolverMatrix.h
- /usr/include/eigen3/Eigen/src/Core/products/TriangularSolverMatrix_MKL.h
+ /usr/include/eigen3/Eigen/src/Core/products/TriangularSolverMatrix_BLAS.h
  /usr/include/eigen3/Eigen/src/Core/products/TriangularSolverVector.h
  /usr/include/eigen3/Eigen/src/Core/util/BlasUtil.h
  /usr/include/eigen3/Eigen/src/Core/util/Constants.h
@@ -432,17 +478,6 @@ texturing/CMakeFiles/texturing.dir/generate_texture_patches.cpp.o
  /usr/include/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h
  /usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h
  /usr/include/eigen3/Eigen/src/Core/util/XprHelper.h
- /usr/include/eigen3/Eigen/src/Eigen2Support/Block.h
- /usr/include/eigen3/Eigen/src/Eigen2Support/Cwise.h
- /usr/include/eigen3/Eigen/src/Eigen2Support/CwiseOperators.h
- /usr/include/eigen3/Eigen/src/Eigen2Support/Lazy.h
- /usr/include/eigen3/Eigen/src/Eigen2Support/Macros.h
- /usr/include/eigen3/Eigen/src/Eigen2Support/MathFunctions.h
- /usr/include/eigen3/Eigen/src/Eigen2Support/Memory.h
- /usr/include/eigen3/Eigen/src/Eigen2Support/Meta.h
- /usr/include/eigen3/Eigen/src/Eigen2Support/Minor.h
- /usr/include/eigen3/Eigen/src/Eigen2Support/TriangularSolver.h
- /usr/include/eigen3/Eigen/src/Eigen2Support/VectorBlock.h
  /usr/include/eigen3/Eigen/src/OrderingMethods/Amd.h
  /usr/include/eigen3/Eigen/src/OrderingMethods/Eigen_Colamd.h
  /usr/include/eigen3/Eigen/src/OrderingMethods/Ordering.h
@@ -450,20 +485,25 @@ texturing/CMakeFiles/texturing.dir/generate_texture_patches.cpp.o
  /usr/include/eigen3/Eigen/src/SparseCore/CompressedStorage.h
  /usr/include/eigen3/Eigen/src/SparseCore/ConservativeSparseSparseProduct.h
  /usr/include/eigen3/Eigen/src/SparseCore/MappedSparseMatrix.h
+ /usr/include/eigen3/Eigen/src/SparseCore/SparseAssign.h
  /usr/include/eigen3/Eigen/src/SparseCore/SparseBlock.h
  /usr/include/eigen3/Eigen/src/SparseCore/SparseColEtree.h
+ /usr/include/eigen3/Eigen/src/SparseCore/SparseCompressedBase.h
  /usr/include/eigen3/Eigen/src/SparseCore/SparseCwiseBinaryOp.h
  /usr/include/eigen3/Eigen/src/SparseCore/SparseCwiseUnaryOp.h
  /usr/include/eigen3/Eigen/src/SparseCore/SparseDenseProduct.h
  /usr/include/eigen3/Eigen/src/SparseCore/SparseDiagonalProduct.h
  /usr/include/eigen3/Eigen/src/SparseCore/SparseDot.h
  /usr/include/eigen3/Eigen/src/SparseCore/SparseFuzzy.h
+ /usr/include/eigen3/Eigen/src/SparseCore/SparseMap.h
  /usr/include/eigen3/Eigen/src/SparseCore/SparseMatrix.h
  /usr/include/eigen3/Eigen/src/SparseCore/SparseMatrixBase.h
  /usr/include/eigen3/Eigen/src/SparseCore/SparsePermutation.h
  /usr/include/eigen3/Eigen/src/SparseCore/SparseProduct.h
  /usr/include/eigen3/Eigen/src/SparseCore/SparseRedux.h
+ /usr/include/eigen3/Eigen/src/SparseCore/SparseRef.h
  /usr/include/eigen3/Eigen/src/SparseCore/SparseSelfAdjointView.h
+ /usr/include/eigen3/Eigen/src/SparseCore/SparseSolverBase.h
  /usr/include/eigen3/Eigen/src/SparseCore/SparseSparseProductWithPruning.h
  /usr/include/eigen3/Eigen/src/SparseCore/SparseTranspose.h
  /usr/include/eigen3/Eigen/src/SparseCore/SparseTriangularView.h
@@ -488,8 +528,7 @@ texturing/CMakeFiles/texturing.dir/generate_texture_patches.cpp.o
  /usr/include/eigen3/Eigen/src/SparseLU/SparseLU_pivotL.h
  /usr/include/eigen3/Eigen/src/SparseLU/SparseLU_pruneL.h
  /usr/include/eigen3/Eigen/src/SparseLU/SparseLU_relax_snode.h
- /usr/include/eigen3/Eigen/src/misc/Solve.h
- /usr/include/eigen3/Eigen/src/misc/SparseSolve.h
+ /usr/include/eigen3/Eigen/src/misc/blas.h
  /usr/include/eigen3/Eigen/src/plugins/ArrayCwiseBinaryOps.h
  /usr/include/eigen3/Eigen/src/plugins/ArrayCwiseUnaryOps.h
  /usr/include/eigen3/Eigen/src/plugins/BlockMethods.h
@@ -523,23 +562,23 @@ texturing/CMakeFiles/texturing.dir/generate_texture_views.cpp.o
  ../texturing/../util/strings.h
  ../texturing/../util/timer.h
  ../texturing/../util/tokenizer.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/defines.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/generate_texture_views.cpp
- /home/demo/桌面/ImageBasedModellingEdu/texturing/material_lib.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/obj_model.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/poisson_blending.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/progress_counter.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/rect.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/rectangular_bin.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/seam_leveling.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/settings.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/sparse_table.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/texture_atlas.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/texture_patch.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/texture_view.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/texturing.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/tri.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/uni_graph.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/defines.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/generate_texture_views.cpp
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/material_lib.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/obj_model.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/poisson_blending.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/progress_counter.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/rect.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/rectangular_bin.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/seam_leveling.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/settings.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/sparse_table.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/texture_atlas.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/texture_patch.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/texture_view.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/texturing.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/tri.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/uni_graph.h
 texturing/CMakeFiles/texturing.dir/global_seam_leveling.cpp.o
  ../texturing/.././3rdParty/mrf/graph.h
  ../texturing/../core/camera.h
@@ -559,25 +598,24 @@ texturing/CMakeFiles/texturing.dir/global_seam_leveling.cpp.o
  ../texturing/../util/file_system.h
  ../texturing/../util/strings.h
  ../texturing/../util/timer.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/defines.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/global_seam_leveling.cpp
- /home/demo/桌面/ImageBasedModellingEdu/texturing/material_lib.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/obj_model.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/poisson_blending.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/progress_counter.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/rect.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/rectangular_bin.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/seam_leveling.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/settings.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/sparse_table.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/texture_atlas.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/texture_patch.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/texture_view.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/texturing.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/tri.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/uni_graph.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/defines.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/global_seam_leveling.cpp
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/material_lib.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/obj_model.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/poisson_blending.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/progress_counter.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/rect.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/rectangular_bin.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/seam_leveling.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/settings.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/sparse_table.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/texture_atlas.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/texture_patch.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/texture_view.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/texturing.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/tri.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/uni_graph.h
  /usr/include/eigen3/Eigen/Core
- /usr/include/eigen3/Eigen/Eigen2Support
  /usr/include/eigen3/Eigen/IterativeLinearSolvers
  /usr/include/eigen3/Eigen/OrderingMethods
  /usr/include/eigen3/Eigen/SparseCore
@@ -585,14 +623,18 @@ texturing/CMakeFiles/texturing.dir/global_seam_leveling.cpp.o
  /usr/include/eigen3/Eigen/src/Core/ArrayBase.h
  /usr/include/eigen3/Eigen/src/Core/ArrayWrapper.h
  /usr/include/eigen3/Eigen/src/Core/Assign.h
+ /usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h
  /usr/include/eigen3/Eigen/src/Core/Assign_MKL.h
  /usr/include/eigen3/Eigen/src/Core/BandMatrix.h
  /usr/include/eigen3/Eigen/src/Core/Block.h
  /usr/include/eigen3/Eigen/src/Core/BooleanRedux.h
  /usr/include/eigen3/Eigen/src/Core/CommaInitializer.h
+ /usr/include/eigen3/Eigen/src/Core/ConditionEstimator.h
+ /usr/include/eigen3/Eigen/src/Core/CoreEvaluators.h
  /usr/include/eigen3/Eigen/src/Core/CoreIterators.h
  /usr/include/eigen3/Eigen/src/Core/CwiseBinaryOp.h
  /usr/include/eigen3/Eigen/src/Core/CwiseNullaryOp.h
+ /usr/include/eigen3/Eigen/src/Core/CwiseTernaryOp.h
  /usr/include/eigen3/Eigen/src/Core/CwiseUnaryOp.h
  /usr/include/eigen3/Eigen/src/Core/CwiseUnaryView.h
  /usr/include/eigen3/Eigen/src/Core/DenseBase.h
@@ -603,17 +645,16 @@ texturing/CMakeFiles/texturing.dir/global_seam_leveling.cpp.o
  /usr/include/eigen3/Eigen/src/Core/DiagonalProduct.h
  /usr/include/eigen3/Eigen/src/Core/Dot.h
  /usr/include/eigen3/Eigen/src/Core/EigenBase.h
- /usr/include/eigen3/Eigen/src/Core/Flagged.h
- /usr/include/eigen3/Eigen/src/Core/ForceAlignedAccess.h
- /usr/include/eigen3/Eigen/src/Core/Functors.h
  /usr/include/eigen3/Eigen/src/Core/Fuzzy.h
  /usr/include/eigen3/Eigen/src/Core/GeneralProduct.h
  /usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h
  /usr/include/eigen3/Eigen/src/Core/GlobalFunctions.h
  /usr/include/eigen3/Eigen/src/Core/IO.h
+ /usr/include/eigen3/Eigen/src/Core/Inverse.h
  /usr/include/eigen3/Eigen/src/Core/Map.h
  /usr/include/eigen3/Eigen/src/Core/MapBase.h
  /usr/include/eigen3/Eigen/src/Core/MathFunctions.h
+ /usr/include/eigen3/Eigen/src/Core/MathFunctionsImpl.h
  /usr/include/eigen3/Eigen/src/Core/Matrix.h
  /usr/include/eigen3/Eigen/src/Core/MatrixBase.h
  /usr/include/eigen3/Eigen/src/Core/NestByValue.h
@@ -621,7 +662,8 @@ texturing/CMakeFiles/texturing.dir/global_seam_leveling.cpp.o
  /usr/include/eigen3/Eigen/src/Core/NumTraits.h
  /usr/include/eigen3/Eigen/src/Core/PermutationMatrix.h
  /usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h
- /usr/include/eigen3/Eigen/src/Core/ProductBase.h
+ /usr/include/eigen3/Eigen/src/Core/Product.h
+ /usr/include/eigen3/Eigen/src/Core/ProductEvaluators.h
  /usr/include/eigen3/Eigen/src/Core/Random.h
  /usr/include/eigen3/Eigen/src/Core/Redux.h
  /usr/include/eigen3/Eigen/src/Core/Ref.h
@@ -631,7 +673,9 @@ texturing/CMakeFiles/texturing.dir/global_seam_leveling.cpp.o
  /usr/include/eigen3/Eigen/src/Core/Select.h
  /usr/include/eigen3/Eigen/src/Core/SelfAdjointView.h
  /usr/include/eigen3/Eigen/src/Core/SelfCwiseBinaryOp.h
+ /usr/include/eigen3/Eigen/src/Core/Solve.h
  /usr/include/eigen3/Eigen/src/Core/SolveTriangular.h
+ /usr/include/eigen3/Eigen/src/Core/SolverBase.h
  /usr/include/eigen3/Eigen/src/Core/StableNorm.h
  /usr/include/eigen3/Eigen/src/Core/Stride.h
  /usr/include/eigen3/Eigen/src/Core/Swap.h
@@ -641,35 +685,58 @@ texturing/CMakeFiles/texturing.dir/global_seam_leveling.cpp.o
  /usr/include/eigen3/Eigen/src/Core/VectorBlock.h
  /usr/include/eigen3/Eigen/src/Core/VectorwiseOp.h
  /usr/include/eigen3/Eigen/src/Core/Visitor.h
+ /usr/include/eigen3/Eigen/src/Core/arch/AVX/Complex.h
+ /usr/include/eigen3/Eigen/src/Core/arch/AVX/MathFunctions.h
+ /usr/include/eigen3/Eigen/src/Core/arch/AVX/PacketMath.h
+ /usr/include/eigen3/Eigen/src/Core/arch/AVX/TypeCasting.h
+ /usr/include/eigen3/Eigen/src/Core/arch/AVX512/MathFunctions.h
+ /usr/include/eigen3/Eigen/src/Core/arch/AVX512/PacketMath.h
  /usr/include/eigen3/Eigen/src/Core/arch/AltiVec/Complex.h
+ /usr/include/eigen3/Eigen/src/Core/arch/AltiVec/MathFunctions.h
  /usr/include/eigen3/Eigen/src/Core/arch/AltiVec/PacketMath.h
+ /usr/include/eigen3/Eigen/src/Core/arch/CUDA/Complex.h
+ /usr/include/eigen3/Eigen/src/Core/arch/CUDA/Half.h
+ /usr/include/eigen3/Eigen/src/Core/arch/CUDA/MathFunctions.h
+ /usr/include/eigen3/Eigen/src/Core/arch/CUDA/PacketMath.h
+ /usr/include/eigen3/Eigen/src/Core/arch/CUDA/PacketMathHalf.h
+ /usr/include/eigen3/Eigen/src/Core/arch/CUDA/TypeCasting.h
  /usr/include/eigen3/Eigen/src/Core/arch/Default/Settings.h
  /usr/include/eigen3/Eigen/src/Core/arch/NEON/Complex.h
+ /usr/include/eigen3/Eigen/src/Core/arch/NEON/MathFunctions.h
  /usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h
  /usr/include/eigen3/Eigen/src/Core/arch/SSE/Complex.h
  /usr/include/eigen3/Eigen/src/Core/arch/SSE/MathFunctions.h
  /usr/include/eigen3/Eigen/src/Core/arch/SSE/PacketMath.h
- /usr/include/eigen3/Eigen/src/Core/products/CoeffBasedProduct.h
+ /usr/include/eigen3/Eigen/src/Core/arch/SSE/TypeCasting.h
+ /usr/include/eigen3/Eigen/src/Core/arch/ZVector/Complex.h
+ /usr/include/eigen3/Eigen/src/Core/arch/ZVector/MathFunctions.h
+ /usr/include/eigen3/Eigen/src/Core/arch/ZVector/PacketMath.h
+ /usr/include/eigen3/Eigen/src/Core/functors/AssignmentFunctors.h
+ /usr/include/eigen3/Eigen/src/Core/functors/BinaryFunctors.h
+ /usr/include/eigen3/Eigen/src/Core/functors/NullaryFunctors.h
+ /usr/include/eigen3/Eigen/src/Core/functors/StlFunctors.h
+ /usr/include/eigen3/Eigen/src/Core/functors/TernaryFunctors.h
+ /usr/include/eigen3/Eigen/src/Core/functors/UnaryFunctors.h
  /usr/include/eigen3/Eigen/src/Core/products/GeneralBlockPanelKernel.h
  /usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrix.h
  /usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrixTriangular.h
- /usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrixTriangular_MKL.h
- /usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrix_MKL.h
+ /usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrixTriangular_BLAS.h
+ /usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrix_BLAS.h
  /usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixVector.h
- /usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixVector_MKL.h
+ /usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixVector_BLAS.h
  /usr/include/eigen3/Eigen/src/Core/products/Parallelizer.h
  /usr/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixMatrix.h
- /usr/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixMatrix_MKL.h
+ /usr/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixMatrix_BLAS.h
  /usr/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector.h
- /usr/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector_MKL.h
+ /usr/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector_BLAS.h
  /usr/include/eigen3/Eigen/src/Core/products/SelfadjointProduct.h
  /usr/include/eigen3/Eigen/src/Core/products/SelfadjointRank2Update.h
  /usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixMatrix.h
- /usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixMatrix_MKL.h
+ /usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixMatrix_BLAS.h
  /usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h
- /usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector_MKL.h
+ /usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector_BLAS.h
  /usr/include/eigen3/Eigen/src/Core/products/TriangularSolverMatrix.h
- /usr/include/eigen3/Eigen/src/Core/products/TriangularSolverMatrix_MKL.h
+ /usr/include/eigen3/Eigen/src/Core/products/TriangularSolverMatrix_BLAS.h
  /usr/include/eigen3/Eigen/src/Core/products/TriangularSolverVector.h
  /usr/include/eigen3/Eigen/src/Core/util/BlasUtil.h
  /usr/include/eigen3/Eigen/src/Core/util/Constants.h
@@ -683,22 +750,14 @@ texturing/CMakeFiles/texturing.dir/global_seam_leveling.cpp.o
  /usr/include/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h
  /usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h
  /usr/include/eigen3/Eigen/src/Core/util/XprHelper.h
- /usr/include/eigen3/Eigen/src/Eigen2Support/Block.h
- /usr/include/eigen3/Eigen/src/Eigen2Support/Cwise.h
- /usr/include/eigen3/Eigen/src/Eigen2Support/CwiseOperators.h
- /usr/include/eigen3/Eigen/src/Eigen2Support/Lazy.h
- /usr/include/eigen3/Eigen/src/Eigen2Support/Macros.h
- /usr/include/eigen3/Eigen/src/Eigen2Support/MathFunctions.h
- /usr/include/eigen3/Eigen/src/Eigen2Support/Memory.h
- /usr/include/eigen3/Eigen/src/Eigen2Support/Meta.h
- /usr/include/eigen3/Eigen/src/Eigen2Support/Minor.h
- /usr/include/eigen3/Eigen/src/Eigen2Support/TriangularSolver.h
- /usr/include/eigen3/Eigen/src/Eigen2Support/VectorBlock.h
  /usr/include/eigen3/Eigen/src/IterativeLinearSolvers/BasicPreconditioners.h
  /usr/include/eigen3/Eigen/src/IterativeLinearSolvers/BiCGSTAB.h
  /usr/include/eigen3/Eigen/src/IterativeLinearSolvers/ConjugateGradient.h
+ /usr/include/eigen3/Eigen/src/IterativeLinearSolvers/IncompleteCholesky.h
  /usr/include/eigen3/Eigen/src/IterativeLinearSolvers/IncompleteLUT.h
  /usr/include/eigen3/Eigen/src/IterativeLinearSolvers/IterativeSolverBase.h
+ /usr/include/eigen3/Eigen/src/IterativeLinearSolvers/LeastSquareConjugateGradient.h
+ /usr/include/eigen3/Eigen/src/IterativeLinearSolvers/SolveWithGuess.h
  /usr/include/eigen3/Eigen/src/OrderingMethods/Amd.h
  /usr/include/eigen3/Eigen/src/OrderingMethods/Eigen_Colamd.h
  /usr/include/eigen3/Eigen/src/OrderingMethods/Ordering.h
@@ -706,19 +765,24 @@ texturing/CMakeFiles/texturing.dir/global_seam_leveling.cpp.o
  /usr/include/eigen3/Eigen/src/SparseCore/CompressedStorage.h
  /usr/include/eigen3/Eigen/src/SparseCore/ConservativeSparseSparseProduct.h
  /usr/include/eigen3/Eigen/src/SparseCore/MappedSparseMatrix.h
+ /usr/include/eigen3/Eigen/src/SparseCore/SparseAssign.h
  /usr/include/eigen3/Eigen/src/SparseCore/SparseBlock.h
+ /usr/include/eigen3/Eigen/src/SparseCore/SparseCompressedBase.h
  /usr/include/eigen3/Eigen/src/SparseCore/SparseCwiseBinaryOp.h
  /usr/include/eigen3/Eigen/src/SparseCore/SparseCwiseUnaryOp.h
  /usr/include/eigen3/Eigen/src/SparseCore/SparseDenseProduct.h
  /usr/include/eigen3/Eigen/src/SparseCore/SparseDiagonalProduct.h
  /usr/include/eigen3/Eigen/src/SparseCore/SparseDot.h
  /usr/include/eigen3/Eigen/src/SparseCore/SparseFuzzy.h
+ /usr/include/eigen3/Eigen/src/SparseCore/SparseMap.h
  /usr/include/eigen3/Eigen/src/SparseCore/SparseMatrix.h
  /usr/include/eigen3/Eigen/src/SparseCore/SparseMatrixBase.h
  /usr/include/eigen3/Eigen/src/SparseCore/SparsePermutation.h
  /usr/include/eigen3/Eigen/src/SparseCore/SparseProduct.h
  /usr/include/eigen3/Eigen/src/SparseCore/SparseRedux.h
+ /usr/include/eigen3/Eigen/src/SparseCore/SparseRef.h
  /usr/include/eigen3/Eigen/src/SparseCore/SparseSelfAdjointView.h
+ /usr/include/eigen3/Eigen/src/SparseCore/SparseSolverBase.h
  /usr/include/eigen3/Eigen/src/SparseCore/SparseSparseProductWithPruning.h
  /usr/include/eigen3/Eigen/src/SparseCore/SparseTranspose.h
  /usr/include/eigen3/Eigen/src/SparseCore/SparseTriangularView.h
@@ -726,8 +790,7 @@ texturing/CMakeFiles/texturing.dir/global_seam_leveling.cpp.o
  /usr/include/eigen3/Eigen/src/SparseCore/SparseVector.h
  /usr/include/eigen3/Eigen/src/SparseCore/SparseView.h
  /usr/include/eigen3/Eigen/src/SparseCore/TriangularSolver.h
- /usr/include/eigen3/Eigen/src/misc/Solve.h
- /usr/include/eigen3/Eigen/src/misc/SparseSolve.h
+ /usr/include/eigen3/Eigen/src/misc/blas.h
  /usr/include/eigen3/Eigen/src/plugins/ArrayCwiseBinaryOps.h
  /usr/include/eigen3/Eigen/src/plugins/ArrayCwiseUnaryOps.h
  /usr/include/eigen3/Eigen/src/plugins/BlockMethods.h
@@ -739,8 +802,8 @@ texturing/CMakeFiles/texturing.dir/histogram.cpp.o
  ../texturing/../util/defines.h
  ../texturing/../util/exception.h
  ../texturing/../util/file_system.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/histogram.cpp
- /home/demo/桌面/ImageBasedModellingEdu/texturing/histogram.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/histogram.cpp
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/histogram.h
 texturing/CMakeFiles/texturing.dir/local_seam_leveling.cpp.o
  ../texturing/.././3rdParty/mrf/graph.h
  ../texturing/../core/camera.h
@@ -762,23 +825,23 @@ texturing/CMakeFiles/texturing.dir/local_seam_leveling.cpp.o
  ../texturing/../util/file_system.h
  ../texturing/../util/strings.h
  ../texturing/../util/timer.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/defines.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/local_seam_leveling.cpp
- /home/demo/桌面/ImageBasedModellingEdu/texturing/material_lib.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/obj_model.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/poisson_blending.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/progress_counter.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/rect.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/rectangular_bin.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/seam_leveling.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/settings.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/sparse_table.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/texture_atlas.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/texture_patch.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/texture_view.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/texturing.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/tri.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/uni_graph.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/defines.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/local_seam_leveling.cpp
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/material_lib.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/obj_model.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/poisson_blending.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/progress_counter.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/rect.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/rectangular_bin.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/seam_leveling.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/settings.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/sparse_table.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/texture_atlas.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/texture_patch.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/texture_view.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/texturing.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/tri.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/uni_graph.h
 texturing/CMakeFiles/texturing.dir/material_lib.cpp.o
  ../texturing/../core/defines.h
  ../texturing/../core/image.h
@@ -793,8 +856,8 @@ texturing/CMakeFiles/texturing.dir/material_lib.cpp.o
  ../texturing/../util/exception.h
  ../texturing/../util/file_system.h
  ../texturing/../util/strings.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/material_lib.cpp
- /home/demo/桌面/ImageBasedModellingEdu/texturing/material_lib.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/material_lib.cpp
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/material_lib.h
 texturing/CMakeFiles/texturing.dir/obj_model.cpp.o
  ../texturing/../core/defines.h
  ../texturing/../core/mesh.h
@@ -804,9 +867,9 @@ texturing/CMakeFiles/texturing.dir/obj_model.cpp.o
  ../texturing/../util/defines.h
  ../texturing/../util/exception.h
  ../texturing/../util/file_system.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/material_lib.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/obj_model.cpp
- /home/demo/桌面/ImageBasedModellingEdu/texturing/obj_model.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/material_lib.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/obj_model.cpp
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/obj_model.h
 texturing/CMakeFiles/texturing.dir/poisson_blending.cpp.o
  ../texturing/../core/defines.h
  ../texturing/../core/image.h
@@ -822,10 +885,9 @@ texturing/CMakeFiles/texturing.dir/poisson_blending.cpp.o
  ../texturing/../util/defines.h
  ../texturing/../util/exception.h
  ../texturing/../util/strings.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/poisson_blending.cpp
- /home/demo/桌面/ImageBasedModellingEdu/texturing/poisson_blending.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/poisson_blending.cpp
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/poisson_blending.h
  /usr/include/eigen3/Eigen/Core
- /usr/include/eigen3/Eigen/Eigen2Support
  /usr/include/eigen3/Eigen/OrderingMethods
  /usr/include/eigen3/Eigen/SparseCore
  /usr/include/eigen3/Eigen/SparseLU
@@ -833,14 +895,18 @@ texturing/CMakeFiles/texturing.dir/poisson_blending.cpp.o
  /usr/include/eigen3/Eigen/src/Core/ArrayBase.h
  /usr/include/eigen3/Eigen/src/Core/ArrayWrapper.h
  /usr/include/eigen3/Eigen/src/Core/Assign.h
+ /usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h
  /usr/include/eigen3/Eigen/src/Core/Assign_MKL.h
  /usr/include/eigen3/Eigen/src/Core/BandMatrix.h
  /usr/include/eigen3/Eigen/src/Core/Block.h
  /usr/include/eigen3/Eigen/src/Core/BooleanRedux.h
  /usr/include/eigen3/Eigen/src/Core/CommaInitializer.h
+ /usr/include/eigen3/Eigen/src/Core/ConditionEstimator.h
+ /usr/include/eigen3/Eigen/src/Core/CoreEvaluators.h
  /usr/include/eigen3/Eigen/src/Core/CoreIterators.h
  /usr/include/eigen3/Eigen/src/Core/CwiseBinaryOp.h
  /usr/include/eigen3/Eigen/src/Core/CwiseNullaryOp.h
+ /usr/include/eigen3/Eigen/src/Core/CwiseTernaryOp.h
  /usr/include/eigen3/Eigen/src/Core/CwiseUnaryOp.h
  /usr/include/eigen3/Eigen/src/Core/CwiseUnaryView.h
  /usr/include/eigen3/Eigen/src/Core/DenseBase.h
@@ -851,17 +917,16 @@ texturing/CMakeFiles/texturing.dir/poisson_blending.cpp.o
  /usr/include/eigen3/Eigen/src/Core/DiagonalProduct.h
  /usr/include/eigen3/Eigen/src/Core/Dot.h
  /usr/include/eigen3/Eigen/src/Core/EigenBase.h
- /usr/include/eigen3/Eigen/src/Core/Flagged.h
- /usr/include/eigen3/Eigen/src/Core/ForceAlignedAccess.h
- /usr/include/eigen3/Eigen/src/Core/Functors.h
  /usr/include/eigen3/Eigen/src/Core/Fuzzy.h
  /usr/include/eigen3/Eigen/src/Core/GeneralProduct.h
  /usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h
  /usr/include/eigen3/Eigen/src/Core/GlobalFunctions.h
  /usr/include/eigen3/Eigen/src/Core/IO.h
+ /usr/include/eigen3/Eigen/src/Core/Inverse.h
  /usr/include/eigen3/Eigen/src/Core/Map.h
  /usr/include/eigen3/Eigen/src/Core/MapBase.h
  /usr/include/eigen3/Eigen/src/Core/MathFunctions.h
+ /usr/include/eigen3/Eigen/src/Core/MathFunctionsImpl.h
  /usr/include/eigen3/Eigen/src/Core/Matrix.h
  /usr/include/eigen3/Eigen/src/Core/MatrixBase.h
  /usr/include/eigen3/Eigen/src/Core/NestByValue.h
@@ -869,7 +934,8 @@ texturing/CMakeFiles/texturing.dir/poisson_blending.cpp.o
  /usr/include/eigen3/Eigen/src/Core/NumTraits.h
  /usr/include/eigen3/Eigen/src/Core/PermutationMatrix.h
  /usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h
- /usr/include/eigen3/Eigen/src/Core/ProductBase.h
+ /usr/include/eigen3/Eigen/src/Core/Product.h
+ /usr/include/eigen3/Eigen/src/Core/ProductEvaluators.h
  /usr/include/eigen3/Eigen/src/Core/Random.h
  /usr/include/eigen3/Eigen/src/Core/Redux.h
  /usr/include/eigen3/Eigen/src/Core/Ref.h
@@ -879,7 +945,9 @@ texturing/CMakeFiles/texturing.dir/poisson_blending.cpp.o
  /usr/include/eigen3/Eigen/src/Core/Select.h
  /usr/include/eigen3/Eigen/src/Core/SelfAdjointView.h
  /usr/include/eigen3/Eigen/src/Core/SelfCwiseBinaryOp.h
+ /usr/include/eigen3/Eigen/src/Core/Solve.h
  /usr/include/eigen3/Eigen/src/Core/SolveTriangular.h
+ /usr/include/eigen3/Eigen/src/Core/SolverBase.h
  /usr/include/eigen3/Eigen/src/Core/StableNorm.h
  /usr/include/eigen3/Eigen/src/Core/Stride.h
  /usr/include/eigen3/Eigen/src/Core/Swap.h
@@ -889,35 +957,58 @@ texturing/CMakeFiles/texturing.dir/poisson_blending.cpp.o
  /usr/include/eigen3/Eigen/src/Core/VectorBlock.h
  /usr/include/eigen3/Eigen/src/Core/VectorwiseOp.h
  /usr/include/eigen3/Eigen/src/Core/Visitor.h
+ /usr/include/eigen3/Eigen/src/Core/arch/AVX/Complex.h
+ /usr/include/eigen3/Eigen/src/Core/arch/AVX/MathFunctions.h
+ /usr/include/eigen3/Eigen/src/Core/arch/AVX/PacketMath.h
+ /usr/include/eigen3/Eigen/src/Core/arch/AVX/TypeCasting.h
+ /usr/include/eigen3/Eigen/src/Core/arch/AVX512/MathFunctions.h
+ /usr/include/eigen3/Eigen/src/Core/arch/AVX512/PacketMath.h
  /usr/include/eigen3/Eigen/src/Core/arch/AltiVec/Complex.h
+ /usr/include/eigen3/Eigen/src/Core/arch/AltiVec/MathFunctions.h
  /usr/include/eigen3/Eigen/src/Core/arch/AltiVec/PacketMath.h
+ /usr/include/eigen3/Eigen/src/Core/arch/CUDA/Complex.h
+ /usr/include/eigen3/Eigen/src/Core/arch/CUDA/Half.h
+ /usr/include/eigen3/Eigen/src/Core/arch/CUDA/MathFunctions.h
+ /usr/include/eigen3/Eigen/src/Core/arch/CUDA/PacketMath.h
+ /usr/include/eigen3/Eigen/src/Core/arch/CUDA/PacketMathHalf.h
+ /usr/include/eigen3/Eigen/src/Core/arch/CUDA/TypeCasting.h
  /usr/include/eigen3/Eigen/src/Core/arch/Default/Settings.h
  /usr/include/eigen3/Eigen/src/Core/arch/NEON/Complex.h
+ /usr/include/eigen3/Eigen/src/Core/arch/NEON/MathFunctions.h
  /usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h
  /usr/include/eigen3/Eigen/src/Core/arch/SSE/Complex.h
  /usr/include/eigen3/Eigen/src/Core/arch/SSE/MathFunctions.h
  /usr/include/eigen3/Eigen/src/Core/arch/SSE/PacketMath.h
- /usr/include/eigen3/Eigen/src/Core/products/CoeffBasedProduct.h
+ /usr/include/eigen3/Eigen/src/Core/arch/SSE/TypeCasting.h
+ /usr/include/eigen3/Eigen/src/Core/arch/ZVector/Complex.h
+ /usr/include/eigen3/Eigen/src/Core/arch/ZVector/MathFunctions.h
+ /usr/include/eigen3/Eigen/src/Core/arch/ZVector/PacketMath.h
+ /usr/include/eigen3/Eigen/src/Core/functors/AssignmentFunctors.h
+ /usr/include/eigen3/Eigen/src/Core/functors/BinaryFunctors.h
+ /usr/include/eigen3/Eigen/src/Core/functors/NullaryFunctors.h
+ /usr/include/eigen3/Eigen/src/Core/functors/StlFunctors.h
+ /usr/include/eigen3/Eigen/src/Core/functors/TernaryFunctors.h
+ /usr/include/eigen3/Eigen/src/Core/functors/UnaryFunctors.h
  /usr/include/eigen3/Eigen/src/Core/products/GeneralBlockPanelKernel.h
  /usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrix.h
  /usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrixTriangular.h
- /usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrixTriangular_MKL.h
- /usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrix_MKL.h
+ /usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrixTriangular_BLAS.h
+ /usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrix_BLAS.h
  /usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixVector.h
- /usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixVector_MKL.h
+ /usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixVector_BLAS.h
  /usr/include/eigen3/Eigen/src/Core/products/Parallelizer.h
  /usr/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixMatrix.h
- /usr/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixMatrix_MKL.h
+ /usr/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixMatrix_BLAS.h
  /usr/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector.h
- /usr/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector_MKL.h
+ /usr/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector_BLAS.h
  /usr/include/eigen3/Eigen/src/Core/products/SelfadjointProduct.h
  /usr/include/eigen3/Eigen/src/Core/products/SelfadjointRank2Update.h
  /usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixMatrix.h
- /usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixMatrix_MKL.h
+ /usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixMatrix_BLAS.h
  /usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h
- /usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector_MKL.h
+ /usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector_BLAS.h
  /usr/include/eigen3/Eigen/src/Core/products/TriangularSolverMatrix.h
- /usr/include/eigen3/Eigen/src/Core/products/TriangularSolverMatrix_MKL.h
+ /usr/include/eigen3/Eigen/src/Core/products/TriangularSolverMatrix_BLAS.h
  /usr/include/eigen3/Eigen/src/Core/products/TriangularSolverVector.h
  /usr/include/eigen3/Eigen/src/Core/util/BlasUtil.h
  /usr/include/eigen3/Eigen/src/Core/util/Constants.h
@@ -931,17 +1022,6 @@ texturing/CMakeFiles/texturing.dir/poisson_blending.cpp.o
  /usr/include/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h
  /usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h
  /usr/include/eigen3/Eigen/src/Core/util/XprHelper.h
- /usr/include/eigen3/Eigen/src/Eigen2Support/Block.h
- /usr/include/eigen3/Eigen/src/Eigen2Support/Cwise.h
- /usr/include/eigen3/Eigen/src/Eigen2Support/CwiseOperators.h
- /usr/include/eigen3/Eigen/src/Eigen2Support/Lazy.h
- /usr/include/eigen3/Eigen/src/Eigen2Support/Macros.h
- /usr/include/eigen3/Eigen/src/Eigen2Support/MathFunctions.h
- /usr/include/eigen3/Eigen/src/Eigen2Support/Memory.h
- /usr/include/eigen3/Eigen/src/Eigen2Support/Meta.h
- /usr/include/eigen3/Eigen/src/Eigen2Support/Minor.h
- /usr/include/eigen3/Eigen/src/Eigen2Support/TriangularSolver.h
- /usr/include/eigen3/Eigen/src/Eigen2Support/VectorBlock.h
  /usr/include/eigen3/Eigen/src/OrderingMethods/Amd.h
  /usr/include/eigen3/Eigen/src/OrderingMethods/Eigen_Colamd.h
  /usr/include/eigen3/Eigen/src/OrderingMethods/Ordering.h
@@ -949,20 +1029,25 @@ texturing/CMakeFiles/texturing.dir/poisson_blending.cpp.o
  /usr/include/eigen3/Eigen/src/SparseCore/CompressedStorage.h
  /usr/include/eigen3/Eigen/src/SparseCore/ConservativeSparseSparseProduct.h
  /usr/include/eigen3/Eigen/src/SparseCore/MappedSparseMatrix.h
+ /usr/include/eigen3/Eigen/src/SparseCore/SparseAssign.h
  /usr/include/eigen3/Eigen/src/SparseCore/SparseBlock.h
  /usr/include/eigen3/Eigen/src/SparseCore/SparseColEtree.h
+ /usr/include/eigen3/Eigen/src/SparseCore/SparseCompressedBase.h
  /usr/include/eigen3/Eigen/src/SparseCore/SparseCwiseBinaryOp.h
  /usr/include/eigen3/Eigen/src/SparseCore/SparseCwiseUnaryOp.h
  /usr/include/eigen3/Eigen/src/SparseCore/SparseDenseProduct.h
  /usr/include/eigen3/Eigen/src/SparseCore/SparseDiagonalProduct.h
  /usr/include/eigen3/Eigen/src/SparseCore/SparseDot.h
  /usr/include/eigen3/Eigen/src/SparseCore/SparseFuzzy.h
+ /usr/include/eigen3/Eigen/src/SparseCore/SparseMap.h
  /usr/include/eigen3/Eigen/src/SparseCore/SparseMatrix.h
  /usr/include/eigen3/Eigen/src/SparseCore/SparseMatrixBase.h
  /usr/include/eigen3/Eigen/src/SparseCore/SparsePermutation.h
  /usr/include/eigen3/Eigen/src/SparseCore/SparseProduct.h
  /usr/include/eigen3/Eigen/src/SparseCore/SparseRedux.h
+ /usr/include/eigen3/Eigen/src/SparseCore/SparseRef.h
  /usr/include/eigen3/Eigen/src/SparseCore/SparseSelfAdjointView.h
+ /usr/include/eigen3/Eigen/src/SparseCore/SparseSolverBase.h
  /usr/include/eigen3/Eigen/src/SparseCore/SparseSparseProductWithPruning.h
  /usr/include/eigen3/Eigen/src/SparseCore/SparseTranspose.h
  /usr/include/eigen3/Eigen/src/SparseCore/SparseTriangularView.h
@@ -987,8 +1072,7 @@ texturing/CMakeFiles/texturing.dir/poisson_blending.cpp.o
  /usr/include/eigen3/Eigen/src/SparseLU/SparseLU_pivotL.h
  /usr/include/eigen3/Eigen/src/SparseLU/SparseLU_pruneL.h
  /usr/include/eigen3/Eigen/src/SparseLU/SparseLU_relax_snode.h
- /usr/include/eigen3/Eigen/src/misc/Solve.h
- /usr/include/eigen3/Eigen/src/misc/SparseSolve.h
+ /usr/include/eigen3/Eigen/src/misc/blas.h
  /usr/include/eigen3/Eigen/src/plugins/ArrayCwiseBinaryOps.h
  /usr/include/eigen3/Eigen/src/plugins/ArrayCwiseUnaryOps.h
  /usr/include/eigen3/Eigen/src/plugins/BlockMethods.h
@@ -1013,36 +1097,36 @@ texturing/CMakeFiles/texturing.dir/prepare_mesh.cpp.o
  ../texturing/../util/exception.h
  ../texturing/../util/file_system.h
  ../texturing/../util/strings.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/defines.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/material_lib.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/obj_model.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/poisson_blending.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/prepare_mesh.cpp
- /home/demo/桌面/ImageBasedModellingEdu/texturing/rect.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/rectangular_bin.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/seam_leveling.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/settings.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/sparse_table.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/texture_atlas.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/texture_patch.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/texture_view.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/texturing.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/tri.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/uni_graph.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/defines.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/material_lib.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/obj_model.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/poisson_blending.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/prepare_mesh.cpp
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/rect.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/rectangular_bin.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/seam_leveling.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/settings.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/sparse_table.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/texture_atlas.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/texture_patch.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/texture_view.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/texturing.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/tri.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/uni_graph.h
 texturing/CMakeFiles/texturing.dir/rectangular_bin.cpp.o
- /home/demo/桌面/ImageBasedModellingEdu/texturing/rect.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/rectangular_bin.cpp
- /home/demo/桌面/ImageBasedModellingEdu/texturing/rectangular_bin.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/rect.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/rectangular_bin.cpp
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/rectangular_bin.h
 texturing/CMakeFiles/texturing.dir/seam_leveling.cpp.o
  ../texturing/../core/defines.h
  ../texturing/../core/mesh.h
  ../texturing/../math/algo.h
  ../texturing/../math/defines.h
  ../texturing/../math/vector.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/defines.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/seam_leveling.cpp
- /home/demo/桌面/ImageBasedModellingEdu/texturing/seam_leveling.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/uni_graph.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/defines.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/seam_leveling.cpp
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/seam_leveling.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/uni_graph.h
 texturing/CMakeFiles/texturing.dir/texture_atlas.cpp.o
  ../texturing/../core/defines.h
  ../texturing/../core/image.h
@@ -1060,13 +1144,13 @@ texturing/CMakeFiles/texturing.dir/texture_atlas.cpp.o
  ../texturing/../util/exception.h
  ../texturing/../util/file_system.h
  ../texturing/../util/strings.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/poisson_blending.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/rect.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/rectangular_bin.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/texture_atlas.cpp
- /home/demo/桌面/ImageBasedModellingEdu/texturing/texture_atlas.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/texture_patch.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/tri.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/poisson_blending.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/rect.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/rectangular_bin.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/texture_atlas.cpp
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/texture_atlas.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/texture_patch.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/tri.h
 texturing/CMakeFiles/texturing.dir/texture_patch.cpp.o
  ../texturing/../core/camera.h
  ../texturing/../core/defines.h
@@ -1087,11 +1171,11 @@ texturing/CMakeFiles/texturing.dir/texture_patch.cpp.o
  ../texturing/../util/exception.h
  ../texturing/../util/strings.h
  ../texturing/../util/system.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/poisson_blending.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/rect.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/texture_patch.cpp
- /home/demo/桌面/ImageBasedModellingEdu/texturing/texture_patch.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/tri.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/poisson_blending.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/rect.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/texture_patch.cpp
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/texture_patch.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/tri.h
 texturing/CMakeFiles/texturing.dir/texture_view.cpp.o
  ../texturing/../core/camera.h
  ../texturing/../core/defines.h
@@ -1108,28 +1192,28 @@ texturing/CMakeFiles/texturing.dir/texture_view.cpp.o
  ../texturing/../util/defines.h
  ../texturing/../util/exception.h
  ../texturing/../util/strings.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/rect.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/settings.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/texture_view.cpp
- /home/demo/桌面/ImageBasedModellingEdu/texturing/texture_view.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/tri.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/rect.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/settings.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/texture_view.cpp
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/texture_view.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/tri.h
 texturing/CMakeFiles/texturing.dir/timer.cpp.o
  ../texturing/../util/defines.h
  ../texturing/../util/exception.h
  ../texturing/../util/timer.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/timer.cpp
- /home/demo/桌面/ImageBasedModellingEdu/texturing/timer.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/timer.cpp
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/timer.h
 texturing/CMakeFiles/texturing.dir/tri.cpp.o
  ../texturing/../math/algo.h
  ../texturing/../math/defines.h
  ../texturing/../math/matrix.h
  ../texturing/../math/vector.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/rect.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/tri.cpp
- /home/demo/桌面/ImageBasedModellingEdu/texturing/tri.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/rect.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/tri.cpp
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/tri.h
 texturing/CMakeFiles/texturing.dir/uni_graph.cpp.o
- /home/demo/桌面/ImageBasedModellingEdu/texturing/uni_graph.cpp
- /home/demo/桌面/ImageBasedModellingEdu/texturing/uni_graph.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/uni_graph.cpp
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/uni_graph.h
 texturing/CMakeFiles/texturing.dir/view_selection.cpp.o
  ../texturing/.././3rdParty/mrf/graph.h
  ../texturing/../core/camera.h
@@ -1148,37 +1232,40 @@ texturing/CMakeFiles/texturing.dir/view_selection.cpp.o
  ../texturing/../util/file_system.h
  ../texturing/../util/strings.h
  ../texturing/../util/timer.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/defines.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/material_lib.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/obj_model.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/poisson_blending.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/rect.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/rectangular_bin.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/seam_leveling.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/settings.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/sparse_table.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/texture_atlas.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/texture_patch.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/texture_view.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/texturing.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/tri.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/uni_graph.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/util.h
- /home/demo/桌面/ImageBasedModellingEdu/texturing/view_selection.cpp
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/defines.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/material_lib.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/obj_model.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/poisson_blending.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/rect.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/rectangular_bin.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/seam_leveling.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/settings.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/sparse_table.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/texture_atlas.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/texture_patch.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/texture_view.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/texturing.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/tri.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/uni_graph.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/util.h
+ /home/chen/桌面/ImageBasedModellingEdu/texturing/view_selection.cpp
  /usr/include/eigen3/Eigen/Core
- /usr/include/eigen3/Eigen/Eigen2Support
  /usr/include/eigen3/Eigen/src/Core/Array.h
  /usr/include/eigen3/Eigen/src/Core/ArrayBase.h
  /usr/include/eigen3/Eigen/src/Core/ArrayWrapper.h
  /usr/include/eigen3/Eigen/src/Core/Assign.h
+ /usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h
  /usr/include/eigen3/Eigen/src/Core/Assign_MKL.h
  /usr/include/eigen3/Eigen/src/Core/BandMatrix.h
  /usr/include/eigen3/Eigen/src/Core/Block.h
  /usr/include/eigen3/Eigen/src/Core/BooleanRedux.h
  /usr/include/eigen3/Eigen/src/Core/CommaInitializer.h
+ /usr/include/eigen3/Eigen/src/Core/ConditionEstimator.h
+ /usr/include/eigen3/Eigen/src/Core/CoreEvaluators.h
  /usr/include/eigen3/Eigen/src/Core/CoreIterators.h
  /usr/include/eigen3/Eigen/src/Core/CwiseBinaryOp.h
  /usr/include/eigen3/Eigen/src/Core/CwiseNullaryOp.h
+ /usr/include/eigen3/Eigen/src/Core/CwiseTernaryOp.h
  /usr/include/eigen3/Eigen/src/Core/CwiseUnaryOp.h
  /usr/include/eigen3/Eigen/src/Core/CwiseUnaryView.h
  /usr/include/eigen3/Eigen/src/Core/DenseBase.h
@@ -1189,17 +1276,16 @@ texturing/CMakeFiles/texturing.dir/view_selection.cpp.o
  /usr/include/eigen3/Eigen/src/Core/DiagonalProduct.h
  /usr/include/eigen3/Eigen/src/Core/Dot.h
  /usr/include/eigen3/Eigen/src/Core/EigenBase.h
- /usr/include/eigen3/Eigen/src/Core/Flagged.h
- /usr/include/eigen3/Eigen/src/Core/ForceAlignedAccess.h
- /usr/include/eigen3/Eigen/src/Core/Functors.h
  /usr/include/eigen3/Eigen/src/Core/Fuzzy.h
  /usr/include/eigen3/Eigen/src/Core/GeneralProduct.h
  /usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h
  /usr/include/eigen3/Eigen/src/Core/GlobalFunctions.h
  /usr/include/eigen3/Eigen/src/Core/IO.h
+ /usr/include/eigen3/Eigen/src/Core/Inverse.h
  /usr/include/eigen3/Eigen/src/Core/Map.h
  /usr/include/eigen3/Eigen/src/Core/MapBase.h
  /usr/include/eigen3/Eigen/src/Core/MathFunctions.h
+ /usr/include/eigen3/Eigen/src/Core/MathFunctionsImpl.h
  /usr/include/eigen3/Eigen/src/Core/Matrix.h
  /usr/include/eigen3/Eigen/src/Core/MatrixBase.h
  /usr/include/eigen3/Eigen/src/Core/NestByValue.h
@@ -1207,7 +1293,8 @@ texturing/CMakeFiles/texturing.dir/view_selection.cpp.o
  /usr/include/eigen3/Eigen/src/Core/NumTraits.h
  /usr/include/eigen3/Eigen/src/Core/PermutationMatrix.h
  /usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h
- /usr/include/eigen3/Eigen/src/Core/ProductBase.h
+ /usr/include/eigen3/Eigen/src/Core/Product.h
+ /usr/include/eigen3/Eigen/src/Core/ProductEvaluators.h
  /usr/include/eigen3/Eigen/src/Core/Random.h
  /usr/include/eigen3/Eigen/src/Core/Redux.h
  /usr/include/eigen3/Eigen/src/Core/Ref.h
@@ -1217,7 +1304,9 @@ texturing/CMakeFiles/texturing.dir/view_selection.cpp.o
  /usr/include/eigen3/Eigen/src/Core/Select.h
  /usr/include/eigen3/Eigen/src/Core/SelfAdjointView.h
  /usr/include/eigen3/Eigen/src/Core/SelfCwiseBinaryOp.h
+ /usr/include/eigen3/Eigen/src/Core/Solve.h
  /usr/include/eigen3/Eigen/src/Core/SolveTriangular.h
+ /usr/include/eigen3/Eigen/src/Core/SolverBase.h
  /usr/include/eigen3/Eigen/src/Core/StableNorm.h
  /usr/include/eigen3/Eigen/src/Core/Stride.h
  /usr/include/eigen3/Eigen/src/Core/Swap.h
@@ -1227,35 +1316,58 @@ texturing/CMakeFiles/texturing.dir/view_selection.cpp.o
  /usr/include/eigen3/Eigen/src/Core/VectorBlock.h
  /usr/include/eigen3/Eigen/src/Core/VectorwiseOp.h
  /usr/include/eigen3/Eigen/src/Core/Visitor.h
+ /usr/include/eigen3/Eigen/src/Core/arch/AVX/Complex.h
+ /usr/include/eigen3/Eigen/src/Core/arch/AVX/MathFunctions.h
+ /usr/include/eigen3/Eigen/src/Core/arch/AVX/PacketMath.h
+ /usr/include/eigen3/Eigen/src/Core/arch/AVX/TypeCasting.h
+ /usr/include/eigen3/Eigen/src/Core/arch/AVX512/MathFunctions.h
+ /usr/include/eigen3/Eigen/src/Core/arch/AVX512/PacketMath.h
  /usr/include/eigen3/Eigen/src/Core/arch/AltiVec/Complex.h
+ /usr/include/eigen3/Eigen/src/Core/arch/AltiVec/MathFunctions.h
  /usr/include/eigen3/Eigen/src/Core/arch/AltiVec/PacketMath.h
+ /usr/include/eigen3/Eigen/src/Core/arch/CUDA/Complex.h
+ /usr/include/eigen3/Eigen/src/Core/arch/CUDA/Half.h
+ /usr/include/eigen3/Eigen/src/Core/arch/CUDA/MathFunctions.h
+ /usr/include/eigen3/Eigen/src/Core/arch/CUDA/PacketMath.h
+ /usr/include/eigen3/Eigen/src/Core/arch/CUDA/PacketMathHalf.h
+ /usr/include/eigen3/Eigen/src/Core/arch/CUDA/TypeCasting.h
  /usr/include/eigen3/Eigen/src/Core/arch/Default/Settings.h
  /usr/include/eigen3/Eigen/src/Core/arch/NEON/Complex.h
+ /usr/include/eigen3/Eigen/src/Core/arch/NEON/MathFunctions.h
  /usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h
  /usr/include/eigen3/Eigen/src/Core/arch/SSE/Complex.h
  /usr/include/eigen3/Eigen/src/Core/arch/SSE/MathFunctions.h
  /usr/include/eigen3/Eigen/src/Core/arch/SSE/PacketMath.h
- /usr/include/eigen3/Eigen/src/Core/products/CoeffBasedProduct.h
+ /usr/include/eigen3/Eigen/src/Core/arch/SSE/TypeCasting.h
+ /usr/include/eigen3/Eigen/src/Core/arch/ZVector/Complex.h
+ /usr/include/eigen3/Eigen/src/Core/arch/ZVector/MathFunctions.h
+ /usr/include/eigen3/Eigen/src/Core/arch/ZVector/PacketMath.h
+ /usr/include/eigen3/Eigen/src/Core/functors/AssignmentFunctors.h
+ /usr/include/eigen3/Eigen/src/Core/functors/BinaryFunctors.h
+ /usr/include/eigen3/Eigen/src/Core/functors/NullaryFunctors.h
+ /usr/include/eigen3/Eigen/src/Core/functors/StlFunctors.h
+ /usr/include/eigen3/Eigen/src/Core/functors/TernaryFunctors.h
+ /usr/include/eigen3/Eigen/src/Core/functors/UnaryFunctors.h
  /usr/include/eigen3/Eigen/src/Core/products/GeneralBlockPanelKernel.h
  /usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrix.h
  /usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrixTriangular.h
- /usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrixTriangular_MKL.h
- /usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrix_MKL.h
+ /usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrixTriangular_BLAS.h
+ /usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrix_BLAS.h
  /usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixVector.h
- /usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixVector_MKL.h
+ /usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixVector_BLAS.h
  /usr/include/eigen3/Eigen/src/Core/products/Parallelizer.h
  /usr/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixMatrix.h
- /usr/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixMatrix_MKL.h
+ /usr/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixMatrix_BLAS.h
  /usr/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector.h
- /usr/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector_MKL.h
+ /usr/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector_BLAS.h
  /usr/include/eigen3/Eigen/src/Core/products/SelfadjointProduct.h
  /usr/include/eigen3/Eigen/src/Core/products/SelfadjointRank2Update.h
  /usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixMatrix.h
- /usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixMatrix_MKL.h
+ /usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixMatrix_BLAS.h
  /usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h
- /usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector_MKL.h
+ /usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector_BLAS.h
  /usr/include/eigen3/Eigen/src/Core/products/TriangularSolverMatrix.h
- /usr/include/eigen3/Eigen/src/Core/products/TriangularSolverMatrix_MKL.h
+ /usr/include/eigen3/Eigen/src/Core/products/TriangularSolverMatrix_BLAS.h
  /usr/include/eigen3/Eigen/src/Core/products/TriangularSolverVector.h
  /usr/include/eigen3/Eigen/src/Core/util/BlasUtil.h
  /usr/include/eigen3/Eigen/src/Core/util/Constants.h
@@ -1268,17 +1380,7 @@ texturing/CMakeFiles/texturing.dir/view_selection.cpp.o
  /usr/include/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h
  /usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h
  /usr/include/eigen3/Eigen/src/Core/util/XprHelper.h
- /usr/include/eigen3/Eigen/src/Eigen2Support/Block.h
- /usr/include/eigen3/Eigen/src/Eigen2Support/Cwise.h
- /usr/include/eigen3/Eigen/src/Eigen2Support/CwiseOperators.h
- /usr/include/eigen3/Eigen/src/Eigen2Support/Lazy.h
- /usr/include/eigen3/Eigen/src/Eigen2Support/Macros.h
- /usr/include/eigen3/Eigen/src/Eigen2Support/MathFunctions.h
- /usr/include/eigen3/Eigen/src/Eigen2Support/Memory.h
- /usr/include/eigen3/Eigen/src/Eigen2Support/Meta.h
- /usr/include/eigen3/Eigen/src/Eigen2Support/Minor.h
- /usr/include/eigen3/Eigen/src/Eigen2Support/TriangularSolver.h
- /usr/include/eigen3/Eigen/src/Eigen2Support/VectorBlock.h
+ /usr/include/eigen3/Eigen/src/misc/blas.h
  /usr/include/eigen3/Eigen/src/plugins/ArrayCwiseBinaryOps.h
  /usr/include/eigen3/Eigen/src/plugins/ArrayCwiseUnaryOps.h
  /usr/include/eigen3/Eigen/src/plugins/BlockMethods.h

@@ -11,11 +11,11 @@ surface/CMakeFiles/surface.dir/basis_function.cc.o
  ../surface/../surface/basis_function.h
  ../surface/../surface/defines.h
  ../surface/../surface/sample.h
- /home/demo/桌面/ImageBasedModellingEdu/surface/basis_function.cc
+ /home/chen/桌面/ImageBasedModellingEdu/surface/basis_function.cc
 surface/CMakeFiles/surface.dir/hermite.cc.o
  ../surface/../surface/defines.h
  ../surface/../surface/hermite.h
- /home/demo/桌面/ImageBasedModellingEdu/surface/hermite.cc
+ /home/chen/桌面/ImageBasedModellingEdu/surface/hermite.cc
 surface/CMakeFiles/surface.dir/iso_octree.cc.o
  ../surface/../core/defines.h
  ../surface/../core/mesh.h
@@ -32,7 +32,7 @@ surface/CMakeFiles/surface.dir/iso_octree.cc.o
  ../surface/../util/defines.h
  ../surface/../util/strings.h
  ../surface/../util/timer.h
- /home/demo/桌面/ImageBasedModellingEdu/surface/iso_octree.cc
+ /home/chen/桌面/ImageBasedModellingEdu/surface/iso_octree.cc
 surface/CMakeFiles/surface.dir/iso_surface.cc.o
  ../surface/../core/defines.h
  ../surface/../core/mesh.h
@@ -49,7 +49,7 @@ surface/CMakeFiles/surface.dir/iso_surface.cc.o
  ../surface/../surface/voxel.h
  ../surface/../util/defines.h
  ../surface/../util/timer.h
- /home/demo/桌面/ImageBasedModellingEdu/surface/iso_surface.cc
+ /home/chen/桌面/ImageBasedModellingEdu/surface/iso_surface.cc
 surface/CMakeFiles/surface.dir/mesh_clean.cc.o
  ../surface/../core/defines.h
  ../surface/../core/mesh.h
@@ -61,7 +61,7 @@ surface/CMakeFiles/surface.dir/mesh_clean.cc.o
  ../surface/../math/vector.h
  ../surface/../surface/defines.h
  ../surface/../surface/mesh_clean.h
- /home/demo/桌面/ImageBasedModellingEdu/surface/mesh_clean.cc
+ /home/chen/桌面/ImageBasedModellingEdu/surface/mesh_clean.cc
 surface/CMakeFiles/surface.dir/octree.cc.o
  ../surface/../core/defines.h
  ../surface/../core/mesh.h
@@ -74,7 +74,7 @@ surface/CMakeFiles/surface.dir/octree.cc.o
  ../surface/../surface/sample.h
  ../surface/../util/defines.h
  ../surface/../util/timer.h
- /home/demo/桌面/ImageBasedModellingEdu/surface/octree.cc
+ /home/chen/桌面/ImageBasedModellingEdu/surface/octree.cc
 surface/CMakeFiles/surface.dir/sample_io.cc.o
  ../surface/../core/camera.h
  ../surface/../core/defines.h
@@ -96,7 +96,7 @@ surface/CMakeFiles/surface.dir/sample_io.cc.o
  ../surface/../util/strings.h
  ../surface/../util/system.h
  ../surface/../util/tokenizer.h
- /home/demo/桌面/ImageBasedModellingEdu/surface/sample_io.cc
+ /home/chen/桌面/ImageBasedModellingEdu/surface/sample_io.cc
 surface/CMakeFiles/surface.dir/triangulation.cc.o
  ../surface/../math/algo.h
  ../surface/../math/defines.h
@@ -106,7 +106,7 @@ surface/CMakeFiles/surface.dir/triangulation.cc.o
  ../surface/../math/vector.h
  ../surface/../surface/defines.h
  ../surface/../surface/triangulation.h
- /home/demo/桌面/ImageBasedModellingEdu/surface/triangulation.cc
+ /home/chen/桌面/ImageBasedModellingEdu/surface/triangulation.cc
 surface/CMakeFiles/surface.dir/voxel.cc.o
  ../surface/../core/defines.h
  ../surface/../core/mesh.h
@@ -117,4 +117,4 @@ surface/CMakeFiles/surface.dir/voxel.cc.o
  ../surface/../surface/octree.h
  ../surface/../surface/sample.h
  ../surface/../surface/voxel.h
- /home/demo/桌面/ImageBasedModellingEdu/surface/voxel.cc
+ /home/chen/桌面/ImageBasedModellingEdu/surface/voxel.cc

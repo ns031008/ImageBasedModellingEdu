@@ -408,7 +408,7 @@ ctime
 util/defines.h
 ../features/../util/util/defines.h
 
-/home/demo/桌面/ImageBasedModellingEdu/features/cascade_hashing.cc
+/home/chen/桌面/ImageBasedModellingEdu/features/cascade_hashing.cc
 algorithm
 -
 cstdint
@@ -416,23 +416,23 @@ cstdint
 vector
 -
 features/cascade_hashing.h
-/home/demo/桌面/ImageBasedModellingEdu/features/features/cascade_hashing.h
+/home/chen/桌面/ImageBasedModellingEdu/features/features/cascade_hashing.h
 
-/home/demo/桌面/ImageBasedModellingEdu/features/exhaustive_matching.cc
+/home/chen/桌面/ImageBasedModellingEdu/features/exhaustive_matching.cc
 features/exhaustive_matching.h
-/home/demo/桌面/ImageBasedModellingEdu/features/features/exhaustive_matching.h
+/home/chen/桌面/ImageBasedModellingEdu/features/features/exhaustive_matching.h
 
-/home/demo/桌面/ImageBasedModellingEdu/features/matching.cc
+/home/chen/桌面/ImageBasedModellingEdu/features/matching.cc
 iostream
 -
 math/algo.h
-/home/demo/桌面/ImageBasedModellingEdu/features/math/algo.h
+/home/chen/桌面/ImageBasedModellingEdu/features/math/algo.h
 features/nearest_neighbor.h
-/home/demo/桌面/ImageBasedModellingEdu/features/features/nearest_neighbor.h
+/home/chen/桌面/ImageBasedModellingEdu/features/features/nearest_neighbor.h
 features/matching.h
-/home/demo/桌面/ImageBasedModellingEdu/features/features/matching.h
+/home/chen/桌面/ImageBasedModellingEdu/features/features/matching.h
 
-/home/demo/桌面/ImageBasedModellingEdu/features/nearest_neighbor.cc
+/home/chen/桌面/ImageBasedModellingEdu/features/nearest_neighbor.cc
 algorithm
 -
 iostream
@@ -442,9 +442,9 @@ emmintrin.h
 pmmintrin.h
 -
 features/nearest_neighbor.h
-/home/demo/桌面/ImageBasedModellingEdu/features/features/nearest_neighbor.h
+/home/chen/桌面/ImageBasedModellingEdu/features/features/nearest_neighbor.h
 
-/home/demo/桌面/ImageBasedModellingEdu/features/sift.cc
+/home/chen/桌面/ImageBasedModellingEdu/features/sift.cc
 iostream
 -
 fstream
@@ -452,41 +452,41 @@ fstream
 stdexcept
 -
 util/timer.h
-/home/demo/桌面/ImageBasedModellingEdu/features/util/timer.h
+/home/chen/桌面/ImageBasedModellingEdu/features/util/timer.h
 math/functions.h
-/home/demo/桌面/ImageBasedModellingEdu/features/math/functions.h
+/home/chen/桌面/ImageBasedModellingEdu/features/math/functions.h
 math/matrix.h
-/home/demo/桌面/ImageBasedModellingEdu/features/math/matrix.h
+/home/chen/桌面/ImageBasedModellingEdu/features/math/matrix.h
 math/matrix_tools.h
-/home/demo/桌面/ImageBasedModellingEdu/features/math/matrix_tools.h
+/home/chen/桌面/ImageBasedModellingEdu/features/math/matrix_tools.h
 core/image_io.h
-/home/demo/桌面/ImageBasedModellingEdu/features/core/image_io.h
+/home/chen/桌面/ImageBasedModellingEdu/features/core/image_io.h
 core/image_tools.h
-/home/demo/桌面/ImageBasedModellingEdu/features/core/image_tools.h
+/home/chen/桌面/ImageBasedModellingEdu/features/core/image_tools.h
 features/sift.h
-/home/demo/桌面/ImageBasedModellingEdu/features/features/sift.h
+/home/chen/桌面/ImageBasedModellingEdu/features/features/sift.h
 
-/home/demo/桌面/ImageBasedModellingEdu/features/surf.cc
+/home/chen/桌面/ImageBasedModellingEdu/features/surf.cc
 iostream
 -
 util/timer.h
-/home/demo/桌面/ImageBasedModellingEdu/features/util/timer.h
+/home/chen/桌面/ImageBasedModellingEdu/features/util/timer.h
 math/functions.h
-/home/demo/桌面/ImageBasedModellingEdu/features/math/functions.h
+/home/chen/桌面/ImageBasedModellingEdu/features/math/functions.h
 math/vector.h
-/home/demo/桌面/ImageBasedModellingEdu/features/math/vector.h
+/home/chen/桌面/ImageBasedModellingEdu/features/math/vector.h
 math/matrix.h
-/home/demo/桌面/ImageBasedModellingEdu/features/math/matrix.h
+/home/chen/桌面/ImageBasedModellingEdu/features/math/matrix.h
 math/matrix_tools.h
-/home/demo/桌面/ImageBasedModellingEdu/features/math/matrix_tools.h
+/home/chen/桌面/ImageBasedModellingEdu/features/math/matrix_tools.h
 core/image.h
-/home/demo/桌面/ImageBasedModellingEdu/features/core/image.h
+/home/chen/桌面/ImageBasedModellingEdu/features/core/image.h
 core/image_tools.h
-/home/demo/桌面/ImageBasedModellingEdu/features/core/image_tools.h
+/home/chen/桌面/ImageBasedModellingEdu/features/core/image_tools.h
 core/image_drawing.h
-/home/demo/桌面/ImageBasedModellingEdu/features/core/image_drawing.h
+/home/chen/桌面/ImageBasedModellingEdu/features/core/image_drawing.h
 core/defines.h
-/home/demo/桌面/ImageBasedModellingEdu/features/core/defines.h
+/home/chen/桌面/ImageBasedModellingEdu/features/core/defines.h
 features/surf.h
-/home/demo/桌面/ImageBasedModellingEdu/features/features/surf.h
+/home/chen/桌面/ImageBasedModellingEdu/features/features/surf.h
 

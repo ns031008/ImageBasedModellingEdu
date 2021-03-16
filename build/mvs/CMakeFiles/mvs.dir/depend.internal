@@ -34,7 +34,7 @@ mvs/CMakeFiles/mvs.dir/dmrecon.cc.o
  ../mvs/../util/exception.h
  ../mvs/../util/file_system.h
  ../mvs/../util/strings.h
- /home/demo/桌面/ImageBasedModellingEdu/mvs/dmrecon.cc
+ /home/chen/桌面/ImageBasedModellingEdu/mvs/dmrecon.cc
 mvs/CMakeFiles/mvs.dir/global_view_selection.cc.o
  ../mvs/../core/bundle.h
  ../mvs/../core/camera.h
@@ -58,7 +58,7 @@ mvs/CMakeFiles/mvs.dir/global_view_selection.cc.o
  ../mvs/../mvs/view_selection.h
  ../mvs/../util/defines.h
  ../mvs/../util/strings.h
- /home/demo/桌面/ImageBasedModellingEdu/mvs/global_view_selection.cc
+ /home/chen/桌面/ImageBasedModellingEdu/mvs/global_view_selection.cc
 mvs/CMakeFiles/mvs.dir/image_pyramid.cc.o
  ../mvs/../core/bundle.h
  ../mvs/../core/camera.h
@@ -80,7 +80,7 @@ mvs/CMakeFiles/mvs.dir/image_pyramid.cc.o
  ../mvs/../util/defines.h
  ../mvs/../util/exception.h
  ../mvs/../util/strings.h
- /home/demo/桌面/ImageBasedModellingEdu/mvs/image_pyramid.cc
+ /home/chen/桌面/ImageBasedModellingEdu/mvs/image_pyramid.cc
 mvs/CMakeFiles/mvs.dir/local_view_selection.cc.o
  ../mvs/../core/bundle.h
  ../mvs/../core/camera.h
@@ -105,7 +105,7 @@ mvs/CMakeFiles/mvs.dir/local_view_selection.cc.o
  ../mvs/../mvs/view_selection.h
  ../mvs/../util/defines.h
  ../mvs/../util/strings.h
- /home/demo/桌面/ImageBasedModellingEdu/mvs/local_view_selection.cc
+ /home/chen/桌面/ImageBasedModellingEdu/mvs/local_view_selection.cc
 mvs/CMakeFiles/mvs.dir/mvs_tools.cc.o
  ../mvs/../core/bundle.h
  ../mvs/../core/camera.h
@@ -130,7 +130,7 @@ mvs/CMakeFiles/mvs.dir/mvs_tools.cc.o
  ../mvs/../util/defines.h
  ../mvs/../util/exception.h
  ../mvs/../util/strings.h
- /home/demo/桌面/ImageBasedModellingEdu/mvs/mvs_tools.cc
+ /home/chen/桌面/ImageBasedModellingEdu/mvs/mvs_tools.cc
 mvs/CMakeFiles/mvs.dir/patch_optimization.cc.o
  ../mvs/../core/bundle.h
  ../mvs/../core/camera.h
@@ -156,7 +156,7 @@ mvs/CMakeFiles/mvs.dir/patch_optimization.cc.o
  ../mvs/../mvs/view_selection.h
  ../mvs/../util/defines.h
  ../mvs/../util/strings.h
- /home/demo/桌面/ImageBasedModellingEdu/mvs/patch_optimization.cc
+ /home/chen/桌面/ImageBasedModellingEdu/mvs/patch_optimization.cc
 mvs/CMakeFiles/mvs.dir/patch_sampler.cc.o
  ../mvs/../core/bundle.h
  ../mvs/../core/camera.h
@@ -179,7 +179,7 @@ mvs/CMakeFiles/mvs.dir/patch_sampler.cc.o
  ../mvs/../mvs/single_view.h
  ../mvs/../util/defines.h
  ../mvs/../util/strings.h
- /home/demo/桌面/ImageBasedModellingEdu/mvs/patch_sampler.cc
+ /home/chen/桌面/ImageBasedModellingEdu/mvs/patch_sampler.cc
 mvs/CMakeFiles/mvs.dir/single_view.cc.o
  ../mvs/../core/bundle.h
  ../mvs/../core/camera.h
@@ -207,4 +207,4 @@ mvs/CMakeFiles/mvs.dir/single_view.cc.o
  ../mvs/../util/file_system.h
  ../mvs/../util/strings.h
  ../mvs/../util/system.h
- /home/demo/桌面/ImageBasedModellingEdu/mvs/single_view.cc
+ /home/chen/桌面/ImageBasedModellingEdu/mvs/single_view.cc

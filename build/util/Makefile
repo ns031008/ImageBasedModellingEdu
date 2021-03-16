@@ -48,18 +48,18 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/demo/桌面/ImageBasedModellingEdu
+CMAKE_SOURCE_DIR = /home/chen/桌面/ImageBasedModellingEdu
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/demo/桌面/ImageBasedModellingEdu/build
+CMAKE_BINARY_DIR = /home/chen/桌面/ImageBasedModellingEdu/build
 
 #=============================================================================
 # Targets provided globally by CMake.
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,14 +80,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/demo/桌面/ImageBasedModellingEdu/build/CMakeFiles /home/demo/桌面/ImageBasedModellingEdu/build/util/CMakeFiles/progress.marks
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 util/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/demo/桌面/ImageBasedModellingEdu/build/CMakeFiles 0
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/chen/桌面/ImageBasedModellingEdu/build/CMakeFiles /home/chen/桌面/ImageBasedModellingEdu/build/util/CMakeFiles/progress.marks
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 util/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chen/桌面/ImageBasedModellingEdu/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 util/clean
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 util/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 util/preinstall
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 util/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 util/preinstall
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 util/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 util/CMakeFiles/util.dir/rule:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 util/CMakeFiles/util.dir/rule
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 util/CMakeFiles/util.dir/rule
 .PHONY : util/CMakeFiles/util.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ util: util/CMakeFiles/util.dir/rule
 
 # fast build rule for target.
 util/fast:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f util/CMakeFiles/util.dir/build.make util/CMakeFiles/util.dir/build
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f util/CMakeFiles/util.dir/build.make util/CMakeFiles/util.dir/build
 .PHONY : util/fast
 
 arguments.o: arguments.cc.o
@@ -131,7 +131,7 @@ arguments.o: arguments.cc.o
 
 # target to build an object file
 arguments.cc.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f util/CMakeFiles/util.dir/build.make util/CMakeFiles/util.dir/arguments.cc.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f util/CMakeFiles/util.dir/build.make util/CMakeFiles/util.dir/arguments.cc.o
 .PHONY : arguments.cc.o
 
 arguments.i: arguments.cc.i
@@ -140,7 +140,7 @@ arguments.i: arguments.cc.i
 
 # target to preprocess a source file
 arguments.cc.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f util/CMakeFiles/util.dir/build.make util/CMakeFiles/util.dir/arguments.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f util/CMakeFiles/util.dir/build.make util/CMakeFiles/util.dir/arguments.cc.i
 .PHONY : arguments.cc.i
 
 arguments.s: arguments.cc.s
@@ -149,7 +149,7 @@ arguments.s: arguments.cc.s
 
 # target to generate assembly for a file
 arguments.cc.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f util/CMakeFiles/util.dir/build.make util/CMakeFiles/util.dir/arguments.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f util/CMakeFiles/util.dir/build.make util/CMakeFiles/util.dir/arguments.cc.s
 .PHONY : arguments.cc.s
 
 file_system.o: file_system.cc.o
@@ -158,7 +158,7 @@ file_system.o: file_system.cc.o
 
 # target to build an object file
 file_system.cc.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f util/CMakeFiles/util.dir/build.make util/CMakeFiles/util.dir/file_system.cc.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f util/CMakeFiles/util.dir/build.make util/CMakeFiles/util.dir/file_system.cc.o
 .PHONY : file_system.cc.o
 
 file_system.i: file_system.cc.i
@@ -167,7 +167,7 @@ file_system.i: file_system.cc.i
 
 # target to preprocess a source file
 file_system.cc.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f util/CMakeFiles/util.dir/build.make util/CMakeFiles/util.dir/file_system.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f util/CMakeFiles/util.dir/build.make util/CMakeFiles/util.dir/file_system.cc.i
 .PHONY : file_system.cc.i
 
 file_system.s: file_system.cc.s
@@ -176,7 +176,7 @@ file_system.s: file_system.cc.s
 
 # target to generate assembly for a file
 file_system.cc.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f util/CMakeFiles/util.dir/build.make util/CMakeFiles/util.dir/file_system.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f util/CMakeFiles/util.dir/build.make util/CMakeFiles/util.dir/file_system.cc.s
 .PHONY : file_system.cc.s
 
 ini_parser.o: ini_parser.cc.o
@@ -185,7 +185,7 @@ ini_parser.o: ini_parser.cc.o
 
 # target to build an object file
 ini_parser.cc.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f util/CMakeFiles/util.dir/build.make util/CMakeFiles/util.dir/ini_parser.cc.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f util/CMakeFiles/util.dir/build.make util/CMakeFiles/util.dir/ini_parser.cc.o
 .PHONY : ini_parser.cc.o
 
 ini_parser.i: ini_parser.cc.i
@@ -194,7 +194,7 @@ ini_parser.i: ini_parser.cc.i
 
 # target to preprocess a source file
 ini_parser.cc.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f util/CMakeFiles/util.dir/build.make util/CMakeFiles/util.dir/ini_parser.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f util/CMakeFiles/util.dir/build.make util/CMakeFiles/util.dir/ini_parser.cc.i
 .PHONY : ini_parser.cc.i
 
 ini_parser.s: ini_parser.cc.s
@@ -203,7 +203,7 @@ ini_parser.s: ini_parser.cc.s
 
 # target to generate assembly for a file
 ini_parser.cc.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f util/CMakeFiles/util.dir/build.make util/CMakeFiles/util.dir/ini_parser.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f util/CMakeFiles/util.dir/build.make util/CMakeFiles/util.dir/ini_parser.cc.s
 .PHONY : ini_parser.cc.s
 
 system.o: system.cc.o
@@ -212,7 +212,7 @@ system.o: system.cc.o
 
 # target to build an object file
 system.cc.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f util/CMakeFiles/util.dir/build.make util/CMakeFiles/util.dir/system.cc.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f util/CMakeFiles/util.dir/build.make util/CMakeFiles/util.dir/system.cc.o
 .PHONY : system.cc.o
 
 system.i: system.cc.i
@@ -221,7 +221,7 @@ system.i: system.cc.i
 
 # target to preprocess a source file
 system.cc.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f util/CMakeFiles/util.dir/build.make util/CMakeFiles/util.dir/system.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f util/CMakeFiles/util.dir/build.make util/CMakeFiles/util.dir/system.cc.i
 .PHONY : system.cc.i
 
 system.s: system.cc.s
@@ -230,7 +230,7 @@ system.s: system.cc.s
 
 # target to generate assembly for a file
 system.cc.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f util/CMakeFiles/util.dir/build.make util/CMakeFiles/util.dir/system.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f util/CMakeFiles/util.dir/build.make util/CMakeFiles/util.dir/system.cc.s
 .PHONY : system.cc.s
 
 # Help Target
@@ -240,8 +240,8 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
-	@echo "... util"
 	@echo "... rebuild_cache"
+	@echo "... util"
 	@echo "... arguments.o"
 	@echo "... arguments.i"
 	@echo "... arguments.s"
@@ -265,6 +265,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

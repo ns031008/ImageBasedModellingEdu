@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/demo/桌面/ImageBasedModellingEdu
+CMAKE_SOURCE_DIR = /home/chen/桌面/ImageBasedModellingEdu
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/demo/桌面/ImageBasedModellingEdu/build
+CMAKE_BINARY_DIR = /home/chen/桌面/ImageBasedModellingEdu/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -69,8 +69,8 @@ rebuild_cache/fast: rebuild_cache
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/demo/桌面/ImageBasedModellingEdu/build/CMakeFiles /home/demo/桌面/ImageBasedModellingEdu/build/examples/task1/CMakeFiles/progress.marks
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 examples/task1/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/demo/桌面/ImageBasedModellingEdu/build/CMakeFiles 0
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/chen/桌面/ImageBasedModellingEdu/build/CMakeFiles /home/chen/桌面/ImageBasedModellingEdu/build/examples/task1/CMakeFiles/progress.marks
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 examples/task1/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chen/桌面/ImageBasedModellingEdu/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 examples/task1/clean
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 examples/task1/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 examples/task1/preinstall
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 examples/task1/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 examples/task1/preinstall
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 examples/task1/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 examples/task1/CMakeFiles/task6_test_pose_from_fundamental.dir/rule:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 examples/task1/CMakeFiles/task6_test_pose_from_fundamental.dir/rule
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 examples/task1/CMakeFiles/task6_test_pose_from_fundamental.dir/rule
 .PHONY : examples/task1/CMakeFiles/task6_test_pose_from_fundamental.dir/rule
 
 # Convenience name for target.
@@ -122,72 +122,12 @@ task6_test_pose_from_fundamental: examples/task1/CMakeFiles/task6_test_pose_from
 
 # fast build rule for target.
 task6_test_pose_from_fundamental/fast:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task1/CMakeFiles/task6_test_pose_from_fundamental.dir/build.make examples/task1/CMakeFiles/task6_test_pose_from_fundamental.dir/build
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task1/CMakeFiles/task6_test_pose_from_fundamental.dir/build.make examples/task1/CMakeFiles/task6_test_pose_from_fundamental.dir/build
 .PHONY : task6_test_pose_from_fundamental/fast
 
 # Convenience name for target.
-examples/task1/CMakeFiles/task2_test_camera_model.dir/rule:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 examples/task1/CMakeFiles/task2_test_camera_model.dir/rule
-.PHONY : examples/task1/CMakeFiles/task2_test_camera_model.dir/rule
-
-# Convenience name for target.
-task2_test_camera_model: examples/task1/CMakeFiles/task2_test_camera_model.dir/rule
-
-.PHONY : task2_test_camera_model
-
-# fast build rule for target.
-task2_test_camera_model/fast:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task1/CMakeFiles/task2_test_camera_model.dir/build.make examples/task1/CMakeFiles/task2_test_camera_model.dir/build
-.PHONY : task2_test_camera_model/fast
-
-# Convenience name for target.
-examples/task1/CMakeFiles/task1_test_math_basic.dir/rule:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 examples/task1/CMakeFiles/task1_test_math_basic.dir/rule
-.PHONY : examples/task1/CMakeFiles/task1_test_math_basic.dir/rule
-
-# Convenience name for target.
-task1_test_math_basic: examples/task1/CMakeFiles/task1_test_math_basic.dir/rule
-
-.PHONY : task1_test_math_basic
-
-# fast build rule for target.
-task1_test_math_basic/fast:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task1/CMakeFiles/task1_test_math_basic.dir/build.make examples/task1/CMakeFiles/task1_test_math_basic.dir/build
-.PHONY : task1_test_math_basic/fast
-
-# Convenience name for target.
-examples/task1/CMakeFiles/task3_test_feature_matching.dir/rule:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 examples/task1/CMakeFiles/task3_test_feature_matching.dir/rule
-.PHONY : examples/task1/CMakeFiles/task3_test_feature_matching.dir/rule
-
-# Convenience name for target.
-task3_test_feature_matching: examples/task1/CMakeFiles/task3_test_feature_matching.dir/rule
-
-.PHONY : task3_test_feature_matching
-
-# fast build rule for target.
-task3_test_feature_matching/fast:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task1/CMakeFiles/task3_test_feature_matching.dir/build.make examples/task1/CMakeFiles/task3_test_feature_matching.dir/build
-.PHONY : task3_test_feature_matching/fast
-
-# Convenience name for target.
-examples/task1/CMakeFiles/task4_test_fundamental_8_point.dir/rule:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 examples/task1/CMakeFiles/task4_test_fundamental_8_point.dir/rule
-.PHONY : examples/task1/CMakeFiles/task4_test_fundamental_8_point.dir/rule
-
-# Convenience name for target.
-task4_test_fundamental_8_point: examples/task1/CMakeFiles/task4_test_fundamental_8_point.dir/rule
-
-.PHONY : task4_test_fundamental_8_point
-
-# fast build rule for target.
-task4_test_fundamental_8_point/fast:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task1/CMakeFiles/task4_test_fundamental_8_point.dir/build.make examples/task1/CMakeFiles/task4_test_fundamental_8_point.dir/build
-.PHONY : task4_test_fundamental_8_point/fast
-
-# Convenience name for target.
 examples/task1/CMakeFiles/task5_test_fundamental_ransac.dir/rule:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 examples/task1/CMakeFiles/task5_test_fundamental_ransac.dir/rule
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 examples/task1/CMakeFiles/task5_test_fundamental_ransac.dir/rule
 .PHONY : examples/task1/CMakeFiles/task5_test_fundamental_ransac.dir/rule
 
 # Convenience name for target.
@@ -197,8 +137,68 @@ task5_test_fundamental_ransac: examples/task1/CMakeFiles/task5_test_fundamental_
 
 # fast build rule for target.
 task5_test_fundamental_ransac/fast:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task1/CMakeFiles/task5_test_fundamental_ransac.dir/build.make examples/task1/CMakeFiles/task5_test_fundamental_ransac.dir/build
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task1/CMakeFiles/task5_test_fundamental_ransac.dir/build.make examples/task1/CMakeFiles/task5_test_fundamental_ransac.dir/build
 .PHONY : task5_test_fundamental_ransac/fast
+
+# Convenience name for target.
+examples/task1/CMakeFiles/task1_test_math_basic.dir/rule:
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 examples/task1/CMakeFiles/task1_test_math_basic.dir/rule
+.PHONY : examples/task1/CMakeFiles/task1_test_math_basic.dir/rule
+
+# Convenience name for target.
+task1_test_math_basic: examples/task1/CMakeFiles/task1_test_math_basic.dir/rule
+
+.PHONY : task1_test_math_basic
+
+# fast build rule for target.
+task1_test_math_basic/fast:
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task1/CMakeFiles/task1_test_math_basic.dir/build.make examples/task1/CMakeFiles/task1_test_math_basic.dir/build
+.PHONY : task1_test_math_basic/fast
+
+# Convenience name for target.
+examples/task1/CMakeFiles/task2_test_camera_model.dir/rule:
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 examples/task1/CMakeFiles/task2_test_camera_model.dir/rule
+.PHONY : examples/task1/CMakeFiles/task2_test_camera_model.dir/rule
+
+# Convenience name for target.
+task2_test_camera_model: examples/task1/CMakeFiles/task2_test_camera_model.dir/rule
+
+.PHONY : task2_test_camera_model
+
+# fast build rule for target.
+task2_test_camera_model/fast:
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task1/CMakeFiles/task2_test_camera_model.dir/build.make examples/task1/CMakeFiles/task2_test_camera_model.dir/build
+.PHONY : task2_test_camera_model/fast
+
+# Convenience name for target.
+examples/task1/CMakeFiles/task3_test_feature_matching.dir/rule:
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 examples/task1/CMakeFiles/task3_test_feature_matching.dir/rule
+.PHONY : examples/task1/CMakeFiles/task3_test_feature_matching.dir/rule
+
+# Convenience name for target.
+task3_test_feature_matching: examples/task1/CMakeFiles/task3_test_feature_matching.dir/rule
+
+.PHONY : task3_test_feature_matching
+
+# fast build rule for target.
+task3_test_feature_matching/fast:
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task1/CMakeFiles/task3_test_feature_matching.dir/build.make examples/task1/CMakeFiles/task3_test_feature_matching.dir/build
+.PHONY : task3_test_feature_matching/fast
+
+# Convenience name for target.
+examples/task1/CMakeFiles/task4_test_fundamental_8_point.dir/rule:
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 examples/task1/CMakeFiles/task4_test_fundamental_8_point.dir/rule
+.PHONY : examples/task1/CMakeFiles/task4_test_fundamental_8_point.dir/rule
+
+# Convenience name for target.
+task4_test_fundamental_8_point: examples/task1/CMakeFiles/task4_test_fundamental_8_point.dir/rule
+
+.PHONY : task4_test_fundamental_8_point
+
+# fast build rule for target.
+task4_test_fundamental_8_point/fast:
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task1/CMakeFiles/task4_test_fundamental_8_point.dir/build.make examples/task1/CMakeFiles/task4_test_fundamental_8_point.dir/build
+.PHONY : task4_test_fundamental_8_point/fast
 
 task1-1_test_math_basic.o: task1-1_test_math_basic.cc.o
 
@@ -206,7 +206,7 @@ task1-1_test_math_basic.o: task1-1_test_math_basic.cc.o
 
 # target to build an object file
 task1-1_test_math_basic.cc.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task1/CMakeFiles/task1_test_math_basic.dir/build.make examples/task1/CMakeFiles/task1_test_math_basic.dir/task1-1_test_math_basic.cc.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task1/CMakeFiles/task1_test_math_basic.dir/build.make examples/task1/CMakeFiles/task1_test_math_basic.dir/task1-1_test_math_basic.cc.o
 .PHONY : task1-1_test_math_basic.cc.o
 
 task1-1_test_math_basic.i: task1-1_test_math_basic.cc.i
@@ -215,7 +215,7 @@ task1-1_test_math_basic.i: task1-1_test_math_basic.cc.i
 
 # target to preprocess a source file
 task1-1_test_math_basic.cc.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task1/CMakeFiles/task1_test_math_basic.dir/build.make examples/task1/CMakeFiles/task1_test_math_basic.dir/task1-1_test_math_basic.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task1/CMakeFiles/task1_test_math_basic.dir/build.make examples/task1/CMakeFiles/task1_test_math_basic.dir/task1-1_test_math_basic.cc.i
 .PHONY : task1-1_test_math_basic.cc.i
 
 task1-1_test_math_basic.s: task1-1_test_math_basic.cc.s
@@ -224,7 +224,7 @@ task1-1_test_math_basic.s: task1-1_test_math_basic.cc.s
 
 # target to generate assembly for a file
 task1-1_test_math_basic.cc.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task1/CMakeFiles/task1_test_math_basic.dir/build.make examples/task1/CMakeFiles/task1_test_math_basic.dir/task1-1_test_math_basic.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task1/CMakeFiles/task1_test_math_basic.dir/build.make examples/task1/CMakeFiles/task1_test_math_basic.dir/task1-1_test_math_basic.cc.s
 .PHONY : task1-1_test_math_basic.cc.s
 
 task1-2_test_camera.o: task1-2_test_camera.cc.o
@@ -233,7 +233,7 @@ task1-2_test_camera.o: task1-2_test_camera.cc.o
 
 # target to build an object file
 task1-2_test_camera.cc.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task1/CMakeFiles/task2_test_camera_model.dir/build.make examples/task1/CMakeFiles/task2_test_camera_model.dir/task1-2_test_camera.cc.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task1/CMakeFiles/task2_test_camera_model.dir/build.make examples/task1/CMakeFiles/task2_test_camera_model.dir/task1-2_test_camera.cc.o
 .PHONY : task1-2_test_camera.cc.o
 
 task1-2_test_camera.i: task1-2_test_camera.cc.i
@@ -242,7 +242,7 @@ task1-2_test_camera.i: task1-2_test_camera.cc.i
 
 # target to preprocess a source file
 task1-2_test_camera.cc.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task1/CMakeFiles/task2_test_camera_model.dir/build.make examples/task1/CMakeFiles/task2_test_camera_model.dir/task1-2_test_camera.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task1/CMakeFiles/task2_test_camera_model.dir/build.make examples/task1/CMakeFiles/task2_test_camera_model.dir/task1-2_test_camera.cc.i
 .PHONY : task1-2_test_camera.cc.i
 
 task1-2_test_camera.s: task1-2_test_camera.cc.s
@@ -251,7 +251,7 @@ task1-2_test_camera.s: task1-2_test_camera.cc.s
 
 # target to generate assembly for a file
 task1-2_test_camera.cc.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task1/CMakeFiles/task2_test_camera_model.dir/build.make examples/task1/CMakeFiles/task2_test_camera_model.dir/task1-2_test_camera.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task1/CMakeFiles/task2_test_camera_model.dir/build.make examples/task1/CMakeFiles/task2_test_camera_model.dir/task1-2_test_camera.cc.s
 .PHONY : task1-2_test_camera.cc.s
 
 task1-3_test_fundamental_8_point.o: task1-3_test_fundamental_8_point.cc.o
@@ -260,7 +260,7 @@ task1-3_test_fundamental_8_point.o: task1-3_test_fundamental_8_point.cc.o
 
 # target to build an object file
 task1-3_test_fundamental_8_point.cc.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task1/CMakeFiles/task4_test_fundamental_8_point.dir/build.make examples/task1/CMakeFiles/task4_test_fundamental_8_point.dir/task1-3_test_fundamental_8_point.cc.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task1/CMakeFiles/task4_test_fundamental_8_point.dir/build.make examples/task1/CMakeFiles/task4_test_fundamental_8_point.dir/task1-3_test_fundamental_8_point.cc.o
 .PHONY : task1-3_test_fundamental_8_point.cc.o
 
 task1-3_test_fundamental_8_point.i: task1-3_test_fundamental_8_point.cc.i
@@ -269,7 +269,7 @@ task1-3_test_fundamental_8_point.i: task1-3_test_fundamental_8_point.cc.i
 
 # target to preprocess a source file
 task1-3_test_fundamental_8_point.cc.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task1/CMakeFiles/task4_test_fundamental_8_point.dir/build.make examples/task1/CMakeFiles/task4_test_fundamental_8_point.dir/task1-3_test_fundamental_8_point.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task1/CMakeFiles/task4_test_fundamental_8_point.dir/build.make examples/task1/CMakeFiles/task4_test_fundamental_8_point.dir/task1-3_test_fundamental_8_point.cc.i
 .PHONY : task1-3_test_fundamental_8_point.cc.i
 
 task1-3_test_fundamental_8_point.s: task1-3_test_fundamental_8_point.cc.s
@@ -278,7 +278,7 @@ task1-3_test_fundamental_8_point.s: task1-3_test_fundamental_8_point.cc.s
 
 # target to generate assembly for a file
 task1-3_test_fundamental_8_point.cc.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task1/CMakeFiles/task4_test_fundamental_8_point.dir/build.make examples/task1/CMakeFiles/task4_test_fundamental_8_point.dir/task1-3_test_fundamental_8_point.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task1/CMakeFiles/task4_test_fundamental_8_point.dir/build.make examples/task1/CMakeFiles/task4_test_fundamental_8_point.dir/task1-3_test_fundamental_8_point.cc.s
 .PHONY : task1-3_test_fundamental_8_point.cc.s
 
 task1-4_test_fundamental_ransac.o: task1-4_test_fundamental_ransac.cc.o
@@ -287,7 +287,7 @@ task1-4_test_fundamental_ransac.o: task1-4_test_fundamental_ransac.cc.o
 
 # target to build an object file
 task1-4_test_fundamental_ransac.cc.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task1/CMakeFiles/task5_test_fundamental_ransac.dir/build.make examples/task1/CMakeFiles/task5_test_fundamental_ransac.dir/task1-4_test_fundamental_ransac.cc.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task1/CMakeFiles/task5_test_fundamental_ransac.dir/build.make examples/task1/CMakeFiles/task5_test_fundamental_ransac.dir/task1-4_test_fundamental_ransac.cc.o
 .PHONY : task1-4_test_fundamental_ransac.cc.o
 
 task1-4_test_fundamental_ransac.i: task1-4_test_fundamental_ransac.cc.i
@@ -296,7 +296,7 @@ task1-4_test_fundamental_ransac.i: task1-4_test_fundamental_ransac.cc.i
 
 # target to preprocess a source file
 task1-4_test_fundamental_ransac.cc.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task1/CMakeFiles/task5_test_fundamental_ransac.dir/build.make examples/task1/CMakeFiles/task5_test_fundamental_ransac.dir/task1-4_test_fundamental_ransac.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task1/CMakeFiles/task5_test_fundamental_ransac.dir/build.make examples/task1/CMakeFiles/task5_test_fundamental_ransac.dir/task1-4_test_fundamental_ransac.cc.i
 .PHONY : task1-4_test_fundamental_ransac.cc.i
 
 task1-4_test_fundamental_ransac.s: task1-4_test_fundamental_ransac.cc.s
@@ -305,7 +305,7 @@ task1-4_test_fundamental_ransac.s: task1-4_test_fundamental_ransac.cc.s
 
 # target to generate assembly for a file
 task1-4_test_fundamental_ransac.cc.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task1/CMakeFiles/task5_test_fundamental_ransac.dir/build.make examples/task1/CMakeFiles/task5_test_fundamental_ransac.dir/task1-4_test_fundamental_ransac.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task1/CMakeFiles/task5_test_fundamental_ransac.dir/build.make examples/task1/CMakeFiles/task5_test_fundamental_ransac.dir/task1-4_test_fundamental_ransac.cc.s
 .PHONY : task1-4_test_fundamental_ransac.cc.s
 
 task1-5_test_pose_from_fundamental.o: task1-5_test_pose_from_fundamental.cc.o
@@ -314,7 +314,7 @@ task1-5_test_pose_from_fundamental.o: task1-5_test_pose_from_fundamental.cc.o
 
 # target to build an object file
 task1-5_test_pose_from_fundamental.cc.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task1/CMakeFiles/task6_test_pose_from_fundamental.dir/build.make examples/task1/CMakeFiles/task6_test_pose_from_fundamental.dir/task1-5_test_pose_from_fundamental.cc.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task1/CMakeFiles/task6_test_pose_from_fundamental.dir/build.make examples/task1/CMakeFiles/task6_test_pose_from_fundamental.dir/task1-5_test_pose_from_fundamental.cc.o
 .PHONY : task1-5_test_pose_from_fundamental.cc.o
 
 task1-5_test_pose_from_fundamental.i: task1-5_test_pose_from_fundamental.cc.i
@@ -323,7 +323,7 @@ task1-5_test_pose_from_fundamental.i: task1-5_test_pose_from_fundamental.cc.i
 
 # target to preprocess a source file
 task1-5_test_pose_from_fundamental.cc.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task1/CMakeFiles/task6_test_pose_from_fundamental.dir/build.make examples/task1/CMakeFiles/task6_test_pose_from_fundamental.dir/task1-5_test_pose_from_fundamental.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task1/CMakeFiles/task6_test_pose_from_fundamental.dir/build.make examples/task1/CMakeFiles/task6_test_pose_from_fundamental.dir/task1-5_test_pose_from_fundamental.cc.i
 .PHONY : task1-5_test_pose_from_fundamental.cc.i
 
 task1-5_test_pose_from_fundamental.s: task1-5_test_pose_from_fundamental.cc.s
@@ -332,7 +332,7 @@ task1-5_test_pose_from_fundamental.s: task1-5_test_pose_from_fundamental.cc.s
 
 # target to generate assembly for a file
 task1-5_test_pose_from_fundamental.cc.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task1/CMakeFiles/task6_test_pose_from_fundamental.dir/build.make examples/task1/CMakeFiles/task6_test_pose_from_fundamental.dir/task1-5_test_pose_from_fundamental.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task1/CMakeFiles/task6_test_pose_from_fundamental.dir/build.make examples/task1/CMakeFiles/task6_test_pose_from_fundamental.dir/task1-5_test_pose_from_fundamental.cc.s
 .PHONY : task1-5_test_pose_from_fundamental.cc.s
 
 task1-6_test_matching.o: task1-6_test_matching.cc.o
@@ -341,7 +341,7 @@ task1-6_test_matching.o: task1-6_test_matching.cc.o
 
 # target to build an object file
 task1-6_test_matching.cc.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task1/CMakeFiles/task3_test_feature_matching.dir/build.make examples/task1/CMakeFiles/task3_test_feature_matching.dir/task1-6_test_matching.cc.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task1/CMakeFiles/task3_test_feature_matching.dir/build.make examples/task1/CMakeFiles/task3_test_feature_matching.dir/task1-6_test_matching.cc.o
 .PHONY : task1-6_test_matching.cc.o
 
 task1-6_test_matching.i: task1-6_test_matching.cc.i
@@ -350,7 +350,7 @@ task1-6_test_matching.i: task1-6_test_matching.cc.i
 
 # target to preprocess a source file
 task1-6_test_matching.cc.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task1/CMakeFiles/task3_test_feature_matching.dir/build.make examples/task1/CMakeFiles/task3_test_feature_matching.dir/task1-6_test_matching.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task1/CMakeFiles/task3_test_feature_matching.dir/build.make examples/task1/CMakeFiles/task3_test_feature_matching.dir/task1-6_test_matching.cc.i
 .PHONY : task1-6_test_matching.cc.i
 
 task1-6_test_matching.s: task1-6_test_matching.cc.s
@@ -359,7 +359,7 @@ task1-6_test_matching.s: task1-6_test_matching.cc.s
 
 # target to generate assembly for a file
 task1-6_test_matching.cc.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task1/CMakeFiles/task3_test_feature_matching.dir/build.make examples/task1/CMakeFiles/task3_test_feature_matching.dir/task1-6_test_matching.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task1/CMakeFiles/task3_test_feature_matching.dir/build.make examples/task1/CMakeFiles/task3_test_feature_matching.dir/task1-6_test_matching.cc.s
 .PHONY : task1-6_test_matching.cc.s
 
 visualizer.o: visualizer.cc.o
@@ -368,7 +368,7 @@ visualizer.o: visualizer.cc.o
 
 # target to build an object file
 visualizer.cc.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task1/CMakeFiles/task3_test_feature_matching.dir/build.make examples/task1/CMakeFiles/task3_test_feature_matching.dir/visualizer.cc.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task1/CMakeFiles/task3_test_feature_matching.dir/build.make examples/task1/CMakeFiles/task3_test_feature_matching.dir/visualizer.cc.o
 .PHONY : visualizer.cc.o
 
 visualizer.i: visualizer.cc.i
@@ -377,7 +377,7 @@ visualizer.i: visualizer.cc.i
 
 # target to preprocess a source file
 visualizer.cc.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task1/CMakeFiles/task3_test_feature_matching.dir/build.make examples/task1/CMakeFiles/task3_test_feature_matching.dir/visualizer.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task1/CMakeFiles/task3_test_feature_matching.dir/build.make examples/task1/CMakeFiles/task3_test_feature_matching.dir/visualizer.cc.i
 .PHONY : visualizer.cc.i
 
 visualizer.s: visualizer.cc.s
@@ -386,7 +386,7 @@ visualizer.s: visualizer.cc.s
 
 # target to generate assembly for a file
 visualizer.cc.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task1/CMakeFiles/task3_test_feature_matching.dir/build.make examples/task1/CMakeFiles/task3_test_feature_matching.dir/visualizer.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task1/CMakeFiles/task3_test_feature_matching.dir/build.make examples/task1/CMakeFiles/task3_test_feature_matching.dir/visualizer.cc.s
 .PHONY : visualizer.cc.s
 
 # Help Target
@@ -397,12 +397,12 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... task6_test_pose_from_fundamental"
+	@echo "... task5_test_fundamental_ransac"
+	@echo "... task1_test_math_basic"
 	@echo "... edit_cache"
 	@echo "... task2_test_camera_model"
-	@echo "... task1_test_math_basic"
 	@echo "... task3_test_feature_matching"
 	@echo "... task4_test_fundamental_8_point"
-	@echo "... task5_test_fundamental_ransac"
 	@echo "... task1-1_test_math_basic.o"
 	@echo "... task1-1_test_math_basic.i"
 	@echo "... task1-1_test_math_basic.s"
@@ -435,6 +435,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

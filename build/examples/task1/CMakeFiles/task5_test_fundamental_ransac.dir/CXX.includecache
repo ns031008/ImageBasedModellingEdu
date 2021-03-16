@@ -190,7 +190,7 @@ machine/endian.h
 sys/byteorder.h
 -
 
-/home/demo/桌面/ImageBasedModellingEdu/examples/task1/task1-4_test_fundamental_ransac.cc
+/home/chen/桌面/ImageBasedModellingEdu/examples/task1/task1-4_test_fundamental_ransac.cc
 iostream
 -
 fstream
@@ -204,13 +204,13 @@ util/system.h
 sfm/ransac_fundamental.h
 -
 math/functions.h
-/home/demo/桌面/ImageBasedModellingEdu/examples/task1/math/functions.h
+/home/chen/桌面/ImageBasedModellingEdu/examples/task1/math/functions.h
 sfm/fundamental.h
-/home/demo/桌面/ImageBasedModellingEdu/examples/task1/sfm/fundamental.h
+/home/chen/桌面/ImageBasedModellingEdu/examples/task1/sfm/fundamental.h
 sfm/correspondence.h
-/home/demo/桌面/ImageBasedModellingEdu/examples/task1/sfm/correspondence.h
+/home/chen/桌面/ImageBasedModellingEdu/examples/task1/sfm/correspondence.h
 math/matrix_svd.h
-/home/demo/桌面/ImageBasedModellingEdu/examples/task1/math/matrix_svd.h
+/home/chen/桌面/ImageBasedModellingEdu/examples/task1/math/matrix_svd.h
 cassert
 -
 cmath

@@ -1,4 +1,4 @@
-# Install script for directory: /home/demo/桌面/ImageBasedModellingEdu/3rdParty/gco
+# Install script for directory: /home/chen/桌面/ImageBasedModellingEdu/3rdParty/gco
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

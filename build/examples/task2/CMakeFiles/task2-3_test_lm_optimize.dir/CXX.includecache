@@ -192,7 +192,7 @@ ostream
 util/defines.h
 ../examples/task2/../../util/util/defines.h
 
-/home/demo/桌面/ImageBasedModellingEdu/examples/task2/task2-3_test_lm_optimize.cc
+/home/chen/桌面/ImageBasedModellingEdu/examples/task2/task2-3_test_lm_optimize.cc
 fstream
 -
 sstream
@@ -204,19 +204,19 @@ iomanip
 cassert
 -
 sfm/ba_conjugate_gradient.h
-/home/demo/桌面/ImageBasedModellingEdu/examples/task2/sfm/ba_conjugate_gradient.h
+/home/chen/桌面/ImageBasedModellingEdu/examples/task2/sfm/ba_conjugate_gradient.h
 sfm/bundle_adjustment.h
-/home/demo/桌面/ImageBasedModellingEdu/examples/task2/sfm/bundle_adjustment.h
+/home/chen/桌面/ImageBasedModellingEdu/examples/task2/sfm/bundle_adjustment.h
 sfm/ba_sparse_matrix.h
-/home/demo/桌面/ImageBasedModellingEdu/examples/task2/sfm/ba_sparse_matrix.h
+/home/chen/桌面/ImageBasedModellingEdu/examples/task2/sfm/ba_sparse_matrix.h
 sfm/ba_dense_vector.h
-/home/demo/桌面/ImageBasedModellingEdu/examples/task2/sfm/ba_dense_vector.h
+/home/chen/桌面/ImageBasedModellingEdu/examples/task2/sfm/ba_dense_vector.h
 sfm/ba_linear_solver.h
-/home/demo/桌面/ImageBasedModellingEdu/examples/task2/sfm/ba_linear_solver.h
+/home/chen/桌面/ImageBasedModellingEdu/examples/task2/sfm/ba_linear_solver.h
 sfm/ba_sparse_matrix.h
-/home/demo/桌面/ImageBasedModellingEdu/examples/task2/sfm/ba_sparse_matrix.h
+/home/chen/桌面/ImageBasedModellingEdu/examples/task2/sfm/ba_sparse_matrix.h
 sfm/ba_dense_vector.h
-/home/demo/桌面/ImageBasedModellingEdu/examples/task2/sfm/ba_dense_vector.h
+/home/chen/桌面/ImageBasedModellingEdu/examples/task2/sfm/ba_dense_vector.h
 sfm/ba_cholesky.h
-/home/demo/桌面/ImageBasedModellingEdu/examples/task2/sfm/ba_cholesky.h
+/home/chen/桌面/ImageBasedModellingEdu/examples/task2/sfm/ba_cholesky.h
 

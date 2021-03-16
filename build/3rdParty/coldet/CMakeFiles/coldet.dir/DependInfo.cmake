@@ -5,7 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/demo/桌面/ImageBasedModellingEdu/3rdParty/coldet/src/tritri.c" "/home/demo/桌面/ImageBasedModellingEdu/build/3rdParty/coldet/CMakeFiles/coldet.dir/src/tritri.c.o"
+  "/home/chen/桌面/ImageBasedModellingEdu/3rdParty/coldet/src/tritri.c" "/home/chen/桌面/ImageBasedModellingEdu/build/3rdParty/coldet/CMakeFiles/coldet.dir/src/tritri.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -21,14 +21,14 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "/usr/include/eigen3"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/demo/桌面/ImageBasedModellingEdu/3rdParty/coldet/src/box.cpp" "/home/demo/桌面/ImageBasedModellingEdu/build/3rdParty/coldet/CMakeFiles/coldet.dir/src/box.cpp.o"
-  "/home/demo/桌面/ImageBasedModellingEdu/3rdParty/coldet/src/box_bld.cpp" "/home/demo/桌面/ImageBasedModellingEdu/build/3rdParty/coldet/CMakeFiles/coldet.dir/src/box_bld.cpp.o"
-  "/home/demo/桌面/ImageBasedModellingEdu/3rdParty/coldet/src/cdmath3d.cpp" "/home/demo/桌面/ImageBasedModellingEdu/build/3rdParty/coldet/CMakeFiles/coldet.dir/src/cdmath3d.cpp.o"
-  "/home/demo/桌面/ImageBasedModellingEdu/3rdParty/coldet/src/coldet.cpp" "/home/demo/桌面/ImageBasedModellingEdu/build/3rdParty/coldet/CMakeFiles/coldet.dir/src/coldet.cpp.o"
-  "/home/demo/桌面/ImageBasedModellingEdu/3rdParty/coldet/src/coldet_bld.cpp" "/home/demo/桌面/ImageBasedModellingEdu/build/3rdParty/coldet/CMakeFiles/coldet.dir/src/coldet_bld.cpp.o"
-  "/home/demo/桌面/ImageBasedModellingEdu/3rdParty/coldet/src/multiobject.cpp" "/home/demo/桌面/ImageBasedModellingEdu/build/3rdParty/coldet/CMakeFiles/coldet.dir/src/multiobject.cpp.o"
-  "/home/demo/桌面/ImageBasedModellingEdu/3rdParty/coldet/src/mytritri.cpp" "/home/demo/桌面/ImageBasedModellingEdu/build/3rdParty/coldet/CMakeFiles/coldet.dir/src/mytritri.cpp.o"
-  "/home/demo/桌面/ImageBasedModellingEdu/3rdParty/coldet/src/sysdep.cpp" "/home/demo/桌面/ImageBasedModellingEdu/build/3rdParty/coldet/CMakeFiles/coldet.dir/src/sysdep.cpp.o"
+  "/home/chen/桌面/ImageBasedModellingEdu/3rdParty/coldet/src/box.cpp" "/home/chen/桌面/ImageBasedModellingEdu/build/3rdParty/coldet/CMakeFiles/coldet.dir/src/box.cpp.o"
+  "/home/chen/桌面/ImageBasedModellingEdu/3rdParty/coldet/src/box_bld.cpp" "/home/chen/桌面/ImageBasedModellingEdu/build/3rdParty/coldet/CMakeFiles/coldet.dir/src/box_bld.cpp.o"
+  "/home/chen/桌面/ImageBasedModellingEdu/3rdParty/coldet/src/cdmath3d.cpp" "/home/chen/桌面/ImageBasedModellingEdu/build/3rdParty/coldet/CMakeFiles/coldet.dir/src/cdmath3d.cpp.o"
+  "/home/chen/桌面/ImageBasedModellingEdu/3rdParty/coldet/src/coldet.cpp" "/home/chen/桌面/ImageBasedModellingEdu/build/3rdParty/coldet/CMakeFiles/coldet.dir/src/coldet.cpp.o"
+  "/home/chen/桌面/ImageBasedModellingEdu/3rdParty/coldet/src/coldet_bld.cpp" "/home/chen/桌面/ImageBasedModellingEdu/build/3rdParty/coldet/CMakeFiles/coldet.dir/src/coldet_bld.cpp.o"
+  "/home/chen/桌面/ImageBasedModellingEdu/3rdParty/coldet/src/multiobject.cpp" "/home/chen/桌面/ImageBasedModellingEdu/build/3rdParty/coldet/CMakeFiles/coldet.dir/src/multiobject.cpp.o"
+  "/home/chen/桌面/ImageBasedModellingEdu/3rdParty/coldet/src/mytritri.cpp" "/home/chen/桌面/ImageBasedModellingEdu/build/3rdParty/coldet/CMakeFiles/coldet.dir/src/mytritri.cpp.o"
+  "/home/chen/桌面/ImageBasedModellingEdu/3rdParty/coldet/src/sysdep.cpp" "/home/chen/桌面/ImageBasedModellingEdu/build/3rdParty/coldet/CMakeFiles/coldet.dir/src/sysdep.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

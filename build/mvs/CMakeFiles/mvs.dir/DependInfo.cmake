@@ -4,14 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/demo/桌面/ImageBasedModellingEdu/mvs/dmrecon.cc" "/home/demo/桌面/ImageBasedModellingEdu/build/mvs/CMakeFiles/mvs.dir/dmrecon.cc.o"
-  "/home/demo/桌面/ImageBasedModellingEdu/mvs/global_view_selection.cc" "/home/demo/桌面/ImageBasedModellingEdu/build/mvs/CMakeFiles/mvs.dir/global_view_selection.cc.o"
-  "/home/demo/桌面/ImageBasedModellingEdu/mvs/image_pyramid.cc" "/home/demo/桌面/ImageBasedModellingEdu/build/mvs/CMakeFiles/mvs.dir/image_pyramid.cc.o"
-  "/home/demo/桌面/ImageBasedModellingEdu/mvs/local_view_selection.cc" "/home/demo/桌面/ImageBasedModellingEdu/build/mvs/CMakeFiles/mvs.dir/local_view_selection.cc.o"
-  "/home/demo/桌面/ImageBasedModellingEdu/mvs/mvs_tools.cc" "/home/demo/桌面/ImageBasedModellingEdu/build/mvs/CMakeFiles/mvs.dir/mvs_tools.cc.o"
-  "/home/demo/桌面/ImageBasedModellingEdu/mvs/patch_optimization.cc" "/home/demo/桌面/ImageBasedModellingEdu/build/mvs/CMakeFiles/mvs.dir/patch_optimization.cc.o"
-  "/home/demo/桌面/ImageBasedModellingEdu/mvs/patch_sampler.cc" "/home/demo/桌面/ImageBasedModellingEdu/build/mvs/CMakeFiles/mvs.dir/patch_sampler.cc.o"
-  "/home/demo/桌面/ImageBasedModellingEdu/mvs/single_view.cc" "/home/demo/桌面/ImageBasedModellingEdu/build/mvs/CMakeFiles/mvs.dir/single_view.cc.o"
+  "/home/chen/桌面/ImageBasedModellingEdu/mvs/dmrecon.cc" "/home/chen/桌面/ImageBasedModellingEdu/build/mvs/CMakeFiles/mvs.dir/dmrecon.cc.o"
+  "/home/chen/桌面/ImageBasedModellingEdu/mvs/global_view_selection.cc" "/home/chen/桌面/ImageBasedModellingEdu/build/mvs/CMakeFiles/mvs.dir/global_view_selection.cc.o"
+  "/home/chen/桌面/ImageBasedModellingEdu/mvs/image_pyramid.cc" "/home/chen/桌面/ImageBasedModellingEdu/build/mvs/CMakeFiles/mvs.dir/image_pyramid.cc.o"
+  "/home/chen/桌面/ImageBasedModellingEdu/mvs/local_view_selection.cc" "/home/chen/桌面/ImageBasedModellingEdu/build/mvs/CMakeFiles/mvs.dir/local_view_selection.cc.o"
+  "/home/chen/桌面/ImageBasedModellingEdu/mvs/mvs_tools.cc" "/home/chen/桌面/ImageBasedModellingEdu/build/mvs/CMakeFiles/mvs.dir/mvs_tools.cc.o"
+  "/home/chen/桌面/ImageBasedModellingEdu/mvs/patch_optimization.cc" "/home/chen/桌面/ImageBasedModellingEdu/build/mvs/CMakeFiles/mvs.dir/patch_optimization.cc.o"
+  "/home/chen/桌面/ImageBasedModellingEdu/mvs/patch_sampler.cc" "/home/chen/桌面/ImageBasedModellingEdu/build/mvs/CMakeFiles/mvs.dir/patch_sampler.cc.o"
+  "/home/chen/桌面/ImageBasedModellingEdu/mvs/single_view.cc" "/home/chen/桌面/ImageBasedModellingEdu/build/mvs/CMakeFiles/mvs.dir/single_view.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -48,18 +48,18 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/demo/桌面/ImageBasedModellingEdu
+CMAKE_SOURCE_DIR = /home/chen/桌面/ImageBasedModellingEdu
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/demo/桌面/ImageBasedModellingEdu/build
+CMAKE_BINARY_DIR = /home/chen/桌面/ImageBasedModellingEdu/build
 
 #=============================================================================
 # Targets provided globally by CMake.
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,14 +80,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/demo/桌面/ImageBasedModellingEdu/build/CMakeFiles /home/demo/桌面/ImageBasedModellingEdu/build/examples/task2/CMakeFiles/progress.marks
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 examples/task2/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/demo/桌面/ImageBasedModellingEdu/build/CMakeFiles 0
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/chen/桌面/ImageBasedModellingEdu/build/CMakeFiles /home/chen/桌面/ImageBasedModellingEdu/build/examples/task2/CMakeFiles/progress.marks
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 examples/task2/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chen/桌面/ImageBasedModellingEdu/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 examples/task2/clean
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 examples/task2/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 examples/task2/preinstall
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 examples/task2/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 examples/task2/preinstall
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 examples/task2/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 examples/task2/CMakeFiles/task2-5_test_ba.dir/rule:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 examples/task2/CMakeFiles/task2-5_test_ba.dir/rule
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 examples/task2/CMakeFiles/task2-5_test_ba.dir/rule
 .PHONY : examples/task2/CMakeFiles/task2-5_test_ba.dir/rule
 
 # Convenience name for target.
@@ -122,12 +122,12 @@ task2-5_test_ba: examples/task2/CMakeFiles/task2-5_test_ba.dir/rule
 
 # fast build rule for target.
 task2-5_test_ba/fast:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task2/CMakeFiles/task2-5_test_ba.dir/build.make examples/task2/CMakeFiles/task2-5_test_ba.dir/build
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task2/CMakeFiles/task2-5_test_ba.dir/build.make examples/task2/CMakeFiles/task2-5_test_ba.dir/build
 .PHONY : task2-5_test_ba/fast
 
 # Convenience name for target.
 examples/task2/CMakeFiles/task2-2_test_p3p_kneip.dir/rule:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 examples/task2/CMakeFiles/task2-2_test_p3p_kneip.dir/rule
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 examples/task2/CMakeFiles/task2-2_test_p3p_kneip.dir/rule
 .PHONY : examples/task2/CMakeFiles/task2-2_test_p3p_kneip.dir/rule
 
 # Convenience name for target.
@@ -137,57 +137,12 @@ task2-2_test_p3p_kneip: examples/task2/CMakeFiles/task2-2_test_p3p_kneip.dir/rul
 
 # fast build rule for target.
 task2-2_test_p3p_kneip/fast:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task2/CMakeFiles/task2-2_test_p3p_kneip.dir/build.make examples/task2/CMakeFiles/task2-2_test_p3p_kneip.dir/build
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task2/CMakeFiles/task2-2_test_p3p_kneip.dir/build.make examples/task2/CMakeFiles/task2-2_test_p3p_kneip.dir/build
 .PHONY : task2-2_test_p3p_kneip/fast
 
 # Convenience name for target.
-examples/task2/CMakeFiles/task2-3_test_lm_optimize.dir/rule:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 examples/task2/CMakeFiles/task2-3_test_lm_optimize.dir/rule
-.PHONY : examples/task2/CMakeFiles/task2-3_test_lm_optimize.dir/rule
-
-# Convenience name for target.
-task2-3_test_lm_optimize: examples/task2/CMakeFiles/task2-3_test_lm_optimize.dir/rule
-
-.PHONY : task2-3_test_lm_optimize
-
-# fast build rule for target.
-task2-3_test_lm_optimize/fast:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task2/CMakeFiles/task2-3_test_lm_optimize.dir/build.make examples/task2/CMakeFiles/task2-3_test_lm_optimize.dir/build
-.PHONY : task2-3_test_lm_optimize/fast
-
-# Convenience name for target.
-examples/task2/CMakeFiles/task2-2_test_p3p_ransac.dir/rule:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 examples/task2/CMakeFiles/task2-2_test_p3p_ransac.dir/rule
-.PHONY : examples/task2/CMakeFiles/task2-2_test_p3p_ransac.dir/rule
-
-# Convenience name for target.
-task2-2_test_p3p_ransac: examples/task2/CMakeFiles/task2-2_test_p3p_ransac.dir/rule
-
-.PHONY : task2-2_test_p3p_ransac
-
-# fast build rule for target.
-task2-2_test_p3p_ransac/fast:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task2/CMakeFiles/task2-2_test_p3p_ransac.dir/build.make examples/task2/CMakeFiles/task2-2_test_p3p_ransac.dir/build
-.PHONY : task2-2_test_p3p_ransac/fast
-
-# Convenience name for target.
-examples/task2/CMakeFiles/task2-1_test_triangle.dir/rule:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 examples/task2/CMakeFiles/task2-1_test_triangle.dir/rule
-.PHONY : examples/task2/CMakeFiles/task2-1_test_triangle.dir/rule
-
-# Convenience name for target.
-task2-1_test_triangle: examples/task2/CMakeFiles/task2-1_test_triangle.dir/rule
-
-.PHONY : task2-1_test_triangle
-
-# fast build rule for target.
-task2-1_test_triangle/fast:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task2/CMakeFiles/task2-1_test_triangle.dir/build.make examples/task2/CMakeFiles/task2-1_test_triangle.dir/build
-.PHONY : task2-1_test_triangle/fast
-
-# Convenience name for target.
 examples/task2/CMakeFiles/task2-4_test_jacobian.dir/rule:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 examples/task2/CMakeFiles/task2-4_test_jacobian.dir/rule
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 examples/task2/CMakeFiles/task2-4_test_jacobian.dir/rule
 .PHONY : examples/task2/CMakeFiles/task2-4_test_jacobian.dir/rule
 
 # Convenience name for target.
@@ -197,8 +152,53 @@ task2-4_test_jacobian: examples/task2/CMakeFiles/task2-4_test_jacobian.dir/rule
 
 # fast build rule for target.
 task2-4_test_jacobian/fast:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task2/CMakeFiles/task2-4_test_jacobian.dir/build.make examples/task2/CMakeFiles/task2-4_test_jacobian.dir/build
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task2/CMakeFiles/task2-4_test_jacobian.dir/build.make examples/task2/CMakeFiles/task2-4_test_jacobian.dir/build
 .PHONY : task2-4_test_jacobian/fast
+
+# Convenience name for target.
+examples/task2/CMakeFiles/task2-1_test_triangle.dir/rule:
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 examples/task2/CMakeFiles/task2-1_test_triangle.dir/rule
+.PHONY : examples/task2/CMakeFiles/task2-1_test_triangle.dir/rule
+
+# Convenience name for target.
+task2-1_test_triangle: examples/task2/CMakeFiles/task2-1_test_triangle.dir/rule
+
+.PHONY : task2-1_test_triangle
+
+# fast build rule for target.
+task2-1_test_triangle/fast:
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task2/CMakeFiles/task2-1_test_triangle.dir/build.make examples/task2/CMakeFiles/task2-1_test_triangle.dir/build
+.PHONY : task2-1_test_triangle/fast
+
+# Convenience name for target.
+examples/task2/CMakeFiles/task2-2_test_p3p_ransac.dir/rule:
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 examples/task2/CMakeFiles/task2-2_test_p3p_ransac.dir/rule
+.PHONY : examples/task2/CMakeFiles/task2-2_test_p3p_ransac.dir/rule
+
+# Convenience name for target.
+task2-2_test_p3p_ransac: examples/task2/CMakeFiles/task2-2_test_p3p_ransac.dir/rule
+
+.PHONY : task2-2_test_p3p_ransac
+
+# fast build rule for target.
+task2-2_test_p3p_ransac/fast:
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task2/CMakeFiles/task2-2_test_p3p_ransac.dir/build.make examples/task2/CMakeFiles/task2-2_test_p3p_ransac.dir/build
+.PHONY : task2-2_test_p3p_ransac/fast
+
+# Convenience name for target.
+examples/task2/CMakeFiles/task2-3_test_lm_optimize.dir/rule:
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 examples/task2/CMakeFiles/task2-3_test_lm_optimize.dir/rule
+.PHONY : examples/task2/CMakeFiles/task2-3_test_lm_optimize.dir/rule
+
+# Convenience name for target.
+task2-3_test_lm_optimize: examples/task2/CMakeFiles/task2-3_test_lm_optimize.dir/rule
+
+.PHONY : task2-3_test_lm_optimize
+
+# fast build rule for target.
+task2-3_test_lm_optimize/fast:
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task2/CMakeFiles/task2-3_test_lm_optimize.dir/build.make examples/task2/CMakeFiles/task2-3_test_lm_optimize.dir/build
+.PHONY : task2-3_test_lm_optimize/fast
 
 task2-1_test_triangle.o: task2-1_test_triangle.cc.o
 
@@ -206,7 +206,7 @@ task2-1_test_triangle.o: task2-1_test_triangle.cc.o
 
 # target to build an object file
 task2-1_test_triangle.cc.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task2/CMakeFiles/task2-1_test_triangle.dir/build.make examples/task2/CMakeFiles/task2-1_test_triangle.dir/task2-1_test_triangle.cc.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task2/CMakeFiles/task2-1_test_triangle.dir/build.make examples/task2/CMakeFiles/task2-1_test_triangle.dir/task2-1_test_triangle.cc.o
 .PHONY : task2-1_test_triangle.cc.o
 
 task2-1_test_triangle.i: task2-1_test_triangle.cc.i
@@ -215,7 +215,7 @@ task2-1_test_triangle.i: task2-1_test_triangle.cc.i
 
 # target to preprocess a source file
 task2-1_test_triangle.cc.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task2/CMakeFiles/task2-1_test_triangle.dir/build.make examples/task2/CMakeFiles/task2-1_test_triangle.dir/task2-1_test_triangle.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task2/CMakeFiles/task2-1_test_triangle.dir/build.make examples/task2/CMakeFiles/task2-1_test_triangle.dir/task2-1_test_triangle.cc.i
 .PHONY : task2-1_test_triangle.cc.i
 
 task2-1_test_triangle.s: task2-1_test_triangle.cc.s
@@ -224,7 +224,7 @@ task2-1_test_triangle.s: task2-1_test_triangle.cc.s
 
 # target to generate assembly for a file
 task2-1_test_triangle.cc.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task2/CMakeFiles/task2-1_test_triangle.dir/build.make examples/task2/CMakeFiles/task2-1_test_triangle.dir/task2-1_test_triangle.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task2/CMakeFiles/task2-1_test_triangle.dir/build.make examples/task2/CMakeFiles/task2-1_test_triangle.dir/task2-1_test_triangle.cc.s
 .PHONY : task2-1_test_triangle.cc.s
 
 task2-2_test_p3p_kneip.o: task2-2_test_p3p_kneip.cc.o
@@ -233,7 +233,7 @@ task2-2_test_p3p_kneip.o: task2-2_test_p3p_kneip.cc.o
 
 # target to build an object file
 task2-2_test_p3p_kneip.cc.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task2/CMakeFiles/task2-2_test_p3p_kneip.dir/build.make examples/task2/CMakeFiles/task2-2_test_p3p_kneip.dir/task2-2_test_p3p_kneip.cc.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task2/CMakeFiles/task2-2_test_p3p_kneip.dir/build.make examples/task2/CMakeFiles/task2-2_test_p3p_kneip.dir/task2-2_test_p3p_kneip.cc.o
 .PHONY : task2-2_test_p3p_kneip.cc.o
 
 task2-2_test_p3p_kneip.i: task2-2_test_p3p_kneip.cc.i
@@ -242,7 +242,7 @@ task2-2_test_p3p_kneip.i: task2-2_test_p3p_kneip.cc.i
 
 # target to preprocess a source file
 task2-2_test_p3p_kneip.cc.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task2/CMakeFiles/task2-2_test_p3p_kneip.dir/build.make examples/task2/CMakeFiles/task2-2_test_p3p_kneip.dir/task2-2_test_p3p_kneip.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task2/CMakeFiles/task2-2_test_p3p_kneip.dir/build.make examples/task2/CMakeFiles/task2-2_test_p3p_kneip.dir/task2-2_test_p3p_kneip.cc.i
 .PHONY : task2-2_test_p3p_kneip.cc.i
 
 task2-2_test_p3p_kneip.s: task2-2_test_p3p_kneip.cc.s
@@ -251,7 +251,7 @@ task2-2_test_p3p_kneip.s: task2-2_test_p3p_kneip.cc.s
 
 # target to generate assembly for a file
 task2-2_test_p3p_kneip.cc.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task2/CMakeFiles/task2-2_test_p3p_kneip.dir/build.make examples/task2/CMakeFiles/task2-2_test_p3p_kneip.dir/task2-2_test_p3p_kneip.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task2/CMakeFiles/task2-2_test_p3p_kneip.dir/build.make examples/task2/CMakeFiles/task2-2_test_p3p_kneip.dir/task2-2_test_p3p_kneip.cc.s
 .PHONY : task2-2_test_p3p_kneip.cc.s
 
 task2-2_test_p3p_ransac.o: task2-2_test_p3p_ransac.cc.o
@@ -260,7 +260,7 @@ task2-2_test_p3p_ransac.o: task2-2_test_p3p_ransac.cc.o
 
 # target to build an object file
 task2-2_test_p3p_ransac.cc.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task2/CMakeFiles/task2-2_test_p3p_ransac.dir/build.make examples/task2/CMakeFiles/task2-2_test_p3p_ransac.dir/task2-2_test_p3p_ransac.cc.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task2/CMakeFiles/task2-2_test_p3p_ransac.dir/build.make examples/task2/CMakeFiles/task2-2_test_p3p_ransac.dir/task2-2_test_p3p_ransac.cc.o
 .PHONY : task2-2_test_p3p_ransac.cc.o
 
 task2-2_test_p3p_ransac.i: task2-2_test_p3p_ransac.cc.i
@@ -269,7 +269,7 @@ task2-2_test_p3p_ransac.i: task2-2_test_p3p_ransac.cc.i
 
 # target to preprocess a source file
 task2-2_test_p3p_ransac.cc.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task2/CMakeFiles/task2-2_test_p3p_ransac.dir/build.make examples/task2/CMakeFiles/task2-2_test_p3p_ransac.dir/task2-2_test_p3p_ransac.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task2/CMakeFiles/task2-2_test_p3p_ransac.dir/build.make examples/task2/CMakeFiles/task2-2_test_p3p_ransac.dir/task2-2_test_p3p_ransac.cc.i
 .PHONY : task2-2_test_p3p_ransac.cc.i
 
 task2-2_test_p3p_ransac.s: task2-2_test_p3p_ransac.cc.s
@@ -278,7 +278,7 @@ task2-2_test_p3p_ransac.s: task2-2_test_p3p_ransac.cc.s
 
 # target to generate assembly for a file
 task2-2_test_p3p_ransac.cc.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task2/CMakeFiles/task2-2_test_p3p_ransac.dir/build.make examples/task2/CMakeFiles/task2-2_test_p3p_ransac.dir/task2-2_test_p3p_ransac.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task2/CMakeFiles/task2-2_test_p3p_ransac.dir/build.make examples/task2/CMakeFiles/task2-2_test_p3p_ransac.dir/task2-2_test_p3p_ransac.cc.s
 .PHONY : task2-2_test_p3p_ransac.cc.s
 
 task2-3_test_lm_optimize.o: task2-3_test_lm_optimize.cc.o
@@ -287,7 +287,7 @@ task2-3_test_lm_optimize.o: task2-3_test_lm_optimize.cc.o
 
 # target to build an object file
 task2-3_test_lm_optimize.cc.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task2/CMakeFiles/task2-3_test_lm_optimize.dir/build.make examples/task2/CMakeFiles/task2-3_test_lm_optimize.dir/task2-3_test_lm_optimize.cc.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task2/CMakeFiles/task2-3_test_lm_optimize.dir/build.make examples/task2/CMakeFiles/task2-3_test_lm_optimize.dir/task2-3_test_lm_optimize.cc.o
 .PHONY : task2-3_test_lm_optimize.cc.o
 
 task2-3_test_lm_optimize.i: task2-3_test_lm_optimize.cc.i
@@ -296,7 +296,7 @@ task2-3_test_lm_optimize.i: task2-3_test_lm_optimize.cc.i
 
 # target to preprocess a source file
 task2-3_test_lm_optimize.cc.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task2/CMakeFiles/task2-3_test_lm_optimize.dir/build.make examples/task2/CMakeFiles/task2-3_test_lm_optimize.dir/task2-3_test_lm_optimize.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task2/CMakeFiles/task2-3_test_lm_optimize.dir/build.make examples/task2/CMakeFiles/task2-3_test_lm_optimize.dir/task2-3_test_lm_optimize.cc.i
 .PHONY : task2-3_test_lm_optimize.cc.i
 
 task2-3_test_lm_optimize.s: task2-3_test_lm_optimize.cc.s
@@ -305,7 +305,7 @@ task2-3_test_lm_optimize.s: task2-3_test_lm_optimize.cc.s
 
 # target to generate assembly for a file
 task2-3_test_lm_optimize.cc.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task2/CMakeFiles/task2-3_test_lm_optimize.dir/build.make examples/task2/CMakeFiles/task2-3_test_lm_optimize.dir/task2-3_test_lm_optimize.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task2/CMakeFiles/task2-3_test_lm_optimize.dir/build.make examples/task2/CMakeFiles/task2-3_test_lm_optimize.dir/task2-3_test_lm_optimize.cc.s
 .PHONY : task2-3_test_lm_optimize.cc.s
 
 task2-4_test_jacobian.o: task2-4_test_jacobian.cc.o
@@ -314,7 +314,7 @@ task2-4_test_jacobian.o: task2-4_test_jacobian.cc.o
 
 # target to build an object file
 task2-4_test_jacobian.cc.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task2/CMakeFiles/task2-4_test_jacobian.dir/build.make examples/task2/CMakeFiles/task2-4_test_jacobian.dir/task2-4_test_jacobian.cc.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task2/CMakeFiles/task2-4_test_jacobian.dir/build.make examples/task2/CMakeFiles/task2-4_test_jacobian.dir/task2-4_test_jacobian.cc.o
 .PHONY : task2-4_test_jacobian.cc.o
 
 task2-4_test_jacobian.i: task2-4_test_jacobian.cc.i
@@ -323,7 +323,7 @@ task2-4_test_jacobian.i: task2-4_test_jacobian.cc.i
 
 # target to preprocess a source file
 task2-4_test_jacobian.cc.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task2/CMakeFiles/task2-4_test_jacobian.dir/build.make examples/task2/CMakeFiles/task2-4_test_jacobian.dir/task2-4_test_jacobian.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task2/CMakeFiles/task2-4_test_jacobian.dir/build.make examples/task2/CMakeFiles/task2-4_test_jacobian.dir/task2-4_test_jacobian.cc.i
 .PHONY : task2-4_test_jacobian.cc.i
 
 task2-4_test_jacobian.s: task2-4_test_jacobian.cc.s
@@ -332,7 +332,7 @@ task2-4_test_jacobian.s: task2-4_test_jacobian.cc.s
 
 # target to generate assembly for a file
 task2-4_test_jacobian.cc.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task2/CMakeFiles/task2-4_test_jacobian.dir/build.make examples/task2/CMakeFiles/task2-4_test_jacobian.dir/task2-4_test_jacobian.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task2/CMakeFiles/task2-4_test_jacobian.dir/build.make examples/task2/CMakeFiles/task2-4_test_jacobian.dir/task2-4_test_jacobian.cc.s
 .PHONY : task2-4_test_jacobian.cc.s
 
 task2-5_test_bundle_adjustment.o: task2-5_test_bundle_adjustment.cc.o
@@ -341,7 +341,7 @@ task2-5_test_bundle_adjustment.o: task2-5_test_bundle_adjustment.cc.o
 
 # target to build an object file
 task2-5_test_bundle_adjustment.cc.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task2/CMakeFiles/task2-5_test_ba.dir/build.make examples/task2/CMakeFiles/task2-5_test_ba.dir/task2-5_test_bundle_adjustment.cc.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task2/CMakeFiles/task2-5_test_ba.dir/build.make examples/task2/CMakeFiles/task2-5_test_ba.dir/task2-5_test_bundle_adjustment.cc.o
 .PHONY : task2-5_test_bundle_adjustment.cc.o
 
 task2-5_test_bundle_adjustment.i: task2-5_test_bundle_adjustment.cc.i
@@ -350,7 +350,7 @@ task2-5_test_bundle_adjustment.i: task2-5_test_bundle_adjustment.cc.i
 
 # target to preprocess a source file
 task2-5_test_bundle_adjustment.cc.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task2/CMakeFiles/task2-5_test_ba.dir/build.make examples/task2/CMakeFiles/task2-5_test_ba.dir/task2-5_test_bundle_adjustment.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task2/CMakeFiles/task2-5_test_ba.dir/build.make examples/task2/CMakeFiles/task2-5_test_ba.dir/task2-5_test_bundle_adjustment.cc.i
 .PHONY : task2-5_test_bundle_adjustment.cc.i
 
 task2-5_test_bundle_adjustment.s: task2-5_test_bundle_adjustment.cc.s
@@ -359,7 +359,7 @@ task2-5_test_bundle_adjustment.s: task2-5_test_bundle_adjustment.cc.s
 
 # target to generate assembly for a file
 task2-5_test_bundle_adjustment.cc.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task2/CMakeFiles/task2-5_test_ba.dir/build.make examples/task2/CMakeFiles/task2-5_test_ba.dir/task2-5_test_bundle_adjustment.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f examples/task2/CMakeFiles/task2-5_test_ba.dir/build.make examples/task2/CMakeFiles/task2-5_test_ba.dir/task2-5_test_bundle_adjustment.cc.s
 .PHONY : task2-5_test_bundle_adjustment.cc.s
 
 # Help Target
@@ -372,10 +372,10 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... task2-5_test_ba"
 	@echo "... task2-2_test_p3p_kneip"
-	@echo "... task2-3_test_lm_optimize"
-	@echo "... task2-2_test_p3p_ransac"
-	@echo "... task2-1_test_triangle"
 	@echo "... task2-4_test_jacobian"
+	@echo "... task2-1_test_triangle"
+	@echo "... task2-2_test_p3p_ransac"
+	@echo "... task2-3_test_lm_optimize"
 	@echo "... task2-1_test_triangle.o"
 	@echo "... task2-1_test_triangle.i"
 	@echo "... task2-1_test_triangle.s"
@@ -405,6 +405,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -27,8 +27,8 @@ examples/task1/CMakeFiles/task3_test_feature_matching.dir/task1-6_test_matching.
  ../examples/task1/../../util/exception.h
  ../examples/task1/../../util/strings.h
  ../examples/task1/../../util/timer.h
- /home/demo/桌面/ImageBasedModellingEdu/examples/task1/task1-6_test_matching.cc
- /home/demo/桌面/ImageBasedModellingEdu/examples/task1/visualizer.h
+ /home/chen/桌面/ImageBasedModellingEdu/examples/task1/task1-6_test_matching.cc
+ /home/chen/桌面/ImageBasedModellingEdu/examples/task1/visualizer.h
 examples/task1/CMakeFiles/task3_test_feature_matching.dir/visualizer.cc.o
  ../examples/task1/../../core/defines.h
  ../examples/task1/../../core/image.h
@@ -47,5 +47,5 @@ examples/task1/CMakeFiles/task3_test_feature_matching.dir/visualizer.cc.o
  ../examples/task1/../../util/defines.h
  ../examples/task1/../../util/exception.h
  ../examples/task1/../../util/strings.h
- /home/demo/桌面/ImageBasedModellingEdu/examples/task1/visualizer.cc
- /home/demo/桌面/ImageBasedModellingEdu/examples/task1/visualizer.h
+ /home/chen/桌面/ImageBasedModellingEdu/examples/task1/visualizer.cc
+ /home/chen/桌面/ImageBasedModellingEdu/examples/task1/visualizer.h

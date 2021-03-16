@@ -53,6 +53,7 @@ IsoOctree::compute_all_voxels (void)
             // 8 vertices of the leaf node
             for (int i = 0; i < 8; ++i) {
                 VoxelIndex index;
+                // 这块是将node转换为体素索引
                 index.from_path_and_corner(iter.level, iter.path, i);
                 voxel_set.insert(index);
             }
@@ -78,6 +79,7 @@ IsoOctree::compute_all_voxels (void)
         VoxelIndex index = this->voxels[i].first;
 
         // calculate voxel position
+        // 看不懂
         math::Vec3d voxel_pos = index.compute_position(
             this->get_root_node_center(), this->get_root_node_size());
 
@@ -115,6 +117,9 @@ IsoOctree::sample_ifn (math::Vec3d const& voxel_pos)
      * more samples are necessary.
      */
     std::size_t num_samples = samples.size() / 10;
+    // std::nth_element
+    // 使第n大元素处于第n位置（从0开始,其位置是下标为 n的元素），并且比这个元素小的元素都排在这个元素之前，
+    // 比这个元素大的元素都排在这个元素之后，但不能保证他们是有序的
     std::nth_element(samples.begin(), samples.begin() + num_samples,
         samples.end(), sample_scale_compare);
     float const sample_max_scale = samples[num_samples]->scale * 2.0f;
@@ -195,6 +200,7 @@ IsoOctree::sample_ifn (math::Vec3d const& voxel_pos)
         math::Vec3f const tpos = transform_position(voxel_pos, sample);
 
         double const value = fssr_basis<double>(sample.scale, tpos);
+        // 这里的函数系数与论文不同
         double const weight = fssr_weight<double>(sample.scale, tpos)* sample.confidence;
 
         /* Incrementally update. */
@@ -209,6 +215,7 @@ IsoOctree::sample_ifn (math::Vec3d const& voxel_pos)
     }
 
     /* Compute final voxel data. */
+    // why compute it?
     VoxelData voxel;
     voxel.value = total_ifn / total_weight; // sdf value
     voxel.conf = total_weight; // total weight

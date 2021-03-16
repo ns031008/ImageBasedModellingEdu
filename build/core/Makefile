@@ -48,24 +48,13 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/demo/桌面/ImageBasedModellingEdu
+CMAKE_SOURCE_DIR = /home/chen/桌面/ImageBasedModellingEdu
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/demo/桌面/ImageBasedModellingEdu/build
+CMAKE_BINARY_DIR = /home/chen/桌面/ImageBasedModellingEdu/build
 
 #=============================================================================
 # Targets provided globally by CMake.
-
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
 
 # Special rule for the target rebuild_cache
 rebuild_cache:
@@ -78,16 +67,27 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
+
 # The main all target
 all: cmake_check_build_system
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/demo/桌面/ImageBasedModellingEdu/build/CMakeFiles /home/demo/桌面/ImageBasedModellingEdu/build/core/CMakeFiles/progress.marks
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 core/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/demo/桌面/ImageBasedModellingEdu/build/CMakeFiles 0
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/chen/桌面/ImageBasedModellingEdu/build/CMakeFiles /home/chen/桌面/ImageBasedModellingEdu/build/core/CMakeFiles/progress.marks
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 core/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chen/桌面/ImageBasedModellingEdu/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 core/clean
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 core/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 core/preinstall
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 core/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 core/preinstall
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 core/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 core/CMakeFiles/core.dir/rule:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 core/CMakeFiles/core.dir/rule
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 core/CMakeFiles/core.dir/rule
 .PHONY : core/CMakeFiles/core.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ core: core/CMakeFiles/core.dir/rule
 
 # fast build rule for target.
 core/fast:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/build
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/build
 .PHONY : core/fast
 
 bundle.o: bundle.cc.o
@@ -131,7 +131,7 @@ bundle.o: bundle.cc.o
 
 # target to build an object file
 bundle.cc.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/bundle.cc.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/bundle.cc.o
 .PHONY : bundle.cc.o
 
 bundle.i: bundle.cc.i
@@ -140,7 +140,7 @@ bundle.i: bundle.cc.i
 
 # target to preprocess a source file
 bundle.cc.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/bundle.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/bundle.cc.i
 .PHONY : bundle.cc.i
 
 bundle.s: bundle.cc.s
@@ -149,7 +149,7 @@ bundle.s: bundle.cc.s
 
 # target to generate assembly for a file
 bundle.cc.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/bundle.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/bundle.cc.s
 .PHONY : bundle.cc.s
 
 bundle_io.o: bundle_io.cc.o
@@ -158,7 +158,7 @@ bundle_io.o: bundle_io.cc.o
 
 # target to build an object file
 bundle_io.cc.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/bundle_io.cc.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/bundle_io.cc.o
 .PHONY : bundle_io.cc.o
 
 bundle_io.i: bundle_io.cc.i
@@ -167,7 +167,7 @@ bundle_io.i: bundle_io.cc.i
 
 # target to preprocess a source file
 bundle_io.cc.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/bundle_io.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/bundle_io.cc.i
 .PHONY : bundle_io.cc.i
 
 bundle_io.s: bundle_io.cc.s
@@ -176,7 +176,7 @@ bundle_io.s: bundle_io.cc.s
 
 # target to generate assembly for a file
 bundle_io.cc.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/bundle_io.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/bundle_io.cc.s
 .PHONY : bundle_io.cc.s
 
 camera.o: camera.cc.o
@@ -185,7 +185,7 @@ camera.o: camera.cc.o
 
 # target to build an object file
 camera.cc.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/camera.cc.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/camera.cc.o
 .PHONY : camera.cc.o
 
 camera.i: camera.cc.i
@@ -194,7 +194,7 @@ camera.i: camera.cc.i
 
 # target to preprocess a source file
 camera.cc.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/camera.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/camera.cc.i
 .PHONY : camera.cc.i
 
 camera.s: camera.cc.s
@@ -203,7 +203,7 @@ camera.s: camera.cc.s
 
 # target to generate assembly for a file
 camera.cc.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/camera.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/camera.cc.s
 .PHONY : camera.cc.s
 
 depthmap.o: depthmap.cc.o
@@ -212,7 +212,7 @@ depthmap.o: depthmap.cc.o
 
 # target to build an object file
 depthmap.cc.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/depthmap.cc.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/depthmap.cc.o
 .PHONY : depthmap.cc.o
 
 depthmap.i: depthmap.cc.i
@@ -221,7 +221,7 @@ depthmap.i: depthmap.cc.i
 
 # target to preprocess a source file
 depthmap.cc.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/depthmap.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/depthmap.cc.i
 .PHONY : depthmap.cc.i
 
 depthmap.s: depthmap.cc.s
@@ -230,7 +230,7 @@ depthmap.s: depthmap.cc.s
 
 # target to generate assembly for a file
 depthmap.cc.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/depthmap.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/depthmap.cc.s
 .PHONY : depthmap.cc.s
 
 image_exif.o: image_exif.cc.o
@@ -239,7 +239,7 @@ image_exif.o: image_exif.cc.o
 
 # target to build an object file
 image_exif.cc.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/image_exif.cc.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/image_exif.cc.o
 .PHONY : image_exif.cc.o
 
 image_exif.i: image_exif.cc.i
@@ -248,7 +248,7 @@ image_exif.i: image_exif.cc.i
 
 # target to preprocess a source file
 image_exif.cc.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/image_exif.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/image_exif.cc.i
 .PHONY : image_exif.cc.i
 
 image_exif.s: image_exif.cc.s
@@ -257,7 +257,7 @@ image_exif.s: image_exif.cc.s
 
 # target to generate assembly for a file
 image_exif.cc.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/image_exif.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/image_exif.cc.s
 .PHONY : image_exif.cc.s
 
 image_io.o: image_io.cc.o
@@ -266,7 +266,7 @@ image_io.o: image_io.cc.o
 
 # target to build an object file
 image_io.cc.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/image_io.cc.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/image_io.cc.o
 .PHONY : image_io.cc.o
 
 image_io.i: image_io.cc.i
@@ -275,7 +275,7 @@ image_io.i: image_io.cc.i
 
 # target to preprocess a source file
 image_io.cc.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/image_io.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/image_io.cc.i
 .PHONY : image_io.cc.i
 
 image_io.s: image_io.cc.s
@@ -284,7 +284,7 @@ image_io.s: image_io.cc.s
 
 # target to generate assembly for a file
 image_io.cc.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/image_io.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/image_io.cc.s
 .PHONY : image_io.cc.s
 
 image_tools.o: image_tools.cc.o
@@ -293,7 +293,7 @@ image_tools.o: image_tools.cc.o
 
 # target to build an object file
 image_tools.cc.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/image_tools.cc.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/image_tools.cc.o
 .PHONY : image_tools.cc.o
 
 image_tools.i: image_tools.cc.i
@@ -302,7 +302,7 @@ image_tools.i: image_tools.cc.i
 
 # target to preprocess a source file
 image_tools.cc.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/image_tools.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/image_tools.cc.i
 .PHONY : image_tools.cc.i
 
 image_tools.s: image_tools.cc.s
@@ -311,7 +311,7 @@ image_tools.s: image_tools.cc.s
 
 # target to generate assembly for a file
 image_tools.cc.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/image_tools.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/image_tools.cc.s
 .PHONY : image_tools.cc.s
 
 mesh.o: mesh.cc.o
@@ -320,7 +320,7 @@ mesh.o: mesh.cc.o
 
 # target to build an object file
 mesh.cc.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/mesh.cc.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/mesh.cc.o
 .PHONY : mesh.cc.o
 
 mesh.i: mesh.cc.i
@@ -329,7 +329,7 @@ mesh.i: mesh.cc.i
 
 # target to preprocess a source file
 mesh.cc.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/mesh.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/mesh.cc.i
 .PHONY : mesh.cc.i
 
 mesh.s: mesh.cc.s
@@ -338,7 +338,7 @@ mesh.s: mesh.cc.s
 
 # target to generate assembly for a file
 mesh.cc.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/mesh.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/mesh.cc.s
 .PHONY : mesh.cc.s
 
 mesh_info.o: mesh_info.cc.o
@@ -347,7 +347,7 @@ mesh_info.o: mesh_info.cc.o
 
 # target to build an object file
 mesh_info.cc.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/mesh_info.cc.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/mesh_info.cc.o
 .PHONY : mesh_info.cc.o
 
 mesh_info.i: mesh_info.cc.i
@@ -356,7 +356,7 @@ mesh_info.i: mesh_info.cc.i
 
 # target to preprocess a source file
 mesh_info.cc.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/mesh_info.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/mesh_info.cc.i
 .PHONY : mesh_info.cc.i
 
 mesh_info.s: mesh_info.cc.s
@@ -365,7 +365,7 @@ mesh_info.s: mesh_info.cc.s
 
 # target to generate assembly for a file
 mesh_info.cc.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/mesh_info.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/mesh_info.cc.s
 .PHONY : mesh_info.cc.s
 
 mesh_io.o: mesh_io.cc.o
@@ -374,7 +374,7 @@ mesh_io.o: mesh_io.cc.o
 
 # target to build an object file
 mesh_io.cc.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/mesh_io.cc.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/mesh_io.cc.o
 .PHONY : mesh_io.cc.o
 
 mesh_io.i: mesh_io.cc.i
@@ -383,7 +383,7 @@ mesh_io.i: mesh_io.cc.i
 
 # target to preprocess a source file
 mesh_io.cc.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/mesh_io.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/mesh_io.cc.i
 .PHONY : mesh_io.cc.i
 
 mesh_io.s: mesh_io.cc.s
@@ -392,7 +392,7 @@ mesh_io.s: mesh_io.cc.s
 
 # target to generate assembly for a file
 mesh_io.cc.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/mesh_io.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/mesh_io.cc.s
 .PHONY : mesh_io.cc.s
 
 mesh_io_npts.o: mesh_io_npts.cc.o
@@ -401,7 +401,7 @@ mesh_io_npts.o: mesh_io_npts.cc.o
 
 # target to build an object file
 mesh_io_npts.cc.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/mesh_io_npts.cc.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/mesh_io_npts.cc.o
 .PHONY : mesh_io_npts.cc.o
 
 mesh_io_npts.i: mesh_io_npts.cc.i
@@ -410,7 +410,7 @@ mesh_io_npts.i: mesh_io_npts.cc.i
 
 # target to preprocess a source file
 mesh_io_npts.cc.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/mesh_io_npts.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/mesh_io_npts.cc.i
 .PHONY : mesh_io_npts.cc.i
 
 mesh_io_npts.s: mesh_io_npts.cc.s
@@ -419,7 +419,7 @@ mesh_io_npts.s: mesh_io_npts.cc.s
 
 # target to generate assembly for a file
 mesh_io_npts.cc.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/mesh_io_npts.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/mesh_io_npts.cc.s
 .PHONY : mesh_io_npts.cc.s
 
 mesh_io_obj.o: mesh_io_obj.cc.o
@@ -428,7 +428,7 @@ mesh_io_obj.o: mesh_io_obj.cc.o
 
 # target to build an object file
 mesh_io_obj.cc.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/mesh_io_obj.cc.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/mesh_io_obj.cc.o
 .PHONY : mesh_io_obj.cc.o
 
 mesh_io_obj.i: mesh_io_obj.cc.i
@@ -437,7 +437,7 @@ mesh_io_obj.i: mesh_io_obj.cc.i
 
 # target to preprocess a source file
 mesh_io_obj.cc.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/mesh_io_obj.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/mesh_io_obj.cc.i
 .PHONY : mesh_io_obj.cc.i
 
 mesh_io_obj.s: mesh_io_obj.cc.s
@@ -446,7 +446,7 @@ mesh_io_obj.s: mesh_io_obj.cc.s
 
 # target to generate assembly for a file
 mesh_io_obj.cc.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/mesh_io_obj.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/mesh_io_obj.cc.s
 .PHONY : mesh_io_obj.cc.s
 
 mesh_io_off.o: mesh_io_off.cc.o
@@ -455,7 +455,7 @@ mesh_io_off.o: mesh_io_off.cc.o
 
 # target to build an object file
 mesh_io_off.cc.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/mesh_io_off.cc.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/mesh_io_off.cc.o
 .PHONY : mesh_io_off.cc.o
 
 mesh_io_off.i: mesh_io_off.cc.i
@@ -464,7 +464,7 @@ mesh_io_off.i: mesh_io_off.cc.i
 
 # target to preprocess a source file
 mesh_io_off.cc.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/mesh_io_off.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/mesh_io_off.cc.i
 .PHONY : mesh_io_off.cc.i
 
 mesh_io_off.s: mesh_io_off.cc.s
@@ -473,7 +473,7 @@ mesh_io_off.s: mesh_io_off.cc.s
 
 # target to generate assembly for a file
 mesh_io_off.cc.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/mesh_io_off.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/mesh_io_off.cc.s
 .PHONY : mesh_io_off.cc.s
 
 mesh_io_pbrt.o: mesh_io_pbrt.cc.o
@@ -482,7 +482,7 @@ mesh_io_pbrt.o: mesh_io_pbrt.cc.o
 
 # target to build an object file
 mesh_io_pbrt.cc.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/mesh_io_pbrt.cc.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/mesh_io_pbrt.cc.o
 .PHONY : mesh_io_pbrt.cc.o
 
 mesh_io_pbrt.i: mesh_io_pbrt.cc.i
@@ -491,7 +491,7 @@ mesh_io_pbrt.i: mesh_io_pbrt.cc.i
 
 # target to preprocess a source file
 mesh_io_pbrt.cc.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/mesh_io_pbrt.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/mesh_io_pbrt.cc.i
 .PHONY : mesh_io_pbrt.cc.i
 
 mesh_io_pbrt.s: mesh_io_pbrt.cc.s
@@ -500,7 +500,7 @@ mesh_io_pbrt.s: mesh_io_pbrt.cc.s
 
 # target to generate assembly for a file
 mesh_io_pbrt.cc.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/mesh_io_pbrt.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/mesh_io_pbrt.cc.s
 .PHONY : mesh_io_pbrt.cc.s
 
 mesh_io_ply.o: mesh_io_ply.cc.o
@@ -509,7 +509,7 @@ mesh_io_ply.o: mesh_io_ply.cc.o
 
 # target to build an object file
 mesh_io_ply.cc.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/mesh_io_ply.cc.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/mesh_io_ply.cc.o
 .PHONY : mesh_io_ply.cc.o
 
 mesh_io_ply.i: mesh_io_ply.cc.i
@@ -518,7 +518,7 @@ mesh_io_ply.i: mesh_io_ply.cc.i
 
 # target to preprocess a source file
 mesh_io_ply.cc.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/mesh_io_ply.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/mesh_io_ply.cc.i
 .PHONY : mesh_io_ply.cc.i
 
 mesh_io_ply.s: mesh_io_ply.cc.s
@@ -527,7 +527,7 @@ mesh_io_ply.s: mesh_io_ply.cc.s
 
 # target to generate assembly for a file
 mesh_io_ply.cc.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/mesh_io_ply.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/mesh_io_ply.cc.s
 .PHONY : mesh_io_ply.cc.s
 
 mesh_io_smf.o: mesh_io_smf.cc.o
@@ -536,7 +536,7 @@ mesh_io_smf.o: mesh_io_smf.cc.o
 
 # target to build an object file
 mesh_io_smf.cc.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/mesh_io_smf.cc.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/mesh_io_smf.cc.o
 .PHONY : mesh_io_smf.cc.o
 
 mesh_io_smf.i: mesh_io_smf.cc.i
@@ -545,7 +545,7 @@ mesh_io_smf.i: mesh_io_smf.cc.i
 
 # target to preprocess a source file
 mesh_io_smf.cc.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/mesh_io_smf.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/mesh_io_smf.cc.i
 .PHONY : mesh_io_smf.cc.i
 
 mesh_io_smf.s: mesh_io_smf.cc.s
@@ -554,7 +554,7 @@ mesh_io_smf.s: mesh_io_smf.cc.s
 
 # target to generate assembly for a file
 mesh_io_smf.cc.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/mesh_io_smf.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/mesh_io_smf.cc.s
 .PHONY : mesh_io_smf.cc.s
 
 mesh_tools.o: mesh_tools.cc.o
@@ -563,7 +563,7 @@ mesh_tools.o: mesh_tools.cc.o
 
 # target to build an object file
 mesh_tools.cc.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/mesh_tools.cc.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/mesh_tools.cc.o
 .PHONY : mesh_tools.cc.o
 
 mesh_tools.i: mesh_tools.cc.i
@@ -572,7 +572,7 @@ mesh_tools.i: mesh_tools.cc.i
 
 # target to preprocess a source file
 mesh_tools.cc.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/mesh_tools.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/mesh_tools.cc.i
 .PHONY : mesh_tools.cc.i
 
 mesh_tools.s: mesh_tools.cc.s
@@ -581,7 +581,7 @@ mesh_tools.s: mesh_tools.cc.s
 
 # target to generate assembly for a file
 mesh_tools.cc.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/mesh_tools.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/mesh_tools.cc.s
 .PHONY : mesh_tools.cc.s
 
 scene.o: scene.cc.o
@@ -590,7 +590,7 @@ scene.o: scene.cc.o
 
 # target to build an object file
 scene.cc.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/scene.cc.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/scene.cc.o
 .PHONY : scene.cc.o
 
 scene.i: scene.cc.i
@@ -599,7 +599,7 @@ scene.i: scene.cc.i
 
 # target to preprocess a source file
 scene.cc.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/scene.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/scene.cc.i
 .PHONY : scene.cc.i
 
 scene.s: scene.cc.s
@@ -608,7 +608,7 @@ scene.s: scene.cc.s
 
 # target to generate assembly for a file
 scene.cc.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/scene.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/scene.cc.s
 .PHONY : scene.cc.s
 
 view.o: view.cc.o
@@ -617,7 +617,7 @@ view.o: view.cc.o
 
 # target to build an object file
 view.cc.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/view.cc.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/view.cc.o
 .PHONY : view.cc.o
 
 view.i: view.cc.i
@@ -626,7 +626,7 @@ view.i: view.cc.i
 
 # target to preprocess a source file
 view.cc.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/view.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/view.cc.i
 .PHONY : view.cc.i
 
 view.s: view.cc.s
@@ -635,7 +635,7 @@ view.s: view.cc.s
 
 # target to generate assembly for a file
 view.cc.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/view.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f core/CMakeFiles/core.dir/build.make core/CMakeFiles/core.dir/view.cc.s
 .PHONY : view.cc.s
 
 # Help Target
@@ -644,9 +644,9 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... core"
-	@echo "... rebuild_cache"
 	@echo "... bundle.o"
 	@echo "... bundle.i"
 	@echo "... bundle.s"
@@ -715,6 +715,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

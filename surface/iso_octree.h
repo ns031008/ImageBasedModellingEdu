@@ -1,4 +1,12 @@
 /*
+ * @Author: your name
+ * @Date: 2021-03-09 18:32:32
+ * @LastEditTime: 2021-03-12 09:26:44
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: /ImageBasedModellingEdu/surface/iso_octree.h
+ */
+/*
  * Copyright (C) 2015, Simon Fuhrmann
  * TU Darmstadt - Graphics, Capture and Massively Parallel Computing
  * All rights reserved.

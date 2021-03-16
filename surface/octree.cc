@@ -11,6 +11,7 @@
 #include <list>
 #include <iostream>
 #include <algorithm>
+#include <cmath>
 
 #include "util/timer.h"
 #include "core/mesh_io.h"
@@ -53,14 +54,15 @@ Octree::Iterator::first_leaf (void) {
 Octree::Node*
 Octree::Iterator::next_node (void)
 {
-    // if the current node has no children, then switch to next branch
-    if (this->current->children == nullptr)
-        return this->next_branch();
+    return next_bread_first();
+    // // if the current node has no children, then switch to next branch
+    // if (this->current->children == nullptr)
+    //     return this->next_branch();
 
-    this->current = this->current->children;
-    this->level = this->level + 1;
-    this->path = this->path << 3;
-    return this->current;
+    // this->current = this->current->children;
+    // this->level = this->level + 1;
+    // this->path = this->path << 3;
+    // return this->current;
 }
 
 // bread first search
@@ -68,12 +70,105 @@ Octree::Node*
 Octree::Iterator::next_bread_first(void)
 {
     /*todo implement bread first search here*/
+    // 当前节点为根节点
+    if (this->current == this->root){
+        this->current = this->current->children;
+        this->level += 1;
+        this->path  = this->path << 3;
+        return this->current;
+    }
+    // 换层
+    if ((LayerNodeNum) >= pow(8,(int)(this->level))){
+        std::cout << "换层: " <<std::endl;
+        int tmp_level = (int)(this->level);
+        this->current = this->first_node();
+        LayerNodeNum = 1;
+        while((int)this->level < (tmp_level+1)){
+            if (this->current->children==nullptr){
+                this->current = this->next_branch();
+                continue;
+            }
+            this->current = this->current->children;
+            this->level += 1;
+            this->path = this->path << 3;
+        }
+        std::cout << "LayerNodeNum: " << LayerNodeNum << ";";
+        std::cout << "level: " << (int)this->level << "\n";
+        return this->current;
+    }
 
+
+    // 一般情况：指向右侧
+    uint8_t tmp_level = this->level;
+    this->current = this->next_branch();
+    while (tmp_level != this->level){
+        this->current = this->next_branch();
+    }
+    std::cout << "LayerNodeNum: " << LayerNodeNum << ";";
+    std::cout << "level: " << (int)this->level << "\n";
+    return this->current;
 }
 
 Octree::Node*
-Octree::Iterator::next_branch (void) {
+Octree::Iterator::next_branch_once(void){
+    // 换层
+    if ((LayerNodeNum) >= pow(8,(int)(this->level))){
+        std::cout << "换层: " <<std::endl;
+        int tmp_level = (int)(this->level);
+        this->current = this->first_node();
+        LayerNodeNum = 1;
+        while((int)this->level < (tmp_level+1)){
+            if (this->current->children==nullptr){
+                this->current = this->next_branch();
+                continue;
+            }
+            this->current = this->current->children;
+            this->level += 1;
+            this->path = this->path << 3;
+        }
 
+        // 下一层第一个节点为空指针
+        if (this->current == nullptr){
+            LayerNodeNum += 8;
+            std::cout << "下一层第一个节点为空指针: " <<std::endl;
+            return this->next_branch_once();
+        }
+        return this->current;
+    }
+    // 普通换分支
+    std::cout << "换分支: " <<std::endl;
+    if (((this->current->parent)+1)->children == nullptr){
+        this->current = this->current->parent;
+        this->path = this->path >>3;
+        while(((this->current)+1)->children == nullptr){
+            this->current += 1;
+            this->path += 1;
+            LayerNodeNum += 8;
+        }
+        this->current = ((this->current)+1)->children;
+        this->path = (this->path+1) << 3;
+        // LayerNodeNum += 8;
+        LayerNodeNum++;
+        if ((LayerNodeNum) >= pow(8,(int)(this->level))){
+            this->current = this->next_branch_once();
+            std::cout << "LayerNodeNum: " << LayerNodeNum << ";";
+            std::cout << "level: " <<(int)(this->level) << "\n";
+            return this->current;
+        }
+        std::cout << "LayerNodeNum: " << LayerNodeNum << ";";
+        std::cout << "level: " <<(int)(this->level) << "\n";
+        return this->current;
+    }
+    this->current = ((this->current->parent)+1)->children;
+    this->path = ((this->path >>3) + 1)<<3;
+    LayerNodeNum++;
+    return this->current;
+}
+
+
+Octree::Node*
+Octree::Iterator::next_branch (void) {
+    // std::cout << "next_branch " <<std::endl;
     // root node has no branch, nullptr will be returned
     if (this->current->parent == nullptr) {
         this->current = nullptr;
@@ -86,6 +181,8 @@ Octree::Iterator::next_branch (void) {
         this->current = this->current->parent;
         this->level = this->level - 1;
         this->path = this->path >> 3;
+        NullptrNum++;
+        LayerNodeNum += pow(8,NullptrNum)-1;
         return this->next_branch();
     }
 
@@ -93,11 +190,14 @@ Octree::Iterator::next_branch (void) {
     // is indeed the next child
     this->current += 1;
     this->path += 1;
+    LayerNodeNum++;
+    NullptrNum = 0;
     return this->current;
 }
 
 Octree::Node*
 Octree::Iterator::next_leaf (void) {
+    // std::cout << "next_leaf " <<std::endl;
 
     // the current node has any children
     if (this->current->children != nullptr)
@@ -114,6 +214,7 @@ Octree::Iterator::next_leaf (void) {
 
     // if the current node is a leaf node, switch to next branch
     this->next_branch();
+    LayerNodeNum += 8;
     if (this->current == nullptr)
         return nullptr;
     while (this->current->children != nullptr) {
@@ -251,6 +352,7 @@ Octree::expand_root_for_point (math::Vec3d const& pos)
         if (pos[i] > this->root_center[i]) {
             this->root_center[i] += this->root_size / 2.0;
         } else {
+            // 把octant的第i位(从右数起)置1
             octant |= (1 << i);
             this->root_center[i] -= this->root_size / 2.0;
         }
@@ -280,6 +382,7 @@ Octree::find_node_descend (Sample const& sample, Iterator const& iter)
 {
     math::Vec3d node_center;
     double node_size;
+    // 找到每个样本所在节点的中心和尺寸
     this->node_center_and_size(iter, &node_center, &node_size);
 
     if (sample.scale > node_size * 2.0)
@@ -358,6 +461,7 @@ Octree::node_center_and_size (Iterator const& iter,
 {
     *center = this->root_center;
     *size = this->root_size;
+    // level: the depth of the current node
     for (int i = 0; i < iter.level; ++i)
     {
         int const octant = iter.path >> ((iter.level - i - 1) * 3);

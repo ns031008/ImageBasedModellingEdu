@@ -111,12 +111,14 @@ inline T
 fssr_basis (T const& scale, math::Vector<T, 3> const& pos,
     math::Vector<T, 3>* deriv)
 {
+    // scale == sigma
     double const gaussian_value = gaussian(scale, pos);
     double const value_norm = T(2) * MATH_PI * MATH_POW4(scale);
 
     if (deriv != nullptr)
     {
         double const deriv_norm = value_norm * T(2) * MATH_POW2(scale);
+        // 对fssr_basis的求导
         (*deriv)[0] = T(2) * (MATH_POW2(scale) - MATH_POW2(pos[0]))
             * gaussian_value / deriv_norm;
         (*deriv)[1] = (-T(2) * pos[0] * pos[1]) * gaussian_value / deriv_norm;
@@ -136,6 +138,7 @@ fssr_weight (T const& scale, math::Vector<T, 3> const& pos,
     math::Vector<T, 3>* deriv)
 {
     T const square_radius = pos.square_norm() / MATH_POW2(scale);// （x*x +y*y +z*z)/(sigma*sigma)
+    // 距离大于9，导数为0
     if (square_radius >= T(9))
     {
         if (deriv != nullptr)

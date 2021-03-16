@@ -4,15 +4,15 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/demo/桌面/ImageBasedModellingEdu/surface/basis_function.cc" "/home/demo/桌面/ImageBasedModellingEdu/build/surface/CMakeFiles/surface.dir/basis_function.cc.o"
-  "/home/demo/桌面/ImageBasedModellingEdu/surface/hermite.cc" "/home/demo/桌面/ImageBasedModellingEdu/build/surface/CMakeFiles/surface.dir/hermite.cc.o"
-  "/home/demo/桌面/ImageBasedModellingEdu/surface/iso_octree.cc" "/home/demo/桌面/ImageBasedModellingEdu/build/surface/CMakeFiles/surface.dir/iso_octree.cc.o"
-  "/home/demo/桌面/ImageBasedModellingEdu/surface/iso_surface.cc" "/home/demo/桌面/ImageBasedModellingEdu/build/surface/CMakeFiles/surface.dir/iso_surface.cc.o"
-  "/home/demo/桌面/ImageBasedModellingEdu/surface/mesh_clean.cc" "/home/demo/桌面/ImageBasedModellingEdu/build/surface/CMakeFiles/surface.dir/mesh_clean.cc.o"
-  "/home/demo/桌面/ImageBasedModellingEdu/surface/octree.cc" "/home/demo/桌面/ImageBasedModellingEdu/build/surface/CMakeFiles/surface.dir/octree.cc.o"
-  "/home/demo/桌面/ImageBasedModellingEdu/surface/sample_io.cc" "/home/demo/桌面/ImageBasedModellingEdu/build/surface/CMakeFiles/surface.dir/sample_io.cc.o"
-  "/home/demo/桌面/ImageBasedModellingEdu/surface/triangulation.cc" "/home/demo/桌面/ImageBasedModellingEdu/build/surface/CMakeFiles/surface.dir/triangulation.cc.o"
-  "/home/demo/桌面/ImageBasedModellingEdu/surface/voxel.cc" "/home/demo/桌面/ImageBasedModellingEdu/build/surface/CMakeFiles/surface.dir/voxel.cc.o"
+  "/home/chen/桌面/ImageBasedModellingEdu/surface/basis_function.cc" "/home/chen/桌面/ImageBasedModellingEdu/build/surface/CMakeFiles/surface.dir/basis_function.cc.o"
+  "/home/chen/桌面/ImageBasedModellingEdu/surface/hermite.cc" "/home/chen/桌面/ImageBasedModellingEdu/build/surface/CMakeFiles/surface.dir/hermite.cc.o"
+  "/home/chen/桌面/ImageBasedModellingEdu/surface/iso_octree.cc" "/home/chen/桌面/ImageBasedModellingEdu/build/surface/CMakeFiles/surface.dir/iso_octree.cc.o"
+  "/home/chen/桌面/ImageBasedModellingEdu/surface/iso_surface.cc" "/home/chen/桌面/ImageBasedModellingEdu/build/surface/CMakeFiles/surface.dir/iso_surface.cc.o"
+  "/home/chen/桌面/ImageBasedModellingEdu/surface/mesh_clean.cc" "/home/chen/桌面/ImageBasedModellingEdu/build/surface/CMakeFiles/surface.dir/mesh_clean.cc.o"
+  "/home/chen/桌面/ImageBasedModellingEdu/surface/octree.cc" "/home/chen/桌面/ImageBasedModellingEdu/build/surface/CMakeFiles/surface.dir/octree.cc.o"
+  "/home/chen/桌面/ImageBasedModellingEdu/surface/sample_io.cc" "/home/chen/桌面/ImageBasedModellingEdu/build/surface/CMakeFiles/surface.dir/sample_io.cc.o"
+  "/home/chen/桌面/ImageBasedModellingEdu/surface/triangulation.cc" "/home/chen/桌面/ImageBasedModellingEdu/build/surface/CMakeFiles/surface.dir/triangulation.cc.o"
+  "/home/chen/桌面/ImageBasedModellingEdu/surface/voxel.cc" "/home/chen/桌面/ImageBasedModellingEdu/build/surface/CMakeFiles/surface.dir/voxel.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

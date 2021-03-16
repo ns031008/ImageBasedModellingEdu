@@ -48,18 +48,18 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/demo/桌面/ImageBasedModellingEdu
+CMAKE_SOURCE_DIR = /home/chen/桌面/ImageBasedModellingEdu
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/demo/桌面/ImageBasedModellingEdu/build
+CMAKE_BINARY_DIR = /home/chen/桌面/ImageBasedModellingEdu/build
 
 #=============================================================================
 # Targets provided globally by CMake.
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,14 +80,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/demo/桌面/ImageBasedModellingEdu/build/CMakeFiles /home/demo/桌面/ImageBasedModellingEdu/build/3rdParty/coldet/CMakeFiles/progress.marks
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 3rdParty/coldet/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/demo/桌面/ImageBasedModellingEdu/build/CMakeFiles 0
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/chen/桌面/ImageBasedModellingEdu/build/CMakeFiles /home/chen/桌面/ImageBasedModellingEdu/build/3rdParty/coldet/CMakeFiles/progress.marks
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 3rdParty/coldet/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chen/桌面/ImageBasedModellingEdu/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 3rdParty/coldet/clean
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 3rdParty/coldet/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 3rdParty/coldet/preinstall
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 3rdParty/coldet/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 3rdParty/coldet/preinstall
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 3rdParty/coldet/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 3rdParty/coldet/CMakeFiles/coldet.dir/rule:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 3rdParty/coldet/CMakeFiles/coldet.dir/rule
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 3rdParty/coldet/CMakeFiles/coldet.dir/rule
 .PHONY : 3rdParty/coldet/CMakeFiles/coldet.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ coldet: 3rdParty/coldet/CMakeFiles/coldet.dir/rule
 
 # fast build rule for target.
 coldet/fast:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f 3rdParty/coldet/CMakeFiles/coldet.dir/build.make 3rdParty/coldet/CMakeFiles/coldet.dir/build
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f 3rdParty/coldet/CMakeFiles/coldet.dir/build.make 3rdParty/coldet/CMakeFiles/coldet.dir/build
 .PHONY : coldet/fast
 
 src/box.o: src/box.cpp.o
@@ -131,7 +131,7 @@ src/box.o: src/box.cpp.o
 
 # target to build an object file
 src/box.cpp.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f 3rdParty/coldet/CMakeFiles/coldet.dir/build.make 3rdParty/coldet/CMakeFiles/coldet.dir/src/box.cpp.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f 3rdParty/coldet/CMakeFiles/coldet.dir/build.make 3rdParty/coldet/CMakeFiles/coldet.dir/src/box.cpp.o
 .PHONY : src/box.cpp.o
 
 src/box.i: src/box.cpp.i
@@ -140,7 +140,7 @@ src/box.i: src/box.cpp.i
 
 # target to preprocess a source file
 src/box.cpp.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f 3rdParty/coldet/CMakeFiles/coldet.dir/build.make 3rdParty/coldet/CMakeFiles/coldet.dir/src/box.cpp.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f 3rdParty/coldet/CMakeFiles/coldet.dir/build.make 3rdParty/coldet/CMakeFiles/coldet.dir/src/box.cpp.i
 .PHONY : src/box.cpp.i
 
 src/box.s: src/box.cpp.s
@@ -149,7 +149,7 @@ src/box.s: src/box.cpp.s
 
 # target to generate assembly for a file
 src/box.cpp.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f 3rdParty/coldet/CMakeFiles/coldet.dir/build.make 3rdParty/coldet/CMakeFiles/coldet.dir/src/box.cpp.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f 3rdParty/coldet/CMakeFiles/coldet.dir/build.make 3rdParty/coldet/CMakeFiles/coldet.dir/src/box.cpp.s
 .PHONY : src/box.cpp.s
 
 src/box_bld.o: src/box_bld.cpp.o
@@ -158,7 +158,7 @@ src/box_bld.o: src/box_bld.cpp.o
 
 # target to build an object file
 src/box_bld.cpp.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f 3rdParty/coldet/CMakeFiles/coldet.dir/build.make 3rdParty/coldet/CMakeFiles/coldet.dir/src/box_bld.cpp.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f 3rdParty/coldet/CMakeFiles/coldet.dir/build.make 3rdParty/coldet/CMakeFiles/coldet.dir/src/box_bld.cpp.o
 .PHONY : src/box_bld.cpp.o
 
 src/box_bld.i: src/box_bld.cpp.i
@@ -167,7 +167,7 @@ src/box_bld.i: src/box_bld.cpp.i
 
 # target to preprocess a source file
 src/box_bld.cpp.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f 3rdParty/coldet/CMakeFiles/coldet.dir/build.make 3rdParty/coldet/CMakeFiles/coldet.dir/src/box_bld.cpp.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f 3rdParty/coldet/CMakeFiles/coldet.dir/build.make 3rdParty/coldet/CMakeFiles/coldet.dir/src/box_bld.cpp.i
 .PHONY : src/box_bld.cpp.i
 
 src/box_bld.s: src/box_bld.cpp.s
@@ -176,7 +176,7 @@ src/box_bld.s: src/box_bld.cpp.s
 
 # target to generate assembly for a file
 src/box_bld.cpp.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f 3rdParty/coldet/CMakeFiles/coldet.dir/build.make 3rdParty/coldet/CMakeFiles/coldet.dir/src/box_bld.cpp.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f 3rdParty/coldet/CMakeFiles/coldet.dir/build.make 3rdParty/coldet/CMakeFiles/coldet.dir/src/box_bld.cpp.s
 .PHONY : src/box_bld.cpp.s
 
 src/cdmath3d.o: src/cdmath3d.cpp.o
@@ -185,7 +185,7 @@ src/cdmath3d.o: src/cdmath3d.cpp.o
 
 # target to build an object file
 src/cdmath3d.cpp.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f 3rdParty/coldet/CMakeFiles/coldet.dir/build.make 3rdParty/coldet/CMakeFiles/coldet.dir/src/cdmath3d.cpp.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f 3rdParty/coldet/CMakeFiles/coldet.dir/build.make 3rdParty/coldet/CMakeFiles/coldet.dir/src/cdmath3d.cpp.o
 .PHONY : src/cdmath3d.cpp.o
 
 src/cdmath3d.i: src/cdmath3d.cpp.i
@@ -194,7 +194,7 @@ src/cdmath3d.i: src/cdmath3d.cpp.i
 
 # target to preprocess a source file
 src/cdmath3d.cpp.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f 3rdParty/coldet/CMakeFiles/coldet.dir/build.make 3rdParty/coldet/CMakeFiles/coldet.dir/src/cdmath3d.cpp.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f 3rdParty/coldet/CMakeFiles/coldet.dir/build.make 3rdParty/coldet/CMakeFiles/coldet.dir/src/cdmath3d.cpp.i
 .PHONY : src/cdmath3d.cpp.i
 
 src/cdmath3d.s: src/cdmath3d.cpp.s
@@ -203,7 +203,7 @@ src/cdmath3d.s: src/cdmath3d.cpp.s
 
 # target to generate assembly for a file
 src/cdmath3d.cpp.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f 3rdParty/coldet/CMakeFiles/coldet.dir/build.make 3rdParty/coldet/CMakeFiles/coldet.dir/src/cdmath3d.cpp.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f 3rdParty/coldet/CMakeFiles/coldet.dir/build.make 3rdParty/coldet/CMakeFiles/coldet.dir/src/cdmath3d.cpp.s
 .PHONY : src/cdmath3d.cpp.s
 
 src/coldet.o: src/coldet.cpp.o
@@ -212,7 +212,7 @@ src/coldet.o: src/coldet.cpp.o
 
 # target to build an object file
 src/coldet.cpp.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f 3rdParty/coldet/CMakeFiles/coldet.dir/build.make 3rdParty/coldet/CMakeFiles/coldet.dir/src/coldet.cpp.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f 3rdParty/coldet/CMakeFiles/coldet.dir/build.make 3rdParty/coldet/CMakeFiles/coldet.dir/src/coldet.cpp.o
 .PHONY : src/coldet.cpp.o
 
 src/coldet.i: src/coldet.cpp.i
@@ -221,7 +221,7 @@ src/coldet.i: src/coldet.cpp.i
 
 # target to preprocess a source file
 src/coldet.cpp.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f 3rdParty/coldet/CMakeFiles/coldet.dir/build.make 3rdParty/coldet/CMakeFiles/coldet.dir/src/coldet.cpp.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f 3rdParty/coldet/CMakeFiles/coldet.dir/build.make 3rdParty/coldet/CMakeFiles/coldet.dir/src/coldet.cpp.i
 .PHONY : src/coldet.cpp.i
 
 src/coldet.s: src/coldet.cpp.s
@@ -230,7 +230,7 @@ src/coldet.s: src/coldet.cpp.s
 
 # target to generate assembly for a file
 src/coldet.cpp.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f 3rdParty/coldet/CMakeFiles/coldet.dir/build.make 3rdParty/coldet/CMakeFiles/coldet.dir/src/coldet.cpp.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f 3rdParty/coldet/CMakeFiles/coldet.dir/build.make 3rdParty/coldet/CMakeFiles/coldet.dir/src/coldet.cpp.s
 .PHONY : src/coldet.cpp.s
 
 src/coldet_bld.o: src/coldet_bld.cpp.o
@@ -239,7 +239,7 @@ src/coldet_bld.o: src/coldet_bld.cpp.o
 
 # target to build an object file
 src/coldet_bld.cpp.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f 3rdParty/coldet/CMakeFiles/coldet.dir/build.make 3rdParty/coldet/CMakeFiles/coldet.dir/src/coldet_bld.cpp.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f 3rdParty/coldet/CMakeFiles/coldet.dir/build.make 3rdParty/coldet/CMakeFiles/coldet.dir/src/coldet_bld.cpp.o
 .PHONY : src/coldet_bld.cpp.o
 
 src/coldet_bld.i: src/coldet_bld.cpp.i
@@ -248,7 +248,7 @@ src/coldet_bld.i: src/coldet_bld.cpp.i
 
 # target to preprocess a source file
 src/coldet_bld.cpp.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f 3rdParty/coldet/CMakeFiles/coldet.dir/build.make 3rdParty/coldet/CMakeFiles/coldet.dir/src/coldet_bld.cpp.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f 3rdParty/coldet/CMakeFiles/coldet.dir/build.make 3rdParty/coldet/CMakeFiles/coldet.dir/src/coldet_bld.cpp.i
 .PHONY : src/coldet_bld.cpp.i
 
 src/coldet_bld.s: src/coldet_bld.cpp.s
@@ -257,7 +257,7 @@ src/coldet_bld.s: src/coldet_bld.cpp.s
 
 # target to generate assembly for a file
 src/coldet_bld.cpp.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f 3rdParty/coldet/CMakeFiles/coldet.dir/build.make 3rdParty/coldet/CMakeFiles/coldet.dir/src/coldet_bld.cpp.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f 3rdParty/coldet/CMakeFiles/coldet.dir/build.make 3rdParty/coldet/CMakeFiles/coldet.dir/src/coldet_bld.cpp.s
 .PHONY : src/coldet_bld.cpp.s
 
 src/multiobject.o: src/multiobject.cpp.o
@@ -266,7 +266,7 @@ src/multiobject.o: src/multiobject.cpp.o
 
 # target to build an object file
 src/multiobject.cpp.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f 3rdParty/coldet/CMakeFiles/coldet.dir/build.make 3rdParty/coldet/CMakeFiles/coldet.dir/src/multiobject.cpp.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f 3rdParty/coldet/CMakeFiles/coldet.dir/build.make 3rdParty/coldet/CMakeFiles/coldet.dir/src/multiobject.cpp.o
 .PHONY : src/multiobject.cpp.o
 
 src/multiobject.i: src/multiobject.cpp.i
@@ -275,7 +275,7 @@ src/multiobject.i: src/multiobject.cpp.i
 
 # target to preprocess a source file
 src/multiobject.cpp.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f 3rdParty/coldet/CMakeFiles/coldet.dir/build.make 3rdParty/coldet/CMakeFiles/coldet.dir/src/multiobject.cpp.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f 3rdParty/coldet/CMakeFiles/coldet.dir/build.make 3rdParty/coldet/CMakeFiles/coldet.dir/src/multiobject.cpp.i
 .PHONY : src/multiobject.cpp.i
 
 src/multiobject.s: src/multiobject.cpp.s
@@ -284,7 +284,7 @@ src/multiobject.s: src/multiobject.cpp.s
 
 # target to generate assembly for a file
 src/multiobject.cpp.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f 3rdParty/coldet/CMakeFiles/coldet.dir/build.make 3rdParty/coldet/CMakeFiles/coldet.dir/src/multiobject.cpp.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f 3rdParty/coldet/CMakeFiles/coldet.dir/build.make 3rdParty/coldet/CMakeFiles/coldet.dir/src/multiobject.cpp.s
 .PHONY : src/multiobject.cpp.s
 
 src/mytritri.o: src/mytritri.cpp.o
@@ -293,7 +293,7 @@ src/mytritri.o: src/mytritri.cpp.o
 
 # target to build an object file
 src/mytritri.cpp.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f 3rdParty/coldet/CMakeFiles/coldet.dir/build.make 3rdParty/coldet/CMakeFiles/coldet.dir/src/mytritri.cpp.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f 3rdParty/coldet/CMakeFiles/coldet.dir/build.make 3rdParty/coldet/CMakeFiles/coldet.dir/src/mytritri.cpp.o
 .PHONY : src/mytritri.cpp.o
 
 src/mytritri.i: src/mytritri.cpp.i
@@ -302,7 +302,7 @@ src/mytritri.i: src/mytritri.cpp.i
 
 # target to preprocess a source file
 src/mytritri.cpp.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f 3rdParty/coldet/CMakeFiles/coldet.dir/build.make 3rdParty/coldet/CMakeFiles/coldet.dir/src/mytritri.cpp.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f 3rdParty/coldet/CMakeFiles/coldet.dir/build.make 3rdParty/coldet/CMakeFiles/coldet.dir/src/mytritri.cpp.i
 .PHONY : src/mytritri.cpp.i
 
 src/mytritri.s: src/mytritri.cpp.s
@@ -311,7 +311,7 @@ src/mytritri.s: src/mytritri.cpp.s
 
 # target to generate assembly for a file
 src/mytritri.cpp.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f 3rdParty/coldet/CMakeFiles/coldet.dir/build.make 3rdParty/coldet/CMakeFiles/coldet.dir/src/mytritri.cpp.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f 3rdParty/coldet/CMakeFiles/coldet.dir/build.make 3rdParty/coldet/CMakeFiles/coldet.dir/src/mytritri.cpp.s
 .PHONY : src/mytritri.cpp.s
 
 src/sysdep.o: src/sysdep.cpp.o
@@ -320,7 +320,7 @@ src/sysdep.o: src/sysdep.cpp.o
 
 # target to build an object file
 src/sysdep.cpp.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f 3rdParty/coldet/CMakeFiles/coldet.dir/build.make 3rdParty/coldet/CMakeFiles/coldet.dir/src/sysdep.cpp.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f 3rdParty/coldet/CMakeFiles/coldet.dir/build.make 3rdParty/coldet/CMakeFiles/coldet.dir/src/sysdep.cpp.o
 .PHONY : src/sysdep.cpp.o
 
 src/sysdep.i: src/sysdep.cpp.i
@@ -329,7 +329,7 @@ src/sysdep.i: src/sysdep.cpp.i
 
 # target to preprocess a source file
 src/sysdep.cpp.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f 3rdParty/coldet/CMakeFiles/coldet.dir/build.make 3rdParty/coldet/CMakeFiles/coldet.dir/src/sysdep.cpp.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f 3rdParty/coldet/CMakeFiles/coldet.dir/build.make 3rdParty/coldet/CMakeFiles/coldet.dir/src/sysdep.cpp.i
 .PHONY : src/sysdep.cpp.i
 
 src/sysdep.s: src/sysdep.cpp.s
@@ -338,7 +338,7 @@ src/sysdep.s: src/sysdep.cpp.s
 
 # target to generate assembly for a file
 src/sysdep.cpp.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f 3rdParty/coldet/CMakeFiles/coldet.dir/build.make 3rdParty/coldet/CMakeFiles/coldet.dir/src/sysdep.cpp.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f 3rdParty/coldet/CMakeFiles/coldet.dir/build.make 3rdParty/coldet/CMakeFiles/coldet.dir/src/sysdep.cpp.s
 .PHONY : src/sysdep.cpp.s
 
 src/tritri.o: src/tritri.c.o
@@ -347,7 +347,7 @@ src/tritri.o: src/tritri.c.o
 
 # target to build an object file
 src/tritri.c.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f 3rdParty/coldet/CMakeFiles/coldet.dir/build.make 3rdParty/coldet/CMakeFiles/coldet.dir/src/tritri.c.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f 3rdParty/coldet/CMakeFiles/coldet.dir/build.make 3rdParty/coldet/CMakeFiles/coldet.dir/src/tritri.c.o
 .PHONY : src/tritri.c.o
 
 src/tritri.i: src/tritri.c.i
@@ -356,7 +356,7 @@ src/tritri.i: src/tritri.c.i
 
 # target to preprocess a source file
 src/tritri.c.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f 3rdParty/coldet/CMakeFiles/coldet.dir/build.make 3rdParty/coldet/CMakeFiles/coldet.dir/src/tritri.c.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f 3rdParty/coldet/CMakeFiles/coldet.dir/build.make 3rdParty/coldet/CMakeFiles/coldet.dir/src/tritri.c.i
 .PHONY : src/tritri.c.i
 
 src/tritri.s: src/tritri.c.s
@@ -365,7 +365,7 @@ src/tritri.s: src/tritri.c.s
 
 # target to generate assembly for a file
 src/tritri.c.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f 3rdParty/coldet/CMakeFiles/coldet.dir/build.make 3rdParty/coldet/CMakeFiles/coldet.dir/src/tritri.c.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f 3rdParty/coldet/CMakeFiles/coldet.dir/build.make 3rdParty/coldet/CMakeFiles/coldet.dir/src/tritri.c.s
 .PHONY : src/tritri.c.s
 
 # Help Target
@@ -375,8 +375,8 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
-	@echo "... coldet"
 	@echo "... rebuild_cache"
+	@echo "... coldet"
 	@echo "... src/box.o"
 	@echo "... src/box.i"
 	@echo "... src/box.s"
@@ -415,6 +415,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

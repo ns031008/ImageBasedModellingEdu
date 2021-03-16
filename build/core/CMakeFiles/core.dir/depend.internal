@@ -9,7 +9,7 @@ core/CMakeFiles/core.dir/bundle.cc.o
  ../core/../math/algo.h
  ../core/../math/defines.h
  ../core/../math/vector.h
- /home/demo/桌面/ImageBasedModellingEdu/core/bundle.cc
+ /home/chen/桌面/ImageBasedModellingEdu/core/bundle.cc
 core/CMakeFiles/core.dir/bundle_io.cc.o
  ../core/../core/bundle.h
  ../core/../core/bundle_io.h
@@ -24,7 +24,7 @@ core/CMakeFiles/core.dir/bundle_io.cc.o
  ../core/../util/exception.h
  ../core/../util/file_system.h
  ../core/../util/strings.h
- /home/demo/桌面/ImageBasedModellingEdu/core/bundle_io.cc
+ /home/chen/桌面/ImageBasedModellingEdu/core/bundle_io.cc
 core/CMakeFiles/core.dir/camera.cc.o
  ../core/../core/camera.h
  ../core/../core/defines.h
@@ -33,7 +33,7 @@ core/CMakeFiles/core.dir/camera.cc.o
  ../core/../math/matrix.h
  ../core/../math/matrix_tools.h
  ../core/../math/vector.h
- /home/demo/桌面/ImageBasedModellingEdu/core/camera.cc
+ /home/chen/桌面/ImageBasedModellingEdu/core/camera.cc
 core/CMakeFiles/core.dir/depthmap.cc.o
  ../core/../core/camera.h
  ../core/../core/defines.h
@@ -50,14 +50,14 @@ core/CMakeFiles/core.dir/depthmap.cc.o
  ../core/../math/vector.h
  ../core/../util/defines.h
  ../core/../util/strings.h
- /home/demo/桌面/ImageBasedModellingEdu/core/depthmap.cc
+ /home/chen/桌面/ImageBasedModellingEdu/core/depthmap.cc
 core/CMakeFiles/core.dir/image_exif.cc.o
  ../core/../core/defines.h
  ../core/../core/image_exif.h
  ../core/../util/defines.h
  ../core/../util/strings.h
  ../core/../util/system.h
- /home/demo/桌面/ImageBasedModellingEdu/core/image_exif.cc
+ /home/chen/桌面/ImageBasedModellingEdu/core/image_exif.cc
 core/CMakeFiles/core.dir/image_io.cc.o
  ../core/../core/defines.h
  ../core/../core/image.h
@@ -72,7 +72,7 @@ core/CMakeFiles/core.dir/image_io.cc.o
  ../core/../util/exception.h
  ../core/../util/strings.h
  ../core/../util/system.h
- /home/demo/桌面/ImageBasedModellingEdu/core/image_io.cc
+ /home/chen/桌面/ImageBasedModellingEdu/core/image_io.cc
  /usr/include/x86_64-linux-gnu/tiff.h
  /usr/include/x86_64-linux-gnu/tiffconf.h
  /usr/include/x86_64-linux-gnu/tiffio.h
@@ -92,7 +92,7 @@ core/CMakeFiles/core.dir/image_tools.cc.o
  ../core/../util/defines.h
  ../core/../util/exception.h
  ../core/../util/strings.h
- /home/demo/桌面/ImageBasedModellingEdu/core/image_tools.cc
+ /home/chen/桌面/ImageBasedModellingEdu/core/image_tools.cc
 core/CMakeFiles/core.dir/mesh.cc.o
  ../core/../core/defines.h
  ../core/../core/mesh.h
@@ -101,7 +101,7 @@ core/CMakeFiles/core.dir/mesh.cc.o
  ../core/../math/functions.h
  ../core/../math/matrix.h
  ../core/../math/vector.h
- /home/demo/桌面/ImageBasedModellingEdu/core/mesh.cc
+ /home/chen/桌面/ImageBasedModellingEdu/core/mesh.cc
 core/CMakeFiles/core.dir/mesh_info.cc.o
  ../core/../core/defines.h
  ../core/../core/mesh.h
@@ -109,7 +109,7 @@ core/CMakeFiles/core.dir/mesh_info.cc.o
  ../core/../math/algo.h
  ../core/../math/defines.h
  ../core/../math/vector.h
- /home/demo/桌面/ImageBasedModellingEdu/core/mesh_info.cc
+ /home/chen/桌面/ImageBasedModellingEdu/core/mesh_info.cc
 core/CMakeFiles/core.dir/mesh_io.cc.o
  ../core/../core/camera.h
  ../core/../core/defines.h
@@ -132,7 +132,7 @@ core/CMakeFiles/core.dir/mesh_io.cc.o
  ../core/../util/defines.h
  ../core/../util/strings.h
  ../core/../util/system.h
- /home/demo/桌面/ImageBasedModellingEdu/core/mesh_io.cc
+ /home/chen/桌面/ImageBasedModellingEdu/core/mesh_io.cc
 core/CMakeFiles/core.dir/mesh_io_npts.cc.o
  ../core/../core/defines.h
  ../core/../core/mesh.h
@@ -142,7 +142,7 @@ core/CMakeFiles/core.dir/mesh_io_npts.cc.o
  ../core/../math/vector.h
  ../core/../util/defines.h
  ../core/../util/exception.h
- /home/demo/桌面/ImageBasedModellingEdu/core/mesh_io_npts.cc
+ /home/chen/桌面/ImageBasedModellingEdu/core/mesh_io_npts.cc
 core/CMakeFiles/core.dir/mesh_io_obj.cc.o
  ../core/../core/defines.h
  ../core/../core/mesh.h
@@ -155,7 +155,7 @@ core/CMakeFiles/core.dir/mesh_io_obj.cc.o
  ../core/../util/file_system.h
  ../core/../util/strings.h
  ../core/../util/tokenizer.h
- /home/demo/桌面/ImageBasedModellingEdu/core/mesh_io_obj.cc
+ /home/chen/桌面/ImageBasedModellingEdu/core/mesh_io_obj.cc
 core/CMakeFiles/core.dir/mesh_io_off.cc.o
  ../core/../core/defines.h
  ../core/../core/mesh.h
@@ -165,7 +165,7 @@ core/CMakeFiles/core.dir/mesh_io_off.cc.o
  ../core/../math/vector.h
  ../core/../util/defines.h
  ../core/../util/exception.h
- /home/demo/桌面/ImageBasedModellingEdu/core/mesh_io_off.cc
+ /home/chen/桌面/ImageBasedModellingEdu/core/mesh_io_off.cc
 core/CMakeFiles/core.dir/mesh_io_pbrt.cc.o
  ../core/../core/defines.h
  ../core/../core/mesh.h
@@ -175,7 +175,7 @@ core/CMakeFiles/core.dir/mesh_io_pbrt.cc.o
  ../core/../math/vector.h
  ../core/../util/defines.h
  ../core/../util/exception.h
- /home/demo/桌面/ImageBasedModellingEdu/core/mesh_io_pbrt.cc
+ /home/chen/桌面/ImageBasedModellingEdu/core/mesh_io_pbrt.cc
 core/CMakeFiles/core.dir/mesh_io_ply.cc.o
  ../core/../core/camera.h
  ../core/../core/defines.h
@@ -195,7 +195,7 @@ core/CMakeFiles/core.dir/mesh_io_ply.cc.o
  ../core/../util/strings.h
  ../core/../util/system.h
  ../core/../util/tokenizer.h
- /home/demo/桌面/ImageBasedModellingEdu/core/mesh_io_ply.cc
+ /home/chen/桌面/ImageBasedModellingEdu/core/mesh_io_ply.cc
 core/CMakeFiles/core.dir/mesh_io_smf.cc.o
  ../core/../core/defines.h
  ../core/../core/mesh.h
@@ -205,7 +205,7 @@ core/CMakeFiles/core.dir/mesh_io_smf.cc.o
  ../core/../math/vector.h
  ../core/../util/defines.h
  ../core/../util/exception.h
- /home/demo/桌面/ImageBasedModellingEdu/core/mesh_io_smf.cc
+ /home/chen/桌面/ImageBasedModellingEdu/core/mesh_io_smf.cc
 core/CMakeFiles/core.dir/mesh_tools.cc.o
  ../core/../core/defines.h
  ../core/../core/mesh.h
@@ -215,7 +215,7 @@ core/CMakeFiles/core.dir/mesh_tools.cc.o
  ../core/../math/defines.h
  ../core/../math/matrix.h
  ../core/../math/vector.h
- /home/demo/桌面/ImageBasedModellingEdu/core/mesh_tools.cc
+ /home/chen/桌面/ImageBasedModellingEdu/core/mesh_tools.cc
 core/CMakeFiles/core.dir/scene.cc.o
  ../core/../core/bundle.h
  ../core/../core/bundle_io.h
@@ -236,7 +236,7 @@ core/CMakeFiles/core.dir/scene.cc.o
  ../core/../util/file_system.h
  ../core/../util/strings.h
  ../core/../util/timer.h
- /home/demo/桌面/ImageBasedModellingEdu/core/scene.cc
+ /home/chen/桌面/ImageBasedModellingEdu/core/scene.cc
 core/CMakeFiles/core.dir/view.cc.o
  ../core/../core/camera.h
  ../core/../core/defines.h
@@ -255,4 +255,4 @@ core/CMakeFiles/core.dir/view.cc.o
  ../core/../util/ini_parser.h
  ../core/../util/strings.h
  ../core/../util/tokenizer.h
- /home/demo/桌面/ImageBasedModellingEdu/core/view.cc
+ /home/chen/桌面/ImageBasedModellingEdu/core/view.cc

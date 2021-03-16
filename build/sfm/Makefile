@@ -48,24 +48,13 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/demo/桌面/ImageBasedModellingEdu
+CMAKE_SOURCE_DIR = /home/chen/桌面/ImageBasedModellingEdu
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/demo/桌面/ImageBasedModellingEdu/build
+CMAKE_BINARY_DIR = /home/chen/桌面/ImageBasedModellingEdu/build
 
 #=============================================================================
 # Targets provided globally by CMake.
-
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
 
 # Special rule for the target rebuild_cache
 rebuild_cache:
@@ -78,16 +67,27 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
+
 # The main all target
 all: cmake_check_build_system
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/demo/桌面/ImageBasedModellingEdu/build/CMakeFiles /home/demo/桌面/ImageBasedModellingEdu/build/sfm/CMakeFiles/progress.marks
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 sfm/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/demo/桌面/ImageBasedModellingEdu/build/CMakeFiles 0
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/chen/桌面/ImageBasedModellingEdu/build/CMakeFiles /home/chen/桌面/ImageBasedModellingEdu/build/sfm/CMakeFiles/progress.marks
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 sfm/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chen/桌面/ImageBasedModellingEdu/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 sfm/clean
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 sfm/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 sfm/preinstall
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 sfm/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 sfm/preinstall
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 sfm/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 sfm/CMakeFiles/sfm.dir/rule:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 sfm/CMakeFiles/sfm.dir/rule
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 sfm/CMakeFiles/sfm.dir/rule
 .PHONY : sfm/CMakeFiles/sfm.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ sfm: sfm/CMakeFiles/sfm.dir/rule
 
 # fast build rule for target.
 sfm/fast:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/build
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/build
 .PHONY : sfm/fast
 
 ba_linear_solver.o: ba_linear_solver.cc.o
@@ -131,7 +131,7 @@ ba_linear_solver.o: ba_linear_solver.cc.o
 
 # target to build an object file
 ba_linear_solver.cc.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/ba_linear_solver.cc.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/ba_linear_solver.cc.o
 .PHONY : ba_linear_solver.cc.o
 
 ba_linear_solver.i: ba_linear_solver.cc.i
@@ -140,7 +140,7 @@ ba_linear_solver.i: ba_linear_solver.cc.i
 
 # target to preprocess a source file
 ba_linear_solver.cc.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/ba_linear_solver.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/ba_linear_solver.cc.i
 .PHONY : ba_linear_solver.cc.i
 
 ba_linear_solver.s: ba_linear_solver.cc.s
@@ -149,7 +149,7 @@ ba_linear_solver.s: ba_linear_solver.cc.s
 
 # target to generate assembly for a file
 ba_linear_solver.cc.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/ba_linear_solver.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/ba_linear_solver.cc.s
 .PHONY : ba_linear_solver.cc.s
 
 bundle_adjustment.o: bundle_adjustment.cc.o
@@ -158,7 +158,7 @@ bundle_adjustment.o: bundle_adjustment.cc.o
 
 # target to build an object file
 bundle_adjustment.cc.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/bundle_adjustment.cc.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/bundle_adjustment.cc.o
 .PHONY : bundle_adjustment.cc.o
 
 bundle_adjustment.i: bundle_adjustment.cc.i
@@ -167,7 +167,7 @@ bundle_adjustment.i: bundle_adjustment.cc.i
 
 # target to preprocess a source file
 bundle_adjustment.cc.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/bundle_adjustment.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/bundle_adjustment.cc.i
 .PHONY : bundle_adjustment.cc.i
 
 bundle_adjustment.s: bundle_adjustment.cc.s
@@ -176,7 +176,7 @@ bundle_adjustment.s: bundle_adjustment.cc.s
 
 # target to generate assembly for a file
 bundle_adjustment.cc.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/bundle_adjustment.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/bundle_adjustment.cc.s
 .PHONY : bundle_adjustment.cc.s
 
 bundler_common.o: bundler_common.cc.o
@@ -185,7 +185,7 @@ bundler_common.o: bundler_common.cc.o
 
 # target to build an object file
 bundler_common.cc.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/bundler_common.cc.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/bundler_common.cc.o
 .PHONY : bundler_common.cc.o
 
 bundler_common.i: bundler_common.cc.i
@@ -194,7 +194,7 @@ bundler_common.i: bundler_common.cc.i
 
 # target to preprocess a source file
 bundler_common.cc.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/bundler_common.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/bundler_common.cc.i
 .PHONY : bundler_common.cc.i
 
 bundler_common.s: bundler_common.cc.s
@@ -203,7 +203,7 @@ bundler_common.s: bundler_common.cc.s
 
 # target to generate assembly for a file
 bundler_common.cc.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/bundler_common.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/bundler_common.cc.s
 .PHONY : bundler_common.cc.s
 
 bundler_features.o: bundler_features.cc.o
@@ -212,7 +212,7 @@ bundler_features.o: bundler_features.cc.o
 
 # target to build an object file
 bundler_features.cc.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/bundler_features.cc.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/bundler_features.cc.o
 .PHONY : bundler_features.cc.o
 
 bundler_features.i: bundler_features.cc.i
@@ -221,7 +221,7 @@ bundler_features.i: bundler_features.cc.i
 
 # target to preprocess a source file
 bundler_features.cc.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/bundler_features.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/bundler_features.cc.i
 .PHONY : bundler_features.cc.i
 
 bundler_features.s: bundler_features.cc.s
@@ -230,7 +230,7 @@ bundler_features.s: bundler_features.cc.s
 
 # target to generate assembly for a file
 bundler_features.cc.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/bundler_features.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/bundler_features.cc.s
 .PHONY : bundler_features.cc.s
 
 bundler_incremental.o: bundler_incremental.cc.o
@@ -239,7 +239,7 @@ bundler_incremental.o: bundler_incremental.cc.o
 
 # target to build an object file
 bundler_incremental.cc.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/bundler_incremental.cc.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/bundler_incremental.cc.o
 .PHONY : bundler_incremental.cc.o
 
 bundler_incremental.i: bundler_incremental.cc.i
@@ -248,7 +248,7 @@ bundler_incremental.i: bundler_incremental.cc.i
 
 # target to preprocess a source file
 bundler_incremental.cc.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/bundler_incremental.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/bundler_incremental.cc.i
 .PHONY : bundler_incremental.cc.i
 
 bundler_incremental.s: bundler_incremental.cc.s
@@ -257,7 +257,7 @@ bundler_incremental.s: bundler_incremental.cc.s
 
 # target to generate assembly for a file
 bundler_incremental.cc.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/bundler_incremental.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/bundler_incremental.cc.s
 .PHONY : bundler_incremental.cc.s
 
 bundler_init_pair.o: bundler_init_pair.cc.o
@@ -266,7 +266,7 @@ bundler_init_pair.o: bundler_init_pair.cc.o
 
 # target to build an object file
 bundler_init_pair.cc.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/bundler_init_pair.cc.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/bundler_init_pair.cc.o
 .PHONY : bundler_init_pair.cc.o
 
 bundler_init_pair.i: bundler_init_pair.cc.i
@@ -275,7 +275,7 @@ bundler_init_pair.i: bundler_init_pair.cc.i
 
 # target to preprocess a source file
 bundler_init_pair.cc.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/bundler_init_pair.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/bundler_init_pair.cc.i
 .PHONY : bundler_init_pair.cc.i
 
 bundler_init_pair.s: bundler_init_pair.cc.s
@@ -284,7 +284,7 @@ bundler_init_pair.s: bundler_init_pair.cc.s
 
 # target to generate assembly for a file
 bundler_init_pair.cc.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/bundler_init_pair.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/bundler_init_pair.cc.s
 .PHONY : bundler_init_pair.cc.s
 
 bundler_intrinsics.o: bundler_intrinsics.cc.o
@@ -293,7 +293,7 @@ bundler_intrinsics.o: bundler_intrinsics.cc.o
 
 # target to build an object file
 bundler_intrinsics.cc.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/bundler_intrinsics.cc.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/bundler_intrinsics.cc.o
 .PHONY : bundler_intrinsics.cc.o
 
 bundler_intrinsics.i: bundler_intrinsics.cc.i
@@ -302,7 +302,7 @@ bundler_intrinsics.i: bundler_intrinsics.cc.i
 
 # target to preprocess a source file
 bundler_intrinsics.cc.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/bundler_intrinsics.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/bundler_intrinsics.cc.i
 .PHONY : bundler_intrinsics.cc.i
 
 bundler_intrinsics.s: bundler_intrinsics.cc.s
@@ -311,7 +311,7 @@ bundler_intrinsics.s: bundler_intrinsics.cc.s
 
 # target to generate assembly for a file
 bundler_intrinsics.cc.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/bundler_intrinsics.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/bundler_intrinsics.cc.s
 .PHONY : bundler_intrinsics.cc.s
 
 bundler_matching.o: bundler_matching.cc.o
@@ -320,7 +320,7 @@ bundler_matching.o: bundler_matching.cc.o
 
 # target to build an object file
 bundler_matching.cc.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/bundler_matching.cc.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/bundler_matching.cc.o
 .PHONY : bundler_matching.cc.o
 
 bundler_matching.i: bundler_matching.cc.i
@@ -329,7 +329,7 @@ bundler_matching.i: bundler_matching.cc.i
 
 # target to preprocess a source file
 bundler_matching.cc.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/bundler_matching.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/bundler_matching.cc.i
 .PHONY : bundler_matching.cc.i
 
 bundler_matching.s: bundler_matching.cc.s
@@ -338,7 +338,7 @@ bundler_matching.s: bundler_matching.cc.s
 
 # target to generate assembly for a file
 bundler_matching.cc.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/bundler_matching.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/bundler_matching.cc.s
 .PHONY : bundler_matching.cc.s
 
 bundler_tracks.o: bundler_tracks.cc.o
@@ -347,7 +347,7 @@ bundler_tracks.o: bundler_tracks.cc.o
 
 # target to build an object file
 bundler_tracks.cc.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/bundler_tracks.cc.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/bundler_tracks.cc.o
 .PHONY : bundler_tracks.cc.o
 
 bundler_tracks.i: bundler_tracks.cc.i
@@ -356,7 +356,7 @@ bundler_tracks.i: bundler_tracks.cc.i
 
 # target to preprocess a source file
 bundler_tracks.cc.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/bundler_tracks.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/bundler_tracks.cc.i
 .PHONY : bundler_tracks.cc.i
 
 bundler_tracks.s: bundler_tracks.cc.s
@@ -365,7 +365,7 @@ bundler_tracks.s: bundler_tracks.cc.s
 
 # target to generate assembly for a file
 bundler_tracks.cc.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/bundler_tracks.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/bundler_tracks.cc.s
 .PHONY : bundler_tracks.cc.s
 
 camera_database.o: camera_database.cc.o
@@ -374,7 +374,7 @@ camera_database.o: camera_database.cc.o
 
 # target to build an object file
 camera_database.cc.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/camera_database.cc.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/camera_database.cc.o
 .PHONY : camera_database.cc.o
 
 camera_database.i: camera_database.cc.i
@@ -383,7 +383,7 @@ camera_database.i: camera_database.cc.i
 
 # target to preprocess a source file
 camera_database.cc.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/camera_database.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/camera_database.cc.i
 .PHONY : camera_database.cc.i
 
 camera_database.s: camera_database.cc.s
@@ -392,7 +392,7 @@ camera_database.s: camera_database.cc.s
 
 # target to generate assembly for a file
 camera_database.cc.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/camera_database.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/camera_database.cc.s
 .PHONY : camera_database.cc.s
 
 extract_focal_length.o: extract_focal_length.cc.o
@@ -401,7 +401,7 @@ extract_focal_length.o: extract_focal_length.cc.o
 
 # target to build an object file
 extract_focal_length.cc.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/extract_focal_length.cc.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/extract_focal_length.cc.o
 .PHONY : extract_focal_length.cc.o
 
 extract_focal_length.i: extract_focal_length.cc.i
@@ -410,7 +410,7 @@ extract_focal_length.i: extract_focal_length.cc.i
 
 # target to preprocess a source file
 extract_focal_length.cc.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/extract_focal_length.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/extract_focal_length.cc.i
 .PHONY : extract_focal_length.cc.i
 
 extract_focal_length.s: extract_focal_length.cc.s
@@ -419,7 +419,7 @@ extract_focal_length.s: extract_focal_length.cc.s
 
 # target to generate assembly for a file
 extract_focal_length.cc.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/extract_focal_length.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/extract_focal_length.cc.s
 .PHONY : extract_focal_length.cc.s
 
 feature_set.o: feature_set.cc.o
@@ -428,7 +428,7 @@ feature_set.o: feature_set.cc.o
 
 # target to build an object file
 feature_set.cc.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/feature_set.cc.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/feature_set.cc.o
 .PHONY : feature_set.cc.o
 
 feature_set.i: feature_set.cc.i
@@ -437,7 +437,7 @@ feature_set.i: feature_set.cc.i
 
 # target to preprocess a source file
 feature_set.cc.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/feature_set.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/feature_set.cc.i
 .PHONY : feature_set.cc.i
 
 feature_set.s: feature_set.cc.s
@@ -446,7 +446,7 @@ feature_set.s: feature_set.cc.s
 
 # target to generate assembly for a file
 feature_set.cc.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/feature_set.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/feature_set.cc.s
 .PHONY : feature_set.cc.s
 
 fundamental.o: fundamental.cc.o
@@ -455,7 +455,7 @@ fundamental.o: fundamental.cc.o
 
 # target to build an object file
 fundamental.cc.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/fundamental.cc.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/fundamental.cc.o
 .PHONY : fundamental.cc.o
 
 fundamental.i: fundamental.cc.i
@@ -464,7 +464,7 @@ fundamental.i: fundamental.cc.i
 
 # target to preprocess a source file
 fundamental.cc.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/fundamental.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/fundamental.cc.i
 .PHONY : fundamental.cc.i
 
 fundamental.s: fundamental.cc.s
@@ -473,7 +473,7 @@ fundamental.s: fundamental.cc.s
 
 # target to generate assembly for a file
 fundamental.cc.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/fundamental.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/fundamental.cc.s
 .PHONY : fundamental.cc.s
 
 homography.o: homography.cc.o
@@ -482,7 +482,7 @@ homography.o: homography.cc.o
 
 # target to build an object file
 homography.cc.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/homography.cc.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/homography.cc.o
 .PHONY : homography.cc.o
 
 homography.i: homography.cc.i
@@ -491,7 +491,7 @@ homography.i: homography.cc.i
 
 # target to preprocess a source file
 homography.cc.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/homography.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/homography.cc.i
 .PHONY : homography.cc.i
 
 homography.s: homography.cc.s
@@ -500,7 +500,7 @@ homography.s: homography.cc.s
 
 # target to generate assembly for a file
 homography.cc.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/homography.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/homography.cc.s
 .PHONY : homography.cc.s
 
 pose_p3p.o: pose_p3p.cc.o
@@ -509,7 +509,7 @@ pose_p3p.o: pose_p3p.cc.o
 
 # target to build an object file
 pose_p3p.cc.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/pose_p3p.cc.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/pose_p3p.cc.o
 .PHONY : pose_p3p.cc.o
 
 pose_p3p.i: pose_p3p.cc.i
@@ -518,7 +518,7 @@ pose_p3p.i: pose_p3p.cc.i
 
 # target to preprocess a source file
 pose_p3p.cc.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/pose_p3p.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/pose_p3p.cc.i
 .PHONY : pose_p3p.cc.i
 
 pose_p3p.s: pose_p3p.cc.s
@@ -527,7 +527,7 @@ pose_p3p.s: pose_p3p.cc.s
 
 # target to generate assembly for a file
 pose_p3p.cc.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/pose_p3p.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/pose_p3p.cc.s
 .PHONY : pose_p3p.cc.s
 
 ransac.o: ransac.cc.o
@@ -536,7 +536,7 @@ ransac.o: ransac.cc.o
 
 # target to build an object file
 ransac.cc.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/ransac.cc.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/ransac.cc.o
 .PHONY : ransac.cc.o
 
 ransac.i: ransac.cc.i
@@ -545,7 +545,7 @@ ransac.i: ransac.cc.i
 
 # target to preprocess a source file
 ransac.cc.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/ransac.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/ransac.cc.i
 .PHONY : ransac.cc.i
 
 ransac.s: ransac.cc.s
@@ -554,7 +554,7 @@ ransac.s: ransac.cc.s
 
 # target to generate assembly for a file
 ransac.cc.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/ransac.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/ransac.cc.s
 .PHONY : ransac.cc.s
 
 ransac_fundamental.o: ransac_fundamental.cc.o
@@ -563,7 +563,7 @@ ransac_fundamental.o: ransac_fundamental.cc.o
 
 # target to build an object file
 ransac_fundamental.cc.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/ransac_fundamental.cc.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/ransac_fundamental.cc.o
 .PHONY : ransac_fundamental.cc.o
 
 ransac_fundamental.i: ransac_fundamental.cc.i
@@ -572,7 +572,7 @@ ransac_fundamental.i: ransac_fundamental.cc.i
 
 # target to preprocess a source file
 ransac_fundamental.cc.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/ransac_fundamental.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/ransac_fundamental.cc.i
 .PHONY : ransac_fundamental.cc.i
 
 ransac_fundamental.s: ransac_fundamental.cc.s
@@ -581,7 +581,7 @@ ransac_fundamental.s: ransac_fundamental.cc.s
 
 # target to generate assembly for a file
 ransac_fundamental.cc.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/ransac_fundamental.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/ransac_fundamental.cc.s
 .PHONY : ransac_fundamental.cc.s
 
 ransac_homography.o: ransac_homography.cc.o
@@ -590,7 +590,7 @@ ransac_homography.o: ransac_homography.cc.o
 
 # target to build an object file
 ransac_homography.cc.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/ransac_homography.cc.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/ransac_homography.cc.o
 .PHONY : ransac_homography.cc.o
 
 ransac_homography.i: ransac_homography.cc.i
@@ -599,7 +599,7 @@ ransac_homography.i: ransac_homography.cc.i
 
 # target to preprocess a source file
 ransac_homography.cc.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/ransac_homography.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/ransac_homography.cc.i
 .PHONY : ransac_homography.cc.i
 
 ransac_homography.s: ransac_homography.cc.s
@@ -608,7 +608,7 @@ ransac_homography.s: ransac_homography.cc.s
 
 # target to generate assembly for a file
 ransac_homography.cc.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/ransac_homography.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/ransac_homography.cc.s
 .PHONY : ransac_homography.cc.s
 
 ransac_pose_p3p.o: ransac_pose_p3p.cc.o
@@ -617,7 +617,7 @@ ransac_pose_p3p.o: ransac_pose_p3p.cc.o
 
 # target to build an object file
 ransac_pose_p3p.cc.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/ransac_pose_p3p.cc.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/ransac_pose_p3p.cc.o
 .PHONY : ransac_pose_p3p.cc.o
 
 ransac_pose_p3p.i: ransac_pose_p3p.cc.i
@@ -626,7 +626,7 @@ ransac_pose_p3p.i: ransac_pose_p3p.cc.i
 
 # target to preprocess a source file
 ransac_pose_p3p.cc.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/ransac_pose_p3p.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/ransac_pose_p3p.cc.i
 .PHONY : ransac_pose_p3p.cc.i
 
 ransac_pose_p3p.s: ransac_pose_p3p.cc.s
@@ -635,7 +635,7 @@ ransac_pose_p3p.s: ransac_pose_p3p.cc.s
 
 # target to generate assembly for a file
 ransac_pose_p3p.cc.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/ransac_pose_p3p.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/ransac_pose_p3p.cc.s
 .PHONY : ransac_pose_p3p.cc.s
 
 triangulate.o: triangulate.cc.o
@@ -644,7 +644,7 @@ triangulate.o: triangulate.cc.o
 
 # target to build an object file
 triangulate.cc.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/triangulate.cc.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/triangulate.cc.o
 .PHONY : triangulate.cc.o
 
 triangulate.i: triangulate.cc.i
@@ -653,7 +653,7 @@ triangulate.i: triangulate.cc.i
 
 # target to preprocess a source file
 triangulate.cc.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/triangulate.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/triangulate.cc.i
 .PHONY : triangulate.cc.i
 
 triangulate.s: triangulate.cc.s
@@ -662,7 +662,7 @@ triangulate.s: triangulate.cc.s
 
 # target to generate assembly for a file
 triangulate.cc.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/triangulate.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f sfm/CMakeFiles/sfm.dir/build.make sfm/CMakeFiles/sfm.dir/triangulate.cc.s
 .PHONY : triangulate.cc.s
 
 # Help Target
@@ -671,9 +671,9 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... sfm"
-	@echo "... rebuild_cache"
 	@echo "... ba_linear_solver.o"
 	@echo "... ba_linear_solver.i"
 	@echo "... ba_linear_solver.s"
@@ -745,6 +745,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

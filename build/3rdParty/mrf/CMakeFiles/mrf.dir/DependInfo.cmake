@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/demo/桌面/ImageBasedModellingEdu/3rdParty/mrf/gco_graph.cpp" "/home/demo/桌面/ImageBasedModellingEdu/build/3rdParty/mrf/CMakeFiles/mrf.dir/gco_graph.cpp.o"
-  "/home/demo/桌面/ImageBasedModellingEdu/3rdParty/mrf/graph.cpp" "/home/demo/桌面/ImageBasedModellingEdu/build/3rdParty/mrf/CMakeFiles/mrf.dir/graph.cpp.o"
-  "/home/demo/桌面/ImageBasedModellingEdu/3rdParty/mrf/icm_graph.cpp" "/home/demo/桌面/ImageBasedModellingEdu/build/3rdParty/mrf/CMakeFiles/mrf.dir/icm_graph.cpp.o"
-  "/home/demo/桌面/ImageBasedModellingEdu/3rdParty/mrf/lbp_graph.cpp" "/home/demo/桌面/ImageBasedModellingEdu/build/3rdParty/mrf/CMakeFiles/mrf.dir/lbp_graph.cpp.o"
+  "/home/chen/桌面/ImageBasedModellingEdu/3rdParty/mrf/gco_graph.cpp" "/home/chen/桌面/ImageBasedModellingEdu/build/3rdParty/mrf/CMakeFiles/mrf.dir/gco_graph.cpp.o"
+  "/home/chen/桌面/ImageBasedModellingEdu/3rdParty/mrf/graph.cpp" "/home/chen/桌面/ImageBasedModellingEdu/build/3rdParty/mrf/CMakeFiles/mrf.dir/graph.cpp.o"
+  "/home/chen/桌面/ImageBasedModellingEdu/3rdParty/mrf/icm_graph.cpp" "/home/chen/桌面/ImageBasedModellingEdu/build/3rdParty/mrf/CMakeFiles/mrf.dir/icm_graph.cpp.o"
+  "/home/chen/桌面/ImageBasedModellingEdu/3rdParty/mrf/lbp_graph.cpp" "/home/chen/桌面/ImageBasedModellingEdu/build/3rdParty/mrf/CMakeFiles/mrf.dir/lbp_graph.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

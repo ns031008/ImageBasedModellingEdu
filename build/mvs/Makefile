@@ -48,18 +48,18 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/demo/桌面/ImageBasedModellingEdu
+CMAKE_SOURCE_DIR = /home/chen/桌面/ImageBasedModellingEdu
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/demo/桌面/ImageBasedModellingEdu/build
+CMAKE_BINARY_DIR = /home/chen/桌面/ImageBasedModellingEdu/build
 
 #=============================================================================
 # Targets provided globally by CMake.
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,14 +80,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/demo/桌面/ImageBasedModellingEdu/build/CMakeFiles /home/demo/桌面/ImageBasedModellingEdu/build/mvs/CMakeFiles/progress.marks
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 mvs/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/demo/桌面/ImageBasedModellingEdu/build/CMakeFiles 0
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/chen/桌面/ImageBasedModellingEdu/build/CMakeFiles /home/chen/桌面/ImageBasedModellingEdu/build/mvs/CMakeFiles/progress.marks
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 mvs/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chen/桌面/ImageBasedModellingEdu/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 mvs/clean
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 mvs/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 mvs/preinstall
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 mvs/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 mvs/preinstall
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 mvs/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 mvs/CMakeFiles/mvs.dir/rule:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 mvs/CMakeFiles/mvs.dir/rule
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 mvs/CMakeFiles/mvs.dir/rule
 .PHONY : mvs/CMakeFiles/mvs.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ mvs: mvs/CMakeFiles/mvs.dir/rule
 
 # fast build rule for target.
 mvs/fast:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f mvs/CMakeFiles/mvs.dir/build.make mvs/CMakeFiles/mvs.dir/build
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f mvs/CMakeFiles/mvs.dir/build.make mvs/CMakeFiles/mvs.dir/build
 .PHONY : mvs/fast
 
 dmrecon.o: dmrecon.cc.o
@@ -131,7 +131,7 @@ dmrecon.o: dmrecon.cc.o
 
 # target to build an object file
 dmrecon.cc.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f mvs/CMakeFiles/mvs.dir/build.make mvs/CMakeFiles/mvs.dir/dmrecon.cc.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f mvs/CMakeFiles/mvs.dir/build.make mvs/CMakeFiles/mvs.dir/dmrecon.cc.o
 .PHONY : dmrecon.cc.o
 
 dmrecon.i: dmrecon.cc.i
@@ -140,7 +140,7 @@ dmrecon.i: dmrecon.cc.i
 
 # target to preprocess a source file
 dmrecon.cc.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f mvs/CMakeFiles/mvs.dir/build.make mvs/CMakeFiles/mvs.dir/dmrecon.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f mvs/CMakeFiles/mvs.dir/build.make mvs/CMakeFiles/mvs.dir/dmrecon.cc.i
 .PHONY : dmrecon.cc.i
 
 dmrecon.s: dmrecon.cc.s
@@ -149,7 +149,7 @@ dmrecon.s: dmrecon.cc.s
 
 # target to generate assembly for a file
 dmrecon.cc.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f mvs/CMakeFiles/mvs.dir/build.make mvs/CMakeFiles/mvs.dir/dmrecon.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f mvs/CMakeFiles/mvs.dir/build.make mvs/CMakeFiles/mvs.dir/dmrecon.cc.s
 .PHONY : dmrecon.cc.s
 
 global_view_selection.o: global_view_selection.cc.o
@@ -158,7 +158,7 @@ global_view_selection.o: global_view_selection.cc.o
 
 # target to build an object file
 global_view_selection.cc.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f mvs/CMakeFiles/mvs.dir/build.make mvs/CMakeFiles/mvs.dir/global_view_selection.cc.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f mvs/CMakeFiles/mvs.dir/build.make mvs/CMakeFiles/mvs.dir/global_view_selection.cc.o
 .PHONY : global_view_selection.cc.o
 
 global_view_selection.i: global_view_selection.cc.i
@@ -167,7 +167,7 @@ global_view_selection.i: global_view_selection.cc.i
 
 # target to preprocess a source file
 global_view_selection.cc.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f mvs/CMakeFiles/mvs.dir/build.make mvs/CMakeFiles/mvs.dir/global_view_selection.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f mvs/CMakeFiles/mvs.dir/build.make mvs/CMakeFiles/mvs.dir/global_view_selection.cc.i
 .PHONY : global_view_selection.cc.i
 
 global_view_selection.s: global_view_selection.cc.s
@@ -176,7 +176,7 @@ global_view_selection.s: global_view_selection.cc.s
 
 # target to generate assembly for a file
 global_view_selection.cc.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f mvs/CMakeFiles/mvs.dir/build.make mvs/CMakeFiles/mvs.dir/global_view_selection.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f mvs/CMakeFiles/mvs.dir/build.make mvs/CMakeFiles/mvs.dir/global_view_selection.cc.s
 .PHONY : global_view_selection.cc.s
 
 image_pyramid.o: image_pyramid.cc.o
@@ -185,7 +185,7 @@ image_pyramid.o: image_pyramid.cc.o
 
 # target to build an object file
 image_pyramid.cc.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f mvs/CMakeFiles/mvs.dir/build.make mvs/CMakeFiles/mvs.dir/image_pyramid.cc.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f mvs/CMakeFiles/mvs.dir/build.make mvs/CMakeFiles/mvs.dir/image_pyramid.cc.o
 .PHONY : image_pyramid.cc.o
 
 image_pyramid.i: image_pyramid.cc.i
@@ -194,7 +194,7 @@ image_pyramid.i: image_pyramid.cc.i
 
 # target to preprocess a source file
 image_pyramid.cc.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f mvs/CMakeFiles/mvs.dir/build.make mvs/CMakeFiles/mvs.dir/image_pyramid.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f mvs/CMakeFiles/mvs.dir/build.make mvs/CMakeFiles/mvs.dir/image_pyramid.cc.i
 .PHONY : image_pyramid.cc.i
 
 image_pyramid.s: image_pyramid.cc.s
@@ -203,7 +203,7 @@ image_pyramid.s: image_pyramid.cc.s
 
 # target to generate assembly for a file
 image_pyramid.cc.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f mvs/CMakeFiles/mvs.dir/build.make mvs/CMakeFiles/mvs.dir/image_pyramid.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f mvs/CMakeFiles/mvs.dir/build.make mvs/CMakeFiles/mvs.dir/image_pyramid.cc.s
 .PHONY : image_pyramid.cc.s
 
 local_view_selection.o: local_view_selection.cc.o
@@ -212,7 +212,7 @@ local_view_selection.o: local_view_selection.cc.o
 
 # target to build an object file
 local_view_selection.cc.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f mvs/CMakeFiles/mvs.dir/build.make mvs/CMakeFiles/mvs.dir/local_view_selection.cc.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f mvs/CMakeFiles/mvs.dir/build.make mvs/CMakeFiles/mvs.dir/local_view_selection.cc.o
 .PHONY : local_view_selection.cc.o
 
 local_view_selection.i: local_view_selection.cc.i
@@ -221,7 +221,7 @@ local_view_selection.i: local_view_selection.cc.i
 
 # target to preprocess a source file
 local_view_selection.cc.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f mvs/CMakeFiles/mvs.dir/build.make mvs/CMakeFiles/mvs.dir/local_view_selection.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f mvs/CMakeFiles/mvs.dir/build.make mvs/CMakeFiles/mvs.dir/local_view_selection.cc.i
 .PHONY : local_view_selection.cc.i
 
 local_view_selection.s: local_view_selection.cc.s
@@ -230,7 +230,7 @@ local_view_selection.s: local_view_selection.cc.s
 
 # target to generate assembly for a file
 local_view_selection.cc.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f mvs/CMakeFiles/mvs.dir/build.make mvs/CMakeFiles/mvs.dir/local_view_selection.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f mvs/CMakeFiles/mvs.dir/build.make mvs/CMakeFiles/mvs.dir/local_view_selection.cc.s
 .PHONY : local_view_selection.cc.s
 
 mvs_tools.o: mvs_tools.cc.o
@@ -239,7 +239,7 @@ mvs_tools.o: mvs_tools.cc.o
 
 # target to build an object file
 mvs_tools.cc.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f mvs/CMakeFiles/mvs.dir/build.make mvs/CMakeFiles/mvs.dir/mvs_tools.cc.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f mvs/CMakeFiles/mvs.dir/build.make mvs/CMakeFiles/mvs.dir/mvs_tools.cc.o
 .PHONY : mvs_tools.cc.o
 
 mvs_tools.i: mvs_tools.cc.i
@@ -248,7 +248,7 @@ mvs_tools.i: mvs_tools.cc.i
 
 # target to preprocess a source file
 mvs_tools.cc.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f mvs/CMakeFiles/mvs.dir/build.make mvs/CMakeFiles/mvs.dir/mvs_tools.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f mvs/CMakeFiles/mvs.dir/build.make mvs/CMakeFiles/mvs.dir/mvs_tools.cc.i
 .PHONY : mvs_tools.cc.i
 
 mvs_tools.s: mvs_tools.cc.s
@@ -257,7 +257,7 @@ mvs_tools.s: mvs_tools.cc.s
 
 # target to generate assembly for a file
 mvs_tools.cc.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f mvs/CMakeFiles/mvs.dir/build.make mvs/CMakeFiles/mvs.dir/mvs_tools.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f mvs/CMakeFiles/mvs.dir/build.make mvs/CMakeFiles/mvs.dir/mvs_tools.cc.s
 .PHONY : mvs_tools.cc.s
 
 patch_optimization.o: patch_optimization.cc.o
@@ -266,7 +266,7 @@ patch_optimization.o: patch_optimization.cc.o
 
 # target to build an object file
 patch_optimization.cc.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f mvs/CMakeFiles/mvs.dir/build.make mvs/CMakeFiles/mvs.dir/patch_optimization.cc.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f mvs/CMakeFiles/mvs.dir/build.make mvs/CMakeFiles/mvs.dir/patch_optimization.cc.o
 .PHONY : patch_optimization.cc.o
 
 patch_optimization.i: patch_optimization.cc.i
@@ -275,7 +275,7 @@ patch_optimization.i: patch_optimization.cc.i
 
 # target to preprocess a source file
 patch_optimization.cc.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f mvs/CMakeFiles/mvs.dir/build.make mvs/CMakeFiles/mvs.dir/patch_optimization.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f mvs/CMakeFiles/mvs.dir/build.make mvs/CMakeFiles/mvs.dir/patch_optimization.cc.i
 .PHONY : patch_optimization.cc.i
 
 patch_optimization.s: patch_optimization.cc.s
@@ -284,7 +284,7 @@ patch_optimization.s: patch_optimization.cc.s
 
 # target to generate assembly for a file
 patch_optimization.cc.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f mvs/CMakeFiles/mvs.dir/build.make mvs/CMakeFiles/mvs.dir/patch_optimization.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f mvs/CMakeFiles/mvs.dir/build.make mvs/CMakeFiles/mvs.dir/patch_optimization.cc.s
 .PHONY : patch_optimization.cc.s
 
 patch_sampler.o: patch_sampler.cc.o
@@ -293,7 +293,7 @@ patch_sampler.o: patch_sampler.cc.o
 
 # target to build an object file
 patch_sampler.cc.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f mvs/CMakeFiles/mvs.dir/build.make mvs/CMakeFiles/mvs.dir/patch_sampler.cc.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f mvs/CMakeFiles/mvs.dir/build.make mvs/CMakeFiles/mvs.dir/patch_sampler.cc.o
 .PHONY : patch_sampler.cc.o
 
 patch_sampler.i: patch_sampler.cc.i
@@ -302,7 +302,7 @@ patch_sampler.i: patch_sampler.cc.i
 
 # target to preprocess a source file
 patch_sampler.cc.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f mvs/CMakeFiles/mvs.dir/build.make mvs/CMakeFiles/mvs.dir/patch_sampler.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f mvs/CMakeFiles/mvs.dir/build.make mvs/CMakeFiles/mvs.dir/patch_sampler.cc.i
 .PHONY : patch_sampler.cc.i
 
 patch_sampler.s: patch_sampler.cc.s
@@ -311,7 +311,7 @@ patch_sampler.s: patch_sampler.cc.s
 
 # target to generate assembly for a file
 patch_sampler.cc.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f mvs/CMakeFiles/mvs.dir/build.make mvs/CMakeFiles/mvs.dir/patch_sampler.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f mvs/CMakeFiles/mvs.dir/build.make mvs/CMakeFiles/mvs.dir/patch_sampler.cc.s
 .PHONY : patch_sampler.cc.s
 
 single_view.o: single_view.cc.o
@@ -320,7 +320,7 @@ single_view.o: single_view.cc.o
 
 # target to build an object file
 single_view.cc.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f mvs/CMakeFiles/mvs.dir/build.make mvs/CMakeFiles/mvs.dir/single_view.cc.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f mvs/CMakeFiles/mvs.dir/build.make mvs/CMakeFiles/mvs.dir/single_view.cc.o
 .PHONY : single_view.cc.o
 
 single_view.i: single_view.cc.i
@@ -329,7 +329,7 @@ single_view.i: single_view.cc.i
 
 # target to preprocess a source file
 single_view.cc.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f mvs/CMakeFiles/mvs.dir/build.make mvs/CMakeFiles/mvs.dir/single_view.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f mvs/CMakeFiles/mvs.dir/build.make mvs/CMakeFiles/mvs.dir/single_view.cc.i
 .PHONY : single_view.cc.i
 
 single_view.s: single_view.cc.s
@@ -338,7 +338,7 @@ single_view.s: single_view.cc.s
 
 # target to generate assembly for a file
 single_view.cc.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f mvs/CMakeFiles/mvs.dir/build.make mvs/CMakeFiles/mvs.dir/single_view.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f mvs/CMakeFiles/mvs.dir/build.make mvs/CMakeFiles/mvs.dir/single_view.cc.s
 .PHONY : single_view.cc.s
 
 # Help Target
@@ -348,8 +348,8 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
-	@echo "... mvs"
 	@echo "... rebuild_cache"
+	@echo "... mvs"
 	@echo "... dmrecon.o"
 	@echo "... dmrecon.i"
 	@echo "... dmrecon.s"
@@ -385,6 +385,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

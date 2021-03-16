@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/demo/桌面/ImageBasedModellingEdu/examples/task2/task2-3_test_lm_optimize.cc" "/home/demo/桌面/ImageBasedModellingEdu/build/examples/task2/CMakeFiles/task2-3_test_lm_optimize.dir/task2-3_test_lm_optimize.cc.o"
+  "/home/chen/桌面/ImageBasedModellingEdu/examples/task2/task2-3_test_lm_optimize.cc" "/home/chen/桌面/ImageBasedModellingEdu/build/examples/task2/CMakeFiles/task2-3_test_lm_optimize.dir/task2-3_test_lm_optimize.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -22,10 +22,10 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/demo/桌面/ImageBasedModellingEdu/build/sfm/CMakeFiles/sfm.dir/DependInfo.cmake"
-  "/home/demo/桌面/ImageBasedModellingEdu/build/util/CMakeFiles/util.dir/DependInfo.cmake"
-  "/home/demo/桌面/ImageBasedModellingEdu/build/core/CMakeFiles/core.dir/DependInfo.cmake"
-  "/home/demo/桌面/ImageBasedModellingEdu/build/features/CMakeFiles/features.dir/DependInfo.cmake"
+  "/home/chen/桌面/ImageBasedModellingEdu/build/sfm/CMakeFiles/sfm.dir/DependInfo.cmake"
+  "/home/chen/桌面/ImageBasedModellingEdu/build/util/CMakeFiles/util.dir/DependInfo.cmake"
+  "/home/chen/桌面/ImageBasedModellingEdu/build/core/CMakeFiles/core.dir/DependInfo.cmake"
+  "/home/chen/桌面/ImageBasedModellingEdu/build/features/CMakeFiles/features.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

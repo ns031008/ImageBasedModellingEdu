@@ -48,18 +48,18 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/demo/桌面/ImageBasedModellingEdu
+CMAKE_SOURCE_DIR = /home/chen/桌面/ImageBasedModellingEdu
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/demo/桌面/ImageBasedModellingEdu/build
+CMAKE_BINARY_DIR = /home/chen/桌面/ImageBasedModellingEdu/build
 
 #=============================================================================
 # Targets provided globally by CMake.
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,14 +80,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/demo/桌面/ImageBasedModellingEdu/build/CMakeFiles /home/demo/桌面/ImageBasedModellingEdu/build/features/CMakeFiles/progress.marks
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 features/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/demo/桌面/ImageBasedModellingEdu/build/CMakeFiles 0
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/chen/桌面/ImageBasedModellingEdu/build/CMakeFiles /home/chen/桌面/ImageBasedModellingEdu/build/features/CMakeFiles/progress.marks
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 features/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chen/桌面/ImageBasedModellingEdu/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 features/clean
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 features/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 features/preinstall
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 features/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 features/preinstall
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 features/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 features/CMakeFiles/features.dir/rule:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 features/CMakeFiles/features.dir/rule
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f CMakeFiles/Makefile2 features/CMakeFiles/features.dir/rule
 .PHONY : features/CMakeFiles/features.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ features: features/CMakeFiles/features.dir/rule
 
 # fast build rule for target.
 features/fast:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f features/CMakeFiles/features.dir/build.make features/CMakeFiles/features.dir/build
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f features/CMakeFiles/features.dir/build.make features/CMakeFiles/features.dir/build
 .PHONY : features/fast
 
 cascade_hashing.o: cascade_hashing.cc.o
@@ -131,7 +131,7 @@ cascade_hashing.o: cascade_hashing.cc.o
 
 # target to build an object file
 cascade_hashing.cc.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f features/CMakeFiles/features.dir/build.make features/CMakeFiles/features.dir/cascade_hashing.cc.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f features/CMakeFiles/features.dir/build.make features/CMakeFiles/features.dir/cascade_hashing.cc.o
 .PHONY : cascade_hashing.cc.o
 
 cascade_hashing.i: cascade_hashing.cc.i
@@ -140,7 +140,7 @@ cascade_hashing.i: cascade_hashing.cc.i
 
 # target to preprocess a source file
 cascade_hashing.cc.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f features/CMakeFiles/features.dir/build.make features/CMakeFiles/features.dir/cascade_hashing.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f features/CMakeFiles/features.dir/build.make features/CMakeFiles/features.dir/cascade_hashing.cc.i
 .PHONY : cascade_hashing.cc.i
 
 cascade_hashing.s: cascade_hashing.cc.s
@@ -149,7 +149,7 @@ cascade_hashing.s: cascade_hashing.cc.s
 
 # target to generate assembly for a file
 cascade_hashing.cc.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f features/CMakeFiles/features.dir/build.make features/CMakeFiles/features.dir/cascade_hashing.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f features/CMakeFiles/features.dir/build.make features/CMakeFiles/features.dir/cascade_hashing.cc.s
 .PHONY : cascade_hashing.cc.s
 
 exhaustive_matching.o: exhaustive_matching.cc.o
@@ -158,7 +158,7 @@ exhaustive_matching.o: exhaustive_matching.cc.o
 
 # target to build an object file
 exhaustive_matching.cc.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f features/CMakeFiles/features.dir/build.make features/CMakeFiles/features.dir/exhaustive_matching.cc.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f features/CMakeFiles/features.dir/build.make features/CMakeFiles/features.dir/exhaustive_matching.cc.o
 .PHONY : exhaustive_matching.cc.o
 
 exhaustive_matching.i: exhaustive_matching.cc.i
@@ -167,7 +167,7 @@ exhaustive_matching.i: exhaustive_matching.cc.i
 
 # target to preprocess a source file
 exhaustive_matching.cc.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f features/CMakeFiles/features.dir/build.make features/CMakeFiles/features.dir/exhaustive_matching.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f features/CMakeFiles/features.dir/build.make features/CMakeFiles/features.dir/exhaustive_matching.cc.i
 .PHONY : exhaustive_matching.cc.i
 
 exhaustive_matching.s: exhaustive_matching.cc.s
@@ -176,7 +176,7 @@ exhaustive_matching.s: exhaustive_matching.cc.s
 
 # target to generate assembly for a file
 exhaustive_matching.cc.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f features/CMakeFiles/features.dir/build.make features/CMakeFiles/features.dir/exhaustive_matching.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f features/CMakeFiles/features.dir/build.make features/CMakeFiles/features.dir/exhaustive_matching.cc.s
 .PHONY : exhaustive_matching.cc.s
 
 matching.o: matching.cc.o
@@ -185,7 +185,7 @@ matching.o: matching.cc.o
 
 # target to build an object file
 matching.cc.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f features/CMakeFiles/features.dir/build.make features/CMakeFiles/features.dir/matching.cc.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f features/CMakeFiles/features.dir/build.make features/CMakeFiles/features.dir/matching.cc.o
 .PHONY : matching.cc.o
 
 matching.i: matching.cc.i
@@ -194,7 +194,7 @@ matching.i: matching.cc.i
 
 # target to preprocess a source file
 matching.cc.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f features/CMakeFiles/features.dir/build.make features/CMakeFiles/features.dir/matching.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f features/CMakeFiles/features.dir/build.make features/CMakeFiles/features.dir/matching.cc.i
 .PHONY : matching.cc.i
 
 matching.s: matching.cc.s
@@ -203,7 +203,7 @@ matching.s: matching.cc.s
 
 # target to generate assembly for a file
 matching.cc.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f features/CMakeFiles/features.dir/build.make features/CMakeFiles/features.dir/matching.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f features/CMakeFiles/features.dir/build.make features/CMakeFiles/features.dir/matching.cc.s
 .PHONY : matching.cc.s
 
 nearest_neighbor.o: nearest_neighbor.cc.o
@@ -212,7 +212,7 @@ nearest_neighbor.o: nearest_neighbor.cc.o
 
 # target to build an object file
 nearest_neighbor.cc.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f features/CMakeFiles/features.dir/build.make features/CMakeFiles/features.dir/nearest_neighbor.cc.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f features/CMakeFiles/features.dir/build.make features/CMakeFiles/features.dir/nearest_neighbor.cc.o
 .PHONY : nearest_neighbor.cc.o
 
 nearest_neighbor.i: nearest_neighbor.cc.i
@@ -221,7 +221,7 @@ nearest_neighbor.i: nearest_neighbor.cc.i
 
 # target to preprocess a source file
 nearest_neighbor.cc.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f features/CMakeFiles/features.dir/build.make features/CMakeFiles/features.dir/nearest_neighbor.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f features/CMakeFiles/features.dir/build.make features/CMakeFiles/features.dir/nearest_neighbor.cc.i
 .PHONY : nearest_neighbor.cc.i
 
 nearest_neighbor.s: nearest_neighbor.cc.s
@@ -230,7 +230,7 @@ nearest_neighbor.s: nearest_neighbor.cc.s
 
 # target to generate assembly for a file
 nearest_neighbor.cc.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f features/CMakeFiles/features.dir/build.make features/CMakeFiles/features.dir/nearest_neighbor.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f features/CMakeFiles/features.dir/build.make features/CMakeFiles/features.dir/nearest_neighbor.cc.s
 .PHONY : nearest_neighbor.cc.s
 
 sift.o: sift.cc.o
@@ -239,7 +239,7 @@ sift.o: sift.cc.o
 
 # target to build an object file
 sift.cc.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f features/CMakeFiles/features.dir/build.make features/CMakeFiles/features.dir/sift.cc.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f features/CMakeFiles/features.dir/build.make features/CMakeFiles/features.dir/sift.cc.o
 .PHONY : sift.cc.o
 
 sift.i: sift.cc.i
@@ -248,7 +248,7 @@ sift.i: sift.cc.i
 
 # target to preprocess a source file
 sift.cc.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f features/CMakeFiles/features.dir/build.make features/CMakeFiles/features.dir/sift.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f features/CMakeFiles/features.dir/build.make features/CMakeFiles/features.dir/sift.cc.i
 .PHONY : sift.cc.i
 
 sift.s: sift.cc.s
@@ -257,7 +257,7 @@ sift.s: sift.cc.s
 
 # target to generate assembly for a file
 sift.cc.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f features/CMakeFiles/features.dir/build.make features/CMakeFiles/features.dir/sift.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f features/CMakeFiles/features.dir/build.make features/CMakeFiles/features.dir/sift.cc.s
 .PHONY : sift.cc.s
 
 surf.o: surf.cc.o
@@ -266,7 +266,7 @@ surf.o: surf.cc.o
 
 # target to build an object file
 surf.cc.o:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f features/CMakeFiles/features.dir/build.make features/CMakeFiles/features.dir/surf.cc.o
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f features/CMakeFiles/features.dir/build.make features/CMakeFiles/features.dir/surf.cc.o
 .PHONY : surf.cc.o
 
 surf.i: surf.cc.i
@@ -275,7 +275,7 @@ surf.i: surf.cc.i
 
 # target to preprocess a source file
 surf.cc.i:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f features/CMakeFiles/features.dir/build.make features/CMakeFiles/features.dir/surf.cc.i
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f features/CMakeFiles/features.dir/build.make features/CMakeFiles/features.dir/surf.cc.i
 .PHONY : surf.cc.i
 
 surf.s: surf.cc.s
@@ -284,7 +284,7 @@ surf.s: surf.cc.s
 
 # target to generate assembly for a file
 surf.cc.s:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(MAKE) -f features/CMakeFiles/features.dir/build.make features/CMakeFiles/features.dir/surf.cc.s
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(MAKE) -f features/CMakeFiles/features.dir/build.make features/CMakeFiles/features.dir/surf.cc.s
 .PHONY : surf.cc.s
 
 # Help Target
@@ -294,8 +294,8 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
-	@echo "... features"
 	@echo "... rebuild_cache"
+	@echo "... features"
 	@echo "... cascade_hashing.o"
 	@echo "... cascade_hashing.i"
 	@echo "... cascade_hashing.s"
@@ -325,6 +325,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/demo/桌面/ImageBasedModellingEdu/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/chen/桌面/ImageBasedModellingEdu/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -98,7 +98,7 @@ util/strings.h
 util/defines.h
 ../util/../util/util/defines.h
 
-/home/demo/桌面/ImageBasedModellingEdu/util/arguments.cc
+/home/chen/桌面/ImageBasedModellingEdu/util/arguments.cc
 iostream
 -
 cstdlib
@@ -110,13 +110,13 @@ iomanip
 limits
 -
 util/strings.h
-/home/demo/桌面/ImageBasedModellingEdu/util/util/strings.h
+/home/chen/桌面/ImageBasedModellingEdu/util/util/strings.h
 util/tokenizer.h
-/home/demo/桌面/ImageBasedModellingEdu/util/util/tokenizer.h
+/home/chen/桌面/ImageBasedModellingEdu/util/util/tokenizer.h
 util/arguments.h
-/home/demo/桌面/ImageBasedModellingEdu/util/util/arguments.h
+/home/chen/桌面/ImageBasedModellingEdu/util/util/arguments.h
 
-/home/demo/桌面/ImageBasedModellingEdu/util/file_system.cc
+/home/chen/桌面/ImageBasedModellingEdu/util/file_system.cc
 iostream
 -
 fstream
@@ -156,23 +156,23 @@ pwd.h
 mach-o/dyld.h
 -
 util/exception.h
-/home/demo/桌面/ImageBasedModellingEdu/util/util/exception.h
+/home/chen/桌面/ImageBasedModellingEdu/util/util/exception.h
 util/system.h
-/home/demo/桌面/ImageBasedModellingEdu/util/util/system.h
+/home/chen/桌面/ImageBasedModellingEdu/util/util/system.h
 util/file_system.h
-/home/demo/桌面/ImageBasedModellingEdu/util/util/file_system.h
+/home/chen/桌面/ImageBasedModellingEdu/util/util/file_system.h
 
-/home/demo/桌面/ImageBasedModellingEdu/util/ini_parser.cc
+/home/chen/桌面/ImageBasedModellingEdu/util/ini_parser.cc
 sstream
 -
 util/exception.h
-/home/demo/桌面/ImageBasedModellingEdu/util/util/exception.h
+/home/chen/桌面/ImageBasedModellingEdu/util/util/exception.h
 util/strings.h
-/home/demo/桌面/ImageBasedModellingEdu/util/util/strings.h
+/home/chen/桌面/ImageBasedModellingEdu/util/util/strings.h
 util/ini_parser.h
-/home/demo/桌面/ImageBasedModellingEdu/util/util/ini_parser.h
+/home/chen/桌面/ImageBasedModellingEdu/util/util/ini_parser.h
 
-/home/demo/桌面/ImageBasedModellingEdu/util/system.cc
+/home/chen/桌面/ImageBasedModellingEdu/util/system.cc
 iostream
 -
 cstdlib
@@ -182,5 +182,5 @@ csignal
 execinfo.h
 -
 util/system.h
-/home/demo/桌面/ImageBasedModellingEdu/util/util/system.h
+/home/chen/桌面/ImageBasedModellingEdu/util/util/system.h
 
