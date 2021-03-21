@@ -6,8 +6,10 @@ texturing/CMakeFiles/texturing.dir/build_adjacency_graph.cpp.o: ../texturing/../
 texturing/CMakeFiles/texturing.dir/build_adjacency_graph.cpp.o: ../texturing/../core/defines.h
 texturing/CMakeFiles/texturing.dir/build_adjacency_graph.cpp.o: ../texturing/../core/image.h
 texturing/CMakeFiles/texturing.dir/build_adjacency_graph.cpp.o: ../texturing/../core/image_base.h
+texturing/CMakeFiles/texturing.dir/build_adjacency_graph.cpp.o: ../texturing/../core/image_tools.h
 texturing/CMakeFiles/texturing.dir/build_adjacency_graph.cpp.o: ../texturing/../core/mesh.h
 texturing/CMakeFiles/texturing.dir/build_adjacency_graph.cpp.o: ../texturing/../core/mesh_info.h
+texturing/CMakeFiles/texturing.dir/build_adjacency_graph.cpp.o: ../texturing/../math/accum.h
 texturing/CMakeFiles/texturing.dir/build_adjacency_graph.cpp.o: ../texturing/../math/algo.h
 texturing/CMakeFiles/texturing.dir/build_adjacency_graph.cpp.o: ../texturing/../math/defines.h
 texturing/CMakeFiles/texturing.dir/build_adjacency_graph.cpp.o: ../texturing/../math/functions.h
@@ -66,8 +68,10 @@ texturing/CMakeFiles/texturing.dir/calculate_data_costs.cpp.o: ../texturing/../c
 texturing/CMakeFiles/texturing.dir/calculate_data_costs.cpp.o: ../texturing/../core/image.h
 texturing/CMakeFiles/texturing.dir/calculate_data_costs.cpp.o: ../texturing/../core/image_base.h
 texturing/CMakeFiles/texturing.dir/calculate_data_costs.cpp.o: ../texturing/../core/image_color.h
+texturing/CMakeFiles/texturing.dir/calculate_data_costs.cpp.o: ../texturing/../core/image_tools.h
 texturing/CMakeFiles/texturing.dir/calculate_data_costs.cpp.o: ../texturing/../core/mesh.h
 texturing/CMakeFiles/texturing.dir/calculate_data_costs.cpp.o: ../texturing/../core/mesh_info.h
+texturing/CMakeFiles/texturing.dir/calculate_data_costs.cpp.o: ../texturing/../math/accum.h
 texturing/CMakeFiles/texturing.dir/calculate_data_costs.cpp.o: ../texturing/../math/algo.h
 texturing/CMakeFiles/texturing.dir/calculate_data_costs.cpp.o: ../texturing/../math/defines.h
 texturing/CMakeFiles/texturing.dir/calculate_data_costs.cpp.o: ../texturing/../math/functions.h
@@ -253,8 +257,10 @@ texturing/CMakeFiles/texturing.dir/generate_debug_embeddings.cpp.o: ../texturing
 texturing/CMakeFiles/texturing.dir/generate_debug_embeddings.cpp.o: ../texturing/../core/defines.h
 texturing/CMakeFiles/texturing.dir/generate_debug_embeddings.cpp.o: ../texturing/../core/image.h
 texturing/CMakeFiles/texturing.dir/generate_debug_embeddings.cpp.o: ../texturing/../core/image_base.h
+texturing/CMakeFiles/texturing.dir/generate_debug_embeddings.cpp.o: ../texturing/../core/image_tools.h
 texturing/CMakeFiles/texturing.dir/generate_debug_embeddings.cpp.o: ../texturing/../core/mesh.h
 texturing/CMakeFiles/texturing.dir/generate_debug_embeddings.cpp.o: ../texturing/../core/mesh_info.h
+texturing/CMakeFiles/texturing.dir/generate_debug_embeddings.cpp.o: ../texturing/../math/accum.h
 texturing/CMakeFiles/texturing.dir/generate_debug_embeddings.cpp.o: ../texturing/../math/algo.h
 texturing/CMakeFiles/texturing.dir/generate_debug_embeddings.cpp.o: ../texturing/../math/defines.h
 texturing/CMakeFiles/texturing.dir/generate_debug_embeddings.cpp.o: ../texturing/../math/functions.h
@@ -584,6 +590,7 @@ texturing/CMakeFiles/texturing.dir/global_seam_leveling.cpp.o: ../texturing/../c
 texturing/CMakeFiles/texturing.dir/global_seam_leveling.cpp.o: ../texturing/../core/defines.h
 texturing/CMakeFiles/texturing.dir/global_seam_leveling.cpp.o: ../texturing/../core/image.h
 texturing/CMakeFiles/texturing.dir/global_seam_leveling.cpp.o: ../texturing/../core/image_base.h
+texturing/CMakeFiles/texturing.dir/global_seam_leveling.cpp.o: ../texturing/../core/image_tools.h
 texturing/CMakeFiles/texturing.dir/global_seam_leveling.cpp.o: ../texturing/../core/mesh.h
 texturing/CMakeFiles/texturing.dir/global_seam_leveling.cpp.o: ../texturing/../core/mesh_info.h
 texturing/CMakeFiles/texturing.dir/global_seam_leveling.cpp.o: ../texturing/../math/accum.h
@@ -1085,8 +1092,10 @@ texturing/CMakeFiles/texturing.dir/prepare_mesh.cpp.o: ../texturing/../core/came
 texturing/CMakeFiles/texturing.dir/prepare_mesh.cpp.o: ../texturing/../core/defines.h
 texturing/CMakeFiles/texturing.dir/prepare_mesh.cpp.o: ../texturing/../core/image.h
 texturing/CMakeFiles/texturing.dir/prepare_mesh.cpp.o: ../texturing/../core/image_base.h
+texturing/CMakeFiles/texturing.dir/prepare_mesh.cpp.o: ../texturing/../core/image_tools.h
 texturing/CMakeFiles/texturing.dir/prepare_mesh.cpp.o: ../texturing/../core/mesh.h
 texturing/CMakeFiles/texturing.dir/prepare_mesh.cpp.o: ../texturing/../core/mesh_info.h
+texturing/CMakeFiles/texturing.dir/prepare_mesh.cpp.o: ../texturing/../math/accum.h
 texturing/CMakeFiles/texturing.dir/prepare_mesh.cpp.o: ../texturing/../math/algo.h
 texturing/CMakeFiles/texturing.dir/prepare_mesh.cpp.o: ../texturing/../math/defines.h
 texturing/CMakeFiles/texturing.dir/prepare_mesh.cpp.o: ../texturing/../math/functions.h
@@ -1219,8 +1228,10 @@ texturing/CMakeFiles/texturing.dir/view_selection.cpp.o: ../texturing/../core/ca
 texturing/CMakeFiles/texturing.dir/view_selection.cpp.o: ../texturing/../core/defines.h
 texturing/CMakeFiles/texturing.dir/view_selection.cpp.o: ../texturing/../core/image.h
 texturing/CMakeFiles/texturing.dir/view_selection.cpp.o: ../texturing/../core/image_base.h
+texturing/CMakeFiles/texturing.dir/view_selection.cpp.o: ../texturing/../core/image_tools.h
 texturing/CMakeFiles/texturing.dir/view_selection.cpp.o: ../texturing/../core/mesh.h
 texturing/CMakeFiles/texturing.dir/view_selection.cpp.o: ../texturing/../core/mesh_info.h
+texturing/CMakeFiles/texturing.dir/view_selection.cpp.o: ../texturing/../math/accum.h
 texturing/CMakeFiles/texturing.dir/view_selection.cpp.o: ../texturing/../math/algo.h
 texturing/CMakeFiles/texturing.dir/view_selection.cpp.o: ../texturing/../math/defines.h
 texturing/CMakeFiles/texturing.dir/view_selection.cpp.o: ../texturing/../math/functions.h

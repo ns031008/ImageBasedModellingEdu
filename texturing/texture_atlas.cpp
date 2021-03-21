@@ -22,6 +22,8 @@ TextureAtlas::TextureAtlas(unsigned int size) :
     bin = RectangularBin::create(size, size);
     image = core::ByteImage::create(size, size, 3);
     validity_mask = core::ByteImage::create(size, size, 1);
+    // char name[] = "/tmp/dirXXXXXX";
+    // filename = mkdtemp(name);
     filename = std::tmpnam(nullptr);
     std::cout << filename << std::endl;
 }

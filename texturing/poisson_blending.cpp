@@ -58,7 +58,7 @@ poisson_blend(core::FloatImage::ConstPtr src, core::ByteImage::ConstPtr mask,
     assert(mask->channels() == 1);
     assert(valid_mask(mask));
 
-    // number of pixels
+    // number of pixels:高乘宽
     const int n = dest->get_pixel_amount();
     // number of image width
     const int width = dest->width();
@@ -67,6 +67,8 @@ poisson_blend(core::FloatImage::ConstPtr src, core::ByteImage::ConstPtr mask,
     // number of channels
     const int channels = dest->channels();
 
+    // mask: blending_mask;l
+    // 该部分为所有不为零的mask像素安排索引
     core::Image<int>::Ptr indices = core::Image<int>::create(width, height, 1);
     indices->fill(-1);
     int index = 0;
@@ -82,18 +84,20 @@ poisson_blend(core::FloatImage::ConstPtr src, core::ByteImage::ConstPtr mask,
     coefficients_b.resize(nnz);
 
     std::vector<Eigen::Triplet<float, int> > coefficients_A;
-    coefficients_A.reserve(nnz); //TODO better estimate...
+    coefficients_A.reserve(nnz);
 
     for (int i = 0; i < n; ++i) {
         const int row = indices->at(i);
+        // 当存在边缘或者顶点的时候
         if (mask->at(i) == 126 || mask->at(i) == 128) {
+            // 首先分配上半部分对角线上的点，使其值等于背景点
             Eigen::Triplet<float, int> t(row, row, 1.0f);
             coefficients_A.push_back(t);
-
             coefficients_b[row] = math::Vec3f(&dest->at(i, 0));
         }
 
         if (mask->at(i) == 255) {
+            // 四邻域及本身
             const int i01 = indices->at(i - width);
             const int i10 = indices->at(i - 1);
             const int i11 = indices->at(i);
@@ -102,27 +106,26 @@ poisson_blend(core::FloatImage::ConstPtr src, core::ByteImage::ConstPtr mask,
 
             /* All neighbours should be eighter border conditions or part of the optimization. */
             assert(i01 != -1 && i10 != -1 && i11 != -1 && i12 != -1 && i21 != -1);
-
+            // 填充系数矩阵后半部分
             Eigen::Triplet<float, int> t01(row, i01, 1.0f);
-
             Eigen::Triplet<float, int> t10(row, i10, 1.0f);
             Eigen::Triplet<float, int> t11(row, i11, -4.0f);
             Eigen::Triplet<float, int> t12(row, i12, 1.0f);
-
             Eigen::Triplet<float, int> t21(row, i21, 1.0f);
 
             Eigen::Triplet<float, int> triplets[] = {t01, t10, t11, t12, t21};
 
             coefficients_A.insert(coefficients_A.end(), triplets, triplets + 5);
-
+            // 拉普拉斯采样获得散度
             math::Vec3f l_d = simple_laplacian(i, dest);
             math::Vec3f l_s = simple_laplacian(i, src);
 
             // mixture of gradients
+            // 梯度混合
             coefficients_b[row] = (alpha * l_s + (1.0f - alpha) * l_d);
         }
     }
-
+    // 系数矩阵求解优化
     SpMat A(nnz, nnz);
     A.setFromTriplets(coefficients_A.begin(), coefficients_A.end());
 

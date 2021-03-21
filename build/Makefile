@@ -397,17 +397,56 @@ task4-2_scene2pset_multi_views/fast:
 .PHONY : task4-2_scene2pset_multi_views/fast
 
 #=============================================================================
-# Target rules for targets named task6_surface_reconstruction
+# Target rules for targets named task6-2_meshclean
 
 # Build rule for target.
-task6_surface_reconstruction: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 task6_surface_reconstruction
-.PHONY : task6_surface_reconstruction
+task6-2_meshclean: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 task6-2_meshclean
+.PHONY : task6-2_meshclean
 
 # fast build rule for target.
-task6_surface_reconstruction/fast:
-	$(MAKE) -f examples/task6/CMakeFiles/task6_surface_reconstruction.dir/build.make examples/task6/CMakeFiles/task6_surface_reconstruction.dir/build
-.PHONY : task6_surface_reconstruction/fast
+task6-2_meshclean/fast:
+	$(MAKE) -f examples/task6/CMakeFiles/task6-2_meshclean.dir/build.make examples/task6/CMakeFiles/task6-2_meshclean.dir/build
+.PHONY : task6-2_meshclean/fast
+
+#=============================================================================
+# Target rules for targets named task6-1_surface_reconstruction
+
+# Build rule for target.
+task6-1_surface_reconstruction: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 task6-1_surface_reconstruction
+.PHONY : task6-1_surface_reconstruction
+
+# fast build rule for target.
+task6-1_surface_reconstruction/fast:
+	$(MAKE) -f examples/task6/CMakeFiles/task6-1_surface_reconstruction.dir/build.make examples/task6/CMakeFiles/task6-1_surface_reconstruction.dir/build
+.PHONY : task6-1_surface_reconstruction/fast
+
+#=============================================================================
+# Target rules for targets named task7_2_texturing
+
+# Build rule for target.
+task7_2_texturing: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 task7_2_texturing
+.PHONY : task7_2_texturing
+
+# fast build rule for target.
+task7_2_texturing/fast:
+	$(MAKE) -f examples/task7/CMakeFiles/task7_2_texturing.dir/build.make examples/task7/CMakeFiles/task7_2_texturing.dir/build
+.PHONY : task7_2_texturing/fast
+
+#=============================================================================
+# Target rules for targets named task7_1_mesh_clean
+
+# Build rule for target.
+task7_1_mesh_clean: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 task7_1_mesh_clean
+.PHONY : task7_1_mesh_clean
+
+# fast build rule for target.
+task7_1_mesh_clean/fast:
+	$(MAKE) -f examples/task7/CMakeFiles/task7_1_mesh_clean.dir/build.make examples/task7/CMakeFiles/task7_1_mesh_clean.dir/build
+.PHONY : task7_1_mesh_clean/fast
 
 #=============================================================================
 # Target rules for targets named surface
@@ -504,7 +543,10 @@ help:
 	@echo "... task4-2_dmrecon_multi_views"
 	@echo "... task4-1_scene2pset_single_view"
 	@echo "... task4-2_scene2pset_multi_views"
-	@echo "... task6_surface_reconstruction"
+	@echo "... task6-2_meshclean"
+	@echo "... task6-1_surface_reconstruction"
+	@echo "... task7_2_texturing"
+	@echo "... task7_1_mesh_clean"
 	@echo "... surface"
 	@echo "... texturing"
 	@echo "... mrf"

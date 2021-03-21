@@ -745,6 +745,8 @@ core/mesh.h
 /home/chen/桌面/ImageBasedModellingEdu/texturing/core/mesh.h
 core/mesh_info.h
 /home/chen/桌面/ImageBasedModellingEdu/texturing/core/mesh_info.h
+core/image_tools.h
+-
 ./3rdParty/mrf/graph.h
 /home/chen/桌面/ImageBasedModellingEdu/texturing/./3rdParty/mrf/graph.h
 defines.h

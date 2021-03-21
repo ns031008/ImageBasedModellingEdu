@@ -170,7 +170,10 @@ from_images_and_camera_files(std::string const & path, std::vector<TextureView> 
 void
 from_nvm_scene(std::string const & nvm_file, std::vector<TextureView> * texture_views) {
     std::vector<core::NVMCameraInfo> nvm_cams;
-    core::Bundle::Ptr bundle = core::load_nvm_bundle(nvm_file, &nvm_cams);
+    //core::Bundle::Ptr bundle = core::load_nvm_bundle(nvm_file, &nvm_cams);
+    core::Bundle::Ptr bundle;
+    bundle = core::load_nvm_bundle(nvm_file, &nvm_cams);
+
     core::Bundle::Cameras& cameras = bundle->get_cameras();
 
     ProgressCounter view_counter("\tLoading", cameras.size());
@@ -197,7 +200,7 @@ from_nvm_scene(std::string const & nvm_file, std::vector<TextureView> * texture_
 }
 
 void
-generate_texture_views(std::string in_scene, std::vector<TextureView> * texture_views) {
+generate_texture_views(std::string in_scene, tex::TextureViews * texture_views) {
     util::Tokenizer tok;
     tok.split(in_scene, ':', true);
 

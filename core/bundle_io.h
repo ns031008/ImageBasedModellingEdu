@@ -50,7 +50,7 @@ struct NVMCameraInfo
  */
 Bundle::Ptr
 load_nvm_bundle (std::string const& filename,
-    std::vector<NVMCameraInfo>* camera_info = nullptr);
+    std::vector<NVMCameraInfo>* camera_info);
 
 /* ------------------ Support for Noah's Bundler  ----------------- */
 

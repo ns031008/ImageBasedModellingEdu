@@ -1,5 +1,5 @@
 project(texturing)
-set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_FLAGS "-fPIC")
 
 add_definitions(-DRESEARCH)
@@ -59,7 +59,7 @@ set(SOURCE_FILES
         timer.cpp
         )
 add_library(texturing ${HEADERS} ${SOURCE_FILES})
-#target_link_libraries(sfm core util features)
+target_link_libraries(texturing core util)
 
 #file (GLOB HEADERS "*.h")
 #file (GLOB SOURCES "[^_]*.cpp")

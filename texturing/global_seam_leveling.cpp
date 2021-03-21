@@ -61,6 +61,7 @@ find_seam_edges_for_vertex_label_combination(UniGraph const & graph, core::Trian
         if (vertex == adj_vertex) continue;
 
         std::vector<std::size_t> edge_faces;
+        //得到相邻两个节点的边。为什么不是固定数组而是浮动的？貌似只能得到两个面啊
         vertex_infos->get_faces_for_edge(vertex, adj_vertex, &edge_faces);
 
         for (std::size_t j = 0; j < edge_faces.size(); ++j) {
@@ -78,7 +79,7 @@ find_seam_edges_for_vertex_label_combination(UniGraph const & graph, core::Trian
 
                 /* Ignore zero length edges. */
                 if (length == 0.0f) continue;
-
+                // 边界视角的比较已经在函数外部实现了，所以这里只需要剔除异常的就能得到边界顶点
                 MeshEdge seam_edge = {vertex, adj_vertex};
                 seam_edges->push_back(seam_edge);
             }
@@ -118,6 +119,7 @@ calculate_difference(VertexProjectionInfos const & vertex_projection_infos,
             const int texture_patch_label = texture_patch->get_label();
             if (texture_patch_label == label1 || texture_patch_label == label2) {
                 if (texture_patch_label == label1)
+                // add：value * weight
                     color1_accum.add(sample_edge(texture_patch, projected_edge_info.p1, projected_edge_info.p2), length);
 
                 if (texture_patch_label == label2)
@@ -160,21 +162,28 @@ global_seam_leveling(UniGraph const & graph,
 
     /* Assign each vertex for each label a new index(row) within the solution vector x. */
     // foreach vertex
+    // 相当于建立一个列向量，内容是是视角编号和行索引构成的键值对
     std::size_t x_row = 0;
-    for (std::size_t i = 0; i < num_vertices; ++i) {
+    // 遍历每一个顶点，取出每个顶点对应的面片face，记录面片对应的视角集合label_set
+    for (std::size_t i = 0; i < num_vertices; ++i){
         std::set<std::size_t> label_set;
 
         // for each adjacenet face
+        // .at是带有检查功能的[]操作
+        // 边界上的vertex会有所有相邻的face
         std::vector<std::size_t> faces = vertex_infos->at(i).faces;
         std::set<std::size_t>::iterator it = label_set.begin();
         for (std::size_t j = 0; j < faces.size(); ++j) {
             std::size_t label = graph.get_label(faces[j]);
+            // 这里的set保证唯一性，因此在后续的x_row是连续的。
             label_set.insert(it, label);
         }
 
         for (it = label_set.begin(); it != label_set.end(); ++it) {
             std::size_t label = *it;
             if (label == 0) continue;
+            // 相当于对所有顶点对应的视角展开成一个一维向量作为索引，进行编码
+            // 也相当于有不同编码的顶点分裂开后形成的顶点集合
             vertlabel2row[i][label] = x_row;
             labels[i].push_back(label);
             ++x_row;
@@ -200,7 +209,9 @@ global_seam_leveling(UniGraph const & graph,
                 for (std::size_t l = 0; l < labels[adj_vertex].size(); ++l) {
                     std::size_t label = labels[i][j];
                     std::size_t adj_vertex_label = labels[adj_vertex][l];
+                    // 如果该节点与临近节点的所属视角一致
                     if (i < adj_vertex && label == adj_vertex_label) {
+                        // Eigen::Triplet针对稀疏矩阵，三个值分别是行、列、值
                         Eigen::Triplet<float, int> t1(Gamma_row, vertlabel2row[i][label], lambda);
                         Eigen::Triplet<float, int> t2(Gamma_row, vertlabel2row[adj_vertex][adj_vertex_label], -lambda);
                         coefficients_Gamma.push_back(t1);
@@ -211,6 +222,7 @@ global_seam_leveling(UniGraph const & graph,
             }
         }
     }
+    // Gamma_rows表示同属一个视角的边的数量？
     std::size_t Gamma_rows = Gamma_row;
     assert(Gamma_rows < static_cast<std::size_t>(std::numeric_limits<int>::max()));
 
@@ -230,7 +242,6 @@ global_seam_leveling(UniGraph const & graph,
                 std::size_t label1 = labels[i][j];
                 std::size_t label2 = labels[i][k];
                 if (label1 < label2) {
-
                     std::vector<MeshEdge> seam_edges;
                     find_seam_edges_for_vertex_label_combination(graph, mesh, vertex_infos, i, label1, label2, &seam_edges);
 
@@ -252,6 +263,7 @@ global_seam_leveling(UniGraph const & graph,
     std::size_t A_rows = A_row;
     assert(A_rows < static_cast<std::size_t>(std::numeric_limits<int>::max()));
 
+    // A_rows表示未分裂的顶点数，x_rows表示分裂后的节点数
     SpMat A(A_rows, x_rows);
     A.setFromTriplets(coefficients_A.begin(), coefficients_A.end());
 
@@ -266,6 +278,9 @@ global_seam_leveling(UniGraph const & graph,
     std::cout << "\tLhs dimensionality: " << Lhs.rows() << " x " << Lhs.cols() << std::endl;
 
     util::WallTimer timer;
+    // 这部分主要用来求解结果。求解采用共轭梯度法。
+    // 由于待优化方程为二阶方程，g^T[(A^TA+L')]g + 2[b^TA]g + b^Tb => g^TA'g + 2[(b')^T]g + c
+    // 其导数为：A'x = b' ==> ；其中，A' = A^TA+L'; b' = A^Tb;
     std::cout << "\tCalculating adjustments:"<< std::endl;
     #pragma omp parallel for
     for (std::size_t channel = 0; channel < 3; ++channel) {

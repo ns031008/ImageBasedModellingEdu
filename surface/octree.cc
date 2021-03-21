@@ -107,6 +107,26 @@ Octree::Iterator::next_bread_first(void)
     std::cout << "LayerNodeNum: " << LayerNodeNum << ";";
     std::cout << "level: " << (int)this->level << "\n";
     return this->current;
+
+    // if (this->current->parent == nullptr){
+    //     this->current = this->current->children;
+    //     this->level += 1;
+    //     this->path = this->path >> 3;
+    //     return this->current;
+    // }
+    // if (this->current - this->current->parent->children == 7){
+    //     this->current = this->current->parent->children;
+    //     this->path = this->path -7;
+    //     while (this->current->children == nullptr)
+    //     {
+    //         this->current = this->next_branch();
+    //         this->path += 1;
+    //     }
+    //     return this->current;
+    // }
+    // this->current += 1;
+    // this->path += 1;
+    // return this->current;
 }
 
 Octree::Node*
@@ -181,8 +201,8 @@ Octree::Iterator::next_branch (void) {
         this->current = this->current->parent;
         this->level = this->level - 1;
         this->path = this->path >> 3;
-        NullptrNum++;
-        LayerNodeNum += pow(8,NullptrNum)-1;
+        // NullptrNum++;
+        // LayerNodeNum += pow(8,NullptrNum)-1;
         return this->next_branch();
     }
 
@@ -190,8 +210,8 @@ Octree::Iterator::next_branch (void) {
     // is indeed the next child
     this->current += 1;
     this->path += 1;
-    LayerNodeNum++;
-    NullptrNum = 0;
+    // LayerNodeNum++;
+    // NullptrNum = 0;
     return this->current;
 }
 

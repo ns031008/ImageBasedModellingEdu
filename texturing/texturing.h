@@ -14,6 +14,7 @@
 
 #include "core/mesh.h"
 #include "core/mesh_info.h"
+#include <core/image_tools.h>
 
 #include "./3rdParty/mrf/graph.h"
 
@@ -52,7 +53,7 @@ prepare_mesh(core::VertexInfoList::Ptr vertex_infos, core::TriangleMesh::Ptr mes
   * Generates TextureViews from the in_scene.
   */
 void
-generate_texture_views(std::string in_scene, TextureViews * texture_views);
+generate_texture_views(std::string in_scene, tex::TextureViews * texture_views);
 
 /**
   * Builds up the meshes face adjacency graph using the vertex_infos
@@ -117,6 +118,7 @@ generate_texture_atlases(TexturePatches * texture_patches,
 void
 build_model(core::TriangleMesh::ConstPtr mesh,
     TextureAtlases const & texture_atlas, Model * model);
+
 
 TEX_NAMESPACE_END
 

@@ -71,10 +71,13 @@ draw_line(math::Vec2f p1, math::Vec2f p2, std::vector<ProjectedEdgeInfo> const &
         float t = length != 0.0f ? std::sqrt(tdx * tdx + tdy * tdy) / length : 0.5f;
 
         // mean color of projections of edges across multiviews
+        // set_pixel_value: blending_mask and copy the color of foreground image
         texture_patch->set_pixel_value(pixel, mean_color_of_edge_point(projected_edge_infos, texture_patches, t));
         if (x == x1 && y == y1)
             break;
 
+        // why 2 times err and what is the mean of err?
+        // 用画图的方式理解：尽快的逼近
         int const e2 = 2 * err;
         if (e2 > -dy) {
             err -= dy;
@@ -139,13 +142,13 @@ local_seam_leveling(UniGraph const & graph,
 
         for (std::size_t j = 0; j < projection_infos.size(); ++j){
             VertexProjectionInfo const & projection_info = projection_infos[j];
-            math::Vec2i pixel(projection_info.projection +  math::Vec2f(0.5f, 0.5f));  // while 0.5 ??????????????
+            math::Vec2i pixel(projection_info.projection +  math::Vec2f(0.5f, 0.5f));
             TexturePatch::Ptr texture_patch = texture_patches->at(projection_info.texture_patch_id);
             texture_patch->set_pixel_value(pixel, mean_color);
         }
     }
 
-    // ====================================Blending====================================================//
+    // ====================================Blending===================================================//
     ProgressCounter texture_patch_counter("\tBlending texture patches", texture_patches->size());
     #pragma omp parallel for schedule(dynamic)
     for (std::size_t i = 0; i < texture_patches->size(); ++i) {
@@ -162,10 +165,10 @@ local_seam_leveling(UniGraph const & graph,
         char image_name_after[255];
         char validity_mask_name[255];
         char blending_mask_name[255];
-        sprintf(image_name_before,"examples/task7/texture_patches_poisson_blending/texture_patch_before%d.jpg", i);
-        sprintf(image_name_after,"examples/task7/texture_patches_poisson_blending/texture_patch_after%d.jpg", i);
-        sprintf(blending_mask_name,"examples/task7/texture_patches_poisson_blending/blending_mask%d.jpg", i);
-        sprintf(validity_mask_name,"examples/task7/texture_patches_poisson_blending/validity_mask%d.jpg", i);
+        sprintf(image_name_before,"../examples/task7/texture_patches_poisson_blending/texture_patch_before%d.jpg", i);
+        sprintf(image_name_after,"../examples/task7/texture_patches_poisson_blending/texture_patch_after%d.jpg", i);
+        sprintf(blending_mask_name,"../examples/task7/texture_patches_poisson_blending/blending_mask%d.jpg", i);
+        sprintf(validity_mask_name,"../examples/task7/texture_patches_poisson_blending/validity_mask%d.jpg", i);
         core::FloatImage::Ptr image = texture_patch->get_image()->duplicate();
         core::ByteImage::Ptr validity_mask = texture_patch->get_validity_mask()->duplicate();
         core::ByteImage::Ptr blending_mask = texture_patch->get_blending_mask()->duplicate();
@@ -177,21 +180,24 @@ local_seam_leveling(UniGraph const & graph,
         for (int y = 0; y < blending_mask->height(); ++y) {
             for (int x = 0; x < blending_mask->width(); ++x) {
 
+                // bgr ：其余点是绿色
                 blending_mask_color->at(x, y, 0) = 0;
                 blending_mask_color->at(x, y, 1) = 255;
                 blending_mask_color->at(x, y, 2) = 0;
 
+                // 缝隙边缘扩展的点（3像素）
                 if (blending_mask->at(x, y, 0) == 128) {
                     blending_mask_color->at(x, y, 0) = 255;
                     blending_mask_color->at(x, y, 1) = 0;
                     blending_mask_color->at(x, y, 2) = 0;
                 }
+                // 缝隙边缘点和顶点
                 if (blending_mask->at(x, y, 0) == 126) {
                     blending_mask_color->at(x, y, 0) = 0;
                     blending_mask_color->at(x, y, 1) = 0;
                     blending_mask_color->at(x, y, 2) = 255;
                 }
-
+                // 缝隙边缘扩展的点（3像素）
                 if (blending_mask->at(x, y, 0) == 255) {
                     blending_mask_color->at(x, y, 0) = 255;
                     blending_mask_color->at(x, y, 1) = 255;

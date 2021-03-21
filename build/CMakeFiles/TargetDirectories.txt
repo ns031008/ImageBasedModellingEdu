@@ -44,7 +44,12 @@
 /home/chen/桌面/ImageBasedModellingEdu/build/examples/task4/CMakeFiles/task4-2_scene2pset_multi_views.dir
 /home/chen/桌面/ImageBasedModellingEdu/build/examples/task6/CMakeFiles/edit_cache.dir
 /home/chen/桌面/ImageBasedModellingEdu/build/examples/task6/CMakeFiles/rebuild_cache.dir
-/home/chen/桌面/ImageBasedModellingEdu/build/examples/task6/CMakeFiles/task6_surface_reconstruction.dir
+/home/chen/桌面/ImageBasedModellingEdu/build/examples/task6/CMakeFiles/task6-2_meshclean.dir
+/home/chen/桌面/ImageBasedModellingEdu/build/examples/task6/CMakeFiles/task6-1_surface_reconstruction.dir
+/home/chen/桌面/ImageBasedModellingEdu/build/examples/task7/CMakeFiles/edit_cache.dir
+/home/chen/桌面/ImageBasedModellingEdu/build/examples/task7/CMakeFiles/rebuild_cache.dir
+/home/chen/桌面/ImageBasedModellingEdu/build/examples/task7/CMakeFiles/task7_2_texturing.dir
+/home/chen/桌面/ImageBasedModellingEdu/build/examples/task7/CMakeFiles/task7_1_mesh_clean.dir
 /home/chen/桌面/ImageBasedModellingEdu/build/surface/CMakeFiles/rebuild_cache.dir
 /home/chen/桌面/ImageBasedModellingEdu/build/surface/CMakeFiles/edit_cache.dir
 /home/chen/桌面/ImageBasedModellingEdu/build/surface/CMakeFiles/surface.dir

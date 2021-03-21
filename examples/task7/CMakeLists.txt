@@ -1,5 +1,5 @@
 project(class7)
-set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_FLAGS "-fPIC")
 
 include_directories("../..")
@@ -18,6 +18,8 @@ set(MESH_CLEAN_SOURCES
 
 add_executable(task7_1_mesh_clean ${MESH_CLEAN_SOURCES})
 target_link_libraries(task7_1_mesh_clean util core surface)
+
+
 
 set(TEXTURING_SOURCES
         arguments.h

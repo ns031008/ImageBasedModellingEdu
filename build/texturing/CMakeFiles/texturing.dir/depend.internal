@@ -7,8 +7,10 @@ texturing/CMakeFiles/texturing.dir/build_adjacency_graph.cpp.o
  ../texturing/../core/defines.h
  ../texturing/../core/image.h
  ../texturing/../core/image_base.h
+ ../texturing/../core/image_tools.h
  ../texturing/../core/mesh.h
  ../texturing/../core/mesh_info.h
+ ../texturing/../math/accum.h
  ../texturing/../math/algo.h
  ../texturing/../math/defines.h
  ../texturing/../math/functions.h
@@ -67,8 +69,10 @@ texturing/CMakeFiles/texturing.dir/calculate_data_costs.cpp.o
  ../texturing/../core/image.h
  ../texturing/../core/image_base.h
  ../texturing/../core/image_color.h
+ ../texturing/../core/image_tools.h
  ../texturing/../core/mesh.h
  ../texturing/../core/mesh_info.h
+ ../texturing/../math/accum.h
  ../texturing/../math/algo.h
  ../texturing/../math/defines.h
  ../texturing/../math/functions.h
@@ -254,8 +258,10 @@ texturing/CMakeFiles/texturing.dir/generate_debug_embeddings.cpp.o
  ../texturing/../core/defines.h
  ../texturing/../core/image.h
  ../texturing/../core/image_base.h
+ ../texturing/../core/image_tools.h
  ../texturing/../core/mesh.h
  ../texturing/../core/mesh_info.h
+ ../texturing/../math/accum.h
  ../texturing/../math/algo.h
  ../texturing/../math/defines.h
  ../texturing/../math/functions.h
@@ -585,6 +591,7 @@ texturing/CMakeFiles/texturing.dir/global_seam_leveling.cpp.o
  ../texturing/../core/defines.h
  ../texturing/../core/image.h
  ../texturing/../core/image_base.h
+ ../texturing/../core/image_tools.h
  ../texturing/../core/mesh.h
  ../texturing/../core/mesh_info.h
  ../texturing/../math/accum.h
@@ -1086,8 +1093,10 @@ texturing/CMakeFiles/texturing.dir/prepare_mesh.cpp.o
  ../texturing/../core/defines.h
  ../texturing/../core/image.h
  ../texturing/../core/image_base.h
+ ../texturing/../core/image_tools.h
  ../texturing/../core/mesh.h
  ../texturing/../core/mesh_info.h
+ ../texturing/../math/accum.h
  ../texturing/../math/algo.h
  ../texturing/../math/defines.h
  ../texturing/../math/functions.h
@@ -1220,8 +1229,10 @@ texturing/CMakeFiles/texturing.dir/view_selection.cpp.o
  ../texturing/../core/defines.h
  ../texturing/../core/image.h
  ../texturing/../core/image_base.h
+ ../texturing/../core/image_tools.h
  ../texturing/../core/mesh.h
  ../texturing/../core/mesh_info.h
+ ../texturing/../math/accum.h
  ../texturing/../math/algo.h
  ../texturing/../math/defines.h
  ../texturing/../math/functions.h
